@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* ─── Design tokens ─────────────────────────────────────────────────────────── */
+
+:root {
+  --bg-primary:    #0F0F0E;
+  --bg-surface:    #1A1A18;
+  --bg-surface-2:  #242422;
+  --text-primary:  #F5F1EA;
+  --text-secondary:#A8A39A;
+  --text-tertiary: #6B665F;
+  --border:        #2A2A26;
+  --accent:        #E8542C;
+  --accent-dim:    #B8421F;
+  --win:           #5A8C6A;
+  --loss:          #C13838;
+  --push:          #8A8580;
+}
+
+@theme {
+  --color-bg:          #0F0F0E;
+  --color-surface:     #1A1A18;
+  --color-surface-2:   #242422;
+  --color-primary:     #F5F1EA;
+  --color-muted:       #A8A39A;
+  --color-subtle:      #6B665F;
+  --color-edge:        #2A2A26;
+  --color-accent:      #E8542C;
+  --color-accent-dim:  #B8421F;
+  --color-win:         #5A8C6A;
+  --color-loss:        #C13838;
+  --color-push:        #8A8580;
+}
+
+@theme inline {
+  --font-display: var(--font-instrument-serif), Georgia, serif;
+  --font-sans:    var(--font-geist-sans), -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:    var(--font-geist-mono), 'JetBrains Mono', monospace;
+}
+
+/* ─── Base ──────────────────────────────────────────────────────────────────── */
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-geist-sans), -apple-system, sans-serif;
+}
+
+/* Tabular numerals for all mono/data contexts */
+.tabular {
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+}
+
+/* ─── Animations ────────────────────────────────────────────────────────────── */
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 600ms ease-out both;
+}

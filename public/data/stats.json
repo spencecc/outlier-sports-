@@ -1,0 +1,54 @@
+{
+  "lastUpdated": "2026-05-02T12:00:00Z",
+  "lifetime": {
+    "record": "73-55",
+    "wins": 73,
+    "losses": 55,
+    "pushes": 2,
+    "winPct": 57.0,
+    "roi": 4.6,
+    "units": 12.4
+  },
+  "season2026": {
+    "record": "73-55",
+    "wins": 73,
+    "losses": 55,
+    "pushes": 2,
+    "winPct": 57.0,
+    "roi": 4.6,
+    "units": 12.4
+  },
+  "last30Days": {
+    "record": "28-19",
+    "wins": 28,
+    "losses": 19,
+    "pushes": 1,
+    "winPct": 59.6,
+    "roi": 6.1,
+    "units": 5.2
+  },
+  "last7Days": {
+    "record": "7-4",
+    "wins": 7,
+    "losses": 4,
+    "pushes": 0,
+    "winPct": 63.6,
+    "roi": 8.3,
+    "units": 1.8
+  },
+  "byEdgeZone": [
+    { "range": "7-10%", "bets": 80, "record": "45-35", "winPct": 56.2, "roi": 3.8, "units": 7.2 },
+    { "range": "10-15%", "bets": 32, "record": "20-12", "winPct": 62.5, "roi": 7.4, "units": 4.1 },
+    { "range": "15-20%", "bets": 12, "record": "7-5", "winPct": 58.3, "roi": 5.1, "units": 0.9 },
+    { "range": "20%+", "bets": 4, "record": "1-3", "winPct": 25.0, "roi": -18.2, "units": 0.2 }
+  ],
+  "bySport": [
+    { "sport": "MLB", "bets": 128, "record": "73-55", "winPct": 57.0, "roi": 4.6, "units": 12.4 },
+    { "sport": "CBB", "bets": 0, "record": "0-0", "winPct": 0, "roi": 0, "units": 0 }
+  ],
+  "byPlayType": [
+    { "type": "Run Line", "bets": 64, "record": "38-26", "winPct": 59.4, "roi": 6.2, "units": 7.8 },
+    { "type": "Totals", "bets": 42, "record": "22-20", "winPct": 52.4, "roi": 1.8, "units": 3.1 },
+    { "type": "Moneyline", "bets": 22, "record": "13-9", "winPct": 59.1, "roi": 5.9, "units": 1.5 }
+  ]
+}
