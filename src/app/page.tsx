@@ -108,12 +108,12 @@ export default function HomePage() {
               caption="Lifetime · MLB"
             />
             <StatCard
-              value={`+${lifetime.roi.toFixed(1)}%`}
+              value={`${lifetime.roi >= 0 ? "+" : ""}${lifetime.roi.toFixed(1)}%`}
               label="ROI"
               caption="Lifetime · MLB"
             />
             <StatCard
-              value={`+${lifetime.units.toFixed(1)}u`}
+              value={`${lifetime.units >= 0 ? "+" : ""}${lifetime.units.toFixed(1)}u`}
               label="Units"
               caption="Lifetime · MLB"
             />
