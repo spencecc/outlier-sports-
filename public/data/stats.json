@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T17:26:27Z",
+  "lastUpdated": "2026-05-03T18:08:31Z",
   "lifetime": {
     "record": "106-99-5P",
     "wins": 106,
@@ -58,28 +58,6 @@
       "winPct": 54.2,
       "roi": 3.7,
       "units": 1.76
-    },
-    {
-      "range": "15-20%",
-      "bets": 15,
-      "record": "6-9",
-      "wins": 6,
-      "losses": 9,
-      "pushes": 0,
-      "winPct": 40.0,
-      "roi": -22.9,
-      "units": -3.43
-    },
-    {
-      "range": "20%+",
-      "bets": 9,
-      "record": "4-5",
-      "wins": 4,
-      "losses": 5,
-      "pushes": 0,
-      "winPct": 44.4,
-      "roi": -15.2,
-      "units": -1.36
     }
   ],
   "bySport": [
