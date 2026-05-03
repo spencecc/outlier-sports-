@@ -1249,8 +1249,8 @@
     "scoreAway": 5,
     "scoreHome": 2,
     "openLine": 160,
-    "closeLine": -102,
-    "clv": 12.03,
+    "closeLine": 160,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -1315,8 +1315,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -184,
-    "closeLine": -120,
-    "clv": -10.24,
+    "closeLine": -184,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -1535,8 +1535,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": -154,
-    "closeLine": 110,
-    "clv": -13.01,
+    "closeLine": -154,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -1667,8 +1667,8 @@
     "scoreAway": 8,
     "scoreHome": 5,
     "openLine": -205,
-    "closeLine": 102,
-    "clv": -17.71,
+    "closeLine": -205,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -1755,8 +1755,8 @@
     "scoreAway": 5,
     "scoreHome": 2,
     "openLine": 180,
-    "closeLine": 102,
-    "clv": 13.79,
+    "closeLine": 180,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -1799,8 +1799,8 @@
     "scoreAway": 7,
     "scoreHome": 8,
     "openLine": -104,
-    "closeLine": -166,
-    "clv": 11.43,
+    "closeLine": -104,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -1931,8 +1931,8 @@
     "scoreAway": 2,
     "scoreHome": 0,
     "openLine": 180,
-    "closeLine": -118,
-    "clv": 18.41,
+    "closeLine": 180,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -1997,8 +1997,8 @@
     "scoreAway": 8,
     "scoreHome": 6,
     "openLine": 162,
-    "closeLine": -108,
-    "clv": 13.76,
+    "closeLine": 162,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -2151,8 +2151,8 @@
     "scoreAway": 3,
     "scoreHome": 4,
     "openLine": 138,
-    "closeLine": -162,
-    "clv": 19.82,
+    "closeLine": 138,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -2195,8 +2195,8 @@
     "scoreAway": 1,
     "scoreHome": 7,
     "openLine": -178,
-    "closeLine": 134,
-    "clv": -21.29,
+    "closeLine": -178,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -2305,8 +2305,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -178,
-    "closeLine": 134,
-    "clv": -21.29,
+    "closeLine": -178,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -2481,8 +2481,8 @@
     "scoreAway": 2,
     "scoreHome": 10,
     "openLine": -176,
-    "closeLine": 110,
-    "clv": -16.15,
+    "closeLine": -176,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -2547,8 +2547,8 @@
     "scoreAway": 5,
     "scoreHome": 3,
     "openLine": -130,
-    "closeLine": 136,
-    "clv": -14.15,
+    "closeLine": -130,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -2613,8 +2613,8 @@
     "scoreAway": 0,
     "scoreHome": 5,
     "openLine": -154,
-    "closeLine": 114,
-    "clv": -13.9,
+    "closeLine": -154,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -2679,8 +2679,8 @@
     "scoreAway": 7,
     "scoreHome": 2,
     "openLine": 158,
-    "closeLine": -138,
-    "clv": 19.22,
+    "closeLine": 158,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -2745,8 +2745,8 @@
     "scoreAway": 7,
     "scoreHome": 1,
     "openLine": 130,
-    "closeLine": -162,
-    "clv": 18.35,
+    "closeLine": 130,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -2811,8 +2811,8 @@
     "scoreAway": 7,
     "scoreHome": 3,
     "openLine": 102,
-    "closeLine": -205,
-    "clv": 17.71,
+    "closeLine": 102,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -2921,8 +2921,8 @@
     "scoreAway": 7,
     "scoreHome": 1,
     "openLine": -142,
-    "closeLine": 118,
-    "clv": -12.81,
+    "closeLine": -142,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -2965,8 +2965,8 @@
     "scoreAway": 6,
     "scoreHome": 0,
     "openLine": -194,
-    "closeLine": -116,
-    "clv": -12.28,
+    "closeLine": -194,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -3097,8 +3097,8 @@
     "scoreAway": 5,
     "scoreHome": 2,
     "openLine": 168,
-    "closeLine": -130,
-    "clv": 19.21,
+    "closeLine": 162,
+    "clv": 0.85,
     "notes": ""
   },
   {
@@ -3185,8 +3185,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": 172,
-    "closeLine": -124,
-    "clv": 18.59,
+    "closeLine": 172,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -3229,8 +3229,8 @@
     "scoreAway": 10,
     "scoreHome": 4,
     "openLine": -170,
-    "closeLine": 124,
-    "clv": -18.32,
+    "closeLine": -170,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -3251,8 +3251,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": 136,
-    "closeLine": -156,
-    "clv": 18.56,
+    "closeLine": 136,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -3361,8 +3361,8 @@
     "scoreAway": 3,
     "scoreHome": 8,
     "openLine": -162,
-    "closeLine": -124,
-    "clv": -6.47,
+    "closeLine": -205,
+    "clv": 5.38,
     "notes": ""
   },
   {
@@ -3405,8 +3405,8 @@
     "scoreAway": 8,
     "scoreHome": 3,
     "openLine": 146,
-    "closeLine": -122,
-    "clv": 14.3,
+    "closeLine": 138,
+    "clv": 1.37,
     "notes": ""
   },
   {
@@ -3449,8 +3449,8 @@
     "scoreAway": 6,
     "scoreHome": 7,
     "openLine": -182,
-    "closeLine": 100,
-    "clv": -14.54,
+    "closeLine": -172,
+    "clv": -1.3,
     "notes": ""
   },
   {
@@ -3515,8 +3515,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": -210,
-    "closeLine": -124,
-    "clv": -12.38,
+    "closeLine": -210,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -3537,8 +3537,8 @@
     "scoreAway": 9,
     "scoreHome": 10,
     "openLine": -164,
-    "closeLine": 102,
-    "clv": -12.62,
+    "closeLine": -170,
+    "clv": 0.84,
     "notes": ""
   },
   {
@@ -3559,8 +3559,8 @@
     "scoreAway": 11,
     "scoreHome": 4,
     "openLine": 115,
-    "closeLine": 235,
-    "clv": -16.66,
+    "closeLine": 116,
+    "clv": -0.22,
     "notes": ""
   },
   {
@@ -3691,8 +3691,8 @@
     "scoreAway": 5,
     "scoreHome": 3,
     "openLine": 126,
-    "closeLine": -126,
-    "clv": 11.5,
+    "closeLine": 126,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -3735,8 +3735,8 @@
     "scoreAway": 5,
     "scoreHome": 0,
     "openLine": -184,
-    "closeLine": 122,
-    "clv": -19.74,
+    "closeLine": -215,
+    "clv": 3.47,
     "notes": ""
   },
   {
@@ -3757,8 +3757,8 @@
     "scoreAway": 9,
     "scoreHome": 0,
     "openLine": -210,
-    "closeLine": 108,
-    "clv": -19.67,
+    "closeLine": 136,
+    "clv": -25.37,
     "notes": ""
   },
   {
@@ -3779,8 +3779,8 @@
     "scoreAway": 0,
     "scoreHome": 3,
     "openLine": -138,
-    "closeLine": 122,
-    "clv": -12.94,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3845,8 +3845,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": 152,
-    "closeLine": -130,
-    "clv": 16.84,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3867,8 +3867,8 @@
     "scoreAway": 10,
     "scoreHome": 4,
     "openLine": -184,
-    "closeLine": -106,
-    "clv": -13.33,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3889,8 +3889,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": -220,
-    "closeLine": 104,
-    "clv": -19.73,
+    "closeLine": -215,
+    "clv": -0.5,
     "notes": ""
   },
   {
@@ -3955,8 +3955,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": -178,
-    "closeLine": 116,
-    "clv": -17.73,
+    "closeLine": -178,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -3977,8 +3977,8 @@
     "scoreAway": 11,
     "scoreHome": 5,
     "openLine": 128,
-    "closeLine": -146,
-    "clv": 15.49,
+    "closeLine": 128,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -3999,8 +3999,8 @@
     "scoreAway": 1,
     "scoreHome": 6,
     "openLine": -125,
-    "closeLine": 900,
-    "clv": -45.56,
+    "closeLine": -125,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -4043,8 +4043,8 @@
     "scoreAway": 8,
     "scoreHome": 4,
     "openLine": -156,
-    "closeLine": 140,
-    "clv": -19.27,
+    "closeLine": -156,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -4131,8 +4131,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": 118,
-    "closeLine": -148,
-    "clv": 13.81,
+    "closeLine": 115,
+    "clv": 0.64,
     "notes": ""
   },
   {
@@ -4197,8 +4197,8 @@
     "scoreAway": 4,
     "scoreHome": 3,
     "openLine": -144,
-    "closeLine": 158,
-    "clv": -20.26,
+    "closeLine": -130,
+    "clv": -2.49,
     "notes": ""
   },
   {
@@ -4241,8 +4241,8 @@
     "scoreAway": 12,
     "scoreHome": 4,
     "openLine": 120,
-    "closeLine": -132,
-    "clv": 11.44,
+    "closeLine": 112,
+    "clv": 1.72,
     "notes": ""
   },
   {
@@ -4329,8 +4329,8 @@
     "scoreAway": 4,
     "scoreHome": 11,
     "openLine": -140,
-    "closeLine": 116,
-    "clv": -12.04,
+    "closeLine": -140,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -4373,8 +4373,8 @@
     "scoreAway": 7,
     "scoreHome": 1,
     "openLine": -172,
-    "closeLine": 108,
-    "clv": -15.16,
+    "closeLine": -172,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -4417,8 +4417,8 @@
     "scoreAway": 0,
     "scoreHome": 8,
     "openLine": -146,
-    "closeLine": 158,
-    "clv": -20.59,
+    "closeLine": -146,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -4483,8 +4483,8 @@
     "scoreAway": 6,
     "scoreHome": 2,
     "openLine": 176,
-    "closeLine": -122,
-    "clv": 18.72,
+    "closeLine": 176,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -4527,8 +4527,8 @@
     "scoreAway": 1,
     "scoreHome": 13,
     "openLine": 180,
-    "closeLine": -124,
-    "clv": 19.64,
+    "closeLine": 180,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -4549,8 +4549,8 @@
     "scoreAway": 7,
     "scoreHome": 6,
     "openLine": 150,
-    "closeLine": -148,
-    "clv": 19.68,
+    "closeLine": 150,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -4637,8 +4637,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -110,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -110,
+    "clv": 0.0,
     "notes": ""
   }
 ]
