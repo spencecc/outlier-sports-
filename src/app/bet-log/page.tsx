@@ -124,7 +124,7 @@ export default function BetLogPage() {
     });
 
     return rows;
-  }, [sportFilter, resultFilter, dateFilter, search, sortKey, sortDir]);
+  }, [sportFilter, resultFilter, dateFilter, tierFilter, search, sortKey, sortDir]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const pageRows = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
