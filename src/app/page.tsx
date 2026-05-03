@@ -6,7 +6,7 @@ import BeehiivSignup from "@/components/BeehiivSignup";
 import stats from "../../public/data/stats.json";
 
 export const metadata: Metadata = {
-  title: "Outlier Sports — 10,000 Simulations. Find the Outliers.",
+  title: "Outlier Sports — 50,000 Simulations. Find the Outliers.",
   description:
     "A Monte Carlo sports model that surfaces the games where the market is wrong. Daily picks, fully transparent track record, free.",
 };
@@ -54,7 +54,7 @@ export default function HomePage() {
             className="font-display text-5xl md:text-7xl lg:text-8xl leading-tight mb-6 animate-fade-up"
             style={{ color: "var(--text-primary)", animationDelay: "0ms" }}
           >
-            10,000 Simulations.
+            50,000 Simulations.
             <br />
             Find the Outliers.
           </h1>
@@ -128,7 +128,7 @@ export default function HomePage() {
             {
               n: "01",
               heading: "Simulate.",
-              body: "Every game runs through 10,000 Monte Carlo simulations using team-level efficiency metrics, contextual modifiers, and real-time inputs. The model produces a probability distribution, not a single point estimate.",
+              body: "Every game runs through 50,000 Monte Carlo simulations using team-level efficiency metrics, contextual modifiers, and real-time inputs. The model produces a probability distribution, not a single point estimate.",
             },
             {
               n: "02",

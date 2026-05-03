@@ -20,7 +20,7 @@ export default function Footer() {
             className="text-sm leading-relaxed"
             style={{ color: "var(--text-secondary)" }}
           >
-            10,000 Simulations. Find the Outliers.
+            50,000 Simulations. Find the Outliers.
           </p>
           <p
             className="text-xs mt-4"

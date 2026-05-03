@@ -54,7 +54,7 @@ export default function MethodologyPage() {
           <Section title="The Model">
             <p>
               Outlier&apos;s core engine is a Monte Carlo simulation. For every
-              game on the slate, the model generates ten thousand simulated
+              game on the slate, the model generates fifty thousand simulated
               outcomes built from team-level efficiency, recent form, contextual
               factors, and real-time inputs. The output isn&apos;t a prediction
               — it&apos;s a probability distribution.
