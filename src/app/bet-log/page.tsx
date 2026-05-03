@@ -10,6 +10,7 @@ type SortKey = keyof Bet;
 type SortDir = "asc" | "desc";
 type ResultFilter = "all" | "win" | "loss" | "push" | "pending";
 type DateFilter = "all" | "2026" | "last30" | "last7";
+type TierFilter = "all" | "High Conviction" | "Standard Edge";
 
 const PAGE_SIZE = 50;
 
@@ -76,6 +77,7 @@ export default function BetLogPage() {
   const [sportFilter, setSportFilter] = useState("all");
   const [resultFilter, setResultFilter] = useState<ResultFilter>("all");
   const [dateFilter, setDateFilter] = useState<DateFilter>("all");
+  const [tierFilter, setTierFilter] = useState<TierFilter>("all");
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
 
@@ -102,6 +104,8 @@ export default function BetLogPage() {
       rows = rows.filter((b) => withinDays(b.date, 30));
     if (dateFilter === "last7")
       rows = rows.filter((b) => withinDays(b.date, 7));
+    if (tierFilter !== "all")
+      rows = rows.filter((b) => (b as Bet & { tier?: string }).tier === tierFilter);
     if (search.trim()) {
       const q = search.toLowerCase();
       rows = rows.filter(
@@ -217,6 +221,22 @@ export default function BetLogPage() {
             <option value="last7">Last 7 Days</option>
           </select>
 
+          {/* Tier */}
+          <select
+            value={tierFilter}
+            onChange={(e) => { setTierFilter(e.target.value as TierFilter); setPage(1); }}
+            className="px-3 py-1.5 text-xs font-mono border outline-none"
+            style={{
+              backgroundColor: "var(--bg-surface-2)",
+              borderColor: "var(--border)",
+              color: "var(--text-secondary)",
+            }}
+          >
+            <option value="all">All Tiers</option>
+            <option value="High Conviction">High Conviction</option>
+            <option value="Standard Edge">Standard Edge</option>
+          </select>
+
           {/* Search */}
           <input
             type="text"
@@ -293,8 +313,16 @@ export default function BetLogPage() {
                     <td className="py-2.5 px-3 max-w-48 truncate" style={{ color: "var(--text-primary)" }}>
                       {bet.game}
                     </td>
-                    <td className="py-2.5 px-3 max-w-48 truncate" style={{ color: "var(--text-secondary)" }}>
-                      {bet.play}
+                    <td className="py-2.5 px-3 max-w-48" style={{ color: "var(--text-secondary)" }}>
+                      <span className="truncate block">{bet.play}</span>
+                      {(bet as Bet & { tier?: string }).tier === "High Conviction" && (
+                        <span
+                          className="text-xs font-sans uppercase tracking-wider px-1 py-px"
+                          style={{ color: "var(--accent)", border: "1px solid var(--accent)", fontSize: "9px" }}
+                        >
+                          HC
+                        </span>
+                      )}
                     </td>
                     <td className="py-2.5 px-3 text-right" style={{ color: "var(--text-secondary)" }}>
                       {bet.edge.toFixed(1)}%
