@@ -1,5 +1,16 @@
 {
   "date": "2026-05-03",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-05-03",
+      "sport": "MLB",
+      "game": "Royals @ Mariners",
+      "play": "U 8.0",
+      "type": "Total",
+      "edge": 7.8,
+      "odds": -110,
+      "isLean": false
+    }
+  ],
+  "hasPicks": true
 }
