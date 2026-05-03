@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T18:13:38Z",
+  "lastUpdated": "2026-05-03T18:20:44Z",
   "lifetime": {
     "record": "106-99-5P",
     "wins": 106,
@@ -10,13 +10,13 @@
     "units": -2.95
   },
   "season2026": {
-    "record": "100-98-4P",
-    "wins": 100,
-    "losses": 98,
-    "pushes": 4,
-    "winPct": 50.5,
-    "roi": -3.5,
-    "units": -7.01
+    "record": "106-99-5P",
+    "wins": 106,
+    "losses": 99,
+    "pushes": 5,
+    "winPct": 51.7,
+    "roi": -1.4,
+    "units": -2.95
   },
   "last30Days": {
     "record": "76-80-2P",
