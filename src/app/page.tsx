@@ -4,6 +4,9 @@ import StatCard from "@/components/StatCard";
 import ReportCard from "@/components/ReportCard";
 import BeehiivSignup from "@/components/BeehiivSignup";
 import stats from "../../public/data/stats.json";
+import { getRssPosts } from "@/lib/getRssPosts";
+
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: "Outlier Sports — 50,000 Simulations. Find the Outliers.",
@@ -11,39 +14,9 @@ export const metadata: Metadata = {
     "A Monte Carlo sports model that surfaces the games where the market is wrong. Daily picks, fully transparent track record, free.",
 };
 
-/**
- * PHASE 3: Replace placeholder reports with real data fetched from Beehiiv RSS.
- * Fetch pattern lives in /app/reports/page.tsx once that route is built.
- */
-const placeholderReports = [
-  {
-    id: "1",
-    title: "Detail Report — May 2, 2026",
-    date: "May 2, 2026",
-    excerpt:
-      "Four plays on the board today. Two run lines, one total, one ML. Model is heaviest on the Astros/Mariners under given current starters.",
-    url: "/reports",
-  },
-  {
-    id: "2",
-    title: "Detail Report — May 1, 2026",
-    date: "May 1, 2026",
-    excerpt:
-      "Two plays released. Red Sox run line held in a 4-3 game. Dodgers ML missed — model flagged the edge but the bullpen situation flipped late.",
-    url: "/reports",
-  },
-  {
-    id: "3",
-    title: "Detail Report — April 30, 2026",
-    date: "April 30, 2026",
-    excerpt:
-      "Light slate. One play: Astros/Mariners under. Starter efficiency metrics and ballpark factors both pointed the same direction.",
-    url: "/reports",
-  },
-];
-
-export default function HomePage() {
+export default async function HomePage() {
   const { lifetime } = stats;
+  const recentReports = await getRssPosts(3);
 
   return (
     <>
@@ -175,40 +148,38 @@ export default function HomePage() {
       </section>
 
       {/* ── Recent reports ─────────────────────────────────────────────────── */}
-      <section className="border-t" style={{ borderColor: "var(--border)" }}>
-        <div className="max-w-7xl mx-auto px-6 py-20 md:py-28">
-          <h2
-            className="font-display text-3xl md:text-4xl mb-10"
-            style={{ color: "var(--text-primary)" }}
-          >
-            Latest Reports
-          </h2>
-          {/* PHASE 3: Replace placeholder cards with real ReportCard components
-              built from the Beehiiv RSS feed. Fetch pattern: server-side fetch
-              of https://[pub].beehiiv.com/feed, parse with fast-xml-parser,
-              pass top 3 items here. */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {placeholderReports.map((report) => (
-              <ReportCard
-                key={report.id}
-                title={report.title}
-                date={report.date}
-                excerpt={report.excerpt}
-                url={report.url}
-              />
-            ))}
-          </div>
-          <div className="mt-8">
-            <Link
-              href="/reports"
-              className="text-sm transition-colors duration-150"
-              style={{ color: "var(--text-secondary)" }}
+      {recentReports.length > 0 && (
+        <section className="border-t" style={{ borderColor: "var(--border)" }}>
+          <div className="max-w-7xl mx-auto px-6 py-20 md:py-28">
+            <h2
+              className="font-display text-3xl md:text-4xl mb-10"
+              style={{ color: "var(--text-primary)" }}
             >
-              View all reports →
-            </Link>
+              Latest Reports
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {recentReports.map((report, i) => (
+                <ReportCard
+                  key={i}
+                  title={report.title}
+                  date={report.date}
+                  excerpt={report.excerpt}
+                  url={report.url}
+                />
+              ))}
+            </div>
+            <div className="mt-8">
+              <Link
+                href="/reports"
+                className="text-sm transition-colors duration-150"
+                style={{ color: "var(--text-secondary)" }}
+              >
+                View all reports →
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* ── Email signup ───────────────────────────────────────────────────── */}
       <section
