@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T18:08:31Z",
+  "lastUpdated": "2026-05-03T18:13:38Z",
   "lifetime": {
     "record": "106-99-5P",
     "wins": 106,
@@ -63,49 +63,49 @@
   "bySport": [
     {
       "sport": "MLB",
-      "bets": 210,
-      "record": "106-99-5P",
-      "wins": 106,
-      "losses": 99,
+      "bets": 186,
+      "record": "95-86-5P",
+      "wins": 95,
+      "losses": 86,
       "pushes": 5,
-      "winPct": 51.7,
-      "roi": -1.4,
-      "units": -2.95
+      "winPct": 52.5,
+      "roi": -0.5,
+      "units": -0.85
     }
   ],
   "byPlayType": [
     {
       "type": "Totals",
-      "bets": 120,
-      "record": "58-57-5P",
-      "wins": 58,
-      "losses": 57,
+      "bets": 114,
+      "record": "57-52-5P",
+      "wins": 57,
+      "losses": 52,
       "pushes": 5,
-      "winPct": 50.4,
-      "roi": -3.7,
-      "units": -4.27
+      "winPct": 52.3,
+      "roi": -0.2,
+      "units": -0.18
     },
     {
       "type": "Run Line",
-      "bets": 60,
-      "record": "34-26",
-      "wins": 34,
-      "losses": 26,
+      "bets": 48,
+      "record": "26-22",
+      "wins": 26,
+      "losses": 22,
       "pushes": 0,
-      "winPct": 56.7,
-      "roi": 7.5,
-      "units": 4.5
+      "winPct": 54.2,
+      "roi": 0.7,
+      "units": 0.35
     },
     {
       "type": "Moneyline",
-      "bets": 30,
-      "record": "14-16",
-      "wins": 14,
-      "losses": 16,
+      "bets": 24,
+      "record": "12-12",
+      "wins": 12,
+      "losses": 12,
       "pushes": 0,
-      "winPct": 46.7,
-      "roi": -10.6,
-      "units": -3.18
+      "winPct": 50.0,
+      "roi": -4.2,
+      "units": -1.02
     }
   ],
   "byTier": [
@@ -122,14 +122,14 @@
     },
     {
       "tier": "Standard Edge",
-      "bets": 87,
-      "record": "48-36-3P",
-      "wins": 48,
-      "losses": 36,
+      "bets": 63,
+      "record": "37-23-3P",
+      "wins": 37,
+      "losses": 23,
       "pushes": 3,
-      "winPct": 57.1,
-      "roi": 10.2,
-      "units": 8.6
+      "winPct": 61.7,
+      "roi": 17.8,
+      "units": 10.7
     }
   ]
 }
