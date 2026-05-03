@@ -114,7 +114,7 @@ export default function PlaysPage() {
             className="font-display text-2xl md:text-3xl mb-3"
             style={{ color: "var(--text-primary)" }}
           >
-            High Confidence plays go to subscribers first.
+            High Confidence plays go to subscribers first. (Coming soon)
           </p>
           <p className="text-sm mb-6" style={{ color: "var(--text-secondary)" }}>
             When the model finds a high-conviction edge, that play goes to the
