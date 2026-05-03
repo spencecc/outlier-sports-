@@ -8,6 +8,7 @@ const navLinks = [
   { href: "/track-record", label: "Track Record" },
   { href: "/bet-log", label: "Bet Log" },
   { href: "/methodology", label: "Methodology" },
+  { href: "/updates", label: "Updates" },
   { href: "/reports", label: "Reports" },
   { href: "/support", label: "Support" },
 ];
