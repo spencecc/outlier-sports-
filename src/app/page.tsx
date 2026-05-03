@@ -22,7 +22,7 @@ const placeholderReports = [
     date: "May 2, 2026",
     excerpt:
       "Four plays on the board today. Two run lines, one total, one ML. Model is heaviest on the Astros/Mariners under given current starters.",
-    url: "#",
+    url: "/reports",
   },
   {
     id: "2",
@@ -30,7 +30,7 @@ const placeholderReports = [
     date: "May 1, 2026",
     excerpt:
       "Two plays released. Red Sox run line held in a 4-3 game. Dodgers ML missed — model flagged the edge but the bullpen situation flipped late.",
-    url: "#",
+    url: "/reports",
   },
   {
     id: "3",
@@ -38,7 +38,7 @@ const placeholderReports = [
     date: "April 30, 2026",
     excerpt:
       "Light slate. One play: Astros/Mariners under. Starter efficiency metrics and ballpark factors both pointed the same direction.",
-    url: "#",
+    url: "/reports",
   },
 ];
 

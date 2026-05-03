@@ -81,7 +81,7 @@ export default function Footer() {
             <li>
               {/* Beehiiv signup link — update with real URL in Phase 3 */}
               <a
-                href="#signup"
+                href="/#signup"
                 className="text-sm transition-colors duration-150"
                 style={{ color: "var(--text-secondary)" }}
               >
