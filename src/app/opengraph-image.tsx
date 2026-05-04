@@ -51,6 +51,8 @@ export default function Image() {
         {/* Headline */}
         <div
           style={{
+            display: "flex",
+            flexDirection: "column",
             color: "#f5f5f0",
             fontSize: "72px",
             fontWeight: 400,
@@ -59,9 +61,8 @@ export default function Image() {
             maxWidth: "900px",
           }}
         >
-          50,000 Simulations.
-          <br />
-          Find the Outliers.
+          <span>50,000 Simulations.</span>
+          <span>Find the Outliers.</span>
         </div>
 
         {/* Subhead */}
