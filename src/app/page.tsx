@@ -71,18 +71,6 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ── Overall stats (unlabeled) ──────────────────────────────────────── */}
-      <section className="border-y" style={{ borderColor: "var(--border)" }}>
-        <div className="max-w-7xl mx-auto px-6 py-2">
-          <div className="grid grid-cols-2 md:grid-cols-4">
-            <StatCard value={lifetime.record} label="Record" />
-            <StatCard value={`${lifetime.winPct.toFixed(1)}%`} label="Win Rate" />
-            <StatCard value={`${lifetime.roi >= 0 ? "+" : ""}${lifetime.roi.toFixed(1)}%`} label="ROI" />
-            <StatCard value={`${lifetime.units >= 0 ? "+" : ""}${lifetime.units.toFixed(1)}u`} label="Units" />
-          </div>
-        </div>
-      </section>
-
       {/* ── Standard Model Confidence ──────────────────────────────────────── */}
       {statsRes.byEdgeZone && (() => {
         const std = statsRes.byEdgeZone.find((r: { range: string }) => r.range === "7-10%");
