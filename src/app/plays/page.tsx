@@ -1,7 +1,20 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import BeehiivSignup from "@/components/BeehiivSignup";
-import picks from "../../../public/data/picks.json";
+import picksData from "../../../public/data/picks.json";
+
+interface Pick {
+  date: string;
+  sport: string;
+  game: string;
+  play: string;
+  type: string;
+  edge: number;
+  odds: number;
+  isLean: boolean;
+}
+
+const picks = picksData as { date: string; picks: Pick[]; hasPicks: boolean };
 
 export const metadata: Metadata = {
   title: "Today's Plays",
@@ -14,7 +27,7 @@ function fmtOdds(n: number) {
 }
 
 export default function PlaysPage() {
-  const { date, picks: playList, hasPicks } = picks;
+  const { date, picks: playList, hasPicks } = picks as { date: string; picks: Pick[]; hasPicks: boolean };
 
   const displayDate = new Date(date + "T12:00:00").toLocaleDateString("en-US", {
     weekday: "long",

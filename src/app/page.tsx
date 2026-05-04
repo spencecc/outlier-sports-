@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  const { lifetime } = stats;
+  const { lifetime, season2026, higherModelConf } = stats;
   const recentReports = await getRssPosts(3);
 
   return (
@@ -71,28 +71,81 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-6 py-2">
           <div className="grid grid-cols-2 md:grid-cols-4">
             <StatCard
-              value={lifetime.record}
+              value={season2026.record}
               label="Record"
-              caption="Lifetime · MLB"
+              caption={`All-time: ${lifetime.record}`}
             />
             <StatCard
-              value={`${lifetime.winPct.toFixed(1)}%`}
+              value={`${season2026.winPct.toFixed(1)}%`}
               label="Win Rate"
-              caption="Lifetime · MLB"
+              caption={`All-time: ${lifetime.winPct.toFixed(1)}%`}
             />
             <StatCard
-              value={`${lifetime.roi >= 0 ? "+" : ""}${lifetime.roi.toFixed(1)}%`}
+              value={`${season2026.roi >= 0 ? "+" : ""}${season2026.roi.toFixed(1)}%`}
               label="ROI"
-              caption="Lifetime · MLB"
+              caption={`All-time: ${lifetime.roi >= 0 ? "+" : ""}${lifetime.roi.toFixed(1)}%`}
             />
             <StatCard
-              value={`${lifetime.units >= 0 ? "+" : ""}${lifetime.units.toFixed(1)}u`}
+              value={`${season2026.units >= 0 ? "+" : ""}${season2026.units.toFixed(1)}u`}
               label="Units"
-              caption="Lifetime · MLB"
+              caption={`All-time: ${lifetime.units >= 0 ? "+" : ""}${lifetime.units.toFixed(1)}u`}
             />
           </div>
         </div>
       </section>
+
+      {/* ── Higher Model Confidence ────────────────────────────────────────── */}
+      {higherModelConf && (
+        <section className="border-b" style={{ borderColor: "var(--border)" }}>
+          <div className="max-w-7xl mx-auto px-6 py-8">
+            <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-12">
+              <div className="shrink-0">
+                <p
+                  className="text-xs font-sans uppercase tracking-widest mb-1"
+                  style={{ color: "var(--accent)" }}
+                >
+                  Higher Model Confidence Signals
+                </p>
+                <p
+                  className="text-xs font-mono"
+                  style={{ color: "var(--text-tertiary)" }}
+                >
+                  10%+ edge signals tracked separately from standard plays
+                </p>
+              </div>
+              <div className="flex gap-8 md:gap-12">
+                <div>
+                  <p
+                    className="font-display text-3xl tabular leading-none mb-1"
+                    style={{ color: "var(--text-primary)" }}
+                  >
+                    {higherModelConf.record}
+                  </p>
+                  <p className="text-xs font-sans uppercase tracking-wider" style={{ color: "var(--text-tertiary)" }}>Record</p>
+                </div>
+                <div>
+                  <p
+                    className="font-display text-3xl tabular leading-none mb-1"
+                    style={{ color: "var(--text-primary)" }}
+                  >
+                    {higherModelConf.winPct.toFixed(1)}%
+                  </p>
+                  <p className="text-xs font-sans uppercase tracking-wider" style={{ color: "var(--text-tertiary)" }}>Win Rate</p>
+                </div>
+                <div>
+                  <p
+                    className="font-display text-3xl tabular leading-none mb-1"
+                    style={{ color: "var(--win)" }}
+                  >
+                    {higherModelConf.roi >= 0 ? "+" : ""}{higherModelConf.roi.toFixed(1)}%
+                  </p>
+                  <p className="text-xs font-sans uppercase tracking-wider" style={{ color: "var(--text-tertiary)" }}>ROI</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── Methodology teaser ─────────────────────────────────────────────── */}
       <section className="max-w-7xl mx-auto px-6 py-20 md:py-28">
