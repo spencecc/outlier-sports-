@@ -71,49 +71,45 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ── Standard Model Edge ────────────────────────────────────────────── */}
+      {/* ── Overall stats (unlabeled) ──────────────────────────────────────── */}
       <section className="border-y" style={{ borderColor: "var(--border)" }}>
-        <div className="max-w-7xl mx-auto px-6 pt-6 pb-2">
-          <p
-            className="text-xs font-sans uppercase tracking-widest mb-1"
-            style={{ color: "var(--accent)" }}
-          >
-            Standard Model Edge
-          </p>
-          <p
-            className="text-xs font-mono mb-4"
-            style={{ color: "var(--accent)" }}
-          >
-            7–10% edge — fully graded and tracked
-          </p>
-        </div>
-        <div className="max-w-7xl mx-auto px-6 pb-2">
+        <div className="max-w-7xl mx-auto px-6 py-2">
           <div className="grid grid-cols-2 md:grid-cols-4">
-            <StatCard
-              value={season2026.record}
-              label="Record"
-              caption={`All-time: ${lifetime.record}`}
-            />
-            <StatCard
-              value={`${season2026.winPct.toFixed(1)}%`}
-              label="Win Rate"
-              caption={`All-time: ${lifetime.winPct.toFixed(1)}%`}
-            />
-            <StatCard
-              value={`${season2026.roi >= 0 ? "+" : ""}${season2026.roi.toFixed(1)}%`}
-              label="ROI"
-              caption={`All-time: ${lifetime.roi >= 0 ? "+" : ""}${lifetime.roi.toFixed(1)}%`}
-            />
-            <StatCard
-              value={`${season2026.units >= 0 ? "+" : ""}${season2026.units.toFixed(1)}u`}
-              label="Units"
-              caption={`All-time: ${lifetime.units >= 0 ? "+" : ""}${lifetime.units.toFixed(1)}u`}
-            />
+            <StatCard value={lifetime.record} label="Record" />
+            <StatCard value={`${lifetime.winPct.toFixed(1)}%`} label="Win Rate" />
+            <StatCard value={`${lifetime.roi >= 0 ? "+" : ""}${lifetime.roi.toFixed(1)}%`} label="ROI" />
+            <StatCard value={`${lifetime.units >= 0 ? "+" : ""}${lifetime.units.toFixed(1)}u`} label="Units" />
           </div>
         </div>
       </section>
 
-      {/* ── Higher Model Edge ─────────────────────────────────────────────── */}
+      {/* ── Standard Model Confidence ──────────────────────────────────────── */}
+      {statsRes.byEdgeZone && (() => {
+        const std = statsRes.byEdgeZone.find((r: { range: string }) => r.range === "7-10%");
+        if (!std) return null;
+        return (
+          <section className="border-b" style={{ borderColor: "var(--border)" }}>
+            <div className="max-w-7xl mx-auto px-6 pt-6 pb-2">
+              <p className="text-xs font-sans uppercase tracking-widest mb-1" style={{ color: "var(--accent)" }}>
+                Standard Model Confidence
+              </p>
+              <p className="text-xs font-mono mb-4" style={{ color: "var(--accent)" }}>
+                7–10% edge — fully graded and tracked
+              </p>
+            </div>
+            <div className="max-w-7xl mx-auto px-6 pb-2">
+              <div className="grid grid-cols-2 md:grid-cols-4">
+                <StatCard value={std.record} label="Record" />
+                <StatCard value={`${std.winPct.toFixed(1)}%`} label="Win Rate" />
+                <StatCard value={`${std.roi >= 0 ? "+" : ""}${std.roi.toFixed(1)}%`} label="ROI" valueColor={std.roi >= 0 ? "var(--win)" : "var(--loss)"} />
+                <StatCard value={`${std.units >= 0 ? "+" : ""}${std.units.toFixed(1)}u`} label="Units" valueColor={std.units >= 0 ? "var(--win)" : "var(--loss)"} />
+              </div>
+            </div>
+          </section>
+        );
+      })()}
+
+      {/* ── Higher Model Confidence ────────────────────────────────────────── */}
       {higherModelConf && (
         <section className="border-b" style={{ borderColor: "var(--border)" }}>
           <div className="max-w-7xl mx-auto px-6 pt-6 pb-2">
@@ -121,7 +117,7 @@ export default async function HomePage() {
               className="text-xs font-sans uppercase tracking-widest mb-1"
               style={{ color: "var(--accent)" }}
             >
-              Higher Model Edge
+              Higher Model Confidence
             </p>
             <p
               className="text-xs font-mono mb-4"
