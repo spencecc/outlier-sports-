@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Support Outlier",
+  title: "Support Outlier Sports",
   description:
     "Support Outlier Sports. The model, the picks, and the track record are free — tips are appreciated but never expected.",
 };
@@ -11,7 +11,7 @@ export default function SupportPage() {
   return (
     <>
       <PageHeader
-        title="Support Outlier"
+        title="Support Outlier Sports"
         subhead="The picks are free. Tips are appreciated but never expected."
       />
 
