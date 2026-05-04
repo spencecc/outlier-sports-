@@ -1,31 +1,31 @@
 {
-  "lastUpdated": "2026-05-03T18:20:44Z",
+  "lastUpdated": "2026-05-04T00:07:53Z",
   "lifetime": {
-    "record": "106-99-5P",
-    "wins": 106,
+    "record": "107-99-5P",
+    "wins": 107,
     "losses": 99,
     "pushes": 5,
-    "winPct": 51.7,
-    "roi": -1.4,
-    "units": -2.95
+    "winPct": 51.9,
+    "roi": -1.0,
+    "units": -2.04
   },
   "season2026": {
-    "record": "106-99-5P",
-    "wins": 106,
+    "record": "107-99-5P",
+    "wins": 107,
     "losses": 99,
     "pushes": 5,
-    "winPct": 51.7,
-    "roi": -1.4,
-    "units": -2.95
+    "winPct": 51.9,
+    "roi": -1.0,
+    "units": -2.04
   },
   "last30Days": {
-    "record": "76-80-2P",
-    "wins": 76,
+    "record": "77-80-2P",
+    "wins": 77,
     "losses": 80,
     "pushes": 2,
-    "winPct": 48.7,
-    "roi": -8.0,
-    "units": -12.53
+    "winPct": 49.0,
+    "roi": -7.4,
+    "units": -11.63
   },
   "last7Days": {
     "record": "6-10",
@@ -39,14 +39,14 @@
   "byEdgeZone": [
     {
       "range": "7-10%",
-      "bets": 111,
-      "record": "59-50-2P",
-      "wins": 59,
+      "bets": 112,
+      "record": "60-50-2P",
+      "wins": 60,
       "losses": 50,
       "pushes": 2,
-      "winPct": 54.1,
-      "roi": 2.0,
-      "units": 2.19
+      "winPct": 54.5,
+      "roi": 2.8,
+      "units": 3.1
     },
     {
       "range": "10-15%",
@@ -63,27 +63,27 @@
   "bySport": [
     {
       "sport": "MLB",
-      "bets": 186,
-      "record": "95-86-5P",
-      "wins": 95,
+      "bets": 187,
+      "record": "96-86-5P",
+      "wins": 96,
       "losses": 86,
       "pushes": 5,
-      "winPct": 52.5,
-      "roi": -0.5,
-      "units": -0.85
+      "winPct": 52.7,
+      "roi": 0.0,
+      "units": 0.06
     }
   ],
   "byPlayType": [
     {
       "type": "Totals",
-      "bets": 114,
-      "record": "57-52-5P",
-      "wins": 57,
+      "bets": 115,
+      "record": "58-52-5P",
+      "wins": 58,
       "losses": 52,
       "pushes": 5,
-      "winPct": 52.3,
-      "roi": -0.2,
-      "units": -0.18
+      "winPct": 52.7,
+      "roi": 0.7,
+      "units": 0.73
     },
     {
       "type": "Run Line",
@@ -122,14 +122,14 @@
     },
     {
       "tier": "Standard Edge",
-      "bets": 63,
-      "record": "37-23-3P",
-      "wins": 37,
+      "bets": 64,
+      "record": "38-23-3P",
+      "wins": 38,
       "losses": 23,
       "pushes": 3,
-      "winPct": 61.7,
-      "roi": 17.8,
-      "units": 10.7
+      "winPct": 62.3,
+      "roi": 19.0,
+      "units": 11.61
     }
   ]
 }
