@@ -104,13 +104,13 @@ export default async function HomePage() {
                   className="text-xs font-sans uppercase tracking-widest mb-1"
                   style={{ color: "var(--accent)" }}
                 >
-                  Higher Model Confidence Signals
+                  Higher Model Confidence
                 </p>
                 <p
                   className="text-xs font-mono"
                   style={{ color: "var(--text-tertiary)" }}
                 >
-                  10%+ edge signals — informational, small sample
+                  10%+ edge — fully graded and tracked
                 </p>
               </div>
               <div className="flex gap-8 md:gap-12">
@@ -135,11 +135,20 @@ export default async function HomePage() {
                 <div>
                   <p
                     className="font-display text-3xl tabular leading-none mb-1"
-                    style={{ color: higherModelConf.roi >= 0 ? "var(--win)" : "var(--text-secondary)" }}
+                    style={{ color: higherModelConf.roi >= 0 ? "var(--win)" : "var(--loss)" }}
                   >
                     {higherModelConf.roi >= 0 ? "+" : ""}{higherModelConf.roi.toFixed(1)}%
                   </p>
                   <p className="text-xs font-sans uppercase tracking-wider" style={{ color: "var(--text-tertiary)" }}>ROI</p>
+                </div>
+                <div>
+                  <p
+                    className="font-display text-3xl tabular leading-none mb-1"
+                    style={{ color: higherModelConf.units >= 0 ? "var(--win)" : "var(--loss)" }}
+                  >
+                    {higherModelConf.units >= 0 ? "+" : ""}{higherModelConf.units.toFixed(1)}u
+                  </p>
+                  <p className="text-xs font-sans uppercase tracking-wider" style={{ color: "var(--text-tertiary)" }}>Units</p>
                 </div>
               </div>
             </div>
