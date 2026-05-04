@@ -35,7 +35,6 @@ interface Props {
   byEdgeZone: BreakdownRow[];
   bySport: BreakdownRow[];
   byPlayType: BreakdownRow[];
-  byTier: BreakdownRow[];
 }
 
 const PERIODS: { key: Period; label: string }[] = [
@@ -57,7 +56,6 @@ export default function TrackRecordClient({
   byEdgeZone,
   bySport,
   byPlayType,
-  byTier,
 }: Props) {
   const [period, setPeriod] = useState<Period>("lifetime");
 
@@ -172,27 +170,6 @@ export default function TrackRecordClient({
           />
         </div>
 
-        {/* Performance by model confidence */}
-        {byTier && byTier.length > 0 && (
-          <div>
-            <h2
-              className="font-display text-2xl md:text-3xl mb-3"
-              style={{ color: "var(--text-primary)" }}
-            >
-              Performance by Model Confidence
-            </h2>
-            <StatsTable
-              rows={byTier.map((r) => ({
-                label: r.tier ?? "",
-                bets: r.bets,
-                record: r.record,
-                winPct: r.winPct,
-                roi: r.roi,
-                units: r.units,
-              }))}
-            />
-          </div>
-        )}
       </div>
 
       {/* ── CTA strip ─────────────────────────────────────────────────────── */}
