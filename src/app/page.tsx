@@ -66,9 +66,17 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ── Stat strip ─────────────────────────────────────────────────────── */}
+      {/* ── Standard Model Edge ────────────────────────────────────────────── */}
       <section className="border-y" style={{ borderColor: "var(--border)" }}>
-        <div className="max-w-7xl mx-auto px-6 py-2">
+        <div className="max-w-7xl mx-auto px-6 pt-6 pb-2">
+          <p
+            className="text-xs font-sans uppercase tracking-widest mb-4"
+            style={{ color: "var(--text-secondary)" }}
+          >
+            Standard Model Edge
+          </p>
+        </div>
+        <div className="max-w-7xl mx-auto px-6 pb-2">
           <div className="grid grid-cols-2 md:grid-cols-4">
             <StatCard
               value={season2026.record}
@@ -94,63 +102,43 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ── Higher Model Confidence ────────────────────────────────────────── */}
+      {/* ── Higher Model Edge ─────────────────────────────────────────────── */}
       {higherModelConf && (
         <section className="border-b" style={{ borderColor: "var(--border)" }}>
-          <div className="max-w-7xl mx-auto px-6 py-8">
-            <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-12">
-              <div className="shrink-0">
-                <p
-                  className="text-xs font-sans uppercase tracking-widest mb-1"
-                  style={{ color: "var(--accent)" }}
-                >
-                  Higher Model Confidence
-                </p>
-                <p
-                  className="text-xs font-mono"
-                  style={{ color: "var(--text-tertiary)" }}
-                >
-                  10%+ edge — fully graded and tracked
-                </p>
-              </div>
-              <div className="flex gap-8 md:gap-12">
-                <div>
-                  <p
-                    className="font-display text-3xl tabular leading-none mb-1"
-                    style={{ color: "var(--text-primary)" }}
-                  >
-                    {higherModelConf.record}
-                  </p>
-                  <p className="text-xs font-sans uppercase tracking-wider" style={{ color: "var(--text-tertiary)" }}>Record</p>
-                </div>
-                <div>
-                  <p
-                    className="font-display text-3xl tabular leading-none mb-1"
-                    style={{ color: "var(--text-primary)" }}
-                  >
-                    {higherModelConf.winPct.toFixed(1)}%
-                  </p>
-                  <p className="text-xs font-sans uppercase tracking-wider" style={{ color: "var(--text-tertiary)" }}>Win Rate</p>
-                </div>
-                <div>
-                  <p
-                    className="font-display text-3xl tabular leading-none mb-1"
-                    style={{ color: higherModelConf.roi >= 0 ? "var(--win)" : "var(--loss)" }}
-                  >
-                    {higherModelConf.roi >= 0 ? "+" : ""}{higherModelConf.roi.toFixed(1)}%
-                  </p>
-                  <p className="text-xs font-sans uppercase tracking-wider" style={{ color: "var(--text-tertiary)" }}>ROI</p>
-                </div>
-                <div>
-                  <p
-                    className="font-display text-3xl tabular leading-none mb-1"
-                    style={{ color: higherModelConf.units >= 0 ? "var(--win)" : "var(--loss)" }}
-                  >
-                    {higherModelConf.units >= 0 ? "+" : ""}{higherModelConf.units.toFixed(1)}u
-                  </p>
-                  <p className="text-xs font-sans uppercase tracking-wider" style={{ color: "var(--text-tertiary)" }}>Units</p>
-                </div>
-              </div>
+          <div className="max-w-7xl mx-auto px-6 pt-6 pb-2">
+            <p
+              className="text-xs font-sans uppercase tracking-widest mb-1"
+              style={{ color: "var(--accent)" }}
+            >
+              Higher Model Edge
+            </p>
+            <p
+              className="text-xs font-mono mb-4"
+              style={{ color: "var(--text-tertiary)" }}
+            >
+              10%+ edge — fully graded and tracked
+            </p>
+          </div>
+          <div className="max-w-7xl mx-auto px-6 pb-2">
+            <div className="grid grid-cols-2 md:grid-cols-4">
+              <StatCard
+                value={higherModelConf.record}
+                label="Record"
+              />
+              <StatCard
+                value={`${higherModelConf.winPct.toFixed(1)}%`}
+                label="Win Rate"
+              />
+              <StatCard
+                value={`${higherModelConf.roi >= 0 ? "+" : ""}${higherModelConf.roi.toFixed(1)}%`}
+                label="ROI"
+                valueColor={higherModelConf.roi >= 0 ? "var(--win)" : "var(--loss)"}
+              />
+              <StatCard
+                value={`${higherModelConf.units >= 0 ? "+" : ""}${higherModelConf.units.toFixed(1)}u`}
+                label="Units"
+                valueColor={higherModelConf.units >= 0 ? "var(--win)" : "var(--loss)"}
+              />
             </div>
           </div>
         </section>

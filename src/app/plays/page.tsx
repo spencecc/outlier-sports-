@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import BeehiivSignup from "@/components/BeehiivSignup";
-import picksData from "../../../public/data/picks.json";
+
+export const revalidate = 0;
 
 interface Pick {
   date: string;
@@ -14,8 +15,6 @@ interface Pick {
   isLean: boolean;
 }
 
-const picks = picksData as { date: string; picks: Pick[]; hasPicks: boolean };
-
 export const metadata: Metadata = {
   title: "Today's Plays",
   description:
@@ -26,8 +25,13 @@ function fmtOdds(n: number) {
   return n >= 0 ? `+${n}` : `${n}`;
 }
 
-export default function PlaysPage() {
-  const { date, picks: playList, hasPicks } = picks as { date: string; picks: Pick[]; hasPicks: boolean };
+export default async function PlaysPage() {
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://outliersportshq.com"}/data/picks.json`,
+    { cache: "no-store" }
+  );
+  const picks = (await res.json()) as { date: string; picks: Pick[]; hasPicks: boolean };
+  const { date, picks: playList, hasPicks } = picks;
 
   const displayDate = new Date(date + "T12:00:00").toLocaleDateString("en-US", {
     weekday: "long",
@@ -127,7 +131,7 @@ export default function PlaysPage() {
             className="font-display text-2xl md:text-3xl mb-3"
             style={{ color: "var(--text-primary)" }}
           >
-            High Confidence plays go to subscribers first. (Coming soon)
+            High Confidence plays go to subscribers first.
           </p>
           <p className="text-sm mb-6" style={{ color: "var(--text-secondary)" }}>
             When the model finds a high-conviction edge, that play goes to the

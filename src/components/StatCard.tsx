@@ -4,9 +4,10 @@ interface StatCardProps {
   value: string;
   label: string;
   caption?: string;
+  valueColor?: string;
 }
 
-export default function StatCard({ value, label, caption }: StatCardProps) {
+export default function StatCard({ value, label, caption, valueColor }: StatCardProps) {
   return (
     <Link
       href="/track-record"
@@ -18,7 +19,7 @@ export default function StatCard({ value, label, caption }: StatCardProps) {
     >
       <p
         className="font-display text-4xl md:text-5xl tabular leading-none mb-2 transition-colors duration-150 group-hover:text-accent"
-        style={{ color: "var(--text-primary)" }}
+        style={{ color: valueColor ?? "var(--text-primary)" }}
       >
         {value}
       </p>
