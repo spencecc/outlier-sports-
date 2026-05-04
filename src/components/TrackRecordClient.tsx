@@ -109,16 +109,30 @@ export default function TrackRecordClient({
           return (
             <div>
               <p
-                className="text-xs font-sans uppercase tracking-widest mb-4"
+                className="text-xs font-sans uppercase tracking-widest mb-1"
                 style={{ color: "var(--text-secondary)" }}
               >
                 Standard Model Confidence
               </p>
+              <p
+                className="text-xs font-mono mb-4"
+                style={{ color: "var(--text-tertiary)" }}
+              >
+                7–10% edge signals — fully graded and tracked
+              </p>
               <div className="grid grid-cols-2 md:grid-cols-4">
                 <StatCard value={std.record} label="Record" />
                 <StatCard value={`${std.winPct.toFixed(1)}%`} label="Win Rate" />
-                <StatCard value={signed(std.roi, "%")} label="ROI" />
-                <StatCard value={signed(std.units, "u")} label="Units" />
+                <StatCard
+                  value={signed(std.roi, "%")}
+                  label="ROI"
+                  valueColor={std.roi >= 0 ? "var(--win)" : "var(--loss)"}
+                />
+                <StatCard
+                  value={signed(std.units, "u")}
+                  label="Units"
+                  valueColor={std.units >= 0 ? "var(--win)" : "var(--loss)"}
+                />
               </div>
             </div>
           );
