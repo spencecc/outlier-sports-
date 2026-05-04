@@ -110,7 +110,7 @@ export default async function HomePage() {
                   className="text-xs font-mono"
                   style={{ color: "var(--text-tertiary)" }}
                 >
-                  10%+ edge signals tracked separately from standard plays
+                  10%+ edge signals — informational, small sample
                 </p>
               </div>
               <div className="flex gap-8 md:gap-12">
@@ -135,7 +135,7 @@ export default async function HomePage() {
                 <div>
                   <p
                     className="font-display text-3xl tabular leading-none mb-1"
-                    style={{ color: "var(--win)" }}
+                    style={{ color: higherModelConf.roi >= 0 ? "var(--win)" : "var(--text-secondary)" }}
                   >
                     {higherModelConf.roi >= 0 ? "+" : ""}{higherModelConf.roi.toFixed(1)}%
                   </p>
