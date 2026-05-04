@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import TrackRecordClient from "@/components/TrackRecordClient";
-import stats from "../../../public/data/stats.json";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Track Record",
@@ -9,7 +10,13 @@ export const metadata: Metadata = {
     "Every play is logged. Every result is verified. Full performance breakdown by edge zone, sport, and play type.",
 };
 
-export default function TrackRecordPage() {
+export default async function TrackRecordPage() {
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://outliersportshq.com"}/data/stats.json`,
+    { cache: "no-store" }
+  );
+  const stats = await res.json();
+
   return (
     <>
       <PageHeader

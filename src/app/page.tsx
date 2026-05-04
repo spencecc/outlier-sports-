@@ -3,10 +3,9 @@ import Link from "next/link";
 import StatCard from "@/components/StatCard";
 import ReportCard from "@/components/ReportCard";
 import BeehiivSignup from "@/components/BeehiivSignup";
-import stats from "../../public/data/stats.json";
 import { getRssPosts } from "@/lib/getRssPosts";
 
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Outlier Sports — 50,000 Simulations. Find the Outliers.",
@@ -15,8 +14,14 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  const { lifetime, season2026, higherModelConf } = stats;
-  const recentReports = await getRssPosts(3);
+  const [statsRes, recentReports] = await Promise.all([
+    fetch(
+      `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://outliersportshq.com"}/data/stats.json`,
+      { cache: "no-store" }
+    ).then((r) => r.json()),
+    getRssPosts(3),
+  ]);
+  const { lifetime, season2026, higherModelConf } = statsRes;
 
   return (
     <>
@@ -70,10 +75,16 @@ export default async function HomePage() {
       <section className="border-y" style={{ borderColor: "var(--border)" }}>
         <div className="max-w-7xl mx-auto px-6 pt-6 pb-2">
           <p
-            className="text-xs font-sans uppercase tracking-widest mb-4"
-            style={{ color: "var(--text-secondary)" }}
+            className="text-xs font-sans uppercase tracking-widest mb-1"
+            style={{ color: "var(--accent)" }}
           >
             Standard Model Edge
+          </p>
+          <p
+            className="text-xs font-mono mb-4"
+            style={{ color: "var(--accent)" }}
+          >
+            7–10% edge — fully graded and tracked
           </p>
         </div>
         <div className="max-w-7xl mx-auto px-6 pb-2">
@@ -114,7 +125,7 @@ export default async function HomePage() {
             </p>
             <p
               className="text-xs font-mono mb-4"
-              style={{ color: "var(--text-tertiary)" }}
+              style={{ color: "var(--accent)" }}
             >
               10%+ edge — fully graded and tracked
             </p>

@@ -110,13 +110,13 @@ export default function TrackRecordClient({
             <div>
               <p
                 className="text-xs font-sans uppercase tracking-widest mb-1"
-                style={{ color: "var(--text-secondary)" }}
+                style={{ color: "var(--accent)" }}
               >
                 Standard Model Confidence
               </p>
               <p
                 className="text-xs font-mono mb-4"
-                style={{ color: "var(--text-tertiary)" }}
+                style={{ color: "var(--accent)" }}
               >
                 7–10% edge signals — fully graded and tracked
               </p>
@@ -148,7 +148,7 @@ export default function TrackRecordClient({
           </p>
           <p
             className="text-xs font-mono mb-4"
-            style={{ color: "var(--text-tertiary)" }}
+            style={{ color: "var(--accent)" }}
           >
             10%+ edge signals — fully graded and tracked
           </p>
