@@ -24,6 +24,7 @@ export default function TrackRecordPage() {
         byEdgeZone={stats.byEdgeZone}
         bySport={stats.bySport}
         byPlayType={stats.byPlayType}
+        higherModelConf={stats.higherModelConf}
       />
     </>
   );

@@ -35,6 +35,7 @@ interface Props {
   byEdgeZone: BreakdownRow[];
   bySport: BreakdownRow[];
   byPlayType: BreakdownRow[];
+  higherModelConf: { record: string; winPct: number; roi: number; units: number };
 }
 
 const PERIODS: { key: Period; label: string }[] = [
@@ -56,6 +57,7 @@ export default function TrackRecordClient({
   byEdgeZone,
   bySport,
   byPlayType,
+  higherModelConf,
 }: Props) {
   const [period, setPeriod] = useState<Period>("lifetime");
 
@@ -99,35 +101,57 @@ export default function TrackRecordClient({
 
       {/* ── Breakdown tables ───────────────────────────────────────────────── */}
       <div className="max-w-7xl mx-auto px-6 py-10 space-y-14">
-        {/* Performance by edge zone */}
+
+        {/* Standard Model Confidence — 7-10% edge */}
+        {(() => {
+          const std = byEdgeZone.find((r) => r.range === "7-10%");
+          if (!std) return null;
+          return (
+            <div>
+              <p
+                className="text-xs font-sans uppercase tracking-widest mb-4"
+                style={{ color: "var(--text-secondary)" }}
+              >
+                Standard Model Confidence
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-4">
+                <StatCard value={std.record} label="Record" />
+                <StatCard value={`${std.winPct.toFixed(1)}%`} label="Win Rate" />
+                <StatCard value={signed(std.roi, "%")} label="ROI" />
+                <StatCard value={signed(std.units, "u")} label="Units" />
+              </div>
+            </div>
+          );
+        })()}
+
+        {/* Higher Model Confidence — 10%+ edge */}
         <div>
-          <div className="mb-2">
-            <h2
-              className="font-display text-2xl md:text-3xl mb-1"
-              style={{ color: "var(--text-primary)" }}
-            >
-              Performance by Edge
-            </h2>
-            <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
-              Plays are grouped by the model&apos;s edge at release.
-              {period !== "lifetime" && (
-                <span style={{ color: "var(--text-tertiary)" }}>
-                  {" "}
-                  Segment breakdowns reflect the full all-time sample.
-                </span>
-              )}
-            </p>
+          <p
+            className="text-xs font-sans uppercase tracking-widest mb-1"
+            style={{ color: "var(--accent)" }}
+          >
+            Higher Model Confidence
+          </p>
+          <p
+            className="text-xs font-mono mb-4"
+            style={{ color: "var(--text-tertiary)" }}
+          >
+            10%+ edge signals — fully graded and tracked
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4">
+            <StatCard value={higherModelConf.record} label="Record" />
+            <StatCard value={`${higherModelConf.winPct.toFixed(1)}%`} label="Win Rate" />
+            <StatCard
+              value={signed(higherModelConf.roi, "%")}
+              label="ROI"
+              valueColor={higherModelConf.roi >= 0 ? "var(--win)" : "var(--loss)"}
+            />
+            <StatCard
+              value={signed(higherModelConf.units, "u")}
+              label="Units"
+              valueColor={higherModelConf.units >= 0 ? "var(--win)" : "var(--loss)"}
+            />
           </div>
-          <StatsTable
-            rows={byEdgeZone.map((r) => ({
-              label: r.range ?? "",
-              bets: r.bets,
-              record: r.record,
-              winPct: r.winPct,
-              roi: r.roi,
-              units: r.units,
-            }))}
-          />
         </div>
 
         {/* Performance by sport */}
