@@ -23,19 +23,19 @@ const instrumentSerif = Instrument_Serif({
 
 export const metadata: Metadata = {
   title: {
-    default: "Outlier Sports",
-    template: "%s | Outlier Sports",
+    default: "Copacetic Sports",
+    template: "%s | Copacetic Sports",
   },
   description:
-    "A Monte Carlo sports model that surfaces the games where the market is wrong. Daily picks, fully transparent track record, free.",
-  metadataBase: new URL("https://outliersportshq.com"),
+    "Simulation-driven sports betting research focused on pricing, probabilities, and disciplined decision-making.",
+  metadataBase: new URL("https://copaceticsports.com"),
   openGraph: {
-    siteName: "Outlier Sports",
+    siteName: "Copacetic Sports",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@OutlierSportsHQ",
+    site: "@CopaceticSports",
   },
 };
 

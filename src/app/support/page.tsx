@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Support Outlier Sports",
+  title: "Support Copacetic Sports",
   description:
-    "Support Outlier Sports. The model, the picks, and the track record are free — tips are appreciated but never expected.",
+    "Support Copacetic Sports. The model, the picks, and the track record are free — tips are appreciated but never expected.",
 };
 
 export default function SupportPage() {
   return (
     <>
       <PageHeader
-        title="Support Outlier Sports"
+        title="Support Copacetic Sports"
         subhead="The picks are free. Tips are appreciated but never expected."
       />
 
@@ -21,7 +21,7 @@ export default function SupportPage() {
             className="text-base leading-relaxed mb-10"
             style={{ color: "var(--text-secondary)" }}
           >
-            Outlier Sports is free — the daily reports, the track record, the
+            Copacetic Sports is free — the daily reports, the track record, the
             bet log, all of it. If the model has been useful to you and you want
             to throw a few bucks toward keeping it running, here&apos;s how.
           </p>
@@ -61,7 +61,7 @@ export default function SupportPage() {
               The best support is telling someone about the model. If you know
               someone who takes sports betting seriously, send them to{" "}
               <span style={{ color: "var(--text-primary)" }}>
-                outliersportshq.com
+                copaceticsports.com
               </span>
               .
             </p>

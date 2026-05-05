@@ -3,7 +3,7 @@ import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
   title: "Disclaimer",
-  description: "Legal disclaimer for Outlier Sports.",
+  description: "Legal disclaimer for Copacetic Sports.",
 };
 
 export default function DisclaimerPage() {
@@ -17,7 +17,7 @@ export default function DisclaimerPage() {
           style={{ color: "var(--text-secondary)" }}
         >
           <p>
-            Outlier Sports is an independent sports analytics publication
+            Copacetic Sports is an independent sports analytics publication
             operated for entertainment and informational purposes only. Nothing
             on this site constitutes financial advice, investment advice, or a
             solicitation to place any wager.
@@ -47,7 +47,7 @@ export default function DisclaimerPage() {
           <p>
             Sports betting is illegal in some jurisdictions. It is your
             responsibility to know and comply with the laws applicable in your
-            location. Outlier Sports does not encourage or facilitate illegal
+            location. Copacetic Sports does not encourage or facilitate illegal
             gambling activity.
           </p>
 

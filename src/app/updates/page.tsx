@@ -5,7 +5,7 @@ import updates from "../../../public/data/updates.json";
 export const metadata: Metadata = {
   title: "Updates",
   description:
-    "Notes from Outlier Sports on the model, the process, and what's coming next.",
+    "Notes from Copacetic Sports on the model, the process, and what's coming next.",
 };
 
 export default function UpdatesPage() {

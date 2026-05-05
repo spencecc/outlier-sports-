@@ -6,7 +6,7 @@ import BeehiivSignup from "@/components/BeehiivSignup";
 export const metadata: Metadata = {
   title: "Methodology",
   description:
-    "How Outlier finds the games the market got wrong. Monte Carlo simulation, edge-based play selection, and closing line value verification.",
+    "How Copacetic Sports finds the games the market got wrong. Monte Carlo simulation, edge-based play selection, and closing line value verification.",
 };
 
 function Section({
@@ -41,7 +41,7 @@ export default function MethodologyPage() {
     <>
       <PageHeader
         title="Methodology"
-        subhead="How Outlier finds the games the market got wrong."
+        subhead="How Copacetic Sports finds the games the market got wrong."
       />
 
       <div
@@ -53,7 +53,7 @@ export default function MethodologyPage() {
           {/* The model */}
           <Section title="The Model">
             <p>
-              Outlier&apos;s core engine is a Monte Carlo simulation. For every
+              Copacetic&apos;s core engine is a Monte Carlo simulation. For every
               game on the slate, the model generates fifty thousand simulated
               outcomes built from team-level efficiency, recent form, contextual
               factors, and real-time inputs. The output isn&apos;t a prediction
@@ -112,7 +112,7 @@ export default function MethodologyPage() {
           {/* Discipline */}
           <Section title="Discipline">
             <p>
-              A model is only as good as the discipline applied to it. Outlier
+              A model is only as good as the discipline applied to it. Copacetic
               applies hard guardrails on every play: minimum edge required,
               position sizing tied to confidence, and overrides for situational
               factors that the model alone can&apos;t see — back-to-back
@@ -129,14 +129,14 @@ export default function MethodologyPage() {
               things are recorded: the result, and the closing line. Closing
               line value — the difference between the line at release and the
               line at close — is the long-run signal that the edge was real.
-              Outlier publishes both.
+              Copacetic Sports publishes both.
             </p>
           </Section>
 
           {/* What Outlier is not */}
-          <Section title="What Outlier Is Not">
+          <Section title="What Copacetic Is Not">
             <p>
-              Outlier is not a lock service. It&apos;s not
+              Copacetic is not a lock service. It&apos;s not
               &ldquo;guaranteed winners.&rdquo; Sports betting involves
               variance, and any honest analytical product loses some weeks. The
               point of the model is positive expected value across thousands of

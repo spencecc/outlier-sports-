@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default async function TrackRecordPage() {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://outliersportshq.com"}/data/stats.json`,
+    `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://copaceticsports.com"}/data/stats.json`,
     { cache: "no-store" }
   );
   const stats = await res.json();

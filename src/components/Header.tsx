@@ -31,7 +31,7 @@ export default function Header() {
           className="font-display text-xl tracking-tight"
           style={{ color: "var(--text-primary)" }}
         >
-          Outlier Sports
+          Copacetic Sports
           <span
             className="inline-block w-1 h-1 rounded-full ml-0.5 mb-0.5 align-bottom"
             style={{ backgroundColor: "var(--accent)" }}

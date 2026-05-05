@@ -8,15 +8,15 @@ import { getRssPosts } from "@/lib/getRssPosts";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Outlier Sports — 50,000 Simulations. Find the Outliers.",
+  title: "Copacetic Sports | Sports Betting Research",
   description:
-    "A Monte Carlo sports model that surfaces the games where the market is wrong. Daily picks, fully transparent track record, free.",
+    "Simulation-driven sports betting research focused on pricing, probabilities, and disciplined decision-making.",
 };
 
 export default async function HomePage() {
   const [statsRes, recentReports] = await Promise.all([
     fetch(
-      `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://outliersportshq.com"}/data/stats.json`,
+      `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://copaceticsports.com"}/data/stats.json`,
       { cache: "no-store" }
     ).then((r) => r.json()),
     getRssPosts(3),

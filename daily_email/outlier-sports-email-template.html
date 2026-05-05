@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Outlier Sports | [DATE]</title>
+  <style>
+    body, table, td { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0; padding: 0; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; }
+
+    body {
+      background-color: #0f0f0e;
+      color: #f5f1ea;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    }
+
+    a { color: #a8a39a; text-decoration: none; }
+
+    /* ── WRAPPER ── */
+    .wrapper { background-color: #0f0f0e; width: 100%; padding: 24px 0 48px; }
+    .container { max-width: 600px; margin: 0 auto; padding: 0 24px; }
+
+    /* ── HEADER ── */
+    .header {
+      padding: 32px 0 24px;
+      border-bottom: 1px solid #2a2a26;
+    }
+    .brand {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 22px;
+      color: #f5f1ea;
+      letter-spacing: -0.02em;
+      margin: 0 0 4px 0;
+    }
+    .brand-dot {
+      display: inline-block;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: #e8542c;
+      margin-left: 2px;
+      vertical-align: middle;
+      margin-bottom: 3px;
+    }
+    .header-date {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 11px;
+      color: #6b665f;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin: 0;
+    }
+
+    /* ── SECTION ── */
+    .section {
+      padding: 28px 0;
+      border-bottom: 1px solid #2a2a26;
+    }
+    .section-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: #e8542c;
+      margin: 0 0 14px 0;
+    }
+
+    /* ── LAST NIGHT ── */
+    .result {
+      font-size: 14px;
+      color: #a8a39a;
+      line-height: 1.65;
+      margin: 0;
+    }
+    .tag-win  { color: #5a8c6a; font-weight: 600; font-family: 'Courier New', Courier, monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+    .tag-loss { color: #c13838; font-weight: 600; font-family: 'Courier New', Courier, monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+    .tag-push { color: #8a8580;  font-weight: 600; font-family: 'Courier New', Courier, monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+
+    /* ── PICK CARD ── */
+    .pick-card {
+      background-color: #1a1a18;
+      border: 1px solid #2a2a26;
+      padding: 18px 20px;
+      margin-bottom: 12px;
+    }
+    .pick-matchup {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 10px;
+      color: #6b665f;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin: 0 0 6px 0;
+    }
+    .pick-bet {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 19px;
+      color: #f5f1ea;
+      margin: 0 0 10px 0;
+      line-height: 1.25;
+    }
+    .pick-meta {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 12px;
+      color: #a8a39a;
+      margin: 0 0 12px 0;
+    }
+    .pick-edge { color: #e8542c; font-weight: 700; }
+    .pick-note {
+      font-size: 13px;
+      color: #a8a39a;
+      line-height: 1.55;
+      margin: 0;
+      border-top: 1px solid #2a2a26;
+      padding-top: 10px;
+    }
+
+    /* ── PASS DAY ── */
+    .pass-block {
+      background-color: #1a1a18;
+      border: 1px solid #2a2a26;
+      border-left: 3px solid #e8542c;
+      padding: 14px 18px;
+      font-size: 13px;
+      color: #a8a39a;
+      line-height: 1.55;
+    }
+
+    /* ── HMC / ON THE RADAR ── */
+    .hmc-intro {
+      font-size: 12px;
+      color: #6b665f;
+      margin: 0 0 4px 0;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    .hmc-record {
+      font-size: 12px;
+      color: #5a8c6a;
+      margin: 0 0 16px 0;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    .hmc-item {
+      padding: 12px 0;
+      border-bottom: 1px solid #2a2a26;
+    }
+    .hmc-item:last-child { border-bottom: none; }
+    .hmc-header {
+      display: block;
+      margin-bottom: 4px;
+    }
+    .hmc-matchup {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 11px;
+      color: #6b665f;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .hmc-edge {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 11px;
+      color: #e8542c;
+      font-weight: 700;
+      margin-left: 10px;
+    }
+    .hmc-text {
+      font-size: 13px;
+      color: #a8a39a;
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    /* ── SIGN-OFF ── */
+    .signoff {
+      padding: 32px 0 24px;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 16px;
+      color: #f5f1ea;
+      border-bottom: 1px solid #2a2a26;
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      padding: 24px 0 0;
+    }
+    .footer-links {
+      font-size: 12px;
+      color: #6b665f;
+      text-align: center;
+      margin: 0 0 14px 0;
+    }
+    .footer-links a {
+      color: #6b665f;
+      margin: 0 10px;
+      font-size: 12px;
+    }
+    .footer-disclaimer {
+      font-size: 11px;
+      color: #6b665f;
+      line-height: 1.6;
+      text-align: center;
+      margin: 0;
+    }
+    .footer-disclaimer a { color: #6b665f; text-decoration: underline; }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+<div class="container">
+
+
+  <!-- ── HEADER ─────────────────────────────── -->
+  <div class="header">
+    <p class="brand">Outlier Sports<span class="brand-dot"></span></p>
+    <!-- EDIT: update date each night -->
+    <p class="header-date">Daily Report — May 4, 2026</p>
+  </div>
+
+
+  <!-- ── LAST NIGHT ────────────────────────── -->
+  <div class="section">
+    <p class="section-label">Last Night</p>
+
+    <!--
+      INSTRUCTIONS: One block per play from the prior night.
+      Use tag-win / tag-loss / tag-push as appropriate.
+      Delete unused example blocks.
+    -->
+
+    <!-- WIN -->
+    <p class="result">
+      <span class="tag-win">WIN ✓</span> &nbsp;KC @ SEA Under 8.0 &nbsp;(+0.91u)<br>
+      Royals 4, Mariners 1. Five total runs. That line was never in danger.
+    </p>
+
+    <!-- LOSS (uncomment when needed)
+    <p class="result" style="margin-top: 10px;">
+      <span class="tag-loss">LOSS ✗</span> &nbsp;[MATCHUP + BET] &nbsp;(−[X.XX]u)<br>
+      [SCORE]. [One sentence — plain, no spin.]
+    </p>
+    -->
+
+    <!-- PUSH (uncomment when needed)
+    <p class="result" style="margin-top: 10px;">
+      <span class="tag-push">PUSH —</span> &nbsp;[MATCHUP + BET] &nbsp;(0.00u)<br>
+      [SCORE]. [One sentence.]
+    </p>
+    -->
+
+    <!-- PASS (prior night had no plays — uncomment when needed)
+    <p class="result">No plays last night. Model passed on the slate.</p>
+    -->
+  </div>
+
+
+  <!-- ── TODAY'S PLAYS ─────────────────────── -->
+  <div class="section">
+    <p class="section-label">Today's Plays</p>
+
+    <!--
+      INSTRUCTIONS: One pick-card per play. Duplicate the block as needed.
+      On a PASS day, delete all pick-cards and use the pass-block instead.
+    -->
+
+    <!-- PICK 1 -->
+    <div class="pick-card">
+      <p class="pick-matchup">CWS @ LAA &mdash; May 4</p>
+      <p class="pick-bet">Over 7.5</p>
+      <p class="pick-meta"><span class="pick-edge">Edge: 9.6%</span> &nbsp;&bull;&nbsp; -110</p>
+      <p class="pick-note">The model likes the run environment in Anaheim. Both offenses have the upside to push this over 7.5, and the projection cleared the threshold with room to spare.</p>
+    </div>
+
+    <!-- PICK 2 -->
+    <div class="pick-card">
+      <p class="pick-matchup">SD @ SF &mdash; May 4</p>
+      <p class="pick-bet">San Francisco Giants +1.5</p>
+      <p class="pick-meta"><span class="pick-edge">Edge: 7.9%</span> &nbsp;&bull;&nbsp; -146</p>
+      <p class="pick-note">SF at home, priced as a moderate underdog. The model sees this game tighter than the market does — +1.5 gives us the cushion.</p>
+    </div>
+
+    <!-- PASS DAY (delete pick-cards above and uncomment this block)
+    <div class="pass-block">
+      No plays today. The model didn't find enough edge on the slate to trigger a play.
+      PASS days are the model doing its job — we only send plays when there's real edge.
+    </div>
+    -->
+  </div>
+
+
+  <!-- ── ON THE RADAR (HMC) ────────────────── -->
+  <div class="section">
+    <p class="section-label">On the Radar</p>
+    <p class="hmc-intro">Higher Model Confidence — 10%+ edge, fully graded and tracked</p>
+    <p class="hmc-record">124-86-4P &nbsp;|&nbsp; 59.0% win rate &nbsp;|&nbsp; +10.5% ROI &nbsp;|&nbsp; +22.0u</p>
+
+    <!--
+      INSTRUCTIONS: Pick 2–3 of the most interesting HMC signals.
+      Delete or add hmc-item blocks as needed.
+    -->
+
+    <div class="hmc-item">
+      <span class="hmc-header">
+        <span class="hmc-matchup">ATL @ SEA</span>
+        <span class="hmc-edge">24.5% edge</span>
+      </span>
+      <p class="hmc-text">Braves ML (+150). Biggest edge on today's board. Atlanta's being priced like a road pushover — the model disagrees pretty strongly.</p>
+    </div>
+
+    <div class="hmc-item">
+      <span class="hmc-header">
+        <span class="hmc-matchup">SD @ SF</span>
+        <span class="hmc-edge">26.2% edge</span>
+      </span>
+      <p class="hmc-text">Under 8.5 (-110). Same game as our official play. Model expects a low-scoring environment in SF, which fits with a close game landing under.</p>
+    </div>
+
+    <div class="hmc-item">
+      <span class="hmc-header">
+        <span class="hmc-matchup">PHI @ MIA</span>
+        <span class="hmc-edge">15.3% edge</span>
+      </span>
+      <p class="hmc-text">Marlins ML (+100). Even money on Miami, and the model sees this as a near coin flip or better. Worth tracking.</p>
+    </div>
+  </div>
+
+
+  <!-- ── SIGN-OFF ───────────────────────────── -->
+  <div class="signoff">
+    &mdash; Spencer
+  </div>
+
+
+  <!-- ── FOOTER ────────────────────────────── -->
+  <div class="footer">
+    <p class="footer-links">
+      <a href="https://outliersportshq.com/plays">Today's Plays</a>
+      <a href="https://outliersportshq.com/track-record">Track Record</a>
+      <a href="https://outliersportshq.com/reports">Reports</a>
+      <a href="https://outliersportshq.com/methodology">Methodology</a>
+    </p>
+    <p class="footer-disclaimer">
+      Outlier Sports is for entertainment and informational purposes only.<br>
+      21+ where applicable. Bet responsibly. &nbsp;<a href="https://outliersportshq.com/legal/disclaimer">Disclaimer</a>
+    </p>
+  </div>
+
+
+</div>
+</div>
+</body>
+</html>

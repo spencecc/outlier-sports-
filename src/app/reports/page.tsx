@@ -9,7 +9,7 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "Reports",
   description:
-    "Daily Detail Reports from Outlier Sports — every play, every probability, every edge delivered before first pitch.",
+    "Daily Detail Reports from Copacetic Sports — every play, every probability, every edge delivered before first pitch.",
 };
 
 export default async function ReportsPage() {

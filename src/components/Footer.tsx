@@ -14,7 +14,7 @@ export default function Footer() {
             className="font-display text-lg mb-2"
             style={{ color: "var(--text-primary)" }}
           >
-            Outlier Sports
+            Copacetic Sports
           </p>
           <p
             className="text-sm leading-relaxed"
@@ -26,7 +26,7 @@ export default function Footer() {
             className="text-xs mt-4"
             style={{ color: "var(--text-tertiary)" }}
           >
-            © {new Date().getFullYear()} Outlier Sports. All rights reserved.
+            © {new Date().getFullYear()} Copacetic Sports. All rights reserved.
           </p>
         </div>
 
@@ -69,13 +69,13 @@ export default function Footer() {
           <ul className="flex flex-col gap-3">
             <li>
               <a
-                href="https://x.com/OutlierSportsHQ"
+                href="https://x.com/CopaceticSports"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm transition-colors duration-150"
                 style={{ color: "var(--text-secondary)" }}
               >
-                X @OutlierSportsHQ
+                X @CopaceticSports
               </a>
             </li>
             <li>
@@ -94,7 +94,7 @@ export default function Footer() {
                 className="text-sm transition-colors duration-150"
                 style={{ color: "var(--text-secondary)" }}
               >
-                Support Outlier
+                Support Copacetic Sports
               </Link>
             </li>
           </ul>
@@ -110,7 +110,7 @@ export default function Footer() {
           className="text-xs text-center max-w-3xl mx-auto leading-relaxed"
           style={{ color: "var(--text-tertiary)" }}
         >
-          Outlier Sports is for entertainment and informational purposes only.
+          Copacetic Sports is for entertainment and informational purposes only.
           21+ where applicable. Bet responsibly.{" "}
           <Link
             href="/legal/disclaimer"
