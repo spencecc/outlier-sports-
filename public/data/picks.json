@@ -1,5 +1,36 @@
 {
   "date": "2026-05-05",
-  "picks": [],
-  "hasPicks": false
+  "hasPicks": true,
+  "picks": [
+    {
+      "date": "2026-05-05",
+      "sport": "MLB",
+      "game": "Reds @ Cubs",
+      "play": "O 8.0",
+      "type": "Total",
+      "edge": 7.1,
+      "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-05",
+      "sport": "MLB",
+      "game": "Sox @ Angels",
+      "play": "O 9.0",
+      "type": "Total",
+      "edge": 7.1,
+      "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-05",
+      "sport": "MLB",
+      "game": "Braves @ Mariners",
+      "play": "ATL +1.5",
+      "type": "Run Line",
+      "edge": 7.8,
+      "odds": -182,
+      "isLean": false
+    }
+  ]
 }
