@@ -1,25 +1,15 @@
 {
-  "date": "2026-05-04",
+  "date": "2026-05-05",
   "picks": [
     {
       "date": "2026-05-04",
       "sport": "MLB",
-      "game": "PHI @ MIA",
-      "play": "Under 8.5",
+      "game": "Phillies @ Marlins",
+      "play": "U 8.5",
       "type": "Total",
-      "edge": 7.3,
+      "edge": 8.2,
       "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-04",
-      "sport": "MLB",
-      "game": "CHW @ LAA",
-      "play": "Over 7.5",
-      "type": "Total",
-      "edge": 9.6,
-      "odds": -110,
-      "isLean": false
+      "isLean": true
     }
   ],
   "hasPicks": true
