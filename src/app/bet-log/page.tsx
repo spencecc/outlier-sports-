@@ -336,8 +336,23 @@ export default function BetLogPage() {
                     >
                       {resultLabel(bet.result)}
                     </td>
-                    <td className="py-2.5 px-3 text-right" style={{ color: "var(--text-secondary)" }}>
-                      {bet.units.toFixed(1)}u
+                    <td
+                      className="py-2.5 px-3 text-right font-semibold"
+                      style={{
+                        color: bet.payout == null
+                          ? "var(--text-secondary)"
+                          : bet.payout > 0
+                          ? "var(--win)"
+                          : bet.payout < 0
+                          ? "var(--loss)"
+                          : "var(--text-secondary)",
+                      }}
+                    >
+                      {bet.payout == null
+                        ? `${bet.units.toFixed(1)}u`
+                        : bet.payout >= 0
+                        ? `+${bet.payout.toFixed(2)}u`
+                        : `${bet.payout.toFixed(2)}u`}
                     </td>
                     <td className="py-2.5 px-3 text-right" style={{ color: "var(--text-tertiary)" }}>
                       {fmtClv(bet.clv)}
