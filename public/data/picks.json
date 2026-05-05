@@ -1,16 +1,5 @@
 {
   "date": "2026-05-05",
-  "picks": [
-    {
-      "date": "2026-05-04",
-      "sport": "MLB",
-      "game": "Phillies @ Marlins",
-      "play": "U 8.5",
-      "type": "Total",
-      "edge": 8.2,
-      "odds": -110,
-      "isLean": true
-    }
-  ],
-  "hasPicks": true
+  "picks": [],
+  "hasPicks": false
 }
