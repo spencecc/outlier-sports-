@@ -1,22 +1,11 @@
 {
   "date": "2026-05-05",
-  "hasPicks": true,
   "picks": [
     {
       "date": "2026-05-05",
       "sport": "MLB",
-      "game": "TEX @ NYY",
-      "play": "Yankees -1.5",
-      "type": "Run Line",
-      "edge": 8.3,
-      "odds": 164,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-05",
-      "sport": "MLB",
-      "game": "CIN @ CHC",
-      "play": "Over 8.0",
+      "game": "Reds @ Cubs",
+      "play": "O 8.0",
       "type": "Total",
       "edge": 7.1,
       "odds": -110,
@@ -25,8 +14,8 @@
     {
       "date": "2026-05-05",
       "sport": "MLB",
-      "game": "CWS @ LAA",
-      "play": "Over 9.0",
+      "game": "Sox @ Angels",
+      "play": "O 9.0",
       "type": "Total",
       "edge": 7.1,
       "odds": -110,
@@ -35,32 +24,13 @@
     {
       "date": "2026-05-05",
       "sport": "MLB",
-      "game": "PIT @ ARI",
-      "play": "Pirates +1.5",
-      "type": "Run Line",
-      "edge": 9.1,
-      "odds": -182,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-05",
-      "sport": "MLB",
-      "game": "ATL @ SEA",
-      "play": "Braves +1.5",
+      "game": "Braves @ Mariners",
+      "play": "ATL +1.5",
       "type": "Run Line",
       "edge": 7.8,
       "odds": -182,
       "isLean": false
-    },
-    {
-      "date": "2026-05-05",
-      "sport": "MLB",
-      "game": "SD @ SF",
-      "play": "Padres +1.5",
-      "type": "Run Line",
-      "edge": 8.6,
-      "odds": -184,
-      "isLean": false
     }
-  ]
+  ],
+  "hasPicks": true
 }
