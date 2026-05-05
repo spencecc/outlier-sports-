@@ -4706,5 +4706,27 @@
     "closeLine": -140,
     "clv": -0.34,
     "notes": ""
+  },
+  {
+    "id": "2026-05-04-003",
+    "internalId": "MLB-CHW-LAA-0504",
+    "date": "2026-05-04",
+    "sport": "MLB",
+    "game": "White Sox @ Angels",
+    "play": "U 7.5",
+    "type": "Total",
+    "tier": "Standard Edge",
+    "edge": 9.6,
+    "odds": -110,
+    "units": 1.0,
+    "stake": 25,
+    "result": "win",
+    "payout": 0.91,
+    "scoreAway": 6,
+    "scoreHome": 0,
+    "openLine": -110,
+    "closeLine": -110,
+    "clv": 0.0,
+    "notes": ""
   }
 ]
