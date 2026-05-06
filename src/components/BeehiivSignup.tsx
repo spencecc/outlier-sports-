@@ -14,7 +14,7 @@ export default function BeehiivSignup() {
     const script = document.createElement("script");
     script.async = true;
     script.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";
-    script.setAttribute("data-beehiiv-form", "96e9cdee-25d7-44df-a91f-ebe3685e6237");
+    script.setAttribute("data-beehiiv-form", "4bb68e8c-a4c7-407d-9b6d-f06457ddb136");
     container.appendChild(script);
   }, []);
 
