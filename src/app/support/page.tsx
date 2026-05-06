@@ -61,7 +61,7 @@ export default function SupportPage() {
               The best support is telling someone about the model. If you know
               someone who takes sports betting seriously, send them to{" "}
               <span style={{ color: "var(--text-primary)" }}>
-                copaceticsports.com
+                www.copaceticsports.com
               </span>
               .
             </p>

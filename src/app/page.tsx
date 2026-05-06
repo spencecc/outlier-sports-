@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default async function HomePage() {
   const [statsRes, recentReports] = await Promise.all([
     fetch(
-      `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://copaceticsports.com"}/data/stats.json`,
+      `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.copaceticsports.com"}/data/stats.json`,
       { cache: "no-store" }
     ).then((r) => r.json()),
     getRssPosts(3),

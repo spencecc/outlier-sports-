@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   description:
     "Simulation-driven sports betting research focused on pricing, probabilities, and disciplined decision-making.",
-  metadataBase: new URL("https://copaceticsports.com"),
+  metadataBase: new URL("https://www.copaceticsports.com"),
   openGraph: {
     siteName: "Copacetic Sports",
     type: "website",
