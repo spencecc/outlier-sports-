@@ -1,5 +1,11 @@
 [
   {
+    "id": "002",
+    "date": "2026-05-06",
+    "title": "Football, Basketball, NHL — and a URL Change",
+    "body": "The football model is in progress. It's loosely based on the baseball architecture but the sport is different enough that it's essentially a rebuild — different variance, different line movement, different sample requirements. Things are moving well and we're on track for a fall launch.\n\nWe had a head start on basketball from some work last season, so that one is closer than it looks. NHL is on the roadmap too.\n\nQuick note on the URL — we made a last-minute switch to copaceticsports.com this week. Same model, same track record, new home. Everything should be pointed correctly but reach out if anything looks off. Contact info is coming this week.\n\nIf you're not on the email list, sign up. That's where the full daily breakdown and Higher Model Confidence plays go out each morning.\n\nWe're locked in."
+  },
+  {
     "id": "001",
     "date": "2026-05-03",
     "title": "Welcome to Copacetic Sports",
