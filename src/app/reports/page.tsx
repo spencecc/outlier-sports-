@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
+import ReportsArchiveList from "@/components/ReportsArchiveList";
 import fs from "fs/promises";
 import path from "path";
 
@@ -95,57 +95,7 @@ export default async function ReportsPage() {
           )}
         </div>
 
-        {/* Archive */}
-        {pastReports.length > 0 && (
-          <div>
-            <p
-              className="text-xs font-mono uppercase tracking-widest mb-6"
-              style={{ color: "var(--text-tertiary)" }}
-            >
-              Archive
-            </p>
-            <div className="max-w-2xl space-y-px">
-              {pastReports.map((r) => (
-                <Link
-                  key={r.date}
-                  href={`/reports/${r.date}`}
-                  className="group flex items-center justify-between border p-5 transition-colors duration-150"
-                  style={{
-                    borderColor: "var(--border)",
-                    backgroundColor: "var(--bg-surface)",
-                  }}
-                  onMouseEnter={(e) =>
-                    (e.currentTarget.style.borderColor = "var(--accent)")
-                  }
-                  onMouseLeave={(e) =>
-                    (e.currentTarget.style.borderColor = "var(--border)")
-                  }
-                >
-                  <div>
-                    <p
-                      className="text-xs font-mono mb-1"
-                      style={{ color: "var(--text-tertiary)" }}
-                    >
-                      {r.displayDate}
-                    </p>
-                    <p
-                      className="font-display text-base"
-                      style={{ color: "var(--text-primary)" }}
-                    >
-                      {r.games ?? "—"} games evaluated &middot; {r.plays ?? "—"} plays
-                    </p>
-                  </div>
-                  <span
-                    className="text-xs font-mono shrink-0 ml-4 transition-colors duration-150 group-hover:text-accent"
-                    style={{ color: "var(--text-tertiary)" }}
-                  >
-                    View →
-                  </span>
-                </Link>
-              ))}
-            </div>
-          </div>
-        )}
+        <ReportsArchiveList reports={pastReports} />
 
       </div>
     </>
