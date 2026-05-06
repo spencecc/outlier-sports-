@@ -50,7 +50,7 @@ def git_push(files_added: list[str]) -> None:
         check=True,
     )
     subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
-    print("Pushed to GitHub — Vercel will redeploy.")
+    print("Pushed to GitHub - Vercel will redeploy.")
 
 
 def main() -> None:
@@ -77,7 +77,7 @@ def main() -> None:
         dest_path = os.path.join(DEST_DIR, filename)
 
         shutil.copy2(src_path, dest_path)
-        print(f"Copied {filename} → public/data/emails/")
+        print(f"Copied {filename} -> public/data/emails/")
         copied.append(dest_path)
 
         if date_str not in existing_dates:
@@ -96,7 +96,7 @@ def main() -> None:
 
     with open(INDEX_FILE, "w", encoding="utf-8") as fh:
         json.dump(index, fh, indent=2)
-    print(f"Updated emails.json — {len(index)} total entries.")
+    print(f"Updated emails.json - {len(index)} total entries.")
 
     git_push(copied)
 
