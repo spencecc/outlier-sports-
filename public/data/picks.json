@@ -4,16 +4,6 @@
     {
       "date": "2026-05-06",
       "sport": "MLB",
-      "game": "Padres @ Giants",
-      "play": "Under 8.5",
-      "type": "Total",
-      "edge": 8.0,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-06",
-      "sport": "MLB",
       "game": "Orioles @ Marlins",
       "play": "MIA -1.5",
       "type": "Run Line",
