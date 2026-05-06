@@ -26,17 +26,24 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Wordmark */}
-        <Link
-          href="/"
-          className="font-display text-xl tracking-tight"
-          style={{ color: "var(--text-primary)" }}
-        >
-          Copacetic Sports
+        <Link href="/" className="flex flex-col leading-none gap-1">
           <span
-            className="inline-block w-1 h-1 rounded-full ml-0.5 mb-0.5 align-bottom"
-            style={{ backgroundColor: "var(--accent)" }}
-            aria-hidden
-          />
+            className="font-display text-xl tracking-tight"
+            style={{ color: "var(--text-primary)" }}
+          >
+            Copacetic Sports
+            <span
+              className="inline-block w-1 h-1 rounded-full ml-0.5 mb-0.5 align-bottom"
+              style={{ backgroundColor: "var(--accent)" }}
+              aria-hidden
+            />
+          </span>
+          <span
+            className="font-mono text-[10px] tracking-widest lowercase"
+            style={{ color: "var(--text-tertiary)" }}
+          >
+            keep that bankroll copacetic
+          </span>
         </Link>
 
         {/* Desktop nav */}
