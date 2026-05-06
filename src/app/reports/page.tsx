@@ -1,90 +1,79 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
-import BeehiivSignup from "@/components/BeehiivSignup";
-import ReportCard from "@/components/ReportCard";
-import emailsData from "../../../public/data/emails.json";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Reports",
   description:
-    "Daily analysis emails from Copacetic Sports — plays, results, and model context delivered every morning.",
+    "Full daily model output — pitcher stats, bullpen status, weather, park factors, and simulation results for every game evaluated.",
 };
 
-interface EmailEntry {
-  date: string;
-  displayDate: string;
-  title: string;
-  file: string;
+function todayDate(): string {
+  return new Date().toISOString().slice(0, 10);
 }
 
-const emails = emailsData as EmailEntry[];
+export default async function ReportsPage() {
+  const date = todayDate();
+  const base =
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.copaceticsports.com";
 
-export default function ReportsPage() {
+  let report: string | null = null;
+  try {
+    const res = await fetch(`${base}/data/reports/${date}.txt`, {
+      cache: "no-store",
+    });
+    if (res.ok) report = await res.text();
+  } catch {
+    // file not available yet
+  }
+
   return (
     <>
       <PageHeader
         title="Reports"
-        subhead="Daily analysis — plays, results, and model context."
+        subhead="Full model output — pitchers, bullpen, weather, park factors."
       />
 
-      <div className="max-w-7xl mx-auto px-6 py-16 md:py-24">
-        <div className="max-w-2xl">
-
-          {emails.length > 0 ? (
-            <div className="space-y-4 mb-16">
-              {emails.map((email) => (
-                <ReportCard
-                  key={email.date}
-                  date={email.displayDate}
-                  title={email.title}
-                  url={`/data/emails/${email.file}`}
-                />
-
-              ))}
-            </div>
-          ) : (
-            <div
-              className="border p-8 mb-12"
-              style={{ borderColor: "var(--border)" }}
-            >
-              <p
-                className="font-display text-2xl md:text-3xl mb-4"
-                style={{ color: "var(--text-primary)" }}
-              >
-                No reports yet.
-              </p>
-              <p
-                className="text-base leading-relaxed mb-6"
-                style={{ color: "var(--text-secondary)" }}
-              >
-                Daily analysis emails will appear here. Subscribe below to get
-                them in your inbox every morning.
-              </p>
-              <BeehiivSignup />
-            </div>
-          )}
-
+      <div className="max-w-7xl mx-auto px-6 py-12">
+        {report ? (
           <div
-            className="border p-8"
+            className="border p-6 md:p-8 overflow-x-auto"
+            style={{ borderColor: "var(--border)", backgroundColor: "var(--bg-surface)" }}
+          >
+            <p
+              className="text-xs font-mono mb-6 uppercase tracking-widest"
+              style={{ color: "var(--text-tertiary)" }}
+            >
+              {date}
+            </p>
+            <pre
+              className="text-xs leading-relaxed whitespace-pre font-mono"
+              style={{ color: "var(--text-secondary)" }}
+            >
+              {report}
+            </pre>
+          </div>
+        ) : (
+          <div
+            className="border p-8 max-w-2xl"
             style={{ borderColor: "var(--border)" }}
           >
             <p
-              className="font-sans text-sm font-medium mb-2"
+              className="font-display text-2xl md:text-3xl mb-4"
               style={{ color: "var(--text-primary)" }}
             >
-              Get the daily email
+              No report yet today.
             </p>
             <p
-              className="text-sm leading-relaxed mb-6"
+              className="text-sm leading-relaxed"
               style={{ color: "var(--text-secondary)" }}
             >
-              Plays, results, and model context delivered every morning before
-              first pitch.
+              Today&apos;s full model output will appear here once the morning run
+              completes. Check back after first pitch.
             </p>
-            <BeehiivSignup />
           </div>
-
-        </div>
+        )}
       </div>
     </>
   );
