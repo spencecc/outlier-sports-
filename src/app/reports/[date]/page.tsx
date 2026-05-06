@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import fs from "fs/promises";
+import path from "path";
 
 export const dynamic = "force-dynamic";
 
@@ -17,15 +19,15 @@ export default async function ReportDetailPage({ params }: Props) {
 
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) notFound();
 
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.copaceticsports.com";
-
-  const res = await fetch(`${base}/data/reports/${date}.txt`, {
-    cache: "no-store",
-  });
-  if (!res.ok) notFound();
-
-  const report = await res.text();
+  let report: string;
+  try {
+    report = await fs.readFile(
+      path.join(process.cwd(), "public", "data", "reports", `${date}.txt`),
+      "utf-8"
+    );
+  } catch {
+    notFound();
+  }
 
   return (
     <div>
@@ -40,7 +42,7 @@ export default async function ReportDetailPage({ params }: Props) {
           onMouseEnter={(e) => (e.currentTarget.style.color = "var(--text-primary)")}
           onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-tertiary)")}
         >
-          ← Reports
+          &larr; Reports
         </Link>
       </div>
 

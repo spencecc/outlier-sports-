@@ -4,6 +4,8 @@ import StatCard from "@/components/StatCard";
 import ReportCard from "@/components/ReportCard";
 import BeehiivSignup from "@/components/BeehiivSignup";
 import { getRssPosts } from "@/lib/getRssPosts";
+import fs from "fs/promises";
+import path from "path";
 
 export const dynamic = "force-dynamic";
 
@@ -14,13 +16,11 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  const [statsRes, recentReports] = await Promise.all([
-    fetch(
-      `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.copaceticsports.com"}/data/stats.json`,
-      { cache: "no-store" }
-    ).then((r) => r.json()),
+  const [statsRaw, recentReports] = await Promise.all([
+    fs.readFile(path.join(process.cwd(), "public", "data", "stats.json"), "utf-8"),
     getRssPosts(3),
   ]);
+  const statsRes = JSON.parse(statsRaw);
   const { lifetime, season2026, higherModelConf } = statsRes;
 
   return (

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import TrackRecordClient from "@/components/TrackRecordClient";
+import fs from "fs/promises";
+import path from "path";
 
 export const dynamic = "force-dynamic";
 
@@ -11,11 +13,9 @@ export const metadata: Metadata = {
 };
 
 export default async function TrackRecordPage() {
-  const res = await fetch(
-    `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.copaceticsports.com"}/data/stats.json`,
-    { cache: "no-store" }
+  const stats = JSON.parse(
+    await fs.readFile(path.join(process.cwd(), "public", "data", "stats.json"), "utf-8")
   );
-  const stats = await res.json();
 
   return (
     <>

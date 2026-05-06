@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import EmailFrame from "@/components/EmailFrame";
+import fs from "fs/promises";
+import path from "path";
 
 export const dynamic = "force-dynamic";
 
@@ -24,13 +26,11 @@ export default async function PastEmailPage({ params }: Props) {
   const today = new Date().toISOString().slice(0, 10);
   if (date >= today) notFound();
 
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.copaceticsports.com";
-  const check = await fetch(`${base}/data/emails/${date}.html`, {
-    method: "HEAD",
-    cache: "no-store",
-  });
-  if (!check.ok) notFound();
+  try {
+    await fs.access(path.join(process.cwd(), "public", "data", "emails", `${date}.html`));
+  } catch {
+    notFound();
+  }
 
   return (
     <div>

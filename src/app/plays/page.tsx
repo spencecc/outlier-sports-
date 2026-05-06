@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import BeehiivSignup from "@/components/BeehiivSignup";
+import fs from "fs/promises";
+import path from "path";
 
-export const revalidate = 0;
+export const dynamic = "force-dynamic";
 
 interface Pick {
   date: string;
@@ -26,11 +28,9 @@ function fmtOdds(n: number) {
 }
 
 export default async function PlaysPage() {
-  const res = await fetch(
-    `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.copaceticsports.com"}/data/picks.json`,
-    { cache: "no-store" }
-  );
-  const picks = (await res.json()) as { date: string; picks: Pick[]; hasPicks: boolean };
+  const picks = JSON.parse(
+    await fs.readFile(path.join(process.cwd(), "public", "data", "picks.json"), "utf-8")
+  ) as { date: string; picks: Pick[]; hasPicks: boolean };
   const { date, picks: playList, hasPicks } = picks;
 
   const displayDate = new Date(date + "T12:00:00").toLocaleDateString("en-US", {

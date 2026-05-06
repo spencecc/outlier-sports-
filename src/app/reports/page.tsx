@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
+import fs from "fs/promises";
+import path from "path";
 
 export const dynamic = "force-dynamic";
 
@@ -24,17 +26,21 @@ function todayDate(): string {
 
 export default async function ReportsPage() {
   const today = todayDate();
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.copaceticsports.com";
+  const dataDir = path.join(process.cwd(), "public", "data");
 
-  // Fetch today's report and the index in parallel
-  const [reportRes, indexRes] = await Promise.all([
-    fetch(`${base}/data/reports/${today}.txt`, { cache: "no-store" }),
-    fetch(`${base}/data/reports.json`, { cache: "no-store" }),
-  ]);
+  let report: string | null = null;
+  try {
+    report = await fs.readFile(path.join(dataDir, "reports", `${today}.txt`), "utf-8");
+  } catch {
+    // not available yet
+  }
 
-  const report = reportRes.ok ? await reportRes.text() : null;
-  const allReports: ReportEntry[] = indexRes.ok ? await indexRes.json() : [];
+  let allReports: ReportEntry[] = [];
+  try {
+    allReports = JSON.parse(await fs.readFile(path.join(dataDir, "reports.json"), "utf-8"));
+  } catch {
+    // index missing
+  }
   const pastReports = allReports.filter((r) => r.date < today);
 
   return (

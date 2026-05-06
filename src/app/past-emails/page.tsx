@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import BeehiivSignup from "@/components/BeehiivSignup";
+import fs from "fs/promises";
+import path from "path";
 
 export const dynamic = "force-dynamic";
 
@@ -25,11 +27,9 @@ function formatDate(dateStr: string) {
 }
 
 export default async function PastEmailsPage() {
-  const res = await fetch(
-    `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.copaceticsports.com"}/data/emails.json`,
-    { cache: "no-store" }
-  );
-  const allEmails = (await res.json()) as EmailEntry[];
+  const allEmails = JSON.parse(
+    await fs.readFile(path.join(process.cwd(), "public", "data", "emails.json"), "utf-8")
+  ) as EmailEntry[];
 
   const today = new Date().toISOString().slice(0, 10);
   const emails = allEmails.filter((e) => e.date < today);
