@@ -1,5 +1,56 @@
 {
   "date": "2026-05-06",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-05-06",
+      "sport": "MLB",
+      "game": "Padres @ Giants",
+      "play": "Under 8.5",
+      "type": "Total",
+      "edge": 8.0,
+      "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-06",
+      "sport": "MLB",
+      "game": "Orioles @ Marlins",
+      "play": "MIA -1.5",
+      "type": "Run Line",
+      "edge": 8.0,
+      "odds": 160,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-06",
+      "sport": "MLB",
+      "game": "Twins @ Nationals",
+      "play": "Over 9.5",
+      "type": "Total",
+      "edge": 9.5,
+      "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-06",
+      "sport": "MLB",
+      "game": "Rangers @ Yankees",
+      "play": "Under 8.5",
+      "type": "Total",
+      "edge": 9.8,
+      "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-06",
+      "sport": "MLB",
+      "game": "Reds @ Cubs",
+      "play": "CHC -1.5",
+      "type": "Run Line",
+      "edge": 7.9,
+      "odds": 125,
+      "isLean": false
+    }
+  ],
+  "hasPicks": true
 }
