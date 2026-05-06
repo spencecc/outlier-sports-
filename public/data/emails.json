@@ -1,10 +1,14 @@
 [
   {
     "date": "2026-05-05",
-    "title": "2-0 Yesterday, Six Plays Today"
+    "displayDate": "May 5, 2026",
+    "title": "2-0 Yesterday, Six Plays Today",
+    "file": "2026-05-05.html"
   },
   {
     "date": "2026-05-04",
-    "title": "Recap & Preview"
+    "displayDate": "May 4, 2026",
+    "title": "Recap & Preview",
+    "file": "2026-05-04.html"
   }
 ]

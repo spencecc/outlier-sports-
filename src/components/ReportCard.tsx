@@ -1,7 +1,7 @@
 interface ReportCardProps {
   title: string;
   date: string;
-  excerpt: string;
+  excerpt?: string;
   url: string;
 }
 
@@ -29,12 +29,14 @@ export default function ReportCard({ title, date, excerpt, url }: ReportCardProp
       >
         {title}
       </p>
-      <p
-        className="text-sm leading-relaxed mb-4"
-        style={{ color: "var(--text-secondary)" }}
-      >
-        {excerpt}
-      </p>
+      {excerpt && (
+        <p
+          className="text-sm leading-relaxed mb-4"
+          style={{ color: "var(--text-secondary)" }}
+        >
+          {excerpt}
+        </p>
+      )}
       <span
         className="text-xs font-sans uppercase tracking-wider transition-colors duration-150 group-hover:text-accent"
         style={{ color: "var(--text-secondary)" }}
