@@ -23,6 +23,11 @@ export default async function TrackRecordPage() {
         title="Track Record"
         subhead="Every play is logged. Every result is verified. Updated daily."
       />
+      <div className="max-w-7xl mx-auto px-6 pt-6 pb-0">
+        <p className="text-sm" style={{ color: "var(--text-tertiary)" }}>
+          Tier stats are shown under our current model rules. The all-time line includes the entire graded history for transparency.
+        </p>
+      </div>
       <TrackRecordClient
         lifetime={stats.lifetime}
         season2026={stats.season2026}
