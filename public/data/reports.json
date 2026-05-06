@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-05-06",
+    "displayDate": "May 6, 2026",
+    "file": "2026-05-06.txt",
+    "games": 15,
+    "plays": 5
+  },
+  {
+    "date": "2026-05-05",
+    "displayDate": "May 5, 2026",
+    "file": "2026-05-05.txt",
+    "games": 15,
+    "plays": 6
+  },
+  {
+    "date": "2026-05-04",
+    "displayDate": "May 4, 2026",
+    "file": "2026-05-04.txt",
+    "games": 12,
+    "plays": 1
+  },
+  {
+    "date": "2026-05-03",
+    "displayDate": "May 3, 2026",
+    "file": "2026-05-03.txt",
+    "games": 15,
+    "plays": 1
+  },
+  {
+    "date": "2026-05-02",
+    "displayDate": "May 2, 2026",
+    "file": "2026-05-02.txt",
+    "games": 15,
+    "plays": 3
+  },
+  {
+    "date": "2026-05-01",
+    "displayDate": "May 1, 2026",
+    "file": "2026-05-01.txt",
+    "games": 15,
+    "plays": 1
+  },
+  {
+    "date": "2026-04-30",
+    "displayDate": "April 30, 2026",
+    "file": "2026-04-30.txt",
+    "games": 5,
+    "plays": 2
+  },
+  {
+    "date": "2026-04-29",
+    "displayDate": "April 29, 2026",
+    "file": "2026-04-29.txt",
+    "games": 13,
+    "plays": 3
+  },
+  {
+    "date": "2026-04-28",
+    "displayDate": "April 28, 2026",
+    "file": "2026-04-28.txt",
+    "games": 15,
+    "plays": 3
+  }
+]
