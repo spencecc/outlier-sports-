@@ -27,10 +27,27 @@ function fmtOdds(n: number) {
   return n >= 0 ? `+${n}` : `${n}`;
 }
 
+async function getFileLastUpdated(filePath: string): Promise<string> {
+  const stat = await fs.stat(filePath);
+  return stat.mtime.toLocaleString("en-US", {
+    timeZone: "America/New_York",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+  });
+}
+
 export default async function PlaysPage() {
-  const picks = JSON.parse(
-    await fs.readFile(path.join(process.cwd(), "public", "data", "picks.json"), "utf-8")
-  ) as { date: string; picks: Pick[]; hasPicks: boolean };
+  const picksPath = path.join(process.cwd(), "public", "data", "picks.json");
+  const [picks, lastUpdated] = await Promise.all([
+    fs.readFile(picksPath, "utf-8").then((raw) =>
+      JSON.parse(raw) as { date: string; picks: Pick[]; hasPicks: boolean }
+    ),
+    getFileLastUpdated(picksPath),
+  ]);
   const { date, picks: playList, hasPicks } = picks;
 
   const displayDate = new Date(date + "T12:00:00").toLocaleDateString("en-US", {
@@ -45,6 +62,11 @@ export default async function PlaysPage() {
         title="Today's Plays"
         subhead={displayDate}
       />
+      <div className="max-w-7xl mx-auto px-6 -mt-6 mb-2">
+        <p className="text-xs font-mono" style={{ color: "var(--text-tertiary)" }}>
+          Last updated: {lastUpdated} ET
+        </p>
+      </div>
 
       <div className="max-w-7xl mx-auto px-6 py-12 space-y-16">
 
