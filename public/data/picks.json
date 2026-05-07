@@ -1,5 +1,36 @@
 {
   "date": "2026-05-07",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-05-07",
+      "sport": "MLB",
+      "game": "Guardians @ Royals",
+      "play": "Under 9.5",
+      "type": "Total",
+      "edge": 12.6,
+      "odds": -110,
+      "isLean": true
+    },
+    {
+      "date": "2026-05-07",
+      "sport": "MLB",
+      "game": "Mets @ Rockies",
+      "play": "Under 10.5",
+      "type": "Total",
+      "edge": 17.9,
+      "odds": -110,
+      "isLean": true
+    },
+    {
+      "date": "2026-05-07",
+      "sport": "MLB",
+      "game": "Mets @ Rockies",
+      "play": "COL +1.5",
+      "type": "Run Line",
+      "edge": 11.2,
+      "odds": -126,
+      "isLean": true
+    }
+  ],
+  "hasPicks": true
 }
