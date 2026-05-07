@@ -105,7 +105,7 @@ export default async function PlaysPage() {
                       className="text-xs font-sans uppercase tracking-widest mb-3"
                       style={{ color: "var(--text-tertiary)" }}
                     >
-                      Lean — no Standard Edge play today
+                      Higher Model Confidence — no standard play today
                     </p>
                   )}
                   <div className="flex items-start justify-between gap-4 flex-wrap">
