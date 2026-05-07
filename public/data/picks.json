@@ -1,25 +1,35 @@
 {
-  "date": "2026-05-06",
+  "date": "2026-05-07",
   "picks": [
     {
-      "date": "2026-05-06",
+      "date": "2026-05-07",
       "sport": "MLB",
-      "game": "Orioles @ Marlins",
-      "play": "MIA -1.5",
-      "type": "Run Line",
-      "edge": 8.0,
-      "odds": 160,
-      "isLean": false
+      "game": "Guardians @ Royals",
+      "play": "Under 9.5",
+      "type": "Total",
+      "edge": 12.6,
+      "odds": -110,
+      "isLean": true
     },
     {
-      "date": "2026-05-06",
+      "date": "2026-05-07",
       "sport": "MLB",
-      "game": "Reds @ Cubs",
-      "play": "CHC -1.5",
+      "game": "Mets @ Rockies",
+      "play": "Under 10.5",
+      "type": "Total",
+      "edge": 17.9,
+      "odds": -110,
+      "isLean": true
+    },
+    {
+      "date": "2026-05-07",
+      "sport": "MLB",
+      "game": "Mets @ Rockies",
+      "play": "COL +1.5",
       "type": "Run Line",
-      "edge": 7.9,
-      "odds": 125,
-      "isLean": false
+      "edge": 11.2,
+      "odds": -126,
+      "isLean": true
     }
   ],
   "hasPicks": true
