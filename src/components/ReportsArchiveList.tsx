@@ -10,19 +10,20 @@ interface ReportEntry {
   plays: number | null;
 }
 
-export default function ReportsArchiveList({ reports }: { reports: ReportEntry[] }) {
+export default function ReportsArchiveList({
+  reports,
+  todayDate,
+}: {
+  reports: ReportEntry[];
+  todayDate?: string;
+}) {
   if (reports.length === 0) return null;
 
   return (
-    <div>
-      <p
-        className="text-xs font-mono uppercase tracking-widest mb-6"
-        style={{ color: "var(--text-tertiary)" }}
-      >
-        Archive
-      </p>
-      <div className="max-w-2xl space-y-px">
-        {reports.map((r) => (
+    <div className="max-w-2xl space-y-px">
+      {reports.map((r) => {
+        const isToday = r.date === todayDate;
+        return (
           <Link
             key={r.date}
             href={`/reports/${r.date}`}
@@ -34,26 +35,31 @@ export default function ReportsArchiveList({ reports }: { reports: ReportEntry[]
             <div>
               <p
                 className="text-xs font-mono mb-1"
-                style={{ color: "var(--text-tertiary)" }}
+                style={{ color: isToday ? "var(--accent)" : "var(--text-tertiary)" }}
               >
-                {r.displayDate}
+                {isToday ? "Today" : r.displayDate}
               </p>
               <p
                 className="font-display text-base"
                 style={{ color: "var(--text-primary)" }}
               >
-                {r.games ?? "—"} games evaluated &middot; {r.plays ?? "—"} plays
+                {isToday ? r.displayDate : (r.games ?? "—") + " games · " + (r.plays ?? "—") + " plays"}
               </p>
+              {isToday && (
+                <p className="text-xs font-mono mt-1" style={{ color: "var(--text-tertiary)" }}>
+                  {r.games ?? "—"} games evaluated &middot; {r.plays ?? "—"} plays
+                </p>
+              )}
             </div>
             <span
-              className="text-xs font-mono shrink-0 ml-4 transition-colors duration-150 group-hover:text-accent"
+              className="text-xs font-mono shrink-0 ml-4"
               style={{ color: "var(--text-tertiary)" }}
             >
               View →
             </span>
           </Link>
-        ))}
-      </div>
+        );
+      })}
     </div>
   );
 }

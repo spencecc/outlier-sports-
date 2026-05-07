@@ -28,9 +28,23 @@ export default async function ReportsPage() {
   const today = todayDate();
   const dataDir = path.join(process.cwd(), "public", "data");
 
-  let report: string | null = null;
+  let todayEntry: ReportEntry | null = null;
   try {
-    report = await fs.readFile(path.join(dataDir, "reports", `${today}.txt`), "utf-8");
+    const raw = await fs.readFile(path.join(dataDir, "reports", `${today}.txt`), "utf-8");
+    const metaLine = raw.split("\n").find((l) => l.startsWith("Games:")) ?? "";
+    const gamesMatch = metaLine.match(/Games:\s*(\d+)/);
+    const playsMatch = metaLine.match(/Plays:\s*(\d+)/);
+    todayEntry = {
+      date: today,
+      displayDate: new Date(today + "T12:00:00").toLocaleDateString("en-US", {
+        weekday: "long",
+        month: "long",
+        day: "numeric",
+      }),
+      file: `${today}.txt`,
+      games: gamesMatch ? parseInt(gamesMatch[1]) : null,
+      plays: playsMatch ? parseInt(playsMatch[1]) : null,
+    };
   } catch {
     // not available yet
   }
@@ -41,7 +55,9 @@ export default async function ReportsPage() {
   } catch {
     // index missing
   }
-  const pastReports = allReports.filter((r) => r.date < today);
+
+  const pastReports = allReports.filter((r) => r.date !== today);
+  const reportList = todayEntry ? [todayEntry, ...pastReports] : pastReports;
 
   return (
     <>
@@ -50,53 +66,29 @@ export default async function ReportsPage() {
         subhead="Full model output — pitchers, bullpen, weather, park factors."
       />
 
-      <div className="max-w-7xl mx-auto px-6 py-12 space-y-16">
-
-        {/* Today's report */}
-        <div>
-          <p
-            className="text-xs font-mono uppercase tracking-widest mb-6"
-            style={{ color: "var(--text-tertiary)" }}
+      <div className="max-w-7xl mx-auto px-6 py-12">
+        {reportList.length === 0 ? (
+          <div
+            className="border p-8 max-w-2xl"
+            style={{ borderColor: "var(--border)" }}
           >
-            Today — {today}
-          </p>
-
-          {report ? (
-            <div
-              className="border p-6 md:p-8 overflow-x-auto"
-              style={{ borderColor: "var(--border)", backgroundColor: "var(--bg-surface)" }}
+            <p
+              className="font-display text-2xl mb-3"
+              style={{ color: "var(--text-primary)" }}
             >
-              <pre
-                className="text-xs leading-relaxed whitespace-pre font-mono"
-                style={{ color: "var(--text-secondary)" }}
-              >
-                {report}
-              </pre>
-            </div>
-          ) : (
-            <div
-              className="border p-8"
-              style={{ borderColor: "var(--border)" }}
+              No reports yet today.
+            </p>
+            <p
+              className="text-sm leading-relaxed"
+              style={{ color: "var(--text-secondary)" }}
             >
-              <p
-                className="font-display text-2xl mb-3"
-                style={{ color: "var(--text-primary)" }}
-              >
-                No report yet today.
-              </p>
-              <p
-                className="text-sm leading-relaxed"
-                style={{ color: "var(--text-secondary)" }}
-              >
-                Today&apos;s full model output will appear here once the morning
-                run completes.
-              </p>
-            </div>
-          )}
-        </div>
-
-        <ReportsArchiveList reports={pastReports} />
-
+              Today&apos;s full model output will appear here once the morning
+              run completes.
+            </p>
+          </div>
+        ) : (
+          <ReportsArchiveList reports={reportList} todayDate={today} />
+        )}
       </div>
     </>
   );
