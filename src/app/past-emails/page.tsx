@@ -52,8 +52,9 @@ export default async function PastEmailsPage() {
             Get today&apos;s before first pitch.
           </p>
           <p className="text-sm mb-2" style={{ color: "var(--text-secondary)" }}>
-            The archive is yesterday&apos;s email. Subscribers get today&apos;s — including
-            all Higher Model Confidence signals — delivered every morning before games start.
+            The archive is yesterday&apos;s email. Subscribers get today&apos;s — a full
+            breakdown of every game plus all High Confidence signals — delivered every
+            morning before games start.
           </p>
           <p className="text-sm mb-6" style={{ color: "var(--text-secondary)" }}>
             Free. No spam. Unsubscribe any time.

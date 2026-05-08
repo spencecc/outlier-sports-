@@ -242,7 +242,7 @@ export default function TrackRecordClient({
               className="text-sm mb-4"
               style={{ color: "var(--text-secondary)" }}
             >
-              Get every play before first pitch.
+              Get every play before first pitch — plus a full breakdown of every game.
             </p>
             <BeehiivSignup />
           </div>

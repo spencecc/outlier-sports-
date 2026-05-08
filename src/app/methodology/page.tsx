@@ -167,8 +167,8 @@ export default function MethodologyPage() {
               Get the Daily Detail Report.
             </p>
             <p className="text-sm mb-6" style={{ color: "var(--text-secondary)" }}>
-              Every play, every probability, every edge — delivered before first
-              pitch. Free.
+              Every play, every probability, every edge — plus a full breakdown
+              of every game. Delivered before first pitch. Free.
             </p>
             <BeehiivSignup />
           </div>

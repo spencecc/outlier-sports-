@@ -147,7 +147,8 @@ export default async function PlaysPage() {
           </p>
           <p className="text-sm mb-6" style={{ color: "var(--text-secondary)" }}>
             When the model finds a high-conviction edge, that play goes to the
-            email list before it goes anywhere else. Free to subscribe.
+            email list before it goes anywhere else. Subscribers also get a full
+            breakdown of every game in the daily email. Free to subscribe.
           </p>
           <BeehiivSignup />
         </div>

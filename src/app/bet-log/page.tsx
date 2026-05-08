@@ -406,7 +406,7 @@ export default function BetLogPage() {
       >
         <div className="max-w-7xl mx-auto px-6 py-16">
           <p className="font-display text-2xl mb-6" style={{ color: "var(--text-primary)" }}>
-            Get every play before it happens.
+            Get every play before it happens — plus a full breakdown of every game.
           </p>
           <BeehiivSignup />
         </div>
