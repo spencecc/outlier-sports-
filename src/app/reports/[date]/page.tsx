@@ -37,10 +37,8 @@ export default async function ReportDetailPage({ params }: Props) {
       >
         <Link
           href="/reports"
-          className="text-xs font-mono transition-colors duration-150"
+          className="text-xs font-mono transition-colors duration-150 hover:text-primary"
           style={{ color: "var(--text-tertiary)" }}
-          onMouseEnter={(e) => (e.currentTarget.style.color = "var(--text-primary)")}
-          onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-tertiary)")}
         >
           &larr; Reports
         </Link>
