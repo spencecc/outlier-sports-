@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T15:30:13Z",
+  "lastUpdated": "2026-05-08T15:53:59Z",
   "lifetime": {
     "record": "119-105-5P",
     "wins": 119,
@@ -133,13 +133,13 @@
     }
   ],
   "higherModelConf": {
-    "record": "67-65-2P",
-    "wins": 67,
-    "losses": 65,
-    "pushes": 2,
-    "winPct": 50.8,
-    "roi": -3.9,
-    "units": -5.17,
-    "bets": 134
+    "record": "138-104-5P",
+    "wins": 138,
+    "losses": 104,
+    "pushes": 5,
+    "winPct": 57.0,
+    "roi": 6.5,
+    "units": 15.69,
+    "bets": 247
   }
 }
