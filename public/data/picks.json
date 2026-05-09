@@ -1,34 +1,44 @@
 {
-  "date": "2026-05-08",
+  "date": "2026-05-09",
   "picks": [
     {
-      "date": "2026-05-08",
+      "date": "2026-05-09",
       "sport": "MLB",
-      "game": "Nationals @ Marlins",
-      "play": "WSH +1.5",
+      "game": "Rockies @ Phillies",
+      "play": "COL +1.5",
       "type": "Run Line",
-      "edge": 7.7,
-      "odds": -205,
+      "edge": 8.2,
+      "odds": -142,
       "isLean": false
     },
     {
-      "date": "2026-05-08",
+      "date": "2026-05-09",
+      "sport": "MLB",
+      "game": "Cubs @ Rangers",
+      "play": "CHC -1.5",
+      "type": "Run Line",
+      "edge": 7.3,
+      "odds": 126,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-09",
       "sport": "MLB",
       "game": "Mariners @ Sox",
-      "play": "CWS +1.5",
-      "type": "Run Line",
-      "edge": 7.3,
-      "odds": -152,
+      "play": "Under 9.5",
+      "type": "Total",
+      "edge": 7.4,
+      "odds": -110,
       "isLean": false
     },
     {
-      "date": "2026-05-08",
+      "date": "2026-05-09",
       "sport": "MLB",
-      "game": "Pirates @ Giants",
-      "play": "Under 7.5",
-      "type": "Total",
-      "edge": 7.3,
-      "odds": -110,
+      "game": "Mets @ Diamondbacks",
+      "play": "ARI +1.5",
+      "type": "Run Line",
+      "edge": 9.6,
+      "odds": -162,
       "isLean": false
     }
   ],
