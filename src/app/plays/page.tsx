@@ -10,6 +10,7 @@ interface Pick {
   date: string;
   sport: string;
   game: string;
+  time?: string;
   play: string;
   type: string;
   edge: number;
@@ -104,7 +105,7 @@ export default async function PlaysPage() {
                         className="text-xs font-mono mb-1"
                         style={{ color: "var(--text-tertiary)" }}
                       >
-                        {pick.sport} · {pick.game} · {pick.type}
+                        {pick.sport} · {pick.game}{pick.time ? ` · ${pick.time}` : ""} · {pick.type}
                       </p>
                       <p
                         className="font-display text-xl md:text-2xl"
