@@ -8,11 +8,21 @@ import Link from "next/link";
 
 type Period = "lifetime" | "season2026" | "last30Days" | "last7Days";
 
+interface SubStats {
+  record: string;
+  winPct: number;
+  roi: number;
+  units: number;
+  bets: number;
+}
+
 interface PeriodStats {
   record: string;
   winPct: number;
   roi: number;
   units: number;
+  standard?: SubStats | null;
+  higherModelConf?: SubStats | null;
 }
 
 interface BreakdownRow {
@@ -32,10 +42,8 @@ interface Props {
   season2026: PeriodStats;
   last30Days: PeriodStats;
   last7Days: PeriodStats;
-  byEdgeZone: BreakdownRow[];
   bySport: BreakdownRow[];
   byPlayType: BreakdownRow[];
-  higherModelConf: { record: string; winPct: number; roi: number; units: number };
 }
 
 const PERIODS: { key: Period; label: string }[] = [
@@ -54,10 +62,8 @@ export default function TrackRecordClient({
   season2026,
   last30Days,
   last7Days,
-  byEdgeZone,
   bySport,
   byPlayType,
-  higherModelConf,
 }: Props) {
   const [period, setPeriod] = useState<Period>("lifetime");
 
@@ -112,71 +118,69 @@ export default function TrackRecordClient({
           </p>
         </div>
 
-        {/* Standard Model Confidence — 7-10% edge */}
-        {(() => {
-          const std = byEdgeZone.find((r) => r.range === "7-10%");
-          if (!std) return null;
-          return (
-            <div>
-              <p
-                className="text-xs font-sans uppercase tracking-widest mb-1"
-                style={{ color: "var(--accent)" }}
-              >
-                Standard Model Confidence
-              </p>
-              <p
-                className="text-xs font-mono mb-4"
-                style={{ color: "var(--accent)" }}
-              >
-                7–10% edge signals — fully graded and tracked
-              </p>
-              <div className="grid grid-cols-2 md:grid-cols-4">
-                <StatCard value={std.record} label="Record" />
-                <StatCard value={`${std.winPct.toFixed(1)}%`} label="Win Rate" />
-                <StatCard
-                  value={signed(std.roi, "%")}
-                  label="ROI"
-                  valueColor={std.roi >= 0 ? "var(--win)" : "var(--loss)"}
-                />
-                <StatCard
-                  value={signed(std.units, "u")}
-                  label="Units"
-                  valueColor={std.units >= 0 ? "var(--win)" : "var(--loss)"}
-                />
-              </div>
+        {/* Standard Model Confidence — 7-10% edge, filtered to selected period */}
+        {data.standard && (
+          <div>
+            <p
+              className="text-xs font-sans uppercase tracking-widest mb-1"
+              style={{ color: "var(--accent)" }}
+            >
+              Standard Model Confidence
+            </p>
+            <p
+              className="text-xs font-mono mb-4"
+              style={{ color: "var(--accent)" }}
+            >
+              7–10% edge signals — fully graded and tracked
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4">
+              <StatCard value={data.standard.record} label="Record" />
+              <StatCard value={`${data.standard.winPct.toFixed(1)}%`} label="Win Rate" />
+              <StatCard
+                value={signed(data.standard.roi, "%")}
+                label="ROI"
+                valueColor={data.standard.roi >= 0 ? "var(--win)" : "var(--loss)"}
+              />
+              <StatCard
+                value={signed(data.standard.units, "u")}
+                label="Units"
+                valueColor={data.standard.units >= 0 ? "var(--win)" : "var(--loss)"}
+              />
             </div>
-          );
-        })()}
-
-        {/* Higher Model Confidence — 10%+ edge */}
-        <div>
-          <p
-            className="text-xs font-sans uppercase tracking-widest mb-1"
-            style={{ color: "var(--accent)" }}
-          >
-            Higher Model Confidence
-          </p>
-          <p
-            className="text-xs font-mono mb-4"
-            style={{ color: "var(--accent)" }}
-          >
-            10%+ edge signals — fully graded and tracked
-          </p>
-          <div className="grid grid-cols-2 md:grid-cols-4">
-            <StatCard value={higherModelConf.record} label="Record" />
-            <StatCard value={`${higherModelConf.winPct.toFixed(1)}%`} label="Win Rate" />
-            <StatCard
-              value={signed(higherModelConf.roi, "%")}
-              label="ROI"
-              valueColor={higherModelConf.roi >= 0 ? "var(--win)" : "var(--loss)"}
-            />
-            <StatCard
-              value={signed(higherModelConf.units, "u")}
-              label="Units"
-              valueColor={higherModelConf.units >= 0 ? "var(--win)" : "var(--loss)"}
-            />
           </div>
-        </div>
+        )}
+
+        {/* Higher Model Confidence — filtered to selected period */}
+        {data.higherModelConf && (
+          <div>
+            <p
+              className="text-xs font-sans uppercase tracking-widest mb-1"
+              style={{ color: "var(--accent)" }}
+            >
+              Higher Model Confidence
+            </p>
+            <p
+              className="text-xs font-mono mb-4"
+              style={{ color: "var(--accent)" }}
+            >
+              10%+ edge signals — fully graded and tracked
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4">
+              <StatCard value={data.higherModelConf.record} label="Record" />
+              <StatCard value={`${data.higherModelConf.winPct.toFixed(1)}%`} label="Win Rate" />
+              <StatCard
+                value={signed(data.higherModelConf.roi, "%")}
+                label="ROI"
+                valueColor={data.higherModelConf.roi >= 0 ? "var(--win)" : "var(--loss)"}
+              />
+              <StatCard
+                value={signed(data.higherModelConf.units, "u")}
+                label="Units"
+                valueColor={data.higherModelConf.units >= 0 ? "var(--win)" : "var(--loss)"}
+              />
+            </div>
+          </div>
+        )}
 
         {/* Performance by sport */}
         <div>

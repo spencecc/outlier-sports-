@@ -33,10 +33,8 @@ export default async function TrackRecordPage() {
         season2026={stats.season2026}
         last30Days={stats.last30Days}
         last7Days={stats.last7Days}
-        byEdgeZone={stats.byEdgeZone}
         bySport={stats.bySport}
         byPlayType={stats.byPlayType}
-        higherModelConf={stats.higherModelConf}
       />
     </>
   );
