@@ -1,5 +1,17 @@
 {
   "date": "2026-05-11",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "id": "2026-05-11-001",
+      "sport": "MLB",
+      "game": "SF @ LAD",
+      "play": "LAD -1.5",
+      "type": "Run Line",
+      "tier": "Standard Edge",
+      "odds": "+106",
+      "edge": 7.4,
+      "time": "10:10 PM ET"
+    }
+  ],
+  "hasPicks": true
 }
