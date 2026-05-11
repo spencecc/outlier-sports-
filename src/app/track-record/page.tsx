@@ -21,7 +21,7 @@ export default async function TrackRecordPage() {
     <>
       <PageHeader
         title="Track Record"
-        subhead="Every play is logged. Every result is verified. Updated daily."
+        subhead="Full public results for the MLB model, broken out by confidence and time period."
       />
       <div className="max-w-7xl mx-auto px-6 pt-6 pb-0">
         <p className="text-sm" style={{ color: "var(--text-tertiary)" }}>

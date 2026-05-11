@@ -102,6 +102,16 @@ export default function TrackRecordClient({
       {/* ── Breakdown tables ───────────────────────────────────────────────── */}
       <div className="max-w-7xl mx-auto px-6 py-10 space-y-14">
 
+        {/* Framing copy */}
+        <div className="max-w-2xl space-y-2">
+          <p className="text-sm leading-relaxed" style={{ color: "var(--text-secondary)" }}>
+            These are the fully graded public results for the MLB model, broken out by confidence level and time period. No locks, no cherry-picked runs, just the sample and the numbers that come with it.
+          </p>
+          <p className="text-sm leading-relaxed" style={{ color: "var(--text-secondary)" }}>
+            We only put plays on the board when there is real edge. If the card is light, that is the model doing its job.
+          </p>
+        </div>
+
         {/* Standard Model Confidence — 7-10% edge */}
         {(() => {
           const std = byEdgeZone.find((r) => r.range === "7-10%");
