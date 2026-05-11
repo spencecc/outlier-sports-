@@ -1,50 +1,5 @@
 {
-  "date": "2026-05-10",
-  "picks": [
-    {
-      "date": "2026-05-10",
-      "sport": "MLB",
-      "game": "Angels @ Blue Jays",
-      "time": "1:37 PM ET",
-      "play": "TOR +1.5",
-      "type": "Run Line",
-      "edge": 8.0,
-      "odds": -178,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-10",
-      "sport": "MLB",
-      "game": "Cubs @ Rangers",
-      "time": "2:35 PM ET",
-      "play": "CHC +1.5",
-      "type": "Run Line",
-      "edge": 7.9,
-      "odds": -200,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-10",
-      "sport": "MLB",
-      "game": "Mets @ Diamondbacks",
-      "time": "4:10 PM ET",
-      "play": "Under 8.5",
-      "type": "Total",
-      "edge": 8.1,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-10",
-      "sport": "MLB",
-      "game": "Cardinals @ Padres",
-      "time": "4:10 PM ET",
-      "play": "STL +1.5",
-      "type": "Run Line",
-      "edge": 7.4,
-      "odds": -188,
-      "isLean": false
-    }
-  ],
-  "hasPicks": true
+  "date": "2026-05-11",
+  "picks": [],
+  "hasPicks": false
 }
