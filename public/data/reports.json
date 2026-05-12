@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-05-12",
+    "displayDate": "May 12, 2026",
+    "file": "2026-05-12.txt",
+    "games": 15,
+    "plays": 2
+  },
+  {
+    "date": "2026-05-11",
+    "displayDate": "May 11, 2026",
+    "file": "2026-05-11.txt",
+    "games": 6,
+    "plays": 1
+  },
+  {
+    "date": "2026-05-10",
+    "displayDate": "May 10, 2026",
+    "file": "2026-05-10.txt",
+    "games": 5,
+    "plays": 3
+  },
+  {
     "date": "2026-05-09",
     "displayDate": "May 9, 2026",
     "file": "2026-05-09.txt",

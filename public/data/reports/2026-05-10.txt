@@ -1,0 +1,13 @@
+Gemini 10K v2.2 -- Auto Report -- 2026-05-10
+Games: 5 | Plays: 3
+
+PLAYS:
+  PIT @ SF: Under 8.0 (Total) | Edge: 7.9% | ML: -110
+  STL @ SD: St. Louis Cardinals +1.5 (Run Line) | Edge: 9.4% | ML: -194
+  ATL @ LAD: Under 9.5 (Total) | Edge: 8.9% | ML: -110
+
+HIGHER MODEL CONFIDENCE (informational only -- not logged):
+  PIT @ SF: Pittsburgh Pirates (Moneyline (High Edge)) | ML: +108 | Edge: 18.5%
+  PIT @ SF: Pittsburgh Pirates +1.5 (Run Line (High Edge)) | ML: -194 | Edge: 16.8%
+  NYM @ ARI: Under 8.5 (Total (High Edge)) | ML: -110 | Edge: 11.8%
+  STL @ SD: St. Louis Cardinals (Moneyline (High Edge)) | ML: +112 | Edge: 12.4%

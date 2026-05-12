@@ -1,0 +1,8 @@
+Gemini 10K v2.2 -- Auto Report -- 2026-05-11
+Games: 6 | Plays: 1
+
+PLAYS:
+  SF @ LAD: Los Angeles Dodgers -1.5 (Run Line) | Edge: 7.4% | ML: +106
+
+HIGHER MODEL CONFIDENCE (informational only -- not logged):
+  SF @ LAD: Under 9.5 (Total (High Edge)) | ML: -110 | Edge: 20.8%
