@@ -2,14 +2,26 @@
   "date": "2026-05-12",
   "picks": [
     {
-      "date": "2026-05-11",
+      "id": "2026-05-12-001",
       "sport": "MLB",
-      "game": "Giants @ Dodgers",
-      "play": "LAD -1.5",
+      "game": "WSH @ CIN",
+      "play": "WSH +1.5",
       "type": "Run Line",
-      "edge": 8.6,
-      "odds": 112,
-      "isLean": false
+      "tier": "Standard Edge",
+      "odds": "-156",
+      "edge": 7.2,
+      "time": "6:40 PM ET"
+    },
+    {
+      "id": "2026-05-12-002",
+      "sport": "MLB",
+      "game": "PHI @ BOS",
+      "play": "Under 8.5",
+      "type": "Total",
+      "tier": "Standard Edge",
+      "odds": "-110",
+      "edge": 10.0,
+      "time": "6:45 PM ET"
     }
   ],
   "hasPicks": true
