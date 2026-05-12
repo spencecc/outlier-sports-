@@ -1,16 +1,15 @@
 {
-  "date": "2026-05-11",
+  "date": "2026-05-12",
   "picks": [
     {
-      "id": "2026-05-11-001",
+      "date": "2026-05-11",
       "sport": "MLB",
-      "game": "SF @ LAD",
+      "game": "Giants @ Dodgers",
       "play": "LAD -1.5",
       "type": "Run Line",
-      "tier": "Standard Edge",
-      "odds": "+106",
-      "edge": 7.4,
-      "time": "10:10 PM ET"
+      "edge": 8.6,
+      "odds": 112,
+      "isLean": false
     }
   ],
   "hasPicks": true

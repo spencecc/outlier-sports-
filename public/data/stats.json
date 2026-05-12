@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T15:42:08Z",
+  "lastUpdated": "2026-05-12T00:27:36Z",
   "lifetime": {
     "record": "135-124-5P",
     "wins": 135,
@@ -59,22 +59,22 @@
     }
   },
   "last30Days": {
-    "record": "70-64",
-    "wins": 70,
-    "losses": 64,
+    "record": "68-60",
+    "wins": 68,
+    "losses": 60,
     "pushes": 0,
-    "winPct": 52.2,
-    "roi": -2.4,
-    "units": -3.26,
+    "winPct": 53.1,
+    "roi": -0.8,
+    "units": -1.08,
     "standard": {
-      "record": "50-43",
-      "wins": 50,
-      "losses": 43,
+      "record": "49-40",
+      "wins": 49,
+      "losses": 40,
       "pushes": 0,
-      "winPct": 53.8,
-      "roi": -0.3,
-      "units": -0.25,
-      "bets": 93
+      "winPct": 55.1,
+      "roi": 2.1,
+      "units": 1.84,
+      "bets": 89
     },
     "higherModelConf": {
       "record": "147-116-5P",
@@ -88,32 +88,32 @@
     }
   },
   "last7Days": {
-    "record": "27-25",
-    "wins": 27,
+    "record": "24-25",
+    "wins": 24,
     "losses": 25,
     "pushes": 0,
-    "winPct": 51.9,
-    "roi": -2.7,
-    "units": -1.42,
+    "winPct": 49.0,
+    "roi": -8.1,
+    "units": -3.94,
     "standard": {
-      "record": "16-12",
-      "wins": 16,
+      "record": "13-12",
+      "wins": 13,
       "losses": 12,
       "pushes": 0,
-      "winPct": 57.1,
-      "roi": 4.5,
-      "units": 1.26,
-      "bets": 28
+      "winPct": 52.0,
+      "roi": -5.1,
+      "units": -1.27,
+      "bets": 25
     },
     "higherModelConf": {
-      "record": "22-27-1P",
-      "wins": 22,
-      "losses": 27,
+      "record": "16-22-1P",
+      "wins": 16,
+      "losses": 22,
       "pushes": 1,
-      "winPct": 44.9,
-      "roi": -15.5,
-      "units": -7.62,
-      "bets": 50
+      "winPct": 42.1,
+      "roi": -18.0,
+      "units": -6.84,
+      "bets": 39
     }
   },
   "byEdgeZone": [

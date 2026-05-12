@@ -5850,27 +5850,5 @@
     "closeLine": null,
     "clv": null,
     "notes": ""
-  },
-  {
-    "id": "2026-05-11-001-pending",
-    "internalId": "",
-    "date": "2026-05-11",
-    "sport": "MLB",
-    "game": "SF @ LAD",
-    "play": "LAD -1.5",
-    "type": "Run Line",
-    "tier": "Standard Edge",
-    "edge": 7.4,
-    "odds": 106,
-    "units": 1.0,
-    "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
-    "openLine": 106,
-    "closeLine": null,
-    "clv": null,
-    "notes": ""
   }
 ]
