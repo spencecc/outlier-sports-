@@ -24,8 +24,9 @@ export const metadata: Metadata = {
     "Today's model-generated plays from Copacetic Sports. Standard Edge picks published free. High Confidence plays delivered to email subscribers only.",
 };
 
-function fmtOdds(n: number) {
-  return n >= 0 ? `+${n}` : `${n}`;
+function fmtOdds(n: number | string) {
+  const num = typeof n === "string" ? parseInt(n.replace("+", ""), 10) : n;
+  return num >= 0 ? `+${num}` : `${num}`;
 }
 
 export default async function PlaysPage() {
