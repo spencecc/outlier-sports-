@@ -1,5 +1,5 @@
 Gemini 10K v2.2 -- Full Game Detail -- 2026-05-12
-Games: 15 | Plays: 2
+Games: 15 | Plays: 4
 ======================================================================
 
 ====================================================================
@@ -62,49 +62,53 @@ Games: 15 | Plays: 2
   LINEUP STATUS
   ----------------------------------------------------------------
   LAA (Away): Lineup not yet posted (using full-strength estimate)
-  CLE (Home): Lineup not yet posted (using full-strength estimate)
+  CLE (Home): MISSING KEY HITTERS
+    Out: Rhys Hoskins, David Fry
+      Rhys Hoskins           1B   OPS: 0.748  (279 AB)
+      David Fry              RF   OPS: 0.592  (146 AB)
+    Run Adjustment: 97.6% of full strength
 
   WEATHER CONDITIONS
   ----------------------------------------------------------------
   Stadium:           Progressive Field
   Temperature:       66°F
-  Wind:              5 mph (gusts 13 mph)
-  Precip Chance:     15%
-  Conditions:        Mild (66°F), light wind (5 mph)
-  Weather Factor:    0.9781 (Temp: 0.9933 | Wind: 0.9847)
+  Wind:              7 mph (gusts 14 mph)
+  Precip Chance:     12%
+  Conditions:        Mild (66°F), light wind (7 mph)
+  Weather Factor:    0.9725 (Temp: 0.9933 | Wind: 0.9791)
   Impact:            Minimal weather impact
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
-  Expected Score:    LAA 4.4  -  CLE 4.4
-  Simulated Avg:     LAA 4.4  -  CLE 4.4
-  Win Probability:   LAA 49.9%  -  CLE 50.1%
-  Fair Moneyline:    LAA +100  /  CLE -100
-  Avg Total Runs:    8.8
-  Over 8.5:        49.1%
-  Under 8.5:       50.9%
-  LAA +1.5:         66.0%
-  CLE -1.5:         34.0%
+  Expected Score:    LAA 4.4  -  CLE 4.3
+  Simulated Avg:     LAA 4.4  -  CLE 4.3
+  Win Probability:   LAA 50.5%  -  CLE 49.5%
+  Fair Moneyline:    LAA -102  /  CLE +102
+  Avg Total Runs:    8.7
+  Over 7.0:        58.7%
+  Under 7.0:       30.8%
+  LAA +1.5:         67.0%
+  CLE -1.5:         33.0%
   Pitcher Adj:       LAA 0.989  /  CLE 1.170
   Bullpen Adj:       LAA 1.239  /  CLE 1.029
 
   FIRST 5 INNINGS SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
-  F5 Expected:       LAA 2.6  -  CLE 2.2
-  F5 Simulated Avg:  LAA 2.6  -  CLE 2.2
-  F5 Win Prob:       LAA 56.5%  -  CLE 43.5%  (Tie: 16.5%)
-  F5 Fair ML:        LAA -130  /  CLE +130
-  F5 Avg Total:      4.8
+  F5 Expected:       LAA 2.6  -  CLE 2.1
+  F5 Simulated Avg:  LAA 2.6  -  CLE 2.1
+  F5 Win Prob:       LAA 57.4%  -  CLE 42.6%  (Tie: 16.8%)
+  F5 Fair ML:        LAA -135  /  CLE +135
+  F5 Avg Total:      4.7
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  LAA ML                     +116       +100      +3.6%
-  CLE ML                     -136       -100      -7.5%
-  LAA +1.5                   -178       -194      +2.0%
-  CLE -1.5                   +146       +194      -6.7%
-  O 8.5                      -110        N/A      -3.3%
-  U 8.5                      -110        N/A      -1.5%
+  LAA ML                     +120       -102      +5.1%
+  CLE ML                     -142       +102      -9.2%
+  LAA +1.5                   -188       -203      +1.7%
+  CLE -1.5                   +155       +203      -6.2%
+  O 7.0                      -110        N/A      +6.3%
+  U 7.0                      -110        N/A     -21.6%
 
   ================================================================
   RESULT: PASS — No qualifying edge detected
@@ -118,7 +122,17 @@ Games: 15 | Plays: 2
 
   STARTING PITCHERS
   ----------------------------------------------------------------
-  Away:    Will Warren                  Home:    TBD
+  Away:    Will Warren                  Home:    Trevor Rogers
+  ERA:     4.22                         ERA:     2.31
+  WHIP:    1.33                         WHIP:    0.99
+  K/9:     9.93                         K/9:     8.37
+  BB/9:    3.32                         BB/9:    2.48
+  FIP:     3.79                         FIP:     2.88
+  IP:      41.7                         IP:      30.3
+  xERA:    4.58                         xERA:    3.41
+  xwOBA:   0.33                         xwOBA:   0.288
+
+  Pitcher Edge: BAL (Trevor Rogers)
 
   TEAM COMPARISON
   ----------------------------------------------------------------
@@ -170,48 +184,55 @@ Games: 15 | Plays: 2
   WEATHER CONDITIONS
   ----------------------------------------------------------------
   Stadium:           Camden Yards
-  Temperature:       67°F
-  Wind:              9 mph (gusts 14 mph)
+  Temperature:       66°F
+  Wind:              9 mph (gusts 15 mph)
   Precip Chance:     0%
-  Conditions:        Mild (67°F), wind in (9 mph)
-  Weather Factor:    0.9779 (Temp: 0.9935 | Wind: 0.9843)
+  Conditions:        Mild (66°F), wind in (9 mph)
+  Weather Factor:    0.9785 (Temp: 0.9929 | Wind: 0.9855)
   Impact:            Minimal weather impact
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
-  Expected Score:    NYY 5.3  -  BAL 4.6
-  Simulated Avg:     NYY 5.3  -  BAL 4.6
-  Win Probability:   NYY 56.4%  -  BAL 43.6%
-  Fair Moneyline:    NYY -130  /  BAL +130
-  Avg Total Runs:    9.9
-  Over 8.5:        59.1%
-  Under 8.5:       40.9%
-  NYY -1.5:         41.5%
-  BAL +1.5:         58.5%
-  Pitcher Adj:       NYY 1.016  /  BAL 1.000
+  Expected Score:    NYY 4.4  -  BAL 4.6
+  Simulated Avg:     NYY 4.4  -  BAL 4.6
+  Win Probability:   NYY 47.8%  -  BAL 52.2%
+  Fair Moneyline:    NYY +109  /  BAL -109
+  Avg Total Runs:    9.0
+  Over 8.5:        50.5%
+  Under 8.5:       49.5%
+  NYY -1.5:         32.5%
+  BAL +1.5:         67.5%
+  Pitcher Adj:       NYY 1.016  /  BAL 0.711
   Bullpen Adj:       NYY 1.051  /  BAL 1.104
 
   FIRST 5 INNINGS SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
-  F5 Expected:       NYY 2.8  -  BAL 2.5
-  F5 Simulated Avg:  NYY 2.8  -  BAL 2.5
-  F5 Win Prob:       NYY 55.2%  -  BAL 44.8%  (Tie: 15.5%)
-  F5 Fair ML:        NYY -123  /  BAL +123
-  F5 Avg Total:      5.3
+  F5 Expected:       NYY 2.0  -  BAL 2.5
+  F5 Simulated Avg:  NYY 2.0  -  BAL 2.5
+  F5 Win Prob:       NYY 41.8%  -  BAL 58.2%  (Tie: 17.0%)
+  F5 Fair ML:        NYY +139  /  BAL -139
+  F5 Avg Total:      4.5
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  NYY ML                     -156       -130      -4.5%
-  BAL ML                     +132       +130      +0.5%
-  NYY -1.5                   +100       +141      -8.5%
-  BAL +1.5                   -120       -141      +3.9%
-  O 8.5                      -110        N/A      +6.7%
-  U 8.5                      -110        N/A     -11.5%
+  NYY ML                     -142       +109     -10.9%
+  BAL ML                     +120       -109      +6.7%
+  NYY -1.5                   +112       +208     -14.7%
+  BAL +1.5                   -134       -208     +10.3%
+  O 8.5                      -110        N/A      -1.9%
+  U 8.5                      -110        N/A      -2.9%
 
   ================================================================
   RESULT: PASS — No qualifying edge detected
   ================================================================
+
+  ────────────────────────────────────────────────────────────────
+  HIGHER MODEL CONFIDENCE (10%+ edge signals)
+  ────────────────────────────────────────────────────────────────
+  [HMC] Baltimore Orioles +1.5 (Run Line (High Edge)) | ML: -134 | Edge: 10.3%
+    [Logged] Bet ID: MLB-00283
+
 
 ====================================================================
   GEMINI 10K v2.2 — MLB ANALYSIS
@@ -272,57 +293,72 @@ Games: 15 | Plays: 2
   LINEUP STATUS
   ----------------------------------------------------------------
   WSH (Away): Lineup not yet posted (using full-strength estimate)
-  CIN (Home): Lineup not yet posted (using full-strength estimate)
+  CIN (Home): MISSING KEY HITTERS
+    Out: Nathaniel Lowe
+      Nathaniel Lowe         DH   OPS: 0.688  (540 AB)
+    Run Adjustment: 98.7% of full strength
 
   WEATHER CONDITIONS
   ----------------------------------------------------------------
   Stadium:           Great American Ball Park
   Temperature:       76°F
-  Wind:              7 mph (gusts 11 mph)
+  Wind:              6 mph (gusts 11 mph)
   Precip Chance:     1%
-  Conditions:        Warm (76°F), light wind (7 mph)
-  Weather Factor:    0.9865 (Temp: 1.0058 | Wind: 0.9808)
+  Conditions:        Warm (76°F), light wind (6 mph)
+  Weather Factor:    0.9876 (Temp: 1.0057 | Wind: 0.9820)
   Impact:            Minimal weather impact
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
   Expected Score:    WSH 6.0  -  CIN 5.3
-  Simulated Avg:     WSH 5.9  -  CIN 5.3
-  Win Probability:   WSH 54.8%  -  CIN 45.2%
-  Fair Moneyline:    WSH -121  /  CIN +121
-  Avg Total Runs:    11.3
-  Over 10.0:        52.4%
-  Under 10.0:       38.8%
-  WSH +1.5:         68.2%
-  CIN -1.5:         31.8%
+  Simulated Avg:     WSH 6.0  -  CIN 5.3
+  Win Probability:   WSH 55.6%  -  CIN 44.4%
+  Fair Moneyline:    WSH -125  /  CIN +125
+  Avg Total Runs:    11.2
+  Over 9.0:        61.1%
+  Under 9.0:       30.3%
+  WSH +1.5:         69.0%
+  CIN -1.5:         31.0%
   Pitcher Adj:       WSH 1.266  /  CIN 1.025
   Bullpen Adj:       WSH 1.191  /  CIN 1.177
 
   FIRST 5 INNINGS SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
   F5 Expected:       WSH 3.1  -  CIN 3.0
-  F5 Simulated Avg:  WSH 3.1  -  CIN 3.0
-  F5 Win Prob:       WSH 52.0%  -  CIN 48.0%  (Tie: 14.2%)
-  F5 Fair ML:        WSH -108  /  CIN +108
+  F5 Simulated Avg:  WSH 3.2  -  CIN 3.0
+  F5 Win Prob:       WSH 53.0%  -  CIN 47.0%  (Tie: 14.2%)
+  F5 Fair ML:        WSH -113  /  CIN +113
   F5 Avg Total:      6.1
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  WSH ML                     +122       -121      +9.8%
-  CIN ML                     -144       +121     -13.8%
-  WSH +1.5                   -156       -214      +7.2%
-  CIN -1.5                   +130       +214     -11.7%
-  O 10.0                     -110        N/A      -0.0%
-  U 10.0                     -110        N/A     -13.6%
+  WSH ML                     +134       -125     +12.9%
+  CIN ML                     -158       +125     -16.9%
+  WSH +1.5                   -160       -223      +7.5%
+  CIN -1.5                   +132       +223     -12.1%
+  O 9.0                      -110        N/A      +8.7%
+  U 9.0                      -110        N/A     -22.1%
 
   ================================================================
-  QUALIFYING PLAYS: 1 (1 Full Game + 0 F5)
+  QUALIFYING PLAYS: 2 (2 Full Game + 0 F5)
   ================================================================
-  [STANDARD EDGE] Washington Nationals +1.5 (Run Line) [-156]
-    Model: 68.2% | Market: 60.9% | Edge: 7.2%
-    Fair ML: -214 | Kelly: 4.64%
+  [STANDARD EDGE] Over 9.0 (Total) [-110]
+    Model: 61.1% | Market: 52.4% | Edge: 8.7%
+    Fair ML: -157 | Kelly: 4.57%
+    [Logged] Bet ID: MLB-00284
+
+  [STANDARD EDGE] Washington Nationals +1.5 (Run Line) [-160]
+    Model: 69.0% | Market: 61.5% | Edge: 7.5%
+    Fair ML: -223 | Kelly: 4.85%
     [Logged] Bet ID: MLB-00278
+
+
+  ────────────────────────────────────────────────────────────────
+  HIGHER MODEL CONFIDENCE (10%+ edge signals)
+  ────────────────────────────────────────────────────────────────
+  [HMC] Washington Nationals (Moneyline (High Edge)) | ML: +134 | Edge: 12.9%
+    [Logged] Bet ID: MLB-00285
 
 
 ====================================================================
@@ -383,30 +419,34 @@ Games: 15 | Plays: 2
 
   LINEUP STATUS
   ----------------------------------------------------------------
-  COL (Away): Lineup not yet posted (using full-strength estimate)
+  COL (Away): MISSING KEY HITTERS
+    Out: Jordan Beck, Brenton Doyle
+      Jordan Beck            LF   OPS: 0.733  (539 AB)
+      Brenton Doyle          CF   OPS: 0.650  (502 AB)
+    Run Adjustment: 97.2% of full strength
   PIT (Home): Lineup not yet posted (using full-strength estimate)
 
   WEATHER CONDITIONS
   ----------------------------------------------------------------
   Stadium:           PNC Park
   Temperature:       69°F
-  Wind:              7 mph (gusts 12 mph)
-  Precip Chance:     1%
-  Conditions:        Mild (69°F), light wind (7 mph)
-  Weather Factor:    0.9758 (Temp: 0.9966 | Wind: 0.9790)
+  Wind:              6 mph (gusts 12 mph)
+  Precip Chance:     2%
+  Conditions:        Mild (69°F), light wind (6 mph)
+  Weather Factor:    0.9783 (Temp: 0.9968 | Wind: 0.9814)
   Impact:            Minimal weather impact
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
-  Expected Score:    COL 3.0  -  PIT 5.4
-  Simulated Avg:     COL 3.0  -  PIT 5.4
-  Win Probability:   COL 26.2%  -  PIT 73.8%
-  Fair Moneyline:    COL +282  /  PIT -282
+  Expected Score:    COL 2.9  -  PIT 5.4
+  Simulated Avg:     COL 2.9  -  PIT 5.4
+  Win Probability:   COL 25.9%  -  PIT 74.2%
+  Fair Moneyline:    COL +287  /  PIT -287
   Avg Total Runs:    8.3
-  Over 7.5:        54.8%
-  Under 7.5:       45.2%
-  COL +1.5:         42.1%
-  PIT -1.5:         57.9%
+  Over 8.5:        43.5%
+  Under 8.5:       56.5%
+  COL +1.5:         41.9%
+  PIT -1.5:         58.1%
   Pitcher Adj:       COL 1.150  /  PIT 0.578
   Bullpen Adj:       COL 1.029  /  PIT 0.978
 
@@ -414,23 +454,30 @@ Games: 15 | Plays: 2
   ----------------------------------------------------------------
   F5 Expected:       COL 1.3  -  PIT 3.1
   F5 Simulated Avg:  COL 1.3  -  PIT 3.1
-  F5 Win Prob:       COL 20.2%  -  PIT 79.8%  (Tie: 14.9%)
-  F5 Fair ML:        COL +395  /  PIT -395
+  F5 Win Prob:       COL 19.4%  -  PIT 80.6%  (Tie: 14.8%)
+  F5 Fair ML:        COL +415  /  PIT -415
   F5 Avg Total:      4.4
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  COL ML                     +270       +282      -0.8%
-  PIT ML                     -335       -282      -3.2%
-  COL +1.5                   +120       +138      -3.4%
-  PIT -1.5                   -144       -138      -1.1%
-  O 7.5                      -110        N/A      +2.4%
-  U 7.5                      -110        N/A      -7.1%
+  COL ML                     +152       +287     -13.8%
+  PIT ML                     -180       -287      +9.9%
+  COL +1.5                   -142       +139     -16.8%
+  PIT -1.5                   +118       -139     +12.3%
+  O 8.5                      -110        N/A      -8.9%
+  U 8.5                      -110        N/A      +4.1%
 
   ================================================================
   RESULT: PASS — No qualifying edge detected
   ================================================================
+
+  ────────────────────────────────────────────────────────────────
+  HIGHER MODEL CONFIDENCE (10%+ edge signals)
+  ────────────────────────────────────────────────────────────────
+  [HMC] Pittsburgh Pirates -1.5 (Run Line (High Edge)) | ML: +118 | Edge: 12.3%
+    [Logged] Bet ID: MLB-00286
+
 
 ====================================================================
   GEMINI 10K v2.2 — MLB ANALYSIS
@@ -481,57 +528,68 @@ Games: 15 | Plays: 2
   LINEUP STATUS
   ----------------------------------------------------------------
   PHI (Away): Lineup not yet posted (using full-strength estimate)
-  BOS (Home): Lineup not yet posted (using full-strength estimate)
+  BOS (Home): MISSING KEY HITTERS
+    Out: Willson Contreras, Andruw Monasterio
+      Willson Contreras      1B   OPS: 0.791  (490 AB)
+      Andruw Monasterio      SS   OPS: 0.756  (126 AB)
+    Run Adjustment: 94.8% of full strength
 
   WEATHER CONDITIONS
   ----------------------------------------------------------------
   Stadium:           Fenway Park
   Temperature:       60°F
-  Wind:              7 mph (gusts 10 mph)
+  Wind:              7 mph (gusts 11 mph)
   Precip Chance:     0%
   Conditions:        Mild (60°F), light wind (7 mph)
-  Weather Factor:    0.9674 (Temp: 0.9862 | Wind: 0.9809)
-  Impact:            Suppressed scoring (favors UNDER)
+  Weather Factor:    0.9744 (Temp: 0.9860 | Wind: 0.9882)
+  Impact:            Minimal weather impact
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
-  Expected Score:    PHI 4.0  -  BOS 3.7
-  Simulated Avg:     PHI 4.0  -  BOS 3.7
-  Win Probability:   PHI 52.9%  -  BOS 47.1%
-  Fair Moneyline:    PHI -112  /  BOS +112
-  Avg Total Runs:    7.7
-  Over 8.5:        37.7%
-  Under 8.5:       62.3%
-  PHI -1.5:         35.6%
-  BOS +1.5:         64.4%
+  Expected Score:    PHI 4.0  -  BOS 3.6
+  Simulated Avg:     PHI 4.0  -  BOS 3.6
+  Win Probability:   PHI 55.2%  -  BOS 44.8%
+  Fair Moneyline:    PHI -123  /  BOS +123
+  Avg Total Runs:    7.6
+  Over 9.0:        27.1%
+  Under 9.0:       64.0%
+  PHI +1.5:         72.4%
+  BOS -1.5:         27.6%
   Pitcher Adj:       PHI 0.935  /  BOS 1.000
   Bullpen Adj:       PHI 0.905  /  BOS 0.933
 
   FIRST 5 INNINGS SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
-  F5 Expected:       PHI 2.3  -  BOS 2.1
-  F5 Simulated Avg:  PHI 2.3  -  BOS 2.1
-  F5 Win Prob:       PHI 54.4%  -  BOS 45.6%  (Tie: 17.8%)
-  F5 Fair ML:        PHI -119  /  BOS +119
-  F5 Avg Total:      4.4
+  F5 Expected:       PHI 2.3  -  BOS 2.0
+  F5 Simulated Avg:  PHI 2.3  -  BOS 2.0
+  F5 Win Prob:       PHI 56.6%  -  BOS 43.4%  (Tie: 18.0%)
+  F5 Fair ML:        PHI -131  /  BOS +131
+  F5 Avg Total:      4.3
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  PHI ML                     -146       -112      -6.4%
-  BOS ML                     +124       +112      +2.4%
-  PHI -1.5                   +118       +181     -10.3%
-  BOS +1.5                   -142       -181      +5.8%
-  O 8.5                      -110        N/A     -14.7%
-  U 8.5                      -110        N/A     +10.0%
+  PHI ML                     +112       -123      +8.0%
+  BOS ML                     -132       +123     -12.1%
+  PHI +1.5                   -184       -262      +7.6%
+  BOS -1.5                   +152       +262     -12.1%
+  O 9.0                      -110        N/A     -25.3%
+  U 9.0                      -110        N/A     +11.6%
 
   ================================================================
   QUALIFYING PLAYS: 1 (1 Full Game + 0 F5)
   ================================================================
-  [STANDARD EDGE] Under 8.5 (Total) [-110]
-    Model: 62.3% | Market: 52.4% | Edge: 10.0%
-    Fair ML: -166 | Kelly: 5.23%
-    [Logged] Bet ID: MLB-00279
+  [STANDARD EDGE] Philadelphia Phillies +1.5 (Run Line) [-184]
+    Model: 72.4% | Market: 64.8% | Edge: 7.6%
+    Fair ML: -262 | Kelly: 5.41%
+    [Logged] Bet ID: MLB-00287
+
+
+  ────────────────────────────────────────────────────────────────
+  HIGHER MODEL CONFIDENCE (10%+ edge signals)
+  ────────────────────────────────────────────────────────────────
+  [HMC] Under 9.0 (Total (High Edge)) | ML: -110 | Edge: 11.7%
+    [Logged] Bet ID: MLB-00288
 
 
 ====================================================================
@@ -608,13 +666,13 @@ Games: 15 | Plays: 2
   ----------------------------------------------------------------
   Expected Score:    TB 4.7  -  TOR 3.4
   Simulated Avg:     TB 4.7  -  TOR 3.4
-  Win Probability:   TB 62.5%  -  TOR 37.5%
-  Fair Moneyline:    TB -167  /  TOR +167
+  Win Probability:   TB 62.9%  -  TOR 37.1%
+  Fair Moneyline:    TB -170  /  TOR +170
   Avg Total Runs:    8.1
-  Over 8.0:        41.0%
-  Under 8.0:       48.3%
-  TB -1.5:         45.5%
-  TOR +1.5:         54.5%
+  Over 7.5:        52.2%
+  Under 7.5:       47.8%
+  TB +1.5:         78.4%
+  TOR -1.5:         21.6%
   Pitcher Adj:       TB 0.652  /  TOR 1.066
   Bullpen Adj:       TB 1.047  /  TOR 1.067
 
@@ -622,23 +680,32 @@ Games: 15 | Plays: 2
   ----------------------------------------------------------------
   F5 Expected:       TB 2.6  -  TOR 1.5
   F5 Simulated Avg:  TB 2.6  -  TOR 1.5
-  F5 Win Prob:       TB 70.4%  -  TOR 29.6%  (Tie: 16.9%)
-  F5 Fair ML:        TB -238  /  TOR +238
-  F5 Avg Total:      4.2
+  F5 Win Prob:       TB 70.3%  -  TOR 29.7%  (Tie: 17.2%)
+  F5 Fair ML:        TB -237  /  TOR +237
+  F5 Avg Total:      4.1
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  TB ML                      -124       -167      +7.2%
-  TOR ML                     +106       +167     -11.1%
-  TB -1.5                    +140       +120      +3.8%
-  TOR +1.5                   -170       -120      -8.4%
-  O 8.0                      -110        N/A     -11.3%
-  U 8.0                      -110        N/A      -4.1%
+  TB ML                      +142       -170     +21.6%
+  TOR ML                     -168       +170     -25.6%
+  TB +1.5                    -152       -362     +18.1%
+  TOR -1.5                   +126       +362     -22.6%
+  O 7.5                      -110        N/A      -0.2%
+  U 7.5                      -110        N/A      -4.6%
 
   ================================================================
   RESULT: PASS — No qualifying edge detected
   ================================================================
+
+  ────────────────────────────────────────────────────────────────
+  HIGHER MODEL CONFIDENCE (10%+ edge signals)
+  ────────────────────────────────────────────────────────────────
+  [HMC] Tampa Bay Rays (Moneyline (High Edge)) | ML: +142 | Edge: 21.6%
+    [Logged] Bet ID: MLB-00289
+  [HMC] Tampa Bay Rays +1.5 (Run Line (High Edge)) | ML: -152 | Edge: 18.1%
+    [Logged] Bet ID: MLB-00290
+
 
 ====================================================================
   GEMINI 10K v2.2 — MLB ANALYSIS
@@ -699,49 +766,54 @@ Games: 15 | Plays: 2
   LINEUP STATUS
   ----------------------------------------------------------------
   DET (Away): Lineup not yet posted (using full-strength estimate)
-  NYM (Home): Lineup not yet posted (using full-strength estimate)
+  NYM (Home): MISSING KEY HITTERS
+    Out: Austin Slater, Luis Torrens, Vidal Bruján
+      Austin Slater          LF   OPS: 0.642  (148 AB)
+      Luis Torrens           C    OPS: 0.629  (261 AB)
+      Vidal Bruján           3B   OPS: 0.615  (87 AB)
+    Run Adjustment: 98.7% of full strength
 
   WEATHER CONDITIONS
   ----------------------------------------------------------------
   Stadium:           Citi Field
-  Temperature:       55°F
+  Temperature:       54°F
   Wind:              11 mph (gusts 22 mph)
   Precip Chance:     0%
-  Conditions:        Cool (55°F), wind in (11 mph)
-  Weather Factor:    0.9600 (Temp: 0.9791 | Wind: 0.9804)
+  Conditions:        Cool (54°F), wind in (11 mph)
+  Weather Factor:    0.9622 (Temp: 0.9788 | Wind: 0.9830)
   Impact:            Suppressed scoring (favors UNDER)
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
   Expected Score:    DET 3.3  -  NYM 3.3
   Simulated Avg:     DET 3.3  -  NYM 3.3
-  Win Probability:   DET 49.5%  -  NYM 50.5%
-  Fair Moneyline:    DET +102  /  NYM -102
+  Win Probability:   DET 50.1%  -  NYM 49.9%
+  Fair Moneyline:    DET -100  /  NYM +100
   Avg Total Runs:    6.6
-  Over 7.5:        34.8%
-  Under 7.5:       65.2%
-  DET +1.5:         69.2%
-  NYM -1.5:         30.8%
+  Over 8.0:        25.1%
+  Under 8.0:       65.1%
+  DET -1.5:         30.7%
+  NYM +1.5:         69.3%
   Pitcher Adj:       DET 1.022  /  NYM 0.801
   Bullpen Adj:       DET 0.976  /  NYM 0.898
 
   FIRST 5 INNINGS SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
-  F5 Expected:       DET 1.8  -  NYM 1.9
+  F5 Expected:       DET 1.8  -  NYM 1.8
   F5 Simulated Avg:  DET 1.8  -  NYM 1.9
-  F5 Win Prob:       DET 47.8%  -  NYM 52.2%  (Tie: 20.5%)
-  F5 Fair ML:        DET +109  /  NYM -109
+  F5 Win Prob:       DET 48.5%  -  NYM 51.5%  (Tie: 20.7%)
+  F5 Fair ML:        DET +106  /  NYM -106
   F5 Avg Total:      3.6
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  DET ML                     +130       +102      +6.0%
-  NYM ML                     -154       -102     -10.1%
-  DET +1.5                   -178       -225      +5.2%
-  NYM -1.5                   +146       +225      -9.9%
-  O 7.5                      -110        N/A     -17.6%
-  U 7.5                      -110        N/A     +12.8%
+  DET ML                     -112       -100      -2.8%
+  NYM ML                     -104       +100      -1.1%
+  DET -1.5                   +150       +225      -9.3%
+  NYM +1.5                   -182       -225      +4.7%
+  O 8.0                      -110        N/A     -27.3%
+  U 8.0                      -110        N/A     +12.7%
 
   ================================================================
   RESULT: PASS — No qualifying edge detected
@@ -750,8 +822,8 @@ Games: 15 | Plays: 2
   ────────────────────────────────────────────────────────────────
   HIGHER MODEL CONFIDENCE (10%+ edge signals)
   ────────────────────────────────────────────────────────────────
-  [HMC] Under 7.5 (Total (High Edge)) | ML: -110 | Edge: 12.8%
-    [Logged] Bet ID: MLB-00280
+  [HMC] Under 8.0 (Total (High Edge)) | ML: -110 | Edge: 12.7%
+    [Logged] Bet ID: MLB-00291
 
 
 ====================================================================
@@ -819,10 +891,10 @@ Games: 15 | Plays: 2
   ----------------------------------------------------------------
   Stadium:           Truist Park
   Temperature:       70°F
-  Wind:              7 mph (gusts 12 mph)
+  Wind:              6 mph (gusts 12 mph)
   Precip Chance:     0%
-  Conditions:        Mild (70°F), light wind (7 mph)
-  Weather Factor:    0.9929 (Temp: 0.9982 | Wind: 0.9947)
+  Conditions:        Mild (70°F), light wind (6 mph)
+  Weather Factor:    0.9906 (Temp: 0.9971 | Wind: 0.9934)
   Impact:            Minimal weather impact
 
   FULL GAME SIMULATION (50,000 iterations)
@@ -830,12 +902,12 @@ Games: 15 | Plays: 2
   Expected Score:    CHC 5.0  -  ATL 5.8
   Simulated Avg:     CHC 5.0  -  ATL 5.8
   Win Probability:   CHC 43.6%  -  ATL 56.4%
-  Fair Moneyline:    CHC +129  /  ATL -129
+  Fair Moneyline:    CHC +130  /  ATL -130
   Avg Total Runs:    10.8
   Over 9.0:        57.8%
-  Under 9.0:       33.1%
-  CHC +1.5:         57.9%
-  ATL -1.5:         42.1%
+  Under 9.0:       33.0%
+  CHC -1.5:         30.4%
+  ATL +1.5:         69.6%
   Pitcher Adj:       CHC 1.005  /  ATL 1.057
   Bullpen Adj:       CHC 1.007  /  ATL 0.845
 
@@ -843,23 +915,32 @@ Games: 15 | Plays: 2
   ----------------------------------------------------------------
   F5 Expected:       CHC 3.1  -  ATL 3.2
   F5 Simulated Avg:  CHC 3.1  -  ATL 3.2
-  F5 Win Prob:       CHC 49.3%  -  ATL 50.7%  (Tie: 13.5%)
-  F5 Fair ML:        CHC +103  /  ATL -103
-  F5 Avg Total:      6.3
+  F5 Win Prob:       CHC 48.6%  -  ATL 51.4%  (Tie: 13.7%)
+  F5 Fair ML:        CHC +106  /  ATL -106
+  F5 Avg Total:      6.2
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  CHC ML                     +102       +129      -5.9%
-  ATL ML                     -120       -129      +1.8%
-  CHC +1.5                   -194       -137      -8.1%
-  ATL -1.5                   +160       +137      +3.7%
+  CHC ML                     -142       +130     -15.1%
+  ATL ML                     +120       -130     +11.0%
+  CHC -1.5                   +116       +229     -15.9%
+  ATL +1.5                   -140       -229     +11.3%
   O 9.0                      -110        N/A      +5.4%
-  U 9.0                      -110        N/A     -19.3%
+  U 9.0                      -110        N/A     -19.4%
 
   ================================================================
   RESULT: PASS — No qualifying edge detected
   ================================================================
+
+  ────────────────────────────────────────────────────────────────
+  HIGHER MODEL CONFIDENCE (10%+ edge signals)
+  ────────────────────────────────────────────────────────────────
+  [HMC] Atlanta Braves (Moneyline (High Edge)) | ML: +120 | Edge: 11.0%
+    [Logged] Bet ID: MLB-00292
+  [HMC] Atlanta Braves +1.5 (Run Line (High Edge)) | ML: -140 | Edge: 11.3%
+    [Logged] Bet ID: MLB-00293
+
 
 ====================================================================
   GEMINI 10K v2.2 — MLB ANALYSIS
@@ -925,44 +1006,44 @@ Games: 15 | Plays: 2
   WEATHER CONDITIONS
   ----------------------------------------------------------------
   Stadium:           Guaranteed Rate Field
-  Temperature:       71°F
-  Wind:              10 mph (gusts 19 mph)
-  Precip Chance:     26%
-  Conditions:        Mild (71°F), wind in (10 mph)
-  Weather Factor:    0.9727 (Temp: 0.9989 | Wind: 0.9738)
+  Temperature:       67°F
+  Wind:              9 mph (gusts 18 mph)
+  Precip Chance:     19%
+  Conditions:        Mild (67°F), wind in (9 mph)
+  Weather Factor:    0.9700 (Temp: 0.9942 | Wind: 0.9756)
   Impact:            Minimal weather impact
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
   Expected Score:    KC 4.8  -  CWS 4.6
-  Simulated Avg:     KC 4.8  -  CWS 4.6
-  Win Probability:   KC 51.8%  -  CWS 48.2%
-  Fair Moneyline:    KC -108  /  CWS +108
-  Avg Total Runs:    9.4
-  Over 9.5:        44.6%
-  Under 9.5:       55.4%
-  KC -1.5:         36.7%
-  CWS +1.5:         63.3%
+  Simulated Avg:     KC 4.8  -  CWS 4.5
+  Win Probability:   KC 52.3%  -  CWS 47.7%
+  Fair Moneyline:    KC -110  /  CWS +110
+  Avg Total Runs:    9.3
+  Over 8.0:        54.1%
+  Under 8.0:       35.6%
+  KC -1.5:         36.9%
+  CWS +1.5:         63.1%
   Pitcher Adj:       KC 1.003  /  CWS 1.283
   Bullpen Adj:       KC 1.184  /  CWS 1.135
 
   FIRST 5 INNINGS SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
   F5 Expected:       KC 2.8  -  CWS 2.3
-  F5 Simulated Avg:  KC 2.8  -  CWS 2.4
-  F5 Win Prob:       KC 56.9%  -  CWS 43.1%  (Tie: 15.3%)
-  F5 Fair ML:        KC -132  /  CWS +132
-  F5 Avg Total:      5.2
+  F5 Simulated Avg:  KC 2.8  -  CWS 2.3
+  F5 Win Prob:       KC 57.7%  -  CWS 42.3%  (Tie: 15.5%)
+  F5 Fair ML:        KC -136  /  CWS +136
+  F5 Avg Total:      5.1
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  KC ML                      -124       -108      -3.5%
-  CWS ML                     +106       +108      -0.4%
-  KC -1.5                    +128       +173      -7.2%
-  CWS +1.5                   -154       -173      +2.7%
-  O 9.5                      -110        N/A      -7.8%
-  U 9.5                      -110        N/A      +3.0%
+  KC ML                      -112       -110      -0.5%
+  CWS ML                     -104       +110      -3.3%
+  KC -1.5                    +152       +171      -2.8%
+  CWS +1.5                   -184       -171      -1.6%
+  O 8.0                      -110        N/A      +1.7%
+  U 8.0                      -110        N/A     -16.7%
 
   ================================================================
   RESULT: PASS — No qualifying edge detected
@@ -1028,49 +1109,53 @@ Games: 15 | Plays: 2
   LINEUP STATUS
   ----------------------------------------------------------------
   MIA (Away): Lineup not yet posted (using full-strength estimate)
-  MIN (Home): Lineup not yet posted (using full-strength estimate)
+  MIN (Home): MISSING KEY HITTERS
+    Out: Matt Wallner, Victor Caratini
+      Matt Wallner           RF   OPS: 0.775  (336 AB)
+      Victor Caratini        C    OPS: 0.728  (344 AB)
+    Run Adjustment: 95.6% of full strength
 
   WEATHER CONDITIONS
   ----------------------------------------------------------------
   Stadium:           Target Field
   Temperature:       65°F
-  Wind:              17 mph (gusts 31 mph)
+  Wind:              18 mph (gusts 34 mph)
   Precip Chance:     0%
-  Conditions:        Mild (65°F), strong wind out (17 mph)
-  Weather Factor:    1.0485 (Temp: 0.9914 | Wind: 1.0577)
+  Conditions:        Mild (65°F), strong wind out (18 mph)
+  Weather Factor:    1.0471 (Temp: 0.9918 | Wind: 1.0557)
   Impact:            Scoring conditions (favors OVER)
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
-  Expected Score:    MIA 5.3  -  MIN 4.6
-  Simulated Avg:     MIA 5.3  -  MIN 4.6
-  Win Probability:   MIA 56.2%  -  MIN 43.8%
-  Fair Moneyline:    MIA -128  /  MIN +128
-  Avg Total Runs:    9.9
-  Over 9.0:        49.6%
-  Under 9.0:       40.7%
-  MIA +1.5:         70.6%
-  MIN -1.5:         29.4%
+  Expected Score:    MIA 5.3  -  MIN 4.4
+  Simulated Avg:     MIA 5.2  -  MIN 4.4
+  Win Probability:   MIA 57.2%  -  MIN 42.8%
+  Fair Moneyline:    MIA -133  /  MIN +133
+  Avg Total Runs:    9.7
+  Over 8.5:        57.2%
+  Under 8.5:       42.8%
+  MIA -1.5:         42.1%
+  MIN +1.5:         57.9%
   Pitcher Adj:       MIA 0.913  /  MIN 1.119
   Bullpen Adj:       MIA 0.889  /  MIN 1.277
 
   FIRST 5 INNINGS SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
-  F5 Expected:       MIA 2.8  -  MIN 2.6
-  F5 Simulated Avg:  MIA 2.8  -  MIN 2.6
-  F5 Win Prob:       MIA 53.4%  -  MIN 46.6%  (Tie: 15.6%)
-  F5 Fair ML:        MIA -115  /  MIN +115
-  F5 Avg Total:      5.4
+  F5 Expected:       MIA 2.8  -  MIN 2.5
+  F5 Simulated Avg:  MIA 2.8  -  MIN 2.5
+  F5 Win Prob:       MIA 55.6%  -  MIN 44.4%  (Tie: 15.8%)
+  F5 Fair ML:        MIA -125  /  MIN +125
+  F5 Avg Total:      5.2
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  MIA ML                     -102       -128      +5.7%
-  MIN ML                     -116       +128      -9.9%
-  MIA +1.5                   -194       -240      +4.6%
-  MIN -1.5                   +160       +240      -9.1%
-  O 9.0                      -110        N/A      -2.8%
-  U 9.0                      -110        N/A     -11.6%
+  MIA ML                     -122       -133      +2.2%
+  MIN ML                     +104       +133      -6.2%
+  MIA -1.5                   +140       +137      +0.5%
+  MIN +1.5                   -170       -137      -5.1%
+  O 8.5                      -110        N/A      +4.8%
+  U 8.5                      -110        N/A      -9.6%
 
   ================================================================
   RESULT: PASS — No qualifying edge detected
@@ -1084,17 +1169,17 @@ Games: 15 | Plays: 2
 
   STARTING PITCHERS
   ----------------------------------------------------------------
-  Away:    Matt Waldron                 Home:    Brandon Sproat
-  ERA:     7.71                         ERA:     5.87
-  WHIP:    1.55                         WHIP:    1.53
-  K/9:     7.23                         K/9:     8.8
-  BB/9:    2.41                         BB/9:    5.28
-  FIP:     5.08                         FIP:     5.87
-  IP:      18.7                         IP:      30.7
-  xERA:    11.19                        xERA:    4.1
-  xwOBA:   0.472                        xwOBA:   0.314
+  Away:    Bradgley Rodriguez           Home:    Brandon Sproat
+  ERA:     1.83                         ERA:     5.87
+  WHIP:    1.02                         WHIP:    1.53
+  K/9:     6.41                         K/9:     8.8
+  BB/9:    2.29                         BB/9:    5.28
+  FIP:     2.44                         FIP:     5.87
+  IP:      19.7                         IP:      30.7
+  xERA:    2.29                         xERA:    4.1
+  xwOBA:   0.237                        xwOBA:   0.314
 
-  Pitcher Edge: SD (Matt Waldron)
+  Pitcher Edge: SD (Bradgley Rodriguez)
 
   TEAM COMPARISON
   ----------------------------------------------------------------
@@ -1142,55 +1227,48 @@ Games: 15 | Plays: 2
   WEATHER CONDITIONS
   ----------------------------------------------------------------
   Stadium:           American Family Field
-  Temperature:       69°F
-  Wind:              13 mph (gusts 25 mph)
-  Precip Chance:     21%
-  Conditions:        Mild (69°F), wind in (13 mph)
-  Weather Factor:    0.9730 (Temp: 0.9968 | Wind: 0.9762)
+  Temperature:       68°F
+  Wind:              12 mph (gusts 26 mph)
+  Precip Chance:     18%
+  Conditions:        Mild (68°F), wind in (12 mph)
+  Weather Factor:    0.9714 (Temp: 0.9946 | Wind: 0.9767)
   Impact:            Minimal weather impact
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
-  Expected Score:    SD 4.6  -  MIL 5.8
-  Simulated Avg:     SD 4.6  -  MIL 5.9
-  Win Probability:   SD 38.4%  -  MIL 61.6%
-  Fair Moneyline:    SD +160  /  MIL -160
-  Avg Total Runs:    10.5
-  Over 8.5:        64.3%
-  Under 8.5:       35.7%
-  SD +1.5:         53.1%
-  MIL -1.5:         46.9%
-  Pitcher Adj:       SD 1.345  /  MIL 1.277
+  Expected Score:    SD 4.6  -  MIL 4.1
+  Simulated Avg:     SD 4.6  -  MIL 4.2
+  Win Probability:   SD 54.1%  -  MIL 45.9%
+  Fair Moneyline:    SD -118  /  MIL +118
+  Avg Total Runs:    8.7
+  Over 7.0:        58.7%
+  Under 7.0:       30.8%
+  SD +1.5:         70.1%
+  MIL -1.5:         29.9%
+  Pitcher Adj:       SD 0.772  /  MIL 1.277
   Bullpen Adj:       SD 0.896  /  MIL 0.947
 
   FIRST 5 INNINGS SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
-  F5 Expected:       SD 2.9  -  MIL 3.7
-  F5 Simulated Avg:  SD 2.9  -  MIL 3.7
-  F5 Win Prob:       SD 39.0%  -  MIL 61.0%  (Tie: 12.7%)
-  F5 Fair ML:        SD +156  /  MIL -156
-  F5 Avg Total:      6.6
+  F5 Expected:       SD 2.9  -  MIL 2.1
+  F5 Simulated Avg:  SD 2.9  -  MIL 2.1
+  F5 Win Prob:       SD 61.8%  -  MIL 38.2%  (Tie: 15.8%)
+  F5 Fair ML:        SD -162  /  MIL +162
+  F5 Avg Total:      5.0
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  SD ML                      +108       +160      -9.6%
-  MIL ML                     -126       -160      +5.8%
-  SD +1.5                    -182       -113     -11.4%
-  MIL -1.5                   +150       +113      +6.9%
-  O 8.5                      -110        N/A     +11.9%
-  U 8.5                      -110        N/A     -16.7%
+  SD ML                      +100       -118      +4.1%
+  MIL ML                     -118       +118      -8.2%
+  SD +1.5                    -220       -234      +1.3%
+  MIL -1.5                   +180       +234      -5.8%
+  O 7.0                      -110        N/A      +6.3%
+  U 7.0                      -110        N/A     -21.6%
 
   ================================================================
   RESULT: PASS — No qualifying edge detected
   ================================================================
-
-  ────────────────────────────────────────────────────────────────
-  HIGHER MODEL CONFIDENCE (10%+ edge signals)
-  ────────────────────────────────────────────────────────────────
-  [HMC] Over 8.5 (Total (High Edge)) | ML: -110 | Edge: 11.9%
-    [Logged] Bet ID: MLB-00281
-
 
 ====================================================================
   GEMINI 10K v2.2 — MLB ANALYSIS
@@ -1258,24 +1336,24 @@ Games: 15 | Plays: 2
   WEATHER CONDITIONS
   ----------------------------------------------------------------
   Stadium:           Globe Life Field
-  Temperature:       79°F
+  Temperature:       80°F
   Wind:              6 mph (gusts 10 mph)
   Precip Chance:     0%
-  Conditions:        Warm (79°F), light wind (6 mph)
-  Weather Factor:    0.9939 (Temp: 1.0108 | Wind: 0.9833)
+  Conditions:        Warm (80°F), light wind (6 mph)
+  Weather Factor:    0.9948 (Temp: 1.0120 | Wind: 0.9830)
   Impact:            Minimal weather impact
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
   Expected Score:    ARI 4.2  -  TEX 4.2
   Simulated Avg:     ARI 4.2  -  TEX 4.2
-  Win Probability:   ARI 50.1%  -  TEX 49.9%
-  Fair Moneyline:    ARI -100  /  TEX +100
+  Win Probability:   ARI 50.3%  -  TEX 49.7%
+  Fair Moneyline:    ARI -101  /  TEX +101
   Avg Total Runs:    8.4
-  Over 8.0:        44.8%
-  Under 8.0:       44.3%
-  ARI +1.5:         66.8%
-  TEX -1.5:         33.1%
+  Over 8.5:        45.0%
+  Under 8.5:       55.0%
+  ARI +1.5:         67.1%
+  TEX -1.5:         32.9%
   Pitcher Adj:       ARI 1.078  /  TEX 0.995
   Bullpen Adj:       ARI 1.053  /  TEX 0.918
 
@@ -1283,19 +1361,19 @@ Games: 15 | Plays: 2
   ----------------------------------------------------------------
   F5 Expected:       ARI 2.5  -  TEX 2.3
   F5 Simulated Avg:  ARI 2.5  -  TEX 2.3
-  F5 Win Prob:       ARI 52.3%  -  TEX 47.7%  (Tie: 16.9%)
+  F5 Win Prob:       ARI 52.4%  -  TEX 47.6%  (Tie: 16.8%)
   F5 Fair ML:        ARI -110  /  TEX +110
   F5 Avg Total:      4.8
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  ARI ML                     +110       -100      +2.5%
-  TEX ML                     -130       +100      -6.6%
-  ARI +1.5                   -194       -202      +0.9%
-  TEX -1.5                   +160       +202      -5.3%
-  O 8.0                      -110        N/A      -7.6%
-  U 8.0                      -110        N/A      -8.1%
+  ARI ML                     +114       -101      +3.6%
+  TEX ML                     -134       +101      -7.6%
+  ARI +1.5                   -184       -204      +2.3%
+  TEX -1.5                   +155       +204      -6.3%
+  O 8.5                      -110        N/A      -7.4%
+  U 8.5                      -110        N/A      +2.6%
 
   ================================================================
   RESULT: PASS — No qualifying edge detected
@@ -1370,18 +1448,18 @@ Games: 15 | Plays: 2
   Wind:              4 mph (gusts 7 mph)
   Precip Chance:     0%
   Conditions:        Warm (76°F), light wind (4 mph)
-  Weather Factor:    1.0186 (Temp: 1.0062 | Wind: 1.0123)
+  Weather Factor:    1.0178 (Temp: 1.0060 | Wind: 1.0117)
   Impact:            Minimal weather impact
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
   Expected Score:    SEA 5.7  -  HOU 4.1
-  Simulated Avg:     SEA 5.7  -  HOU 4.2
-  Win Probability:   SEA 63.5%  -  HOU 36.5%
-  Fair Moneyline:    SEA -174  /  HOU +174
+  Simulated Avg:     SEA 5.7  -  HOU 4.1
+  Win Probability:   SEA 63.4%  -  HOU 36.6%
+  Fair Moneyline:    SEA -173  /  HOU +173
   Avg Total Runs:    9.8
-  Over 8.5:        58.7%
-  Under 8.5:       41.3%
+  Over 9.0:        48.2%
+  Under 9.0:       41.9%
   SEA -1.5:         48.7%
   HOU +1.5:         51.3%
   Pitcher Adj:       SEA 0.789  /  HOU 1.424
@@ -1391,19 +1469,19 @@ Games: 15 | Plays: 2
   ----------------------------------------------------------------
   F5 Expected:       SEA 3.2  -  HOU 2.1
   F5 Simulated Avg:  SEA 3.2  -  HOU 2.1
-  F5 Win Prob:       SEA 67.2%  -  HOU 32.8%  (Tie: 14.8%)
-  F5 Fair ML:        SEA -205  /  HOU +205
-  F5 Avg Total:      5.4
+  F5 Win Prob:       SEA 66.5%  -  HOU 33.5%  (Tie: 14.7%)
+  F5 Fair ML:        SEA -198  /  HOU +198
+  F5 Avg Total:      5.3
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  SEA ML                     -156       -174      +2.6%
-  HOU ML                     +132       +174      -6.6%
-  SEA -1.5                   +106       +105      +0.1%
-  HOU +1.5                   -128       -105      -4.8%
-  O 8.5                      -110        N/A      +6.3%
-  U 8.5                      -110        N/A     -11.0%
+  SEA ML                     -120       -173      +8.9%
+  HOU ML                     +102       +173     -12.9%
+  SEA -1.5                   +132       +105      +5.6%
+  HOU +1.5                   -160       -105     -10.3%
+  O 9.0                      -110        N/A      -4.2%
+  U 9.0                      -110        N/A     -10.5%
 
   ================================================================
   RESULT: PASS — No qualifying edge detected
@@ -1473,24 +1551,24 @@ Games: 15 | Plays: 2
   WEATHER CONDITIONS
   ----------------------------------------------------------------
   Stadium:           Oakland Coliseum
-  Temperature:       57°F
+  Temperature:       56°F
   Wind:              7 mph (gusts 14 mph)
   Precip Chance:     0%
-  Conditions:        Cool (57°F), light wind (7 mph)
-  Weather Factor:    0.9655 (Temp: 0.9820 | Wind: 0.9832)
+  Conditions:        Cool (56°F), light wind (7 mph)
+  Weather Factor:    0.9644 (Temp: 0.9813 | Wind: 0.9827)
   Impact:            Suppressed scoring (favors UNDER)
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
   Expected Score:    STL 4.8  -  ATH 4.9
   Simulated Avg:     STL 4.8  -  ATH 4.9
-  Win Probability:   STL 49.1%  -  ATH 50.9%
-  Fair Moneyline:    STL +103  /  ATH -103
-  Avg Total Runs:    9.8
-  STL -1.5:         34.4%
-  STL +1.5:         64.1%
-  ATH -1.5:         35.9%
-  ATH +1.5:         65.6%
+  Win Probability:   STL 48.7%  -  ATH 51.3%
+  Fair Moneyline:    STL +105  /  ATH -105
+  Avg Total Runs:    9.7
+  STL -1.5:         34.1%
+  STL +1.5:         63.9%
+  ATH -1.5:         36.1%
+  ATH +1.5:         65.9%
   Pitcher Adj:       STL 1.121  /  ATH 1.049
   Bullpen Adj:       STL 1.078  /  ATH 1.093
 
@@ -1498,8 +1576,8 @@ Games: 15 | Plays: 2
   ----------------------------------------------------------------
   F5 Expected:       STL 2.7  -  ATH 2.8
   F5 Simulated Avg:  STL 2.7  -  ATH 2.8
-  F5 Win Prob:       STL 48.9%  -  ATH 51.1%  (Tie: 15.2%)
-  F5 Fair ML:        STL +105  /  ATH -105
+  F5 Win Prob:       STL 48.6%  -  ATH 51.4%  (Tie: 15.2%)
+  F5 Fair ML:        STL +106  /  ATH -106
   F5 Avg Total:      5.4
 
   MARKET COMPARISON
@@ -1578,24 +1656,24 @@ Games: 15 | Plays: 2
   WEATHER CONDITIONS
   ----------------------------------------------------------------
   Stadium:           Dodger Stadium
-  Temperature:       63°F
-  Wind:              7 mph (gusts 9 mph)
+  Temperature:       61°F
+  Wind:              6 mph (gusts 9 mph)
   Precip Chance:     0%
-  Conditions:        Mild (63°F), light wind (7 mph)
-  Weather Factor:    0.9810 (Temp: 0.9890 | Wind: 0.9919)
+  Conditions:        Mild (61°F), light wind (6 mph)
+  Weather Factor:    0.9833 (Temp: 0.9867 | Wind: 0.9966)
   Impact:            Minimal weather impact
 
   FULL GAME SIMULATION (50,000 iterations)
   ----------------------------------------------------------------
   Expected Score:    SF 2.5  -  LAD 5.0
-  Simulated Avg:     SF 2.5  -  LAD 5.0
-  Win Probability:   SF 23.4%  -  LAD 76.6%
-  Fair Moneyline:    SF +327  /  LAD -327
-  Avg Total Runs:    7.5
-  Over 8.5:        35.1%
-  Under 8.5:       64.8%
-  SF +1.5:         40.4%
-  LAD -1.5:         59.6%
+  Simulated Avg:     SF 2.5  -  LAD 5.1
+  Win Probability:   SF 23.5%  -  LAD 76.5%
+  Fair Moneyline:    SF +325  /  LAD -325
+  Avg Total Runs:    7.6
+  Over 8.0:        35.8%
+  Under 8.0:       53.7%
+  SF +1.5:         40.1%
+  LAD -1.5:         59.9%
   Pitcher Adj:       SF 0.966  /  LAD 0.681
   Bullpen Adj:       SF 1.131  /  LAD 0.945
 
@@ -1603,28 +1681,26 @@ Games: 15 | Plays: 2
   ----------------------------------------------------------------
   F5 Expected:       SF 1.2  -  LAD 2.6
   F5 Simulated Avg:  SF 1.2  -  LAD 2.6
-  F5 Win Prob:       SF 23.7%  -  LAD 76.3%  (Tie: 17.2%)
-  F5 Fair ML:        SF +322  /  LAD -322
+  F5 Win Prob:       SF 23.6%  -  LAD 76.4%  (Tie: 17.4%)
+  F5 Fair ML:        SF +323  /  LAD -323
   F5 Avg Total:      3.8
 
   MARKET COMPARISON
   ----------------------------------------------------------------
                            Market      Model       Edge
-  SF ML                      +250       +327      -5.1%
-  LAD ML                     -310       -327      +1.0%
-  SF +1.5                    +122       +148      -4.6%
-  LAD -1.5                   -146       -148      +0.3%
-  O 8.5                      -110        N/A     -17.2%
-  U 8.5                      -110        N/A     +12.5%
+  SF ML                      +205       +325      -9.3%
+  LAD ML                     -250       -325      +5.1%
+  SF +1.5                    -110       +150     -12.3%
+  LAD -1.5                   -110       -150      +7.5%
+  O 8.0                      -110        N/A     -16.5%
+  U 8.0                      -110        N/A      +1.3%
 
   ================================================================
-  RESULT: PASS — No qualifying edge detected
+  QUALIFYING PLAYS: 1 (1 Full Game + 0 F5)
   ================================================================
-
-  ────────────────────────────────────────────────────────────────
-  HIGHER MODEL CONFIDENCE (10%+ edge signals)
-  ────────────────────────────────────────────────────────────────
-  [HMC] Under 8.5 (Total (High Edge)) | ML: -110 | Edge: 12.5%
-    [Logged] Bet ID: MLB-00282
+  [STANDARD EDGE] Los Angeles Dodgers -1.5 (Run Line) [-110]
+    Model: 59.9% | Market: 52.4% | Edge: 7.5%
+    Fair ML: -150 | Kelly: 3.96%
+    [Logged] Bet ID: MLB-00294
 
 
