@@ -18,9 +18,9 @@ function fmtOdds(n: number) {
   return n >= 0 ? `+${n}` : `${n}`;
 }
 
-function fmtClv(n: number | null) {
-  if (n === null || n === 0) return "—";
-  return `${n >= 0 ? "+" : ""}${n.toFixed(2)}`;
+function fmtScore(away: number | null, home: number | null) {
+  if (away == null || home == null) return "—";
+  return `${away}-${home}`;
 }
 
 function resultLabel(r: string) {
@@ -53,12 +53,13 @@ function withinDays(dateStr: string, days: number) {
 
 function downloadCsv(rows: Bet[]) {
   const headers = [
-    "Date","Sport","Game","Play","Type","Edge %","Odds","Units","Result","CLV",
+    "Date","Sport","Game","Play","Type","Edge %","Odds","Units","Result","Score",
   ];
   const lines = rows.map((b) =>
     [
       b.date, b.sport, `"${b.game}"`, `"${b.play}"`,
-      b.type, b.edge, b.odds, b.units, b.result, b.clv ?? "",
+      b.type, b.edge, b.odds, b.units, b.result,
+      b.scoreAway != null && b.scoreHome != null ? `${b.scoreAway}-${b.scoreHome}` : "",
     ].join(",")
   );
   const csv = [headers.join(","), ...lines].join("\n");
@@ -279,7 +280,12 @@ export default function BetLogPage() {
                 <SortHeader label="Odds" col="odds" right />
                 <SortHeader label="Result" col="result" right />
                 <SortHeader label="Units" col="units" right />
-                <SortHeader label="CLV" col="clv" right />
+                <th
+                  className="py-3 px-3 text-xs uppercase tracking-wider font-normal text-right whitespace-nowrap"
+                  style={{ color: "var(--text-tertiary)", borderBottom: "1px solid var(--border)" }}
+                >
+                  Score
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -355,7 +361,7 @@ export default function BetLogPage() {
                         : `${bet.payout.toFixed(2)}u`}
                     </td>
                     <td className="py-2.5 px-3 text-right" style={{ color: "var(--text-tertiary)" }}>
-                      {fmtClv(bet.clv)}
+                      {fmtScore(bet.scoreAway, bet.scoreHome)}
                     </td>
                   </tr>
                 ))
@@ -394,8 +400,7 @@ export default function BetLogPage() {
         {/* Footer note */}
         <p className="text-xs mt-6" style={{ color: "var(--text-tertiary)" }}>
           Lines reflect the price available at the time of release on the listed
-          sportsbook. CLV measures the difference between release line and
-          closing line.
+          sportsbook. Score shown as Away-Home.
         </p>
       </div>
 
