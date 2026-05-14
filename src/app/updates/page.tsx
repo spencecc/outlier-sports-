@@ -18,7 +18,7 @@ export default function UpdatesPage() {
 
       <div className="max-w-7xl mx-auto px-6 py-16 md:py-24">
         <div className="max-w-2xl space-y-16">
-          {[...updates].reverse().map((update) => {
+          {updates.map((update) => {
             const displayDate = new Date(update.date + "T12:00:00").toLocaleDateString(
               "en-US",
               { month: "long", day: "numeric", year: "numeric" }
