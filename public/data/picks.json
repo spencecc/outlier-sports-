@@ -1,16 +1,6 @@
 {
-  "date": "2026-05-13",
+  "date": "2026-05-14",
   "picks": [
-    {
-      "date": "2026-05-13",
-      "sport": "MLB",
-      "game": "Cubs @ Braves",
-      "play": "Over 8.5",
-      "type": "Total",
-      "edge": 8.6,
-      "odds": -110,
-      "isLean": false
-    },
     {
       "date": "2026-05-13",
       "sport": "MLB",
