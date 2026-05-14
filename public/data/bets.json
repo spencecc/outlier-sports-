@@ -6238,13 +6238,13 @@
     "odds": -110,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "win",
+    "payout": 0.91,
+    "scoreAway": 0,
+    "scoreHome": 7,
     "openLine": -110,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -110,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6260,13 +6260,13 @@
     "odds": -105,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "win",
+    "payout": 0.95,
+    "scoreAway": 0,
+    "scoreHome": 7,
     "openLine": -105,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -105,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6287,8 +6287,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": 134,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": 134,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6309,8 +6309,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -110,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -110,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6331,8 +6331,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -146,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -146,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6353,8 +6353,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -110,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -110,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6375,8 +6375,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -110,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -110,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6397,8 +6397,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": 122,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": 122,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6419,8 +6419,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -140,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -140,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6441,8 +6441,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -192,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": 158,
+    "clv": -26.99,
     "notes": ""
   },
   {
@@ -6463,30 +6463,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -110,
-    "closeLine": null,
-    "clv": null,
-    "notes": ""
-  },
-  {
-    "id": "2026-05-13-004-pending",
-    "internalId": "",
-    "date": "2026-05-13",
-    "sport": "MLB",
-    "game": "Diamondbacks @ Rangers",
-    "play": "TEX +1.5",
-    "type": "Run Line",
-    "tier": "Standard Edge",
-    "edge": 9.1,
-    "odds": -192,
-    "units": 1.0,
-    "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
-    "openLine": -192,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -110,
+    "clv": 0.0,
     "notes": ""
   }
 ]

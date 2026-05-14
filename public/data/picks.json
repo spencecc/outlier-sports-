@@ -1,33 +1,10 @@
 {
-  "date": "2026-05-13",
+  "date": "2026-05-14",
   "picks": [
     {
       "date": "2026-05-13",
       "sport": "MLB",
-      "game": "NYY @ BAL",
-      "time": "1:05 PM ET",
-      "play": "Under 8.5",
-      "type": "Total",
-      "edge": 7.5,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-13",
-      "sport": "MLB",
-      "game": "NYY @ BAL",
-      "time": "1:05 PM ET",
-      "play": "BAL +1.5",
-      "type": "Run Line",
-      "edge": 9.6,
-      "odds": -105,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-13",
-      "sport": "MLB",
-      "game": "CHC @ ATL",
-      "time": "7:15 PM ET",
+      "game": "Cubs @ Braves",
       "play": "Over 8.5",
       "type": "Total",
       "edge": 8.6,
@@ -37,9 +14,8 @@
     {
       "date": "2026-05-13",
       "sport": "MLB",
-      "game": "ARI @ TEX",
-      "time": "8:05 PM ET",
-      "play": "TEX +1.5",
+      "game": "Diamondbacks @ Rangers",
+      "play": "ARI +1.5",
       "type": "Run Line",
       "edge": 9.1,
       "odds": -192,
@@ -48,8 +24,7 @@
     {
       "date": "2026-05-13",
       "sport": "MLB",
-      "game": "SF @ LAD",
-      "time": "10:10 PM ET",
+      "game": "Giants @ Dodgers",
       "play": "LAD -1.5",
       "type": "Run Line",
       "edge": 7.3,
