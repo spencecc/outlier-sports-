@@ -1,5 +1,11 @@
 [
   {
+    "id": "003",
+    "date": "2026-05-13",
+    "title": "State of the Model — May 2026",
+    "body": "We're 148-130-5 on the season. ROI is sitting at +1.4%, +3.84 units. That's positive across the board through a full month of play, which is where I wanted to be at this point.\n\nThe model is doing what it's supposed to do. It's finding edge consistently, not chasing it. PASS days are still happening — that's a feature. When the numbers aren't there, we don't play.\n\nI want to address something that happened Tuesday. The model had one of its best single-card days of the year — 13-4 — and the email that went out only included a fraction of the plays. Several Higher Model Confidence plays never reached subscribers, including two TB @ TOR signals at 21.6% and 18.1% edge. Both hit. You should have had those.\n\nThat's on me. There was a process failure in how the email gets assembled and I've corrected it. Every play the model logs — standard and Higher Model Confidence — goes in the email now, no exceptions. If you got Tuesday's email and felt like you missed something, you did, and I'm sorry for it.\n\nGoing forward: you'll see fuller cards on big-edge days. That's the point of subscribing."
+  },
+  {
     "id": "002",
     "date": "2026-05-06",
     "title": "Football, Basketball, NHL — and a URL Change",
