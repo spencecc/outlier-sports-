@@ -1,5 +1,28 @@
 {
   "date": "2026-05-15",
-  "picks": [],
-  "hasPicks": false
+  "hasPicks": true,
+  "picks": [
+    {
+      "date": "2026-05-15",
+      "sport": "MLB",
+      "game": "Red Sox @ Braves",
+      "time": "7:15 PM ET",
+      "play": "Atlanta Braves -1.5",
+      "type": "Run Line",
+      "edge": 8.4,
+      "odds": 132,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-15",
+      "sport": "MLB",
+      "game": "Diamondbacks @ Rockies",
+      "time": "8:40 PM ET",
+      "play": "Under 11.5",
+      "type": "Total",
+      "edge": 9.6,
+      "odds": -110,
+      "isLean": false
+    }
+  ]
 }
