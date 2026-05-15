@@ -320,25 +320,15 @@ export default function BetLogPage() {
                       {bet.game}
                     </td>
                     <td className="py-2.5 px-3 max-w-48" style={{ color: "var(--text-secondary)" }}>
-                      <span className="truncate block">{bet.play}</span>
-                      <span className="flex gap-1 mt-0.5 flex-wrap">
-                        {bet.type === "Moneyline" && (
-                          <span
-                            className="font-sans uppercase tracking-wider px-1 py-px"
-                            style={{ color: "var(--text-tertiary)", border: "1px solid var(--border)", fontSize: "9px" }}
-                          >
-                            ML
-                          </span>
-                        )}
-                        {(bet as Bet & { tier?: string }).tier === "High Conviction" && (
-                          <span
-                            className="font-sans uppercase tracking-wider px-1 py-px"
-                            style={{ color: "var(--accent)", border: "1px solid var(--accent)", fontSize: "9px" }}
-                          >
-                            HC
-                          </span>
-                        )}
-                      </span>
+                      <span className="truncate block">{bet.play}{bet.type === "Moneyline" ? " ML" : ""}</span>
+                      {(bet as Bet & { tier?: string }).tier === "High Conviction" && (
+                        <span
+                          className="text-xs font-sans uppercase tracking-wider px-1 py-px"
+                          style={{ color: "var(--accent)", border: "1px solid var(--accent)", fontSize: "9px" }}
+                        >
+                          HC
+                        </span>
+                      )}
                     </td>
                     <td className="py-2.5 px-3 text-right" style={{ color: "var(--text-secondary)" }}>
                       {bet.edge.toFixed(1)}%
