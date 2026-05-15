@@ -1,26 +1,5 @@
 {
-  "date": "2026-05-14",
-  "picks": [
-    {
-      "date": "2026-05-13",
-      "sport": "MLB",
-      "game": "Diamondbacks @ Rangers",
-      "play": "ARI +1.5",
-      "type": "Run Line",
-      "edge": 9.1,
-      "odds": -192,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-13",
-      "sport": "MLB",
-      "game": "Giants @ Dodgers",
-      "play": "LAD -1.5",
-      "type": "Run Line",
-      "edge": 7.3,
-      "odds": -110,
-      "isLean": false
-    }
-  ],
-  "hasPicks": true
+  "date": "2026-05-15",
+  "picks": [],
+  "hasPicks": false
 }
