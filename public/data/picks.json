@@ -1,5 +1,36 @@
 {
   "date": "2026-05-18",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-05-18",
+      "sport": "MLB",
+      "game": "ATL @ MIA",
+      "play": "ATL -1.5",
+      "type": "Run Line",
+      "edge": 9.7,
+      "odds": 136,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-18",
+      "sport": "MLB",
+      "game": "TEX @ COL",
+      "play": "COL +1.5",
+      "type": "Run Line",
+      "edge": 9.1,
+      "odds": -130,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-18",
+      "sport": "MLB",
+      "game": "LAD @ SD",
+      "play": "Under 8.5",
+      "type": "Total",
+      "edge": 9.6,
+      "odds": -110,
+      "isLean": false
+    }
+  ],
+  "hasPicks": true
 }
