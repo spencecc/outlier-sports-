@@ -1,39 +1,5 @@
 {
-  "date": "2026-05-16",
-  "hasPicks": true,
-  "picks": [
-    {
-      "date": "2026-05-16",
-      "sport": "MLB",
-      "game": "PHI @ PIT",
-      "time": "4:05 PM ET",
-      "play": "Under 8.5",
-      "type": "Total",
-      "edge": 9.3,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-16",
-      "sport": "MLB",
-      "game": "CHC @ CWS",
-      "time": "7:10 PM ET",
-      "play": "Over 8.5",
-      "type": "Total",
-      "edge": 9.7,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-16",
-      "sport": "MLB",
-      "game": "MIL @ MIN",
-      "time": "7:10 PM ET",
-      "play": "Over 8.5",
-      "type": "Total",
-      "edge": 8.8,
-      "odds": -110,
-      "isLean": false
-    }
-  ]
+  "date": "2026-05-18",
+  "picks": [],
+  "hasPicks": false
 }
