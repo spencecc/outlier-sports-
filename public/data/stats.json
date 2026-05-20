@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T16:06:21Z",
+  "lastUpdated": "2026-05-20T16:23:46Z",
   "lifetime": {
     "record": "189-156-6P",
     "wins": 189,
@@ -19,14 +19,14 @@
       "bets": 171
     },
     "higherModelConf": {
-      "record": "183-140-5P",
-      "wins": 183,
-      "losses": 140,
+      "record": "181-139-5P",
+      "wins": 181,
+      "losses": 139,
       "pushes": 5,
-      "winPct": 56.7,
-      "roi": 6.8,
-      "units": 21.99,
-      "bets": 328
+      "winPct": 56.6,
+      "roi": 6.6,
+      "units": 21.17,
+      "bets": 325
     }
   },
   "season2026": {
@@ -48,14 +48,14 @@
       "bets": 171
     },
     "higherModelConf": {
-      "record": "183-140-5P",
-      "wins": 183,
-      "losses": 140,
+      "record": "181-139-5P",
+      "wins": 181,
+      "losses": 139,
       "pushes": 5,
-      "winPct": 56.7,
-      "roi": 6.8,
-      "units": 21.99,
-      "bets": 328
+      "winPct": 56.6,
+      "roi": 6.6,
+      "units": 21.17,
+      "bets": 325
     }
   },
   "last30Days": {
@@ -77,14 +77,14 @@
       "bets": 93
     },
     "higherModelConf": {
-      "record": "111-84-2P",
-      "wins": 111,
-      "losses": 84,
+      "record": "109-83-2P",
+      "wins": 109,
+      "losses": 83,
       "pushes": 2,
-      "winPct": 56.9,
-      "roi": 6.4,
-      "units": 12.53,
-      "bets": 197
+      "winPct": 56.8,
+      "roi": 6.1,
+      "units": 11.71,
+      "bets": 194
     }
   },
   "last7Days": {
@@ -106,14 +106,14 @@
       "bets": 24
     },
     "higherModelConf": {
-      "record": "27-20",
-      "wins": 27,
-      "losses": 20,
+      "record": "25-19",
+      "wins": 25,
+      "losses": 19,
       "pushes": 0,
-      "winPct": 57.4,
-      "roi": 9.4,
-      "units": 4.44,
-      "bets": 47
+      "winPct": 56.8,
+      "roi": 8.2,
+      "units": 3.62,
+      "bets": 44
     }
   },
   "byEdgeZone": [
@@ -213,13 +213,13 @@
     }
   ],
   "higherModelConf": {
-    "record": "183-140-5P",
-    "wins": 183,
-    "losses": 140,
+    "record": "181-139-5P",
+    "wins": 181,
+    "losses": 139,
     "pushes": 5,
-    "winPct": 56.7,
-    "roi": 6.8,
-    "units": 21.99,
-    "bets": 328
+    "winPct": 56.6,
+    "roi": 6.6,
+    "units": 21.17,
+    "bets": 325
   }
 }
