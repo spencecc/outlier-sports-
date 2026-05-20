@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T23:47:48Z",
+  "lastUpdated": "2026-05-20T23:59:08Z",
   "lifetime": {
     "record": "192-156-6P",
     "wins": 192,
@@ -19,14 +19,14 @@
       "bets": 173
     },
     "higherModelConf": {
-      "record": "111-100-2P",
-      "wins": 111,
-      "losses": 100,
-      "pushes": 2,
-      "winPct": 52.6,
-      "roi": 0.6,
-      "units": 1.21,
-      "bets": 213
+      "record": "79-61",
+      "wins": 79,
+      "losses": 61,
+      "pushes": 0,
+      "winPct": 56.4,
+      "roi": 7.3,
+      "units": 10.19,
+      "bets": 140
     }
   },
   "season2026": {
@@ -48,14 +48,14 @@
       "bets": 173
     },
     "higherModelConf": {
-      "record": "111-100-2P",
-      "wins": 111,
-      "losses": 100,
-      "pushes": 2,
-      "winPct": 52.6,
-      "roi": 0.6,
-      "units": 1.21,
-      "bets": 213
+      "record": "79-61",
+      "wins": 79,
+      "losses": 61,
+      "pushes": 0,
+      "winPct": 56.4,
+      "roi": 7.3,
+      "units": 10.19,
+      "bets": 140
     }
   },
   "last30Days": {
