@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T16:23:46Z",
+  "lastUpdated": "2026-05-20T16:42:55Z",
   "lifetime": {
     "record": "189-156-6P",
     "wins": 189,
@@ -19,14 +19,14 @@
       "bets": 171
     },
     "higherModelConf": {
-      "record": "181-139-5P",
-      "wins": 181,
-      "losses": 139,
-      "pushes": 5,
-      "winPct": 56.6,
-      "roi": 6.6,
-      "units": 21.17,
-      "bets": 325
+      "record": "110-100-2P",
+      "wins": 110,
+      "losses": 100,
+      "pushes": 2,
+      "winPct": 52.4,
+      "roi": 0.1,
+      "units": 0.31,
+      "bets": 212
     }
   },
   "season2026": {
@@ -48,14 +48,14 @@
       "bets": 171
     },
     "higherModelConf": {
-      "record": "181-139-5P",
-      "wins": 181,
-      "losses": 139,
-      "pushes": 5,
-      "winPct": 56.6,
-      "roi": 6.6,
-      "units": 21.17,
-      "bets": 325
+      "record": "110-100-2P",
+      "wins": 110,
+      "losses": 100,
+      "pushes": 2,
+      "winPct": 52.4,
+      "roi": 0.1,
+      "units": 0.31,
+      "bets": 212
     }
   },
   "last30Days": {
@@ -77,14 +77,14 @@
       "bets": 93
     },
     "higherModelConf": {
-      "record": "109-83-2P",
-      "wins": 109,
-      "losses": 83,
-      "pushes": 2,
-      "winPct": 56.8,
-      "roi": 6.1,
-      "units": 11.71,
-      "bets": 194
+      "record": "64-52",
+      "wins": 64,
+      "losses": 52,
+      "pushes": 0,
+      "winPct": 55.2,
+      "roi": 7.1,
+      "units": 8.19,
+      "bets": 116
     }
   },
   "last7Days": {
@@ -213,13 +213,13 @@
     }
   ],
   "higherModelConf": {
-    "record": "181-139-5P",
-    "wins": 181,
-    "losses": 139,
-    "pushes": 5,
-    "winPct": 56.6,
-    "roi": 6.6,
-    "units": 21.17,
-    "bets": 325
+    "record": "110-100-2P",
+    "wins": 110,
+    "losses": 100,
+    "pushes": 2,
+    "winPct": 52.4,
+    "roi": 0.1,
+    "units": 0.31,
+    "bets": 212
   }
 }
