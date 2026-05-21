@@ -1,16 +1,5 @@
 {
-  "date": "2026-05-20",
-  "picks": [
-    {
-      "date": "2026-05-20",
-      "sport": "MLB",
-      "game": "NYM @ WSH",
-      "play": "WSH +1.5",
-      "type": "Run Line",
-      "edge": 8.9,
-      "odds": -150,
-      "isLean": false
-    }
-  ],
-  "hasPicks": true
+  "date": "2026-05-21",
+  "picks": [],
+  "hasPicks": false
 }
