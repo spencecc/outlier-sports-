@@ -1,5 +1,28 @@
 {
   "date": "2026-05-21",
-  "picks": [],
-  "hasPicks": false
+  "hasPicks": true,
+  "picks": [
+    {
+      "date": "2026-05-21",
+      "sport": "MLB",
+      "game": "NYM @ WSH",
+      "time": "4:05 PM ET",
+      "play": "Over 8.5",
+      "type": "Total",
+      "edge": 9.3,
+      "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-21",
+      "sport": "MLB",
+      "game": "NYM @ WSH",
+      "time": "4:05 PM ET",
+      "play": "Nationals +1.5",
+      "type": "Run Line",
+      "edge": 9.6,
+      "odds": -182,
+      "isLean": false
+    }
+  ]
 }
