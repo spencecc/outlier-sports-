@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-05-21",
+    "displayDate": "May 21, 2026",
+    "file": "2026-05-21.txt",
+    "games": 7,
+    "plays": 2
+  },
+  {
     "date": "2026-05-19",
     "displayDate": "May 19, 2026",
     "file": "2026-05-19.txt",
