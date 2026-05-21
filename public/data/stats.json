@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T00:27:01Z",
+  "lastUpdated": "2026-05-21T00:28:37Z",
   "lifetime": {
     "record": "305-247-11P",
     "wins": 305,
@@ -59,61 +59,61 @@
     }
   },
   "last30Days": {
-    "record": "157-115-3P",
-    "wins": 157,
-    "losses": 115,
+    "record": "162-119-3P",
+    "wins": 162,
+    "losses": 119,
     "pushes": 3,
     "winPct": 57.7,
-    "roi": 7.9,
-    "units": 21.35,
+    "roi": 7.6,
+    "units": 21.49,
     "standard": {
-      "record": "53-36-1P",
+      "record": "53-37-1P",
       "wins": 53,
-      "losses": 36,
+      "losses": 37,
       "pushes": 1,
-      "winPct": 59.6,
-      "roi": 10.8,
-      "units": 9.58,
-      "bets": 90
+      "winPct": 58.9,
+      "roi": 9.5,
+      "units": 8.58,
+      "bets": 91
     },
     "higherModelConf": {
-      "record": "121-92-2P",
-      "wins": 121,
-      "losses": 92,
+      "record": "126-96-2P",
+      "wins": 126,
+      "losses": 96,
       "pushes": 2,
       "winPct": 56.8,
-      "roi": 7.0,
-      "units": 14.97,
-      "bets": 215
+      "roi": 6.8,
+      "units": 15.1,
+      "bets": 224
     }
   },
   "last7Days": {
-    "record": "34-25-1P",
-    "wins": 34,
-    "losses": 25,
+    "record": "44-26-1P",
+    "wins": 44,
+    "losses": 26,
     "pushes": 1,
-    "winPct": 57.6,
-    "roi": 7.7,
-    "units": 4.57,
+    "winPct": 62.9,
+    "roi": 18.1,
+    "units": 12.64,
     "standard": {
-      "record": "14-6-1P",
-      "wins": 14,
-      "losses": 6,
+      "record": "18-7-1P",
+      "wins": 18,
+      "losses": 7,
       "pushes": 1,
-      "winPct": 70.0,
-      "roi": 29.1,
-      "units": 5.82,
-      "bets": 21
+      "winPct": 72.0,
+      "roi": 32.4,
+      "units": 8.11,
+      "bets": 26
     },
     "higherModelConf": {
-      "record": "20-19",
-      "wins": 20,
+      "record": "26-19",
+      "wins": 26,
       "losses": 19,
       "pushes": 0,
-      "winPct": 51.3,
-      "roi": -3.2,
-      "units": -1.25,
-      "bets": 39
+      "winPct": 57.8,
+      "roi": 10.1,
+      "units": 4.53,
+      "bets": 45
     }
   },
   "byEdgeZone": [
