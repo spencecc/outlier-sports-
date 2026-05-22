@@ -12824,5 +12824,27 @@
     "closeLine": null,
     "clv": null,
     "notes": ""
+  },
+  {
+    "id": "2026-05-22-014",
+    "internalId": "MLB-00609",
+    "date": "2026-05-22",
+    "sport": "MLB",
+    "game": "CWS @ SF",
+    "play": "Under 7.5",
+    "type": "Total",
+    "tier": "Standard Edge",
+    "edge": 7.6,
+    "odds": -110,
+    "units": 1.0,
+    "stake": 25,
+    "result": "pending",
+    "payout": null,
+    "scoreAway": null,
+    "scoreHome": null,
+    "openLine": -110,
+    "closeLine": null,
+    "clv": null,
+    "notes": ""
   }
 ]
