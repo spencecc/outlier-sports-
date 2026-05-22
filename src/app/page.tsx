@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import StatCard from "@/components/StatCard";
 import ReportCard from "@/components/ReportCard";
 import BeehiivSignup from "@/components/BeehiivSignup";
@@ -27,46 +28,57 @@ export default async function HomePage() {
     <>
       {/* ── Hero ───────────────────────────────────────────────────────────── */}
       <section className="px-6 pt-24 pb-20 md:pt-32 md:pb-28 max-w-7xl mx-auto">
-        <div className="max-w-3xl">
-          <h1
-            className="font-display text-5xl md:text-7xl lg:text-8xl leading-tight mb-6 animate-fade-up"
-            style={{ color: "var(--text-primary)", animationDelay: "0ms" }}
-          >
-            50,000 Simulations.
-            <br />
-            Find the Outliers.
-          </h1>
-          <p
-            className="text-lg md:text-xl leading-relaxed mb-10 animate-fade-up"
-            style={{
-              color: "var(--text-secondary)",
-              animationDelay: "200ms",
-            }}
-          >
-            A Monte Carlo sports model that surfaces the games where the market
-            is wrong. Daily picks, fully transparent track record, free.
-          </p>
-          <div
-            className="flex flex-wrap items-center gap-6 animate-fade-up"
-            style={{ animationDelay: "400ms" }}
-          >
-            <a
-              href="#signup"
-              className="inline-block px-6 py-3 text-sm font-sans uppercase tracking-wider transition-colors duration-150"
+        <div className="flex items-center justify-between gap-12">
+          <div className="max-w-3xl">
+            <h1
+              className="font-display text-5xl md:text-7xl lg:text-8xl leading-tight mb-6 animate-fade-up"
+              style={{ color: "var(--text-primary)", animationDelay: "0ms" }}
+            >
+              50,000 Simulations.
+              <br />
+              Find the Outliers.
+            </h1>
+            <p
+              className="text-lg md:text-xl leading-relaxed mb-10 animate-fade-up"
               style={{
-                backgroundColor: "var(--accent)",
-                color: "var(--text-primary)",
+                color: "var(--text-secondary)",
+                animationDelay: "200ms",
               }}
             >
-              Get the Free Daily Report →
-            </a>
-            <Link
-              href="/track-record"
-              className="text-sm transition-colors duration-150"
-              style={{ color: "var(--text-secondary)" }}
+              A Monte Carlo sports model that surfaces the games where the market
+              is wrong. Daily picks, fully transparent track record, free.
+            </p>
+            <div
+              className="flex flex-wrap items-center gap-6 animate-fade-up"
+              style={{ animationDelay: "400ms" }}
             >
-              See the track record →
-            </Link>
+              <a
+                href="#signup"
+                className="inline-block px-6 py-3 text-sm font-sans uppercase tracking-wider transition-colors duration-150"
+                style={{
+                  backgroundColor: "var(--accent)",
+                  color: "var(--text-primary)",
+                }}
+              >
+                Get the Free Daily Report →
+              </a>
+              <Link
+                href="/track-record"
+                className="text-sm transition-colors duration-150"
+                style={{ color: "var(--text-secondary)" }}
+              >
+                See the track record →
+              </Link>
+            </div>
+          </div>
+          <div className="hidden md:flex flex-shrink-0 items-center justify-center">
+            <Image
+              src="/logo.png"
+              alt="Copacetic Sports"
+              width={220}
+              height={220}
+              className="opacity-80"
+            />
           </div>
         </div>
       </section>
