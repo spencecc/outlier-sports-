@@ -1,28 +1,46 @@
 {
-  "date": "2026-05-21",
-  "hasPicks": true,
+  "date": "2026-05-22",
   "picks": [
     {
-      "date": "2026-05-21",
+      "date": "2026-05-22",
       "sport": "MLB",
-      "game": "NYM @ WSH",
-      "time": "4:05 PM ET",
-      "play": "Over 8.5",
+      "game": "STL @ CIN",
+      "play": "Over 9.5",
       "type": "Total",
-      "edge": 9.3,
+      "edge": 7.4,
       "odds": -110,
       "isLean": false
     },
     {
-      "date": "2026-05-21",
+      "date": "2026-05-22",
       "sport": "MLB",
-      "game": "NYM @ WSH",
-      "time": "4:05 PM ET",
-      "play": "Nationals +1.5",
-      "type": "Run Line",
-      "edge": 9.6,
-      "odds": -182,
+      "game": "CLE @ PHI",
+      "play": "Over 6.5",
+      "type": "Total",
+      "edge": 7.9,
+      "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-22",
+      "sport": "MLB",
+      "game": "TEX @ LAA",
+      "play": "Over 7.5",
+      "type": "Total",
+      "edge": 8.1,
+      "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-22",
+      "sport": "MLB",
+      "game": "COL @ ARI",
+      "play": "Over 8.5",
+      "type": "Total",
+      "edge": 8.6,
+      "odds": -110,
       "isLean": false
     }
-  ]
+  ],
+  "hasPicks": true
 }
