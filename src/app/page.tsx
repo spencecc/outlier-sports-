@@ -75,8 +75,8 @@ export default async function HomePage() {
             <Image
               src="/logo.png"
               alt="Copacetic Sports"
-              width={220}
-              height={220}
+              width={280}
+              height={280}
               className="opacity-80"
             />
           </div>
