@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -6,6 +7,17 @@ export default function Footer() {
       className="border-t mt-auto"
       style={{ borderColor: "var(--border)" }}
     >
+      {/* Logo seal */}
+      <div className="flex justify-center pt-10 pb-2">
+        <Image
+          src="/logo.png"
+          alt="Copacetic Sports"
+          width={96}
+          height={96}
+          className="opacity-60"
+        />
+      </div>
+
       {/* Main columns */}
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Brand */}
