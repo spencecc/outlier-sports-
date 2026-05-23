@@ -141,10 +141,22 @@ function directionStyle(d: string): string {
 }
 
 function alertStyle(a: string | undefined): string {
-  if (a === "Steam") return "var(--accent)";
+  if (a === "Price Flip") return "var(--accent)";
+  if (a === "Steam") return "#B8A040";
   if (a === "Stale book") return "var(--loss)";
-  if (a === "Drift") return "#B8A040";
+  if (a === "Drift") return "var(--text-secondary)";
   return "var(--text-tertiary)";
+}
+
+function fmtMove(move: string, market: string): string {
+  const n = parseFloat(move);
+  if (isNaN(n)) return move;
+  const sign = n >= 0 ? "+" : "-";
+  const abs = Math.abs(n);
+  if (market === "total") {
+    return `${sign}${abs.toFixed(1)} pts`;
+  }
+  return `${sign}${Math.round(abs)}¢`;
 }
 
 // ── Helper sub-components ─────────────────────────────────────────────────────
@@ -154,7 +166,7 @@ function ThLabel({ children }: { children: React.ReactNode }) {
     <th
       className="py-3 px-3 text-xs uppercase tracking-wider font-normal text-left whitespace-nowrap"
       style={{
-        color: "var(--text-tertiary)",
+        color: "var(--text-secondary)",
         borderBottom: "1px solid var(--border)",
       }}
     >
@@ -168,7 +180,7 @@ function ThRight({ children }: { children: React.ReactNode }) {
     <th
       className="py-3 px-3 text-xs uppercase tracking-wider font-normal text-right whitespace-nowrap"
       style={{
-        color: "var(--text-tertiary)",
+        color: "var(--text-secondary)",
         borderBottom: "1px solid var(--border)",
       }}
     >
@@ -502,7 +514,7 @@ function LineMovementTable({ rows }: { rows: LineMovement[] }) {
                 </td>
                 <td
                   className="py-2.5 px-3 text-right"
-                  style={{ color: "var(--text-tertiary)" }}
+                  style={{ color: "var(--text-secondary)" }}
                 >
                   {r.open_odds}
                 </td>
@@ -513,13 +525,13 @@ function LineMovementTable({ rows }: { rows: LineMovement[] }) {
                   {r.current_odds}
                 </td>
                 <td
-                  className="py-2.5 px-3 text-right"
+                  className="py-2.5 px-3 text-right whitespace-nowrap"
                   style={{ color: "var(--text-secondary)" }}
                 >
-                  {r.move}
+                  {fmtMove(r.move, r.market)}
                 </td>
                 <td
-                  className="py-2.5 px-3"
+                  className="py-2.5 px-3 whitespace-nowrap"
                   style={{ color: directionStyle(r.direction) }}
                 >
                   {r.direction}
@@ -697,6 +709,7 @@ export default function EdgeBoardClient({
 
   const alertOptions = [
     { value: "all", label: "All Alerts" },
+    { value: "Price Flip", label: "Price Flip" },
     { value: "Steam", label: "Steam" },
     { value: "Drift", label: "Drift" },
     { value: "Stale book", label: "Stale book" },
