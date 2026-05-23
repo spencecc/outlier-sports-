@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
@@ -53,6 +54,18 @@ export default function RootLayout({
         className="min-h-full flex flex-col"
         style={{ backgroundColor: "var(--bg-primary)", color: "var(--text-primary)" }}
       >
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-6YYYERW9YE"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6YYYERW9YE');
+          `}
+        </Script>
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
