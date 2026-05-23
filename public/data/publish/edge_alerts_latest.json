@@ -1,0 +1,276 @@
+{
+  "_note": "DEMO MODE: Seeded data for layout testing. Connect the Python pipeline to populate live alerts.",
+  "as_of": "2026-05-23T10:30:00-04:00",
+  "date": "2026-05-23",
+  "version": "edge-alerts-v1",
+  "sports": ["MLB", "NHL"],
+  "summary": {
+    "model_edges": 5,
+    "book_discrepancies": 3,
+    "line_movements": 6,
+    "warnings": [
+      "DEMO MODE: Seeded data for layout testing. Connect the Python pipeline to populate live alerts."
+    ]
+  },
+  "model_edges": [
+    {
+      "sport": "MLB",
+      "game_id": "demo_mlb_001",
+      "game": "Nationals at Braves",
+      "market": "Moneyline",
+      "side": "Nationals",
+      "best_book": "DraftKings",
+      "market_odds": "+148",
+      "model_fair_line": "+130",
+      "model_probability": 0.435,
+      "market_probability": 0.403,
+      "edge": 0.032,
+      "ev": 0.047,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-05-23T10:28:00-04:00"
+    },
+    {
+      "sport": "NHL",
+      "game_id": "demo_nhl_001",
+      "game": "Oilers at Panthers",
+      "market": "Puck Line",
+      "side": "Oilers +1.5",
+      "best_book": "FanDuel",
+      "market_odds": "-118",
+      "model_fair_line": "-106",
+      "model_probability": 0.512,
+      "market_probability": 0.488,
+      "edge": 0.024,
+      "ev": 0.029,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-05-23T10:28:00-04:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "demo_mlb_002",
+      "game": "Astros at Cubs",
+      "market": "Run Line",
+      "side": "Cubs -1.5",
+      "best_book": "BetMGM",
+      "market_odds": "+118",
+      "model_fair_line": "+105",
+      "model_probability": 0.487,
+      "market_probability": 0.459,
+      "edge": 0.028,
+      "ev": 0.033,
+      "tier": "B",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-05-23T10:27:00-04:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "demo_mlb_003",
+      "game": "Mariners at Royals",
+      "market": "Total",
+      "side": "Over 8.5",
+      "best_book": "Caesars",
+      "market_odds": "-108",
+      "model_fair_line": "-116",
+      "model_probability": 0.537,
+      "market_probability": 0.519,
+      "edge": 0.018,
+      "ev": 0.019,
+      "tier": "B",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-05-23T10:26:00-04:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "demo_mlb_004",
+      "game": "Brewers at Dodgers",
+      "market": "Moneyline",
+      "side": "Brewers",
+      "best_book": "PointsBet",
+      "market_odds": "+212",
+      "model_fair_line": "+198",
+      "model_probability": 0.335,
+      "market_probability": 0.321,
+      "edge": 0.014,
+      "ev": 0.044,
+      "tier": "C",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-05-23T10:25:00-04:00"
+    }
+  ],
+  "book_discrepancies": [
+    {
+      "sport": "MLB",
+      "game_id": "demo_mlb_005",
+      "game": "Guardians at Phillies",
+      "market": "Moneyline",
+      "outcomes": [
+        {
+          "outcome": "Guardians",
+          "book": "DraftKings",
+          "odds": "+128",
+          "decimal_odds": 2.28
+        },
+        {
+          "outcome": "Phillies",
+          "book": "FanDuel",
+          "odds": "-118",
+          "decimal_odds": 1.847
+        }
+      ],
+      "implied_probability_sum": 0.983,
+      "arb_return": 0.017,
+      "signal": "Book Discrepancy",
+      "model_alignment": "Mixed",
+      "updated_at": "2026-05-23T10:22:00-04:00"
+    },
+    {
+      "sport": "NHL",
+      "game_id": "demo_nhl_002",
+      "game": "Oilers at Panthers",
+      "market": "Total",
+      "outcomes": [
+        {
+          "outcome": "Over 5.5",
+          "book": "BetMGM",
+          "odds": "+102",
+          "decimal_odds": 2.02
+        },
+        {
+          "outcome": "Under 5.5",
+          "book": "Caesars",
+          "odds": "-104",
+          "decimal_odds": 1.962
+        }
+      ],
+      "implied_probability_sum": 0.978,
+      "arb_return": 0.022,
+      "signal": "Book Discrepancy",
+      "model_alignment": "Not model-backed",
+      "updated_at": "2026-05-23T10:20:00-04:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "demo_mlb_006",
+      "game": "Rangers at Angels",
+      "market": "Run Line",
+      "outcomes": [
+        {
+          "outcome": "Rangers -1.5",
+          "book": "PointsBet",
+          "odds": "+115",
+          "decimal_odds": 2.15
+        },
+        {
+          "outcome": "Angels +1.5",
+          "book": "WynnBET",
+          "odds": "-120",
+          "decimal_odds": 1.833
+        }
+      ],
+      "implied_probability_sum": 0.991,
+      "arb_return": 0.009,
+      "signal": "Book Discrepancy",
+      "model_alignment": "N/A",
+      "updated_at": "2026-05-23T10:18:00-04:00"
+    }
+  ],
+  "line_movements": [
+    {
+      "sport": "MLB",
+      "game_id": "demo_mlb_001",
+      "game": "Nationals at Braves",
+      "market": "Moneyline",
+      "side": "Nationals",
+      "open_odds": "+158",
+      "current_odds": "+148",
+      "move": "-10",
+      "direction": "Toward model",
+      "model_fair_line": "+130",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-23T10:28:00-04:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "demo_mlb_003",
+      "game": "Mariners at Royals",
+      "market": "Total",
+      "side": "Over 8.5",
+      "open_odds": "-115",
+      "current_odds": "-108",
+      "move": "+7",
+      "direction": "Toward model",
+      "model_fair_line": "-116",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-23T10:26:00-04:00"
+    },
+    {
+      "sport": "NHL",
+      "game_id": "demo_nhl_001",
+      "game": "Oilers at Panthers",
+      "market": "Puck Line",
+      "side": "Oilers +1.5",
+      "open_odds": "-122",
+      "current_odds": "-118",
+      "move": "+4",
+      "direction": "Toward model",
+      "model_fair_line": "-106",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-23T10:28:00-04:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "demo_mlb_007",
+      "game": "Cardinals at Reds",
+      "market": "Moneyline",
+      "side": "Cardinals",
+      "open_odds": "-132",
+      "current_odds": "-148",
+      "move": "-16",
+      "direction": "Away from model",
+      "model_fair_line": "-120",
+      "signal": "Market Movement",
+      "alert": "Drift",
+      "updated_at": "2026-05-23T10:15:00-04:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "demo_mlb_008",
+      "game": "Rockies at Diamondbacks",
+      "market": "Run Line",
+      "side": "Diamondbacks -1.5",
+      "open_odds": "-148",
+      "current_odds": "-166",
+      "move": "-18",
+      "direction": "Away from model",
+      "model_fair_line": "-138",
+      "signal": "Market Movement",
+      "alert": "Drift",
+      "updated_at": "2026-05-23T10:12:00-04:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "demo_mlb_009",
+      "game": "Guardians at Phillies",
+      "market": "Total",
+      "side": "Under 8",
+      "open_odds": "-110",
+      "current_odds": "-110",
+      "move": "0",
+      "direction": "Neutral",
+      "model_fair_line": "-108",
+      "signal": "Market Movement",
+      "alert": "Stale book",
+      "updated_at": "2026-05-23T09:45:00-04:00"
+    }
+  ]
+}

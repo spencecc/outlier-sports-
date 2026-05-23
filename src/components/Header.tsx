@@ -7,6 +7,7 @@ const navLinks = [
   { href: "/plays", label: "Today's Plays" },
   { href: "/track-record", label: "Track Record" },
   { href: "/bet-log", label: "Bet Log" },
+  { href: "/edge-alerts", label: "Edge Board" },
   { href: "/methodology", label: "Methodology" },
   { href: "/updates", label: "Updates" },
   { href: "/past-emails", label: "Past Emails" },
