@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-23T21:13:57.229130+00:00",
+  "as_of": "2026-05-23T23:43:16.857219+00:00",
   "date": "2026-05-23",
   "version": "edge-alerts-v1",
   "sports": [
@@ -8,7 +8,7 @@
   "summary": {
     "model_edges": 8,
     "book_discrepancies": 0,
-    "line_movements": 26,
+    "line_movements": 33,
     "warnings": []
   },
   "model_edges": [
@@ -28,7 +28,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -46,7 +46,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -64,7 +64,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -82,7 +82,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -100,7 +100,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -118,7 +118,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -136,7 +136,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -154,11 +154,41 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     }
   ],
   "book_discrepancies": [],
   "line_movements": [
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-23_hou_chc_lm",
+      "game": "Houston Astros at Chicago Cubs",
+      "market": "moneyline",
+      "side": "Houston Astros",
+      "open_odds": "+126",
+      "current_odds": "+146",
+      "move": "+20",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-23_hou_chc_lm",
+      "game": "Houston Astros at Chicago Cubs",
+      "market": "moneyline",
+      "side": "Chicago Cubs",
+      "open_odds": "-148",
+      "current_odds": "-174",
+      "move": "-26",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
+    },
     {
       "sport": "MLB",
       "game_id": "mlb_2026-05-23_min_bos_lm",
@@ -172,7 +202,52 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Steam",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-23_nym_mia_lm",
+      "game": "New York Mets at Miami Marlins",
+      "market": "moneyline",
+      "side": "New York Mets",
+      "open_odds": "-104",
+      "current_odds": "0",
+      "move": "+104",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-23_nym_mia_lm",
+      "game": "New York Mets at Miami Marlins",
+      "market": "moneyline",
+      "side": "Miami Marlins",
+      "open_odds": "-112",
+      "current_odds": "0",
+      "move": "+112",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-23_nym_mia_lm",
+      "game": "New York Mets at Miami Marlins",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "7.5",
+      "current_odds": "5.5",
+      "move": "-2.0",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -187,7 +262,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Steam",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -202,7 +277,7 @@
       "model_fair_line": "-162",
       "signal": "Market Movement",
       "alert": "Steam",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -217,7 +292,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -232,37 +307,37 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
-      "game_id": "mlb_2026-05-23_hou_chc_lm",
-      "game": "Houston Astros at Chicago Cubs",
+      "game_id": "mlb_2026-05-23_det_bal_lm",
+      "game": "Detroit Tigers at Baltimore Orioles",
       "market": "moneyline",
-      "side": "Houston Astros",
-      "open_odds": "+126",
-      "current_odds": "+136",
-      "move": "+10",
+      "side": "Baltimore Orioles",
+      "open_odds": "-116",
+      "current_odds": "-124",
+      "move": "-8",
       "direction": "Neutral",
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
-      "game_id": "mlb_2026-05-23_hou_chc_lm",
-      "game": "Houston Astros at Chicago Cubs",
-      "market": "moneyline",
-      "side": "Chicago Cubs",
-      "open_odds": "-148",
-      "current_odds": "-162",
-      "move": "-14",
+      "game_id": "mlb_2026-05-23_det_bal_lm",
+      "game": "Detroit Tigers at Baltimore Orioles",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "7.5",
+      "current_odds": "8.5",
+      "move": "+1.0",
       "direction": "Neutral",
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -277,7 +352,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -292,7 +367,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -307,22 +382,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
-    },
-    {
-      "sport": "MLB",
-      "game_id": "mlb_2026-05-23_lad_mil_lm",
-      "game": "Los Angeles Dodgers at Milwaukee Brewers",
-      "market": "total",
-      "side": "Total Line",
-      "open_odds": "9.0",
-      "current_odds": "8.0",
-      "move": "-1.0",
-      "direction": "Neutral",
-      "model_fair_line": "N/A",
-      "signal": "Market Movement",
-      "alert": "Drift",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -337,7 +397,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -352,22 +412,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
-    },
-    {
-      "sport": "MLB",
-      "game_id": "mlb_2026-05-23_hou_chc_lm",
-      "game": "Houston Astros at Chicago Cubs",
-      "market": "total",
-      "side": "Total Line",
-      "open_odds": "7.5",
-      "current_odds": "8.0",
-      "move": "+0.5",
-      "direction": "Neutral",
-      "model_fair_line": "N/A",
-      "signal": "Market Movement",
-      "alert": "Watch",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -382,7 +427,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -397,7 +442,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -412,7 +457,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -427,7 +472,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -442,7 +487,52 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-23_lad_mil_lm",
+      "game": "Los Angeles Dodgers at Milwaukee Brewers",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "9.0",
+      "current_odds": "8.5",
+      "move": "-0.5",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-23_tex_laa_lm",
+      "game": "Texas Rangers at Los Angeles Angels",
+      "market": "moneyline",
+      "side": "Texas Rangers",
+      "open_odds": "-136",
+      "current_odds": "-138",
+      "move": "-2",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-23_tex_laa_lm",
+      "game": "Texas Rangers at Los Angeles Angels",
+      "market": "moneyline",
+      "side": "Los Angeles Angels",
+      "open_odds": "+116",
+      "current_odds": "+118",
+      "move": "+2",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -457,7 +547,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -472,7 +562,7 @@
       "model_fair_line": "-162",
       "signal": "Market Movement",
       "alert": "Price Flip",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -487,7 +577,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Price Flip",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -502,7 +592,22 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Price Flip",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-23_det_bal_lm",
+      "game": "Detroit Tigers at Baltimore Orioles",
+      "market": "moneyline",
+      "side": "Detroit Tigers",
+      "open_odds": "-102",
+      "current_odds": "+106",
+      "move": "+208",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Price Flip",
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -517,7 +622,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Price Flip",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -532,7 +637,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Price Flip",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     },
     {
       "sport": "MLB",
@@ -547,7 +652,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Price Flip",
-      "updated_at": "2026-05-23T21:13:57.229130+00:00"
+      "updated_at": "2026-05-23T23:43:16.857219+00:00"
     }
   ]
 }
