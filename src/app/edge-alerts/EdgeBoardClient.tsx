@@ -759,66 +759,39 @@ export default function EdgeBoardClient({
         subhead="Model-backed opportunities, sportsbook discrepancies, and market movement in one view."
       />
 
-      {/* Demo banner */}
-      {data._note && (
+      {/* Banner — mutually exclusive: demo > warnings > stale */}
+      {data._note ? (
         <div
           className="border-y px-6 py-3"
-          style={{
-            borderColor: "#4A7CB8",
-            backgroundColor: "rgba(74,124,184,0.08)",
-          }}
+          style={{ borderColor: "#4A7CB8", backgroundColor: "rgba(74,124,184,0.08)" }}
         >
-          <p
-            className="text-xs font-mono max-w-7xl mx-auto"
-            style={{ color: "#4A7CB8" }}
-          >
+          <p className="text-xs font-mono max-w-7xl mx-auto" style={{ color: "#4A7CB8" }}>
             DEMO DATA — {data._note}
           </p>
         </div>
-      )}
-
-      {/* Stale banner */}
-      {stale && (
+      ) : (data.summary.warnings?.length ?? 0) > 0 ? (
         <div
           className="border-y px-6 py-3"
-          style={{
-            borderColor: "var(--loss)",
-            backgroundColor: "rgba(193,56,56,0.08)",
-          }}
-        >
-          <p
-            className="text-xs font-mono max-w-7xl mx-auto"
-            style={{ color: "var(--loss)" }}
-          >
-            STATUS: STALE — Last updated {fmtTime(data.as_of)} on{" "}
-            {fmtDate(data.as_of)}. Latest alert data may not reflect current
-            market prices.
-          </p>
-        </div>
-      )}
-
-      {/* Warning banner */}
-      {data.summary.warnings && data.summary.warnings.length > 0 && (
-        <div
-          className="border-y px-6 py-3"
-          style={{
-            borderColor: "#B8A040",
-            backgroundColor: "rgba(184,160,64,0.08)",
-          }}
+          style={{ borderColor: "#B8A040", backgroundColor: "rgba(184,160,64,0.08)" }}
         >
           <div className="max-w-7xl mx-auto space-y-1">
-            {data.summary.warnings.map((w, i) => (
-              <p
-                key={i}
-                className="text-xs font-mono"
-                style={{ color: "#B8A040" }}
-              >
+            {data.summary.warnings!.map((w, i) => (
+              <p key={i} className="text-xs font-mono" style={{ color: "#B8A040" }}>
                 ⚠ {w}
               </p>
             ))}
           </div>
         </div>
-      )}
+      ) : stale ? (
+        <div
+          className="border-y px-6 py-3"
+          style={{ borderColor: "var(--loss)", backgroundColor: "rgba(193,56,56,0.08)" }}
+        >
+          <p className="text-xs font-mono max-w-7xl mx-auto" style={{ color: "var(--loss)" }}>
+            STATUS: STALE — Last updated {fmtTime(data.as_of)} on {fmtDate(data.as_of)}. Latest alert data may not reflect current market prices.
+          </p>
+        </div>
+      ) : null}
 
       {/* Summary cards */}
       <div

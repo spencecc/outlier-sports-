@@ -91,7 +91,7 @@
       "game": "Brewers at Dodgers",
       "market": "Moneyline",
       "side": "Brewers",
-      "best_book": "PointsBet",
+      "best_book": "ESPN BET",
       "market_odds": "+212",
       "model_fair_line": "+198",
       "model_probability": 0.335,
@@ -163,13 +163,13 @@
       "outcomes": [
         {
           "outcome": "Rangers -1.5",
-          "book": "PointsBet",
+          "book": "ESPN BET",
           "odds": "+115",
           "decimal_odds": 2.15
         },
         {
           "outcome": "Angels +1.5",
-          "book": "WynnBET",
+          "book": "BetRivers",
           "odds": "-120",
           "decimal_odds": 1.833
         }
