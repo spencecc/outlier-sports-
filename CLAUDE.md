@@ -45,6 +45,7 @@ All routes are complete and data-wired. Nothing is stubbed.
 | `/past-emails` | Archive of past daily emails |
 | `/support` | Venmo @spencecc23, premium placeholder |
 | `/updates` | Blog-style model announcements from updates.json |
+| `/edge-alerts` | Copacetic Edge Board — model edges, book discrepancies, line movement |
 
 ---
 
@@ -59,6 +60,8 @@ All routes are complete and data-wired. Nothing is stubbed.
 | `emails/YYYY-MM-DD.html` | `sync_emails.py` at midnight | Individual email HTML |
 | `reports.json` | `sync_reports.py` at 11 AM | Index of past model reports |
 | `reports/YYYY-MM-DD.txt` | `sync_reports.py` at 11 AM | Individual model detail reports |
+| `publish/edge_alerts_latest.json` | `run_edge_alerts.py` (model pipeline) | Live Edge Board data — never manually edit |
+| `publish/edge_alerts_YYYY-MM-DD.json` | `run_edge_alerts.py` | Daily archive |
 
 ---
 
@@ -110,6 +113,12 @@ Always use abbreviations for `game` field — `"BOS @ ATL"` not `"Red Sox @ Brav
 **sync_reports.py** — runs at 11:00 AM daily
 - Copies today's `auto_detail_YYYY-MM-DD.txt` to `public/data/reports/`, updates `reports.json`, commits + pushes
 
+**run_edge_alerts.py** — runs after run_auto.py (model pipeline, NOT in this repo)
+- Location: `C:\Users\spenc\OneDrive\Desktop\Python.Manus\gemini_mlb_v2.2\run_edge_alerts.py`
+- Reads `clv_log.json` + `odds_snapshot_YYYY-MM-DD.json`, generates `edge_alerts_YYYY-MM-DD.json` and `edge_alerts_latest.json`, copies both to `public/data/publish/`, git commits + pushes
+- Run manually: `python run_edge_alerts.py` or `python run_edge_alerts.py --date 2026-05-23`
+- Single-book snapshot (FanDuel only) — book_discrepancies is always `[]` until multi-book feed added
+
 ---
 
 ## stats.json Key Sections
@@ -147,6 +156,15 @@ Run `export_web_data.py` for current stats.
 ---
 
 ## Recent Changes
+
+**May 23, 2026**
+- **Edge Board launched** (`/edge-alerts`): 4-tab dashboard — Model Edges, Book Discrepancies, Line Movement, Archived Alerts. Reads `public/data/publish/edge_alerts_latest.json` from disk (force-dynamic server component + EdgeBoardClient.tsx).
+- **run_edge_alerts.py** written (model pipeline): generates real edge alerts from `clv_log.json` + `odds_snapshot_YYYY-MM-DD.json`. Runs after run_auto.py. Copies output to site repo and git pushes.
+- **Edge Board schema**: `model_edges[]`, `book_discrepancies[]` (always empty — single-book), `line_movements[]`. Alert tiers: Price Flip > Steam > Drift > Watch.
+- **Price Flip alert**: detected when ML odds cross the +/- boundary (underdog ↔ favorite). Renders as "FLIP" badge with title tooltip.
+- **Line Movement table**: move formatted as `−206¢` (moneyline) or `+0.5 pts` (total). Direction column nowrap. Alert badge nowrap. Updated column min-width.
+- **Google Analytics**: GA4 tag (G-6YYYERW9YE) added to root layout via next/script afterInteractive.
+- **Banner logic**: mutually exclusive — demo (blue) > warnings (amber) > stale (red) > none.
 
 **May 22, 2026**
 - **Beestamp tracking started:** All plays (SMC + HC) tracked at betstamp.com/app/my-picks as third-party verification. Bets placed at Novig.
