@@ -1,5 +1,17 @@
 {
   "date": "2026-05-23",
-  "picks": [],
-  "hasPicks": false
+  "hasPicks": true,
+  "picks": [
+    {
+      "date": "2026-05-23",
+      "sport": "MLB",
+      "game": "SEA @ KC",
+      "time": "4:10 PM ET",
+      "play": "Under 8.5",
+      "type": "Total",
+      "edge": 9.1,
+      "odds": -110,
+      "isLean": false
+    }
+  ]
 }
