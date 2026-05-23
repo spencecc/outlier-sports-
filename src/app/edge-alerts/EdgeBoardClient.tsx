@@ -543,14 +543,15 @@ function LineMovementTable({ rows }: { rows: LineMovement[] }) {
                   {r.model_fair_line}
                 </td>
                 <td
-                  className="py-2.5 px-3 uppercase tracking-wider"
+                  className="py-2.5 px-3 uppercase tracking-wider whitespace-nowrap"
                   style={{ color: alertStyle(r.alert) }}
+                  title={r.alert ?? undefined}
                 >
-                  {r.alert ?? "—"}
+                  {r.alert === "Price Flip" ? "FLIP" : (r.alert ?? "—")}
                 </td>
                 <td
                   className="py-2.5 px-3 whitespace-nowrap"
-                  style={{ color: "var(--text-tertiary)" }}
+                  style={{ color: "var(--text-tertiary)", minWidth: "7rem" }}
                 >
                   {fmtTime(r.updated_at)}
                 </td>
