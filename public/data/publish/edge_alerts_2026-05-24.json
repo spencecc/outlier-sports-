@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-24T22:30:07.057597+00:00",
+  "as_of": "2026-05-24T23:00:02.708432+00:00",
   "date": "2026-05-24",
   "version": "edge-alerts-v1",
   "sports": [
@@ -8,7 +8,7 @@
   "summary": {
     "model_edges": 5,
     "book_discrepancies": 0,
-    "line_movements": 0,
+    "line_movements": 12,
     "warnings": []
   },
   "model_edges": [
@@ -28,7 +28,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-24T22:30:07.057597+00:00"
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
     },
     {
       "sport": "MLB",
@@ -46,7 +46,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-24T22:30:07.057597+00:00"
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
     },
     {
       "sport": "MLB",
@@ -64,7 +64,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-24T22:30:07.057597+00:00"
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
     },
     {
       "sport": "MLB",
@@ -82,7 +82,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-24T22:30:07.057597+00:00"
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
     },
     {
       "sport": "MLB",
@@ -100,9 +100,190 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-24T22:30:07.057597+00:00"
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
     }
   ],
   "book_discrepancies": [],
-  "line_movements": []
+  "line_movements": [
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-24_cws_sf_lm",
+      "game": "Chicago White Sox at San Francisco Giants",
+      "market": "moneyline",
+      "side": "San Francisco Giants",
+      "open_odds": "-116",
+      "current_odds": "-4000",
+      "move": "-3884",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-24_cws_sf_lm",
+      "game": "Chicago White Sox at San Francisco Giants",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "8.0",
+      "current_odds": "14.5",
+      "move": "+6.5",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-24_col_ari_lm",
+      "game": "Colorado Rockies at Arizona Diamondbacks",
+      "market": "moneyline",
+      "side": "Colorado Rockies",
+      "open_odds": "+166",
+      "current_odds": "0",
+      "move": "-166",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-24_col_ari_lm",
+      "game": "Colorado Rockies at Arizona Diamondbacks",
+      "market": "moneyline",
+      "side": "Arizona Diamondbacks",
+      "open_odds": "-198",
+      "current_odds": "0",
+      "move": "+198",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-24_col_ari_lm",
+      "game": "Colorado Rockies at Arizona Diamondbacks",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "8.5",
+      "current_odds": "10.5",
+      "move": "+2.0",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-24_wsh_atl_lm",
+      "game": "Washington Nationals at Atlanta Braves",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "8.5",
+      "current_odds": "3.5",
+      "move": "-5.0",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-24_tex_laa_lm",
+      "game": "Texas Rangers at Los Angeles Angels",
+      "market": "moneyline",
+      "side": "Texas Rangers",
+      "open_odds": "+102",
+      "current_odds": "+106",
+      "move": "+4",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-24_tex_laa_lm",
+      "game": "Texas Rangers at Los Angeles Angels",
+      "market": "moneyline",
+      "side": "Los Angeles Angels",
+      "open_odds": "-120",
+      "current_odds": "-124",
+      "move": "-4",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-24_tex_laa_lm",
+      "game": "Texas Rangers at Los Angeles Angels",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "8.0",
+      "current_odds": "7.5",
+      "move": "-0.5",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-24_cws_sf_lm",
+      "game": "Chicago White Sox at San Francisco Giants",
+      "market": "moneyline",
+      "side": "Chicago White Sox",
+      "open_odds": "-102",
+      "current_odds": "+1100",
+      "move": "+1202",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Price Flip",
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-24_wsh_atl_lm",
+      "game": "Washington Nationals at Atlanta Braves",
+      "market": "moneyline",
+      "side": "Washington Nationals",
+      "open_odds": "+138",
+      "current_odds": "-188",
+      "move": "-326",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Price Flip",
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-24_wsh_atl_lm",
+      "game": "Washington Nationals at Atlanta Braves",
+      "market": "moneyline",
+      "side": "Atlanta Braves",
+      "open_odds": "-164",
+      "current_odds": "+143",
+      "move": "+307",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Price Flip",
+      "updated_at": "2026-05-24T23:00:02.708432+00:00"
+    }
+  ]
 }
