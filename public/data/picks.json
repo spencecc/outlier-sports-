@@ -1,16 +1,16 @@
 {
-  "date": "2026-05-23",
+  "date": "2026-05-24",
   "hasPicks": true,
   "picks": [
     {
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "sport": "MLB",
-      "game": "SEA @ KC",
-      "time": "4:10 PM ET",
-      "play": "Under 8.5",
-      "type": "Total",
-      "edge": 9.1,
-      "odds": -110,
+      "game": "DET @ BAL",
+      "time": "6:05 PM ET",
+      "play": "Baltimore Orioles -1.5",
+      "type": "Run Line",
+      "edge": 9.6,
+      "odds": 172,
       "isLean": false
     }
   ]
