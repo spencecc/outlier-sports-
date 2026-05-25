@@ -13146,13 +13146,13 @@
     "odds": -164,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "win",
+    "payout": 0.61,
+    "scoreAway": 1,
+    "scoreHome": 2,
     "openLine": -164,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -164,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -13168,13 +13168,13 @@
     "odds": -110,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "loss",
+    "payout": -1.0,
+    "scoreAway": 1,
+    "scoreHome": 3,
     "openLine": -110,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -110,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -13190,13 +13190,13 @@
     "odds": -110,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "loss",
+    "payout": -1.0,
+    "scoreAway": 1,
+    "scoreHome": 5,
     "openLine": -110,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -110,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -13217,8 +13217,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -182,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -182,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -13239,8 +13239,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": 120,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": 120,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -13261,8 +13261,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": 152,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": 152,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -13283,8 +13283,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -110,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -110,
+    "clv": 0.0,
     "notes": ""
   }
 ]
