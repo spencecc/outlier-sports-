@@ -1,28 +1,5 @@
 {
-  "date": "2026-05-25",
-  "hasPicks": true,
-  "picks": [
-    {
-      "date": "2026-05-25",
-      "sport": "MLB",
-      "game": "ARI @ SF",
-      "time": "5:05 PM ET",
-      "play": "Diamondbacks +1.5",
-      "type": "Run Line",
-      "edge": 9.0,
-      "odds": -182,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-25",
-      "sport": "MLB",
-      "game": "HOU @ TEX",
-      "time": "7:05 PM ET",
-      "play": "Rangers -1.5",
-      "type": "Run Line",
-      "edge": 7.3,
-      "odds": 152,
-      "isLean": false
-    }
-  ]
+  "date": "2026-05-26",
+  "picks": [],
+  "hasPicks": false
 }
