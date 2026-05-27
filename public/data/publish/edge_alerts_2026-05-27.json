@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-27T19:30:02.644294+00:00",
+  "as_of": "2026-05-27T20:00:03.611485+00:00",
   "date": "2026-05-27",
   "version": "edge-alerts-v1",
   "sports": [
@@ -28,7 +28,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -46,7 +46,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -64,7 +64,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -82,7 +82,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -100,7 +100,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -118,7 +118,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -136,7 +136,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -154,7 +154,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -172,7 +172,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     }
   ],
   "book_discrepancies": [],
@@ -190,7 +190,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Steam",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -205,7 +205,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Steam",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -220,7 +220,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Steam",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -235,7 +235,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -250,7 +250,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -265,7 +265,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -280,7 +280,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -295,7 +295,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -310,7 +310,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -325,7 +325,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -340,7 +340,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Drift",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -355,7 +355,7 @@
       "model_fair_line": "-125",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -370,7 +370,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -385,7 +385,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -400,7 +400,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -415,7 +415,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -430,7 +430,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -445,7 +445,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -460,7 +460,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -475,7 +475,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Watch",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -490,7 +490,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Price Flip",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     },
     {
       "sport": "MLB",
@@ -505,7 +505,7 @@
       "model_fair_line": "N/A",
       "signal": "Market Movement",
       "alert": "Price Flip",
-      "updated_at": "2026-05-27T19:30:02.644294+00:00"
+      "updated_at": "2026-05-27T20:00:03.611485+00:00"
     }
   ]
 }
