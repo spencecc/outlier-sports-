@@ -1,17 +1,35 @@
 {
-  "as_of": "2026-05-27T14:30:05.988020+00:00",
+  "as_of": "2026-05-27T15:30:03.761298+00:00",
   "date": "2026-05-27",
   "version": "edge-alerts-v1",
   "sports": [
     "MLB"
   ],
   "summary": {
-    "model_edges": 4,
+    "model_edges": 9,
     "book_discrepancies": 0,
     "line_movements": 0,
     "warnings": []
   },
   "model_edges": [
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-27_min_cws_total",
+      "game": "Minnesota Twins at Chicago White Sox",
+      "market": "total",
+      "side": "Over 7.5",
+      "best_book": "FanDuel",
+      "market_odds": "-110",
+      "model_fair_line": "-258",
+      "model_probability": 0.7205,
+      "market_probability": 0.52381,
+      "edge": 0.1967,
+      "ev": 0.3755,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-05-27T15:30:03.761298+00:00"
+    },
     {
       "sport": "MLB",
       "game_id": "mlb_2026-05-27_wsh_cle_moneyline",
@@ -28,7 +46,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T14:30:05.988020+00:00"
+      "updated_at": "2026-05-27T15:30:03.761298+00:00"
     },
     {
       "sport": "MLB",
@@ -46,7 +64,61 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T14:30:05.988020+00:00"
+      "updated_at": "2026-05-27T15:30:03.761298+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-27_nyy_kc_moneyline",
+      "game": "New York Yankees at Kansas City Royals",
+      "market": "moneyline",
+      "side": "New York Yankees",
+      "best_book": "FanDuel",
+      "market_odds": "-156",
+      "model_fair_line": "-278",
+      "model_probability": 0.7354,
+      "market_probability": 0.609375,
+      "edge": 0.126,
+      "ev": 0.20681,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-05-27T15:30:03.761298+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-27_hou_tex_total",
+      "game": "Houston Astros at Texas Rangers",
+      "market": "total",
+      "side": "Over 7.5",
+      "best_book": "FanDuel",
+      "market_odds": "-110",
+      "model_fair_line": "-162",
+      "model_probability": 0.6184,
+      "market_probability": 0.52381,
+      "edge": 0.0946,
+      "ev": 0.180582,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-05-27T15:30:03.761298+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-27_nyy_kc_run_line",
+      "game": "New York Yankees at Kansas City Royals",
+      "market": "run line",
+      "side": "New York Yankees -1.5",
+      "best_book": "FanDuel",
+      "market_odds": "+105",
+      "model_fair_line": "-139",
+      "model_probability": 0.5815,
+      "market_probability": 0.487805,
+      "edge": 0.0937,
+      "ev": 0.192075,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-05-27T15:30:03.761298+00:00"
     },
     {
       "sport": "MLB",
@@ -64,7 +136,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T14:30:05.988020+00:00"
+      "updated_at": "2026-05-27T15:30:03.761298+00:00"
     },
     {
       "sport": "MLB",
@@ -82,7 +154,25 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-27T14:30:05.988020+00:00"
+      "updated_at": "2026-05-27T15:30:03.761298+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-27_cin_nym_total",
+      "game": "Cincinnati Reds at New York Mets",
+      "market": "total",
+      "side": "Under 8.5",
+      "best_book": "FanDuel",
+      "market_odds": "-110",
+      "model_fair_line": "-150",
+      "model_probability": 0.5997,
+      "market_probability": 0.52381,
+      "edge": 0.0759,
+      "ev": 0.144882,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-05-27T15:30:03.761298+00:00"
     }
   ],
   "book_discrepancies": [],
