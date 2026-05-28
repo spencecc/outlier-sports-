@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T01:14:43Z",
+  "lastUpdated": "2026-05-28T14:11:59Z",
   "lifetime": {
     "record": "325-279-11P",
     "wins": 325,
@@ -59,61 +59,61 @@
     }
   },
   "last30Days": {
-    "record": "141-131-2P",
-    "wins": 141,
-    "losses": 131,
+    "record": "140-130-2P",
+    "wins": 140,
+    "losses": 130,
     "pushes": 2,
-    "winPct": 51.8,
-    "roi": -2.9,
-    "units": -7.8,
+    "winPct": 51.9,
+    "roi": -2.8,
+    "units": -7.52,
     "standard": {
-      "record": "51-39-1P",
-      "wins": 51,
-      "losses": 39,
+      "record": "50-38-1P",
+      "wins": 50,
+      "losses": 38,
       "pushes": 1,
-      "winPct": 56.7,
-      "roi": 4.5,
-      "units": 4.07,
-      "bets": 91
+      "winPct": 56.8,
+      "roi": 4.9,
+      "units": 4.35,
+      "bets": 89
     },
     "higherModelConf": {
-      "record": "100-101-1P",
-      "wins": 100,
-      "losses": 101,
+      "record": "99-100-1P",
+      "wins": 99,
+      "losses": 100,
       "pushes": 1,
-      "winPct": 49.8,
-      "roi": -5.4,
-      "units": -10.77,
-      "bets": 202
+      "winPct": 49.7,
+      "roi": -5.3,
+      "units": -10.49,
+      "bets": 200
     }
   },
   "last7Days": {
-    "record": "23-32",
-    "wins": 23,
-    "losses": 32,
+    "record": "19-30",
+    "wins": 19,
+    "losses": 30,
     "pushes": 0,
-    "winPct": 41.8,
-    "roi": -24.0,
-    "units": -13.19,
+    "winPct": 38.8,
+    "roi": -28.9,
+    "units": -14.18,
     "standard": {
-      "record": "8-8",
-      "wins": 8,
+      "record": "5-8",
+      "wins": 5,
       "losses": 8,
       "pushes": 0,
-      "winPct": 50.0,
-      "roi": -13.1,
-      "units": -2.1,
-      "bets": 16
+      "winPct": 38.5,
+      "roi": -32.1,
+      "units": -4.17,
+      "bets": 13
     },
     "higherModelConf": {
-      "record": "15-24",
-      "wins": 15,
-      "losses": 24,
+      "record": "14-22",
+      "wins": 14,
+      "losses": 22,
       "pushes": 0,
-      "winPct": 38.5,
-      "roi": -28.5,
-      "units": -11.1,
-      "bets": 39
+      "winPct": 38.9,
+      "roi": -27.8,
+      "units": -10.01,
+      "bets": 36
     }
   },
   "byEdgeZone": [

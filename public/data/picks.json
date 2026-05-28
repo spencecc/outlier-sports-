@@ -1,24 +1,11 @@
 {
-  "date": "2026-05-27",
-  "hasPicks": true,
+  "date": "2026-05-28",
   "picks": [
     {
       "date": "2026-05-27",
       "sport": "MLB",
-      "game": "STL @ MIL",
-      "time": "1:40 PM ET",
-      "play": "Over 8.5",
-      "type": "Total",
-      "edge": 8.0,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-27",
-      "sport": "MLB",
       "game": "CHC @ PIT",
-      "time": "6:40 PM ET",
-      "play": "Pirates +1.5",
+      "play": "PIT +1.5",
       "type": "Run Line",
       "edge": 8.4,
       "odds": -192,
@@ -28,7 +15,6 @@
       "date": "2026-05-27",
       "sport": "MLB",
       "game": "CIN @ NYM",
-      "time": "7:10 PM ET",
       "play": "Under 8.5",
       "type": "Total",
       "edge": 7.6,
@@ -39,8 +25,7 @@
       "date": "2026-05-27",
       "sport": "MLB",
       "game": "NYY @ KC",
-      "time": "7:40 PM ET",
-      "play": "Yankees -1.5",
+      "play": "NYY -1.5",
       "type": "Run Line",
       "edge": 9.4,
       "odds": 105,
@@ -50,12 +35,12 @@
       "date": "2026-05-27",
       "sport": "MLB",
       "game": "HOU @ TEX",
-      "time": "8:05 PM ET",
       "play": "Over 7.5",
       "type": "Total",
       "edge": 9.5,
       "odds": -110,
       "isLean": false
     }
-  ]
+  ],
+  "hasPicks": true
 }
