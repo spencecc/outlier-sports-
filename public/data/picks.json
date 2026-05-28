@@ -2,43 +2,47 @@
   "date": "2026-05-28",
   "picks": [
     {
-      "date": "2026-05-27",
+      "date": "2026-05-28",
+      "sport": "MLB",
+      "game": "MIN @ CWS",
+      "time": "2:10 PM ET",
+      "play": "MIN +1.5",
+      "type": "Run Line",
+      "edge": 7.1,
+      "odds": -162,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-28",
       "sport": "MLB",
       "game": "CHC @ PIT",
-      "play": "PIT +1.5",
-      "type": "Run Line",
-      "edge": 8.4,
-      "odds": -192,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-27",
-      "sport": "MLB",
-      "game": "CIN @ NYM",
-      "play": "Under 8.5",
-      "type": "Total",
-      "edge": 7.6,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-27",
-      "sport": "MLB",
-      "game": "NYY @ KC",
-      "play": "NYY -1.5",
-      "type": "Run Line",
-      "edge": 9.4,
-      "odds": 105,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-27",
-      "sport": "MLB",
-      "game": "HOU @ TEX",
+      "time": "6:40 PM ET",
       "play": "Over 7.5",
       "type": "Total",
-      "edge": 9.5,
+      "edge": 7.5,
       "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-28",
+      "sport": "MLB",
+      "game": "HOU @ TEX",
+      "time": "8:05 PM ET",
+      "play": "Over 7.5",
+      "type": "Total",
+      "edge": 8.5,
+      "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-28",
+      "sport": "MLB",
+      "game": "HOU @ TEX",
+      "time": "8:05 PM ET",
+      "play": "TEX -1.5",
+      "type": "Run Line",
+      "edge": 8.0,
+      "odds": 146,
       "isLean": false
     }
   ],
