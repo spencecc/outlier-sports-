@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-28T16:30:02.356520+00:00",
+  "as_of": "2026-05-28T17:00:02.217026+00:00",
   "date": "2026-05-28",
   "version": "edge-alerts-v1",
   "sports": [
@@ -8,7 +8,7 @@
   "summary": {
     "model_edges": 6,
     "book_discrepancies": 0,
-    "line_movements": 0,
+    "line_movements": 7,
     "warnings": []
   },
   "model_edges": [
@@ -28,7 +28,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-28T16:30:02.356520+00:00"
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
     },
     {
       "sport": "MLB",
@@ -46,7 +46,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-28T16:30:02.356520+00:00"
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
     },
     {
       "sport": "MLB",
@@ -64,7 +64,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-28T16:30:02.356520+00:00"
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
     },
     {
       "sport": "MLB",
@@ -82,7 +82,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-28T16:30:02.356520+00:00"
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
     },
     {
       "sport": "MLB",
@@ -100,7 +100,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-28T16:30:02.356520+00:00"
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
     },
     {
       "sport": "MLB",
@@ -118,9 +118,115 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-28T16:30:02.356520+00:00"
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
     }
   ],
   "book_discrepancies": [],
-  "line_movements": []
+  "line_movements": [
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-28_min_cws_lm",
+      "game": "Minnesota Twins at Chicago White Sox",
+      "market": "moneyline",
+      "side": "Minnesota Twins",
+      "open_odds": "+128",
+      "current_odds": "+136",
+      "move": "+8",
+      "direction": "Away from model",
+      "model_fair_line": "-118",
+      "signal": "Market Movement",
+      "alert": "Drift",
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-28_min_cws_lm",
+      "game": "Minnesota Twins at Chicago White Sox",
+      "market": "moneyline",
+      "side": "Chicago White Sox",
+      "open_odds": "-152",
+      "current_odds": "-162",
+      "move": "-10",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Drift",
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-28_laa_det_lm",
+      "game": "Los Angeles Angels at Detroit Tigers",
+      "market": "moneyline",
+      "side": "Los Angeles Angels",
+      "open_odds": "+110",
+      "current_odds": "+116",
+      "move": "+6",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-28_laa_det_lm",
+      "game": "Los Angeles Angels at Detroit Tigers",
+      "market": "moneyline",
+      "side": "Detroit Tigers",
+      "open_odds": "-130",
+      "current_odds": "-136",
+      "move": "-6",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-28_atl_bos_lm",
+      "game": "Atlanta Braves at Boston Red Sox",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "7.0",
+      "current_odds": "6.5",
+      "move": "-0.5",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-28_hou_tex_lm",
+      "game": "Houston Astros at Texas Rangers",
+      "market": "moneyline",
+      "side": "Houston Astros",
+      "open_odds": "+124",
+      "current_odds": "+120",
+      "move": "-4",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-28_hou_tex_lm",
+      "game": "Houston Astros at Texas Rangers",
+      "market": "moneyline",
+      "side": "Texas Rangers",
+      "open_odds": "-146",
+      "current_odds": "-142",
+      "move": "+4",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-28T17:00:02.217026+00:00"
+    }
+  ]
 }
