@@ -1,48 +1,48 @@
 {
-  "date": "2026-05-29",
+  "date": "2026-05-30",
   "picks": [
     {
-      "date": "2026-05-29",
+      "date": "2026-05-30",
+      "sport": "MLB",
+      "game": "DET @ CWS",
+      "time": "2:10 PM ET",
+      "play": "CWS +1.5",
+      "type": "Run Line",
+      "edge": 9.9,
+      "odds": -172,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-30",
       "sport": "MLB",
       "game": "MIN @ PIT",
-      "time": "6:45 PM ET",
-      "play": "Over 8.0",
+      "time": "4:05 PM ET",
+      "play": "PIT -1.5",
+      "type": "Run Line",
+      "edge": 7.5,
+      "odds": 152,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-30",
+      "sport": "MLB",
+      "game": "MIL @ HOU",
+      "time": "4:10 PM ET",
+      "play": "Over 8.5",
       "type": "Total",
+      "edge": 9.4,
+      "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-05-30",
+      "sport": "MLB",
+      "game": "ATL @ CIN",
+      "time": "7:15 PM ET",
+      "play": "ATL -1.5",
+      "type": "Run Line",
       "edge": 7.0,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-29",
-      "sport": "MLB",
-      "game": "TOR @ BAL",
-      "time": "7:05 PM ET",
-      "play": "BAL +1.5",
-      "type": "Run Line",
-      "edge": 7.6,
-      "odds": -205,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-29",
-      "sport": "MLB",
-      "game": "MIA @ NYM",
-      "time": "7:10 PM ET",
-      "play": "Under 7.5",
-      "type": "Total",
-      "edge": 8.4,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-29",
-      "sport": "MLB",
-      "game": "SF @ COL",
-      "time": "8:40 PM ET",
-      "play": "COL +1.5",
-      "type": "Run Line",
-      "edge": 8.4,
-      "odds": -110,
+      "odds": 126,
       "isLean": false
     }
   ],
