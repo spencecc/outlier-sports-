@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-30T16:30:02.659814+00:00",
+  "as_of": "2026-05-30T17:00:03.417122+00:00",
   "date": "2026-05-30",
   "version": "edge-alerts-v1",
   "sports": [
@@ -8,7 +8,7 @@
   "summary": {
     "model_edges": 12,
     "book_discrepancies": 0,
-    "line_movements": 0,
+    "line_movements": 2,
     "warnings": []
   },
   "model_edges": [
@@ -28,7 +28,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-30T16:30:02.659814+00:00"
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
     },
     {
       "sport": "MLB",
@@ -46,7 +46,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-30T16:30:02.659814+00:00"
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
     },
     {
       "sport": "MLB",
@@ -64,7 +64,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-30T16:30:02.659814+00:00"
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
     },
     {
       "sport": "MLB",
@@ -82,7 +82,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-30T16:30:02.659814+00:00"
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
     },
     {
       "sport": "MLB",
@@ -100,7 +100,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-30T16:30:02.659814+00:00"
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
     },
     {
       "sport": "MLB",
@@ -118,7 +118,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-30T16:30:02.659814+00:00"
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
     },
     {
       "sport": "MLB",
@@ -136,7 +136,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-30T16:30:02.659814+00:00"
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
     },
     {
       "sport": "MLB",
@@ -154,7 +154,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-30T16:30:02.659814+00:00"
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
     },
     {
       "sport": "MLB",
@@ -172,7 +172,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-30T16:30:02.659814+00:00"
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
     },
     {
       "sport": "MLB",
@@ -190,7 +190,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-30T16:30:02.659814+00:00"
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
     },
     {
       "sport": "MLB",
@@ -208,7 +208,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-30T16:30:02.659814+00:00"
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
     },
     {
       "sport": "MLB",
@@ -226,9 +226,40 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-05-30T16:30:02.659814+00:00"
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
     }
   ],
   "book_discrepancies": [],
-  "line_movements": []
+  "line_movements": [
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-30_det_cws_lm",
+      "game": "Detroit Tigers at Chicago White Sox",
+      "market": "moneyline",
+      "side": "Detroit Tigers",
+      "open_odds": "-120",
+      "current_odds": "-118",
+      "move": "+2",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-05-30_det_cws_lm",
+      "game": "Detroit Tigers at Chicago White Sox",
+      "market": "moneyline",
+      "side": "Chicago White Sox",
+      "open_odds": "+102",
+      "current_odds": "+100",
+      "move": "-2",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-05-30T17:00:03.417122+00:00"
+    }
+  ]
 }
