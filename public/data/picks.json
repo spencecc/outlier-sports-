@@ -1,48 +1,26 @@
 {
-  "date": "2026-05-31",
+  "date": "2026-06-01",
   "picks": [
     {
-      "date": "2026-05-31",
+      "date": "2026-06-01",
       "sport": "MLB",
-      "game": "SD @ WSH",
-      "time": "1:35 PM ET",
-      "play": "Under 9.5",
+      "game": "KC @ CIN",
+      "time": "7:10 PM ET",
+      "play": "Over 8.5",
       "type": "Total",
-      "edge": 7.9,
+      "edge": 8.8,
       "odds": -110,
       "isLean": false
     },
     {
-      "date": "2026-05-31",
+      "date": "2026-06-01",
       "sport": "MLB",
-      "game": "ATL @ CIN",
-      "time": "1:40 PM ET",
-      "play": "ATL -1.5",
+      "game": "NYM @ SEA",
+      "time": "9:40 PM ET",
+      "play": "NYM +1.5",
       "type": "Run Line",
       "edge": 7.9,
-      "odds": 132,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-31",
-      "sport": "MLB",
-      "game": "MIA @ NYM",
-      "time": "1:40 PM ET",
-      "play": "Under 7.5",
-      "type": "Total",
-      "edge": 7.1,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-05-31",
-      "sport": "MLB",
-      "game": "DET @ CWS",
-      "time": "2:10 PM ET",
-      "play": "CWS -1.5",
-      "type": "Run Line",
-      "edge": 9.2,
-      "odds": 160,
+      "odds": -205,
       "isLean": false
     }
   ],
