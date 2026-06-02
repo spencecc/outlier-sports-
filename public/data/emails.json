@@ -1,38 +1,50 @@
 [
   {
+    "date": "2026-06-01",
+    "displayDate": "June 1, 2026",
+    "title": "June 1 \u2014 6-5 Yesterday + 6 Plays Tonight",
+    "file": "2026-06-01.html"
+  },
+  {
+    "date": "2026-05-31",
+    "displayDate": "May 31, 2026",
+    "title": "May 31 \u2014 9-2-1 Yesterday + 11 Plays Today",
+    "file": "2026-05-31.html"
+  },
+  {
     "date": "2026-05-30",
     "displayDate": "May 30, 2026",
-    "title": "May 30 — 6-2 Yesterday + 12 Plays Today",
+    "title": "May 30 \u2014 6-2 Yesterday + 12 Plays Today",
     "file": "2026-05-30.html"
   },
   {
     "date": "2026-05-29",
     "displayDate": "May 29, 2026",
-    "title": "May 29 — 2-4 Yesterday + 8 Plays Today",
+    "title": "May 29 \u2014 2-4 Yesterday + 8 Plays Today",
     "file": "2026-05-29.html"
   },
   {
     "date": "2026-05-28",
     "displayDate": "May 28, 2026",
-    "title": "May 28 — 5-4 Yesterday + 6 Plays Today",
+    "title": "May 28 \u2014 5-4 Yesterday + 6 Plays Today",
     "file": "2026-05-28.html"
   },
   {
     "date": "2026-05-27",
     "displayDate": "May 27, 2026",
-    "title": "May 27 — 6-4 Yesterday + 9 Plays Today",
+    "title": "May 27 \u2014 6-4 Yesterday + 9 Plays Today",
     "file": "2026-05-27.html"
   },
   {
     "date": "2026-05-26",
     "displayDate": "May 26, 2026",
-    "title": "May 26 — 4-3 Yesterday + 10 Plays Today",
+    "title": "May 26 \u2014 4-3 Yesterday + 10 Plays Today",
     "file": "2026-05-26.html"
   },
   {
     "date": "2026-05-25",
     "displayDate": "May 25, 2026",
-    "title": "May 25 — 2-3 Yesterday + 7 Plays Today",
+    "title": "May 25 \u2014 2-3 Yesterday + 7 Plays Today",
     "file": "2026-05-25.html"
   },
   {
