@@ -66,12 +66,6 @@ export default async function HomePage() {
                 href="/track-record"
                 className="text-sm underline underline-offset-4 transition-colors duration-150"
                 style={{ color: "var(--text-secondary)" }}
-                onMouseEnter={(e) =>
-                  (e.currentTarget.style.color = "var(--text-primary)")
-                }
-                onMouseLeave={(e) =>
-                  (e.currentTarget.style.color = "var(--text-secondary)")
-                }
               >
                 See the track record →
               </Link>
