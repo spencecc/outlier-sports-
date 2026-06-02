@@ -1,26 +1,26 @@
 {
-  "date": "2026-06-01",
+  "date": "2026-06-02",
   "picks": [
     {
-      "date": "2026-06-01",
+      "date": "2026-06-02",
       "sport": "MLB",
-      "game": "KC @ CIN",
-      "time": "7:10 PM ET",
-      "play": "Over 8.5",
+      "game": "CWS @ MIN",
+      "time": "7:40 PM ET",
+      "play": "Over 8.0",
       "type": "Total",
-      "edge": 8.8,
+      "edge": 9.8,
       "odds": -110,
       "isLean": false
     },
     {
-      "date": "2026-06-01",
+      "date": "2026-06-02",
       "sport": "MLB",
-      "game": "NYM @ SEA",
-      "time": "9:40 PM ET",
-      "play": "NYM +1.5",
-      "type": "Run Line",
-      "edge": 7.9,
-      "odds": -205,
+      "game": "SF @ MIL",
+      "time": "7:40 PM ET",
+      "play": "Over 7.5",
+      "type": "Total",
+      "edge": 8.7,
+      "odds": -110,
       "isLean": false
     }
   ],
