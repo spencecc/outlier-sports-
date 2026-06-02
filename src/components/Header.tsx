@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/bet-log", label: "Bet Log" },
   { href: "/edge-alerts", label: "Edge Board" },
   { href: "/methodology", label: "Methodology" },
+  { href: "/about", label: "About" },
   { href: "/updates", label: "Updates" },
   { href: "/past-emails", label: "Past Emails" },
   { href: "/reports", label: "Reports" },

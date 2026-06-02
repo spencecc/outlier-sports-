@@ -49,12 +49,12 @@ export default async function HomePage() {
               is wrong. Daily picks, fully transparent track record, free.
             </p>
             <div
-              className="flex flex-wrap items-center gap-6 animate-fade-up"
+              className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-4 sm:gap-6 animate-fade-up"
               style={{ animationDelay: "400ms" }}
             >
               <a
                 href="#signup"
-                className="inline-block px-6 py-3 text-sm font-sans uppercase tracking-wider transition-colors duration-150"
+                className="inline-block px-7 py-3.5 text-sm font-sans font-semibold uppercase tracking-wider transition-colors duration-150"
                 style={{
                   backgroundColor: "var(--accent)",
                   color: "var(--text-primary)",
@@ -64,8 +64,14 @@ export default async function HomePage() {
               </a>
               <Link
                 href="/track-record"
-                className="text-sm transition-colors duration-150"
+                className="text-sm underline underline-offset-4 transition-colors duration-150"
                 style={{ color: "var(--text-secondary)" }}
+                onMouseEnter={(e) =>
+                  (e.currentTarget.style.color = "var(--text-primary)")
+                }
+                onMouseLeave={(e) =>
+                  (e.currentTarget.style.color = "var(--text-secondary)")
+                }
               >
                 See the track record →
               </Link>
@@ -82,6 +88,21 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ── Lifetime credibility headline ─────────────────────────────────── */}
+      {lifetime && (
+        <section className="border-t" style={{ borderColor: "var(--border)" }}>
+          <div className="max-w-7xl mx-auto px-6 py-6 text-center">
+            <p
+              className="font-mono text-base md:text-lg tracking-wide"
+              style={{ color: "var(--accent)" }}
+            >
+              {lifetime.wins + lifetime.losses + lifetime.pushes} graded plays.{" "}
+              {lifetime.units >= 0 ? "+" : ""}{lifetime.units.toFixed(1)}u. Every bet logged.
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* ── Standard Model Confidence ──────────────────────────────────────── */}
       {statsRes.byEdgeZone && (() => {

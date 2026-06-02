@@ -110,16 +110,59 @@ export default function MethodologyPage() {
           </div>
 
           {/* Discipline */}
-          <Section title="Discipline">
-            <p>
+          <div className="max-w-2xl">
+            <h2
+              className="font-display text-2xl md:text-3xl mb-6"
+              style={{ color: "var(--text-primary)" }}
+            >
+              Discipline
+            </h2>
+            <p
+              className="text-base leading-relaxed mb-6"
+              style={{ color: "var(--text-secondary)" }}
+            >
               A model is only as good as the discipline applied to it. Copacetic
-              applies hard guardrails on every play: minimum edge required,
-              position sizing tied to confidence, and overrides for situational
-              factors that the model alone can&apos;t see — back-to-back
-              fatigue, key injuries, and starting pitcher news among them. Plays
-              that don&apos;t clear every check don&apos;t get released.
+              applies hard guardrails on every play before release:
             </p>
-          </Section>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
+              {[
+                {
+                  heading: "Minimum Edge Threshold",
+                  body: "Plays must clear a disciplined edge floor against the market. Anything below threshold gets passed on, no matter how confident the model appears.",
+                },
+                {
+                  heading: "Position Sizing Tied to Confidence",
+                  body: "Plays are tiered by edge magnitude. Standard Model Confidence and Higher Model Confidence are tracked and displayed separately so the result of each tier is visible, not blended.",
+                },
+                {
+                  heading: "Situational Overrides",
+                  body: "Back-to-back fatigue, key injuries, late lineup news, starting pitcher confirmations, and other context the model alone can’t fully price are applied before any play is released.",
+                },
+              ].map((item) => (
+                <div key={item.heading}>
+                  <p
+                    className="font-sans text-sm font-medium mb-2"
+                    style={{ color: "var(--text-primary)" }}
+                  >
+                    {item.heading}
+                  </p>
+                  <p
+                    className="text-sm leading-relaxed"
+                    style={{ color: "var(--text-secondary)" }}
+                  >
+                    {item.body}
+                  </p>
+                </div>
+              ))}
+            </div>
+            <p
+              className="text-base leading-relaxed"
+              style={{ color: "var(--text-secondary)" }}
+            >
+              Plays that don&apos;t clear every check don&apos;t get released.
+              PASS days are the model doing its job, not a failure.
+            </p>
+          </div>
 
           {/* Verification */}
           <Section title="Verification">
