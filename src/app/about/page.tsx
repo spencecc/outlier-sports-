@@ -21,10 +21,10 @@ export default function AboutPage() {
           <div className="max-w-2xl space-y-6 text-base leading-relaxed" style={{ color: "var(--text-secondary)" }}>
 
             <p>
-              Copacetic Sports is built and operated by Spencer Campbell — a CRM
-              and retention analytics professional with over 15 years of
-              experience building data products at companies like Maurices,
-              Carter&apos;s, American Eagle Outfitters, OptumRx, and Epsilon.
+              Copacetic Sports is built and operated by a CRM and retention
+              analytics professional with over 15 years of experience building
+              data products in the retail, healthcare, and marketing services
+              industries.
             </p>
 
             <p>
