@@ -240,7 +240,6 @@ export default async function HomePage() {
                   key={i}
                   title={report.title}
                   date={report.date}
-                  excerpt={report.excerpt}
                   url={report.url}
                 />
               ))}
