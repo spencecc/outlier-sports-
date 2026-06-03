@@ -9,8 +9,6 @@ export default function ReportCard({ title, date, excerpt, url }: ReportCardProp
   return (
     <a
       href={url}
-      target="_blank"
-      rel="noopener noreferrer"
       className="group block p-6 border transition-colors duration-150"
       style={{
         backgroundColor: "var(--bg-surface)",

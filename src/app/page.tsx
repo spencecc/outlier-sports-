@@ -4,7 +4,6 @@ import Image from "next/image";
 import StatCard from "@/components/StatCard";
 import ReportCard from "@/components/ReportCard";
 import BeehiivSignup from "@/components/BeehiivSignup";
-import { getRssPosts } from "@/lib/getRssPosts";
 import fs from "fs/promises";
 import path from "path";
 
@@ -17,11 +16,17 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  const [statsRaw, recentReports] = await Promise.all([
+  const [statsRaw, reportsRaw] = await Promise.all([
     fs.readFile(path.join(process.cwd(), "public", "data", "stats.json"), "utf-8"),
-    getRssPosts(3),
+    fs.readFile(path.join(process.cwd(), "public", "data", "reports.json"), "utf-8"),
   ]);
   const statsRes = JSON.parse(statsRaw);
+  const reportsData: { date: string; displayDate: string; games: number; plays: number }[] = JSON.parse(reportsRaw);
+  const recentReports = reportsData.slice(0, 3).map((r) => ({
+    title: `${r.games} games · ${r.plays} ${r.plays === 1 ? "play" : "plays"}`,
+    date: r.displayDate,
+    url: `/reports/${r.date}`,
+  }));
   const { lifetime, season2026, higherModelConf } = statsRes;
 
   return (
