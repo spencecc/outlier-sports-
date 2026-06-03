@@ -2,14 +2,26 @@
   "date": "2026-06-03",
   "picks": [
     {
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "sport": "MLB",
-      "game": "PIT @ HOU",
-      "play": "PIT",
-      "type": "Moneyline",
-      "edge": 10.6,
-      "odds": -104,
-      "isLean": true
+      "game": "MIA @ WSH",
+      "time": "1:05 PM ET",
+      "play": "Washington Nationals +1.5",
+      "type": "Run Line",
+      "edge": 8.5,
+      "odds": -188,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-03",
+      "sport": "MLB",
+      "game": "TOR @ ATL",
+      "time": "7:15 PM ET",
+      "play": "Atlanta Braves -1.5",
+      "type": "Run Line",
+      "edge": 9.7,
+      "odds": 146,
+      "isLean": false
     }
   ],
   "hasPicks": true
