@@ -67,7 +67,7 @@ function downloadCsv(rows: Bet[]) {
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = "outlier-sports-bet-log.csv";
+  a.download = "copacetic-sports-bet-log.csv";
   a.click();
   URL.revokeObjectURL(url);
 }
