@@ -91,6 +91,7 @@ def main() -> None:
         cwd=ROOT,
         check=True,
     )
+    subprocess.run(["git", "pull", "--no-rebase", "origin", "main"], cwd=ROOT, check=True)
     subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
     print(f"Pushed report for {today} - Vercel will redeploy.")
 
