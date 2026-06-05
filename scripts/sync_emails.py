@@ -49,6 +49,7 @@ def git_push(files_added: list[str]) -> None:
         cwd=ROOT,
         check=True,
     )
+    subprocess.run(["git", "pull", "--no-rebase", "origin", "main"], cwd=ROOT, check=True)
     subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
     print("Pushed to GitHub - Vercel will redeploy.")
 
