@@ -1,36 +1,5 @@
 {
-  "date": "2026-06-05",
-  "picks": [
-    {
-      "date": "2026-06-05",
-      "sport": "MLB",
-      "game": "CWS @ PHI",
-      "play": "CWS +1.5",
-      "type": "Run Line",
-      "edge": 8.8,
-      "odds": -134,
-      "isLean": false
-    },
-    {
-      "date": "2026-06-05",
-      "sport": "MLB",
-      "game": "KC @ MIN",
-      "play": "Over 8.5",
-      "type": "Total",
-      "edge": 8.0,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-06-05",
-      "sport": "MLB",
-      "game": "LAA @ LAD",
-      "play": "Over 8.5",
-      "type": "Total",
-      "edge": 8.7,
-      "odds": -110,
-      "isLean": false
-    }
-  ],
-  "hasPicks": true
+  "date": "2026-06-06",
+  "picks": [],
+  "hasPicks": false
 }
