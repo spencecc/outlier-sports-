@@ -1,16 +1,5 @@
 {
   "date": "2026-06-06",
-  "picks": [
-    {
-      "date": "2026-06-04",
-      "sport": "MLB",
-      "game": "SF @ MIL",
-      "play": "Under 9.0",
-      "type": "Total",
-      "edge": 9.3,
-      "odds": -110,
-      "isLean": false
-    }
-  ],
-  "hasPicks": true
+  "picks": [],
+  "hasPicks": false
 }
