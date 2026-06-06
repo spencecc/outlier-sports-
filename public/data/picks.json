@@ -1,5 +1,28 @@
 {
   "date": "2026-06-06",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-06-06",
+      "sport": "MLB",
+      "game": "KC @ MIN",
+      "time": "2:10 PM ET",
+      "play": "Twins -1.5",
+      "type": "Run Line",
+      "edge": 8.5,
+      "odds": 132,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-06",
+      "sport": "MLB",
+      "game": "BOS @ NYY",
+      "time": "7:35 PM ET",
+      "play": "Under 8.5",
+      "type": "Total",
+      "edge": 9.6,
+      "odds": -110,
+      "isLean": false
+    }
+  ],
+  "hasPicks": true
 }
