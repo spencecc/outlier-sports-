@@ -1,17 +1,162 @@
 {
-  "as_of": "2026-06-06T21:00:01.311464+00:00",
+  "as_of": "2026-06-06T22:30:02.169051+00:00",
   "date": "2026-06-06",
   "version": "edge-alerts-v1",
   "sports": [
     "MLB"
   ],
   "summary": {
-    "model_edges": 0,
+    "model_edges": 8,
     "book_discrepancies": 14,
     "line_movements": 0,
     "warnings": []
   },
-  "model_edges": [],
+  "model_edges": [
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-06_sf_chc_total",
+      "game": "San Francisco Giants at Chicago Cubs",
+      "market": "total",
+      "side": "Over 7.5",
+      "best_book": "FanDuel",
+      "market_odds": "-110",
+      "model_fair_line": "-207",
+      "model_probability": 0.674,
+      "market_probability": 0.5238,
+      "edge": 0.15,
+      "ev": 0.286727,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-06_nym_sd_total",
+      "game": "New York Mets at San Diego Padres",
+      "market": "total",
+      "side": "Under 7.5",
+      "best_book": "FanDuel",
+      "market_odds": "-110",
+      "model_fair_line": "-188",
+      "model_probability": 0.653,
+      "market_probability": 0.5238,
+      "edge": 0.129,
+      "ev": 0.246636,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-06_cws_phi_moneyline",
+      "game": "Chicago White Sox at Philadelphia Phillies",
+      "market": "moneyline",
+      "side": "Chicago White Sox",
+      "best_book": "FanDuel",
+      "market_odds": "+116",
+      "model_fair_line": "-104",
+      "model_probability": 0.51,
+      "market_probability": 0.463,
+      "edge": 0.124,
+      "ev": 0.1016,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-06_cws_phi_run_line",
+      "game": "Chicago White Sox at Philadelphia Phillies",
+      "market": "run line",
+      "side": "Chicago White Sox +1.5",
+      "best_book": "FanDuel",
+      "market_odds": "-164",
+      "model_fair_line": "-213",
+      "model_probability": 0.68,
+      "market_probability": 0.6211,
+      "edge": 0.11,
+      "ev": 0.094634,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-06_wsh_ari_moneyline",
+      "game": "Washington Nationals at Arizona Diamondbacks",
+      "market": "moneyline",
+      "side": "Washington Nationals",
+      "best_book": "FanDuel",
+      "market_odds": "+136",
+      "model_fair_line": "-111",
+      "model_probability": 0.525,
+      "market_probability": 0.4237,
+      "edge": 0.102,
+      "ev": 0.239,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-06_bos_nyy_total",
+      "game": "Boston Red Sox at New York Yankees",
+      "market": "total",
+      "side": "Under 9.0",
+      "best_book": "FanDuel",
+      "market_odds": "-110",
+      "model_fair_line": "-157",
+      "model_probability": 0.611,
+      "market_probability": 0.5238,
+      "edge": 0.088,
+      "ev": 0.166455,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-06_unknown_total",
+      "game": "Athletics at Houston Astros",
+      "market": "total",
+      "side": "Under 8.5",
+      "best_book": "FanDuel",
+      "market_odds": "-110",
+      "model_fair_line": "-156",
+      "model_probability": 0.609,
+      "market_probability": 0.5238,
+      "edge": 0.086,
+      "ev": 0.162636,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-06_kc_min_run_line",
+      "game": "Kansas City Royals at Minnesota Twins",
+      "market": "run line",
+      "side": "Minnesota Twins -1.5",
+      "best_book": "FanDuel",
+      "market_odds": "+132",
+      "model_fair_line": "-104",
+      "model_probability": 0.509,
+      "market_probability": 0.431,
+      "edge": 0.078,
+      "ev": 0.18088,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
+    }
+  ],
   "book_discrepancies": [
     {
       "sport": "MLB",
@@ -36,7 +181,7 @@
       "arb_return": -0.003986,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -60,8 +205,8 @@
       "implied_probability_sum": 1.015361,
       "arb_return": -0.015361,
       "signal": "Near-Arb",
-      "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -86,7 +231,7 @@
       "arb_return": -0.016817,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -110,8 +255,8 @@
       "implied_probability_sum": 1.017225,
       "arb_return": -0.017225,
       "signal": "Near-Arb",
-      "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -136,7 +281,7 @@
       "arb_return": -0.018859,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -160,8 +305,8 @@
       "implied_probability_sum": 1.018871,
       "arb_return": -0.018871,
       "signal": "Near-Arb",
-      "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -186,7 +331,7 @@
       "arb_return": -0.021248,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -211,7 +356,7 @@
       "arb_return": -0.021483,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -235,8 +380,8 @@
       "implied_probability_sum": 1.021645,
       "arb_return": -0.021645,
       "signal": "Near-Arb",
-      "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -260,8 +405,8 @@
       "implied_probability_sum": 1.022054,
       "arb_return": -0.022054,
       "signal": "Near-Arb",
-      "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -286,7 +431,7 @@
       "arb_return": -0.023127,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -311,7 +456,7 @@
       "arb_return": -0.023351,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -335,8 +480,8 @@
       "implied_probability_sum": 1.023729,
       "arb_return": -0.023729,
       "signal": "Near-Arb",
-      "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     },
     {
       "sport": "MLB",
@@ -361,7 +506,7 @@
       "arb_return": -0.024297,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-06T21:00:01.311464+00:00"
+      "updated_at": "2026-06-06T22:30:02.169051+00:00"
     }
   ],
   "line_movements": []
