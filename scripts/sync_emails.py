@@ -41,6 +41,8 @@ def extract_subject(html: str, fallback: str) -> str:
 
 
 def git_push(files_added: list[str]) -> None:
+    # Pull before committing so our commit lands on top — no merge needed, no editor prompt.
+    subprocess.run(["git", "pull", "--no-rebase", "origin", "main"], cwd=ROOT, check=True)
     for f in files_added:
         subprocess.run(["git", "add", f], cwd=ROOT, check=True)
     subprocess.run(["git", "add", INDEX_FILE], cwd=ROOT, check=True)
@@ -49,7 +51,6 @@ def git_push(files_added: list[str]) -> None:
         cwd=ROOT,
         check=True,
     )
-    subprocess.run(["git", "pull", "--no-rebase", "origin", "main"], cwd=ROOT, check=True)
     subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
     print("Pushed to GitHub - Vercel will redeploy.")
 
