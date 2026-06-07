@@ -13,7 +13,7 @@ import subprocess
 from datetime import date, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MODEL_OUTPUT = r"C:\Users\spenc\OneDrive\Desktop\Python.Manus\gemini_mlb_v2.2\output"
+MODEL_OUTPUT = "/opt/mlb-model/output"
 DEST_DIR = os.path.join(ROOT, "public", "data", "reports")
 INDEX_FILE = os.path.join(ROOT, "public", "data", "reports.json")
 
