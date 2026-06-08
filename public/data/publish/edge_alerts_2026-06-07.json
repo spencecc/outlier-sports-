@@ -1,0 +1,495 @@
+{
+  "as_of": "2026-06-08T00:30:02.117394+00:00",
+  "date": "2026-06-07",
+  "version": "edge-alerts-v1",
+  "sports": [
+    "MLB"
+  ],
+  "summary": {
+    "model_edges": 7,
+    "book_discrepancies": 14,
+    "line_movements": 0,
+    "warnings": []
+  },
+  "model_edges": [
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_cws_phi_moneyline",
+      "game": "Chicago White Sox at Philadelphia Phillies",
+      "market": "moneyline",
+      "side": "Chicago White Sox",
+      "best_book": "FanDuel",
+      "market_odds": "+144",
+      "model_fair_line": "-136",
+      "model_probability": 0.576,
+      "market_probability": 0.409836,
+      "edge": 0.1662,
+      "ev": 0.40544,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_cws_phi_run_line",
+      "game": "Chicago White Sox at Philadelphia Phillies",
+      "market": "run line",
+      "side": "Chicago White Sox +1.5",
+      "best_book": "FanDuel",
+      "market_odds": "-142",
+      "model_fair_line": "-271",
+      "model_probability": 0.7302,
+      "market_probability": 0.586777,
+      "edge": 0.1434,
+      "ev": 0.244425,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_pit_atl_total",
+      "game": "Pittsburgh Pirates at Atlanta Braves",
+      "market": "total",
+      "side": "Over 8.5",
+      "best_book": "FanDuel",
+      "market_odds": "-110",
+      "model_fair_line": "-194",
+      "model_probability": 0.6595,
+      "market_probability": 0.52381,
+      "edge": 0.1357,
+      "ev": 0.259045,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_mil_col_moneyline",
+      "game": "Milwaukee Brewers at Colorado Rockies",
+      "market": "moneyline",
+      "side": "Milwaukee Brewers",
+      "best_book": "FanDuel",
+      "market_odds": "-176",
+      "model_fair_line": "-313",
+      "model_probability": 0.758,
+      "market_probability": 0.637681,
+      "edge": 0.1203,
+      "ev": 0.188682,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_mil_col_run_line",
+      "game": "Milwaukee Brewers at Colorado Rockies",
+      "market": "run line",
+      "side": "Milwaukee Brewers -1.5",
+      "best_book": "FanDuel",
+      "market_odds": "-120",
+      "model_fair_line": "-179",
+      "model_probability": 0.6419,
+      "market_probability": 0.545455,
+      "edge": 0.0964,
+      "ev": 0.176817,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_sea_det_total",
+      "game": "Seattle Mariners at Detroit Tigers",
+      "market": "total",
+      "side": "Under 8.5",
+      "best_book": "FanDuel",
+      "market_odds": "-110",
+      "model_fair_line": "-160",
+      "model_probability": 0.6161,
+      "market_probability": 0.52381,
+      "edge": 0.0923,
+      "ev": 0.176191,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_kc_min_run_line",
+      "game": "Kansas City Royals at Minnesota Twins",
+      "market": "run line",
+      "side": "Minnesota Twins +1.5",
+      "best_book": "FanDuel",
+      "market_odds": "-172",
+      "model_fair_line": "-257",
+      "model_probability": 0.7201,
+      "market_probability": 0.632353,
+      "edge": 0.0877,
+      "ev": 0.138763,
+      "tier": "A",
+      "signal": "Copacetic Edge",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    }
+  ],
+  "book_discrepancies": [
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_sea_det_disc",
+      "game": "Seattle Mariners at Detroit Tigers",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Seattle Mariners",
+          "book": "BetOnline.ag",
+          "odds": "+100",
+          "decimal_odds": 2.0
+        },
+        {
+          "outcome": "Detroit Tigers",
+          "book": "BetUS",
+          "odds": "-106",
+          "decimal_odds": 1.9434
+        }
+      ],
+      "implied_probability_sum": 1.014563,
+      "arb_return": -0.014563,
+      "signal": "Near-Arb",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_cws_phi_disc",
+      "game": "Chicago White Sox at Philadelphia Phillies",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Chicago White Sox",
+          "book": "BetRivers",
+          "odds": "+150",
+          "decimal_odds": 2.5
+        },
+        {
+          "outcome": "Philadelphia Phillies",
+          "book": "BetUS",
+          "odds": "-161",
+          "decimal_odds": 1.6211
+        }
+      ],
+      "implied_probability_sum": 1.016858,
+      "arb_return": -0.016858,
+      "signal": "Near-Arb",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_bos_nyy_disc",
+      "game": "Boston Red Sox at New York Yankees",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Boston Red Sox",
+          "book": "LowVig.ag",
+          "odds": "+134",
+          "decimal_odds": 2.34
+        },
+        {
+          "outcome": "New York Yankees",
+          "book": "BetUS",
+          "odds": "-145",
+          "decimal_odds": 1.6897
+        }
+      ],
+      "implied_probability_sum": 1.019187,
+      "arb_return": -0.019187,
+      "signal": "Near-Arb",
+      "model_alignment": "Not model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_mil_col_disc",
+      "game": "Milwaukee Brewers at Colorado Rockies",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Milwaukee Brewers",
+          "book": "FanDuel",
+          "odds": "-176",
+          "decimal_odds": 1.5682
+        },
+        {
+          "outcome": "Colorado Rockies",
+          "book": "LowVig.ag",
+          "odds": "+162",
+          "decimal_odds": 2.62
+        }
+      ],
+      "implied_probability_sum": 1.019361,
+      "arb_return": -0.019361,
+      "signal": "Near-Arb",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_tb_mia_disc",
+      "game": "Tampa Bay Rays at Miami Marlins",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Tampa Bay Rays",
+          "book": "LowVig.ag",
+          "odds": "-106",
+          "decimal_odds": 1.9434
+        },
+        {
+          "outcome": "Miami Marlins",
+          "book": "FanDuel",
+          "odds": "-102",
+          "decimal_odds": 1.9804
+        }
+      ],
+      "implied_probability_sum": 1.019514,
+      "arb_return": -0.019514,
+      "signal": "Near-Arb",
+      "model_alignment": "Not model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_cin_stl_disc",
+      "game": "Cincinnati Reds at St. Louis Cardinals",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Cincinnati Reds",
+          "book": "LowVig.ag",
+          "odds": "+124",
+          "decimal_odds": 2.24
+        },
+        {
+          "outcome": "St. Louis Cardinals",
+          "book": "BetUS",
+          "odds": "-135",
+          "decimal_odds": 1.7407
+        }
+      ],
+      "implied_probability_sum": 1.020897,
+      "arb_return": -0.020897,
+      "signal": "Near-Arb",
+      "model_alignment": "Not model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_sf_chc_disc",
+      "game": "San Francisco Giants at Chicago Cubs",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "San Francisco Giants",
+          "book": "LowVig.ag",
+          "odds": "+112",
+          "decimal_odds": 2.12
+        },
+        {
+          "outcome": "Chicago Cubs",
+          "book": "BetUS",
+          "odds": "-122",
+          "decimal_odds": 1.8197
+        }
+      ],
+      "implied_probability_sum": 1.021248,
+      "arb_return": -0.021248,
+      "signal": "Near-Arb",
+      "model_alignment": "Not model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_cle_tex_disc",
+      "game": "Cleveland Guardians at Texas Rangers",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Cleveland Guardians",
+          "book": "BetRivers",
+          "odds": "+128",
+          "decimal_odds": 2.28
+        },
+        {
+          "outcome": "Texas Rangers",
+          "book": "LowVig.ag",
+          "odds": "-140",
+          "decimal_odds": 1.7143
+        }
+      ],
+      "implied_probability_sum": 1.02193,
+      "arb_return": -0.02193,
+      "signal": "Near-Arb",
+      "model_alignment": "Not model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_nym_sd_disc",
+      "game": "New York Mets at San Diego Padres",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "New York Mets",
+          "book": "MyBookie.ag",
+          "odds": "-106",
+          "decimal_odds": 1.9434
+        },
+        {
+          "outcome": "San Diego Padres",
+          "book": "LowVig.ag",
+          "odds": "-103",
+          "decimal_odds": 1.9709
+        }
+      ],
+      "implied_probability_sum": 1.021952,
+      "arb_return": -0.021952,
+      "signal": "Near-Arb",
+      "model_alignment": "Not model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_laa_lad_disc",
+      "game": "Los Angeles Angels at Los Angeles Dodgers",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Los Angeles Angels",
+          "book": "Bovada",
+          "odds": "+190",
+          "decimal_odds": 2.9
+        },
+        {
+          "outcome": "Los Angeles Dodgers",
+          "book": "LowVig.ag",
+          "odds": "-210",
+          "decimal_odds": 1.4762
+        }
+      ],
+      "implied_probability_sum": 1.022247,
+      "arb_return": -0.022247,
+      "signal": "Near-Arb",
+      "model_alignment": "Not model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_wsh_ari_disc",
+      "game": "Washington Nationals at Arizona Diamondbacks",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Washington Nationals",
+          "book": "BetUS",
+          "odds": "+114",
+          "decimal_odds": 2.14
+        },
+        {
+          "outcome": "Arizona Diamondbacks",
+          "book": "LowVig.ag",
+          "odds": "-125",
+          "decimal_odds": 1.8
+        }
+      ],
+      "implied_probability_sum": 1.022845,
+      "arb_return": -0.022845,
+      "signal": "Near-Arb",
+      "model_alignment": "Not model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_bal_tor_disc",
+      "game": "Baltimore Orioles at Toronto Blue Jays",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Baltimore Orioles",
+          "book": "LowVig.ag",
+          "odds": "+120",
+          "decimal_odds": 2.2
+        },
+        {
+          "outcome": "Toronto Blue Jays",
+          "book": "LowVig.ag",
+          "odds": "-132",
+          "decimal_odds": 1.7576
+        }
+      ],
+      "implied_probability_sum": 1.023511,
+      "arb_return": -0.023511,
+      "signal": "Near-Arb",
+      "model_alignment": "Not model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_kc_min_disc",
+      "game": "Kansas City Royals at Minnesota Twins",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Kansas City Royals",
+          "book": "BetOnline.ag",
+          "odds": "-108",
+          "decimal_odds": 1.9259
+        },
+        {
+          "outcome": "Minnesota Twins",
+          "book": "BetOnline.ag",
+          "odds": "-102",
+          "decimal_odds": 1.9804
+        }
+      ],
+      "implied_probability_sum": 1.024181,
+      "arb_return": -0.024181,
+      "signal": "Near-Arb",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-07_pit_atl_disc",
+      "game": "Pittsburgh Pirates at Atlanta Braves",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Pittsburgh Pirates",
+          "book": "BetOnline.ag",
+          "odds": "+133",
+          "decimal_odds": 2.33
+        },
+        {
+          "outcome": "Atlanta Braves",
+          "book": "BetOnline.ag",
+          "odds": "-147",
+          "decimal_odds": 1.6803
+        }
+      ],
+      "implied_probability_sum": 1.024326,
+      "arb_return": -0.024326,
+      "signal": "Near-Arb",
+      "model_alignment": "Model-backed",
+      "updated_at": "2026-06-08T00:30:02.117394+00:00"
+    }
+  ],
+  "line_movements": []
+}

@@ -1,38 +1,15 @@
 {
-  "date": "2026-06-07",
+  "date": "2026-06-08",
   "picks": [
     {
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "sport": "MLB",
-      "game": "SEA @ DET",
-      "time": "1:40 PM ET",
-      "play": "Under 8.5",
-      "type": "Total",
-      "edge": 9.2,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-06-07",
-      "sport": "MLB",
-      "game": "KC @ MIN",
-      "time": "2:10 PM ET",
-      "play": "MIN +1.5",
-      "type": "Run Line",
-      "edge": 8.8,
-      "odds": -172,
-      "isLean": false
-    },
-    {
-      "date": "2026-06-07",
-      "sport": "MLB",
-      "game": "MIL @ COL",
-      "time": "3:10 PM ET",
-      "play": "MIL -1.5",
-      "type": "Run Line",
-      "edge": 9.6,
-      "odds": -120,
-      "isLean": false
+      "game": "SEA @ BAL",
+      "play": "BAL",
+      "type": "Moneyline",
+      "edge": 10.5,
+      "odds": 110,
+      "isLean": true
     }
   ],
   "hasPicks": true
