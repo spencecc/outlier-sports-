@@ -1,5 +1,36 @@
 {
   "date": "2026-06-09",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-06-09",
+      "sport": "MLB",
+      "game": "SEA @ BAL",
+      "play": "BAL +1.5",
+      "type": "Run Line",
+      "edge": 8.4,
+      "odds": -172,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-09",
+      "sport": "MLB",
+      "game": "NYY @ CLE",
+      "play": "NYY -1.5",
+      "type": "Run Line",
+      "edge": 8.2,
+      "odds": 134,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-09",
+      "sport": "MLB",
+      "game": "CHC @ COL",
+      "play": "Under 12.5",
+      "type": "Total",
+      "edge": 9.5,
+      "odds": -110,
+      "isLean": false
+    }
+  ],
+  "hasPicks": true
 }
