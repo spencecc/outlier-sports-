@@ -1,16 +1,5 @@
 {
-  "date": "2026-06-08",
-  "picks": [
-    {
-      "date": "2026-06-08",
-      "sport": "MLB",
-      "game": "SEA @ BAL",
-      "play": "BAL",
-      "type": "Moneyline",
-      "edge": 10.5,
-      "odds": 110,
-      "isLean": true
-    }
-  ],
-  "hasPicks": true
+  "date": "2026-06-09",
+  "picks": [],
+  "hasPicks": false
 }
