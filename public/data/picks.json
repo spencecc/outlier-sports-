@@ -1,5 +1,26 @@
 {
   "date": "2026-06-10",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-06-10",
+      "sport": "MLB",
+      "game": "MIN @ DET",
+      "play": "MIN +1.5",
+      "type": "Run Line",
+      "edge": 7.2,
+      "odds": -142,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-10",
+      "sport": "MLB",
+      "game": "PHI @ TOR",
+      "play": "Under 8.5",
+      "type": "Total",
+      "edge": 7.4,
+      "odds": -110,
+      "isLean": false
+    }
+  ],
+  "hasPicks": true
 }
