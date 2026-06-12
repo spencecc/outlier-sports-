@@ -1,0 +1,1666 @@
+Gemini 10K v2.2 -- Full Game Detail -- 2026-06-12
+Games: 15 | Plays: 4
+======================================================================
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  Miami Marlins @ Pittsburgh Pirates
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Sandy Alcantara              Home:    Braxton Ashcraft
+  ERA:     4.95                         ERA:     2.92
+  WHIP:    1.27                         WHIP:    1.19
+  K/9:     6.97                         K/9:     9.37
+  BB/9:    2.65                         BB/9:    2.66
+  FIP:     4.0                          FIP:     2.75
+  IP:      89.3                         IP:      79.7
+  xERA:    4.64                         xERA:    3.43
+  xwOBA:   0.332                        xwOBA:   0.289
+
+  Pitcher Edge: PIT (Braxton Ashcraft)
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        MIA        PIT       Lg Avg
+  Record                    34-35      35-34             
+  R/Game                     4.29       5.09         4.47
+  RA/Game                    4.38       4.80         4.46
+  OPS                       0.705      0.741        0.715
+  wOBA                      0.306      0.321        0.308
+  ERA                        4.12       4.21         4.15
+  FIP                        3.74       3.64         4.01
+  WHIP                       1.26       1.30         1.31
+  K/9                        8.78       9.09         8.47
+  Pythag Win%               0.491      0.527        0.500
+  Park Factor                             98          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        MIA        PIT       Lg Avg
+  BP ERA                     3.53       4.44         4.07
+  BP FIP                     3.44       4.00         3.94
+  BP WHIP                    1.22       1.37             
+  BP K/9                     9.69       9.31             
+  BP Quality*                46.0       54.3         45.0
+  BP IP                     252.7      269.7             
+
+  Bullpen Edge: MIA (lower quality score = better)
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  MIA: TAXED (penalty +6.0)
+    TIRED:   Anthony Bender (2 of last 3 days)
+    TIRED:   Michael Petersen (2 of last 3 days)
+    TIRED:   Calvin Faucher (2 of last 3 days)
+    TIRED:   Pete Fairbanks (2 of last 3 days)
+  PIT: TAXED (penalty +7.5)
+    UNAVAIL: Evan Sisk (B2B, 31 pitches)
+    TIRED:   Brandan Bidois (2 of last 3 days)
+    TIRED:   Dennis Santana (2 of last 3 days)
+    TIRED:   Yohan Ramírez (35 pitches yesterday)
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  MIA (Away): Lineup not yet posted (using full-strength estimate)
+  PIT (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           PNC Park
+  Temperature:       83°F
+  Wind:              10 mph (gusts 16 mph)
+  Precip Chance:     0%
+  Conditions:        Warm (83°F), wind in (10 mph)
+  Weather Factor:    0.9947 (Temp: 1.0164 | Wind: 0.9787)
+  Impact:            Minimal weather impact
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    MIA 3.8  -  PIT 5.3
+  Simulated Avg:     MIA 3.8  -  PIT 5.3
+  Win Probability:   MIA 35.3%  -  PIT 64.7%
+  Fair Moneyline:    MIA +183  /  PIT -183
+  Avg Total Runs:    9.1
+  Over 8.5:        52.0%
+  Under 8.5:       48.0%
+  MIA +1.5:         51.0%
+  PIT -1.5:         49.0%
+  Pitcher Adj:       MIA 1.075  /  PIT 0.730
+  Bullpen Adj:       MIA 1.022  /  PIT 1.207
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       MIA 1.7  -  PIT 3.0
+  F5 Simulated Avg:  MIA 1.7  -  PIT 3.0
+  F5 Win Prob:       MIA 28.4%  -  PIT 71.6%  (Tie: 15.7%)
+  F5 Fair ML:        MIA +252  /  PIT -252
+  F5 Avg Total:      4.7
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  MIA ML                     +122       +183      -9.7%
+  PIT ML                     -144       -183      +5.7%
+  MIA +1.5                   -176       -104     -12.7%
+  PIT -1.5                   +146       +104      +8.3%
+  O 8.5                      -110        N/A      -0.4%
+  U 8.5                      -110        N/A      -4.4%
+
+  ================================================================
+  QUALIFYING PLAYS: 1 (1 Full Game + 0 F5)
+  ================================================================
+  [STANDARD EDGE] Pittsburgh Pirates -1.5 (Run Line) [+146]
+    Model: 49.0% | Market: 40.7% | Edge: 8.3%
+    Fair ML: +104 | Kelly: 3.51%
+    [Logged] Bet ID: MLB-00754
+
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  Seattle Mariners @ Washington Nationals
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Bryce Miller                 Home:    Zack Littell
+  ERA:     5.18                         ERA:     4.05
+  WHIP:    1.34                         WHIP:    1.15
+  K/9:     7.63                         K/9:     6.06
+  BB/9:    3.19                         BB/9:    1.86
+  FIP:     4.75                         FIP:     5.02
+  IP:      27.0                         IP:      64.3
+  xERA:    5.27                         xERA:    4.36
+  xwOBA:   0.351                        xwOBA:   0.323
+
+  Pitcher Edge: Even
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        SEA        WSH       Lg Avg
+  Record                    36-34      35-34             
+  R/Game                     4.24       5.39         4.47
+  RA/Game                    3.87       5.29         4.46
+  OPS                       0.715      0.742        0.715
+  wOBA                      0.310      0.318        0.308
+  ERA                        3.59       4.66         4.15
+  FIP                        3.46       4.64         4.01
+  WHIP                       1.20       1.39         1.31
+  K/9                        8.68       7.77         8.47
+  Pythag Win%               0.542      0.509        0.500
+  Park Factor                             98          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        SEA        WSH       Lg Avg
+  BP ERA                     3.29       4.83         4.07
+  BP FIP                     3.41       4.79         3.94
+  BP WHIP                    1.33       1.44             
+  BP K/9                     8.52       7.09             
+  BP Quality*                43.0       54.1         45.0
+  BP IP                     227.0      326.3             
+
+  Bullpen Edge: SEA (lower quality score = better)
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  SEA: TAXED (penalty +3.0)
+    TIRED:   Alex Hoppe (2 of last 3 days)
+    TIRED:   Nick Davila (2 of last 3 days)
+  WSH: TAXED (penalty +1.5)
+    TIRED:   Orlando Ribalta (2 of last 3 days)
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  SEA (Away): Lineup not yet posted (using full-strength estimate)
+  WSH (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Nationals Park
+  Temperature:       94°F
+  Wind:              8 mph (gusts 17 mph)
+  Precip Chance:     33%
+  Conditions:        Hot (94°F), crosswind (8 mph)
+  Weather Factor:    1.0384 (Temp: 1.0330 | Wind: 1.0052)
+  Impact:            Scoring conditions (favors OVER)
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    SEA 4.8  -  WSH 5.5
+  Simulated Avg:     SEA 4.8  -  WSH 5.5
+  Win Probability:   SEA 43.5%  -  WSH 56.5%
+  Fair Moneyline:    SEA +130  /  WSH -130
+  Avg Total Runs:    10.4
+  Over 9.5:        53.7%
+  Under 9.5:       46.3%
+  SEA -1.5:         29.9%
+  WSH +1.5:         70.1%
+  Pitcher Adj:       SEA 1.018  /  WSH 1.096
+  Bullpen Adj:       SEA 0.956  /  WSH 1.202
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       SEA 2.6  -  WSH 3.1
+  F5 Simulated Avg:  SEA 2.6  -  WSH 3.1
+  F5 Win Prob:       SEA 42.6%  -  WSH 57.4%  (Tie: 14.2%)
+  F5 Fair ML:        SEA +135  /  WSH -135
+  F5 Avg Total:      5.7
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  SEA ML                     -146       +130     -15.8%
+  WSH ML                     +124       -130     +11.8%
+  SEA -1.5                   +114       +234     -16.8%
+  WSH +1.5                   -137       -234     +12.3%
+  O 9.5                      -110        N/A      +1.3%
+  U 9.5                      -110        N/A      -6.1%
+
+  ================================================================
+  RESULT: PASS — No qualifying edge detected
+  ================================================================
+
+  ────────────────────────────────────────────────────────────────
+  HIGHER MODEL CONFIDENCE (10%+ edge signals)
+  ────────────────────────────────────────────────────────────────
+  [HMC] Washington Nationals (Moneyline (High Edge)) | ML: +124 | Edge: 11.8%
+    [Logged] Bet ID: MLB-00755
+  [HMC] Washington Nationals +1.5 (Run Line (High Edge)) | ML: -137 | Edge: 12.3%
+    [Logged] Bet ID: MLB-00756
+
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  San Diego Padres @ Baltimore Orioles
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Griffin Canning              Home:    Shane Baz
+  ERA:     4.28                         ERA:     4.58
+  WHIP:    1.4                          WHIP:    1.35
+  K/9:     8.42                         K/9:     8.85
+  BB/9:    4.24                         BB/9:    3.48
+  FIP:     4.21                         FIP:     4.07
+  IP:      32.7                         IP:      77.0
+  xERA:    4.7                          xERA:    3.88
+  xwOBA:   0.334                        xwOBA:   0.306
+
+  Pitcher Edge: Even
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                         SD        BAL       Lg Avg
+  Record                    35-32      33-37             
+  R/Game                     3.81       4.73         4.47
+  RA/Game                    4.03       5.13         4.46
+  OPS                       0.651      0.723        0.715
+  wOBA                      0.282      0.313        0.308
+  ERA                        3.90       4.57         4.15
+  FIP                        3.86       4.22         4.01
+  WHIP                       1.28       1.40         1.31
+  K/9                        8.49       7.81         8.47
+  Pythag Win%               0.474      0.463        0.500
+  Park Factor                            102          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                         SD        BAL       Lg Avg
+  BP ERA                     3.14       4.60         4.07
+  BP FIP                     3.24       3.79         3.94
+  BP WHIP                    1.20       1.34             
+  BP K/9                     9.54       8.44             
+  BP Quality*                37.4       52.1         45.0
+  BP IP                     269.0      262.3             
+
+  Bullpen Edge: SD (lower quality score = better)
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  SD: RESTED (penalty +0.0)
+    All relievers available
+  BAL: TAXED (penalty +6.0)
+    TIRED:   Andrew Kittredge (2 of last 3 days)
+    TIRED:   Tyler Wells (2 of last 3 days)
+    TIRED:   Rico Garcia (2 of last 3 days)
+    TIRED:   Grant Wolfram (2 of last 3 days)
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  SD (Away): Lineup not yet posted (using full-strength estimate)
+  BAL (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Camden Yards
+  Temperature:       87°F
+  Wind:              9 mph (gusts 21 mph)
+  Precip Chance:     13%
+  Conditions:        Hot (87°F), wind out (9 mph)
+  Weather Factor:    1.0375 (Temp: 1.0227 | Wind: 1.0145)
+  Impact:            Scoring conditions (favors OVER)
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    SD 4.2  -  BAL 4.9
+  Simulated Avg:     SD 4.2  -  BAL 4.9
+  Win Probability:   SD 42.5%  -  BAL 57.5%
+  Fair Moneyline:    SD +135  /  BAL -135
+  Avg Total Runs:    9.1
+  Over 9.0:        42.0%
+  Under 9.0:       48.1%
+  SD +1.5:         58.9%
+  BAL -1.5:         41.1%
+  Pitcher Adj:       SD 1.060  /  BAL 0.995
+  Bullpen Adj:       SD 0.831  /  BAL 1.158
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       SD 2.2  -  BAL 3.0
+  F5 Simulated Avg:  SD 2.2  -  BAL 3.0
+  F5 Win Prob:       SD 37.7%  -  BAL 62.3%  (Tie: 15.3%)
+  F5 Fair ML:        SD +165  /  BAL -165
+  F5 Avg Total:      5.2
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  SD ML                      +110       +135      -5.1%
+  BAL ML                     -130       -135      +1.0%
+  SD +1.5                    -184       -143      -5.9%
+  BAL -1.5                   +152       +143      +1.4%
+  O 9.0                      -110        N/A     -10.4%
+  U 9.0                      -110        N/A      -4.3%
+
+  ================================================================
+  RESULT: PASS — No qualifying edge detected
+  ================================================================
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  Detroit Tigers @ Cleveland Guardians
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Jack Flaherty                Home:    Tanner Bibee
+  ERA:     4.91                         ERA:     4.18
+  WHIP:    1.4                          WHIP:    1.23
+  K/9:     10.73                        K/9:     7.74
+  BB/9:    3.88                         BB/9:    2.73
+  FIP:     3.78                         FIP:     4.32
+  IP:      62.7                         IP:      77.0
+  xERA:    3.99                         xERA:    3.64
+  xwOBA:   0.31                         xwOBA:   0.297
+
+  Pitcher Edge: DET (Jack Flaherty)
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        DET        CLE       Lg Avg
+  Record                    29-40      37-33             
+  R/Game                     4.13       4.04         4.47
+  RA/Game                    4.26       4.13         4.46
+  OPS                       0.711      0.686        0.715
+  wOBA                      0.309      0.299        0.308
+  ERA                        3.97       3.82         4.15
+  FIP                        3.83       3.87         4.01
+  WHIP                       1.28       1.27         1.31
+  K/9                        8.23       9.27         8.47
+  Pythag Win%               0.486      0.490        0.500
+  Park Factor                             97          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        DET        CLE       Lg Avg
+  BP ERA                     4.15       3.77         4.07
+  BP FIP                     4.07       3.48         3.94
+  BP WHIP                    1.38       1.29             
+  BP K/9                     8.45      10.32             
+  BP Quality*                50.8       42.6         45.0
+  BP IP                     260.0      236.3             
+
+  Bullpen Edge: CLE (lower quality score = better)
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  DET: TAXED (penalty +4.5)
+    TIRED:   Brenan Hanifee (2 of last 3 days)
+    TIRED:   Tyler Holton (2 of last 3 days)
+    TIRED:   Beau Brieske (2 of last 3 days)
+  CLE: TAXED (penalty +1.5)
+    TIRED:   Matt Festa (2 of last 3 days)
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  DET (Away): Lineup not yet posted (using full-strength estimate)
+  CLE (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Progressive Field
+  Temperature:       75°F
+  Wind:              6 mph (gusts 14 mph)
+  Precip Chance:     0%
+  Conditions:        Mild (75°F), light wind (6 mph)
+  Weather Factor:    0.9956 (Temp: 1.0044 | Wind: 0.9913)
+  Impact:            Minimal weather impact
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    DET 3.8  -  CLE 4.2
+  Simulated Avg:     DET 3.8  -  CLE 4.2
+  Win Probability:   DET 45.6%  -  CLE 54.4%
+  Fair Moneyline:    DET +119  /  CLE -119
+  Avg Total Runs:    8.0
+  Over 8.5:        39.7%
+  Under 8.5:       60.3%
+  DET -1.5:         29.0%
+  CLE +1.5:         71.0%
+  Pitcher Adj:       DET 0.997  /  CLE 0.975
+  Bullpen Adj:       DET 1.129  /  CLE 0.947
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       DET 2.1  -  CLE 2.2
+  F5 Simulated Avg:  DET 2.1  -  CLE 2.2
+  F5 Win Prob:       DET 49.2%  -  CLE 50.8%  (Tie: 17.9%)
+  F5 Fair ML:        DET +103  /  CLE -103
+  F5 Avg Total:      4.3
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  DET ML                     +102       +119      -3.9%
+  CLE ML                     -120       -119      -0.1%
+  DET -1.5                   +168       +244      -8.3%
+  CLE +1.5                   -205       -244      +3.8%
+  O 8.5                      -110        N/A     -12.7%
+  U 8.5                      -110        N/A      +8.0%
+
+  ================================================================
+  QUALIFYING PLAYS: 1 (1 Full Game + 0 F5)
+  ================================================================
+  [STANDARD EDGE] Under 8.5 (Total) [-110]
+    Model: 60.3% | Market: 52.4% | Edge: 8.0%
+    Fair ML: -152 | Kelly: 4.18%
+    [Logged] Bet ID: MLB-00757
+
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  Texas Rangers @ Boston Red Sox
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Jack Leiter                  Home:    Sonny Gray
+  ERA:     4.17                         ERA:     3.94
+  WHIP:    1.31                         WHIP:    1.23
+  K/9:     9.1                          K/9:     9.07
+  BB/9:    3.96                         BB/9:    2.1
+  FIP:     4.12                         FIP:     3.45
+  IP:      71.0                         IP:      56.3
+  xERA:    4.45                         xERA:    3.88
+  xwOBA:   0.326                        xwOBA:   0.306
+
+  Pitcher Edge: BOS (Sonny Gray)
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        TEX        BOS       Lg Avg
+  Record                    34-34      27-39             
+  R/Game                     4.04       3.91         4.47
+  RA/Game                    3.81       4.12         4.46
+  OPS                       0.702      0.688        0.715
+  wOBA                      0.305      0.299        0.308
+  ERA                        3.66       3.93         4.15
+  FIP                        3.88       3.86         4.01
+  WHIP                       1.22       1.29         1.31
+  K/9                        8.51       8.59         8.47
+  Pythag Win%               0.527      0.476        0.500
+  Park Factor                            105          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        TEX        BOS       Lg Avg
+  BP ERA                     3.12       3.20         4.07
+  BP FIP                     3.76       3.70         3.94
+  BP WHIP                    1.20       1.20             
+  BP K/9                     7.57       8.98             
+  BP Quality*                44.6       39.8         45.0
+  BP IP                     236.7      250.7             
+
+  Bullpen Edge: Even
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  TEX: TAXED (penalty +4.5)
+    TIRED:   Cole Winn (2 of last 3 days)
+    TIRED:   Robby Ahlstrom (2 of last 3 days)
+    TIRED:   Jacob Latz (2 of last 3 days)
+  BOS: RESTED (penalty +0.0)
+    All relievers available
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  TEX (Away): Lineup not yet posted (using full-strength estimate)
+  BOS (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Fenway Park
+  Temperature:       75°F
+  Wind:              5 mph (gusts 7 mph)
+  Precip Chance:     6%
+  Conditions:        Warm (75°F), light wind (5 mph)
+  Weather Factor:    1.0284 (Temp: 1.0048 | Wind: 1.0235)
+  Impact:            Minimal weather impact
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    TEX 3.8  -  BOS 4.3
+  Simulated Avg:     TEX 3.8  -  BOS 4.4
+  Win Probability:   TEX 43.9%  -  BOS 56.1%
+  Fair Moneyline:    TEX +128  /  BOS -128
+  Avg Total Runs:    8.2
+  Over 8.5:        42.1%
+  Under 8.5:       57.9%
+  TEX +1.5:         61.5%
+  BOS -1.5:         38.5%
+  Pitcher Adj:       TEX 1.024  /  BOS 0.897
+  Bullpen Adj:       TEX 0.991  /  BOS 0.884
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       TEX 2.1  -  BOS 2.4
+  F5 Simulated Avg:  TEX 2.2  -  BOS 2.4
+  F5 Win Prob:       TEX 45.1%  -  BOS 54.9%  (Tie: 17.0%)
+  F5 Fair ML:        TEX +122  /  BOS -122
+  F5 Avg Total:      4.6
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  TEX ML                     +110       +128      -3.8%
+  BOS ML                     -130       -128      -0.4%
+  TEX +1.5                   -200       -159      -5.2%
+  BOS -1.5                   +162       +159      +0.4%
+  O 8.5                      -110        N/A     -10.3%
+  U 8.5                      -110        N/A      +5.5%
+
+  ================================================================
+  RESULT: PASS — No qualifying edge detected
+  ================================================================
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  Arizona Diamondbacks @ Cincinnati Reds
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Eduardo Rodriguez            Home:    Nick Lodolo
+  ERA:     4.09                         ERA:     3.7
+  WHIP:    1.41                         WHIP:    1.15
+  K/9:     7.66                         K/9:     8.61
+  BB/9:    3.35                         BB/9:    2.14
+  FIP:     4.27                         FIP:     3.96
+  IP:      78.7                         IP:      32.7
+  xERA:    4.51                         xERA:    3.48
+  xwOBA:   0.328                        xwOBA:   0.291
+
+  Pitcher Edge: CIN (Nick Lodolo)
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        ARI        CIN       Lg Avg
+  Record                    34-34      32-35             
+  R/Game                     4.25       4.27         4.47
+  RA/Game                    4.60       5.07         4.46
+  OPS                       0.692      0.708        0.715
+  wOBA                      0.298      0.307        0.308
+  ERA                        4.28       4.79         4.15
+  FIP                        4.26       4.91         4.01
+  WHIP                       1.28       1.47         1.31
+  K/9                        7.10       7.92         8.47
+  Pythag Win%               0.464      0.422        0.500
+  Park Factor                            107          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        ARI        CIN       Lg Avg
+  BP ERA                     4.21       5.13         4.07
+  BP FIP                     3.82       5.03         3.94
+  BP WHIP                    1.24       1.56             
+  BP K/9                     7.85       8.76             
+  BP Quality*                45.8       60.1         45.0
+  BP IP                     220.0      258.0             
+
+  Bullpen Edge: ARI (lower quality score = better)
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  ARI: TAXED (penalty +1.5)
+    TIRED:   Brandyn Garcia (2 of last 3 days)
+  CIN: TAXED (penalty +4.5)
+    TIRED:   Caleb Ferguson (2 of last 3 days)
+    TIRED:   Tony Santillan (2 of last 3 days)
+    TIRED:   Zach Maxwell (2 of last 3 days)
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  ARI (Away): Lineup not yet posted (using full-strength estimate)
+  CIN (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Great American Ball Park
+  Temperature:       78°F
+  Wind:              7 mph (gusts 13 mph)
+  Precip Chance:     0%
+  Conditions:        Warm (78°F), light wind (7 mph)
+  Weather Factor:    1.0247 (Temp: 1.0091 | Wind: 1.0154)
+  Impact:            Minimal weather impact
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    ARI 4.9  -  CIN 4.9
+  Simulated Avg:     ARI 4.9  -  CIN 4.9
+  Win Probability:   ARI 50.0%  -  CIN 50.0%
+  Fair Moneyline:    ARI -100  /  CIN +100
+  Avg Total Runs:    9.8
+  Over 9.5:        48.7%
+  Under 9.5:       51.3%
+  ARI -1.5:         35.2%
+  CIN +1.5:         64.8%
+  Pitcher Adj:       ARI 1.038  /  CIN 0.898
+  Bullpen Adj:       ARI 1.018  /  CIN 1.336
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       ARI 2.3  -  CIN 2.7
+  F5 Simulated Avg:  ARI 2.3  -  CIN 2.7
+  F5 Win Prob:       ARI 43.2%  -  CIN 56.8%  (Tie: 15.8%)
+  F5 Fair ML:        ARI +131  /  CIN -131
+  F5 Avg Total:      5.0
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  ARI ML                     -102       -100      -0.5%
+  CIN ML                     -116       +100      -3.7%
+  ARI -1.5                   +146       +184      -5.5%
+  CIN +1.5                   -178       -184      +0.8%
+  O 9.5                      -110        N/A      -3.7%
+  U 9.5                      -110        N/A      -1.1%
+
+  ================================================================
+  RESULT: PASS — No qualifying edge detected
+  ================================================================
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  Atlanta Braves @ New York Mets
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Spencer Strider              Home:    Nolan McLean
+  ERA:     4.36                         ERA:     2.77
+  WHIP:    1.38                         WHIP:    1.07
+  K/9:     9.68                         K/9:     10.51
+  BB/9:    3.88                         BB/9:    3.13
+  FIP:     4.34                         FIP:     3.03
+  IP:      36.0                         IP:      72.3
+  xERA:    4.93                         xERA:    3.51
+  xwOBA:   0.341                        xwOBA:   0.292
+
+  Pitcher Edge: NYM (Nolan McLean)
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        ATL        NYM       Lg Avg
+  Record                    45-23      30-38             
+  R/Game                     5.15       4.00         4.47
+  RA/Game                    3.47       4.26         4.46
+  OPS                       0.751      0.658        0.715
+  wOBA                      0.322      0.284        0.308
+  ERA                        3.20       3.88         4.15
+  FIP                        3.71       3.66         4.01
+  WHIP                       1.17       1.28         1.31
+  K/9                        8.81       9.11         8.47
+  Pythag Win%               0.673      0.471        0.500
+  Park Factor                             97          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        ATL        NYM       Lg Avg
+  BP ERA                     2.93       3.31         4.07
+  BP FIP                     3.37       3.52         3.94
+  BP WHIP                    1.10       1.20             
+  BP K/9                     8.97       9.06             
+  BP Quality*                36.5       40.8         45.0
+  BP IP                     239.7      296.0             
+
+  Bullpen Edge: Even
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  ATL: RESTED (penalty +0.0)
+    All relievers available
+  NYM: TAXED (penalty +1.5)
+    TIRED:   Cionel Pérez (2 of last 3 days)
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  ATL (Away): Lineup not yet posted (using full-strength estimate)
+  NYM (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Citi Field
+  Temperature:       88°F
+  Wind:              9 mph (gusts 17 mph)
+  Precip Chance:     21%
+  Conditions:        Hot (88°F), wind in (9 mph)
+  Weather Factor:    1.0116 (Temp: 1.0245 | Wind: 0.9875)
+  Impact:            Minimal weather impact
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    ATL 4.0  -  NYM 3.9
+  Simulated Avg:     ATL 4.1  -  NYM 3.9
+  Win Probability:   ATL 51.2%  -  NYM 48.8%
+  Fair Moneyline:    ATL -105  /  NYM +105
+  Avg Total Runs:    8.0
+  Over 8.0:        39.8%
+  Under 8.0:       49.5%
+  ATL +1.5:         68.7%
+  NYM -1.5:         31.3%
+  Pitcher Adj:       ATL 1.097  /  NYM 0.755
+  Bullpen Adj:       ATL 0.811  /  NYM 0.907
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       ATL 2.1  -  NYM 2.4
+  F5 Simulated Avg:  ATL 2.1  -  NYM 2.4
+  F5 Win Prob:       ATL 44.4%  -  NYM 55.6%  (Tie: 16.9%)
+  F5 Fair ML:        ATL +125  /  NYM -125
+  F5 Avg Total:      4.5
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  ATL ML                     +108       -105      +3.1%
+  NYM ML                     -126       +105      -7.0%
+  ATL +1.5                   -205       -220      +1.5%
+  NYM -1.5                   +168       +220      -6.0%
+  O 8.0                      -110        N/A     -12.6%
+  U 8.0                      -110        N/A      -2.9%
+
+  ================================================================
+  RESULT: PASS — No qualifying edge detected
+  ================================================================
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  New York Yankees @ Toronto Blue Jays
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Ryan Weathers                Home:    TBD
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        NYY        TOR       Lg Avg
+  Record                    41-26      33-36             
+  R/Game                     5.10       4.07         4.47
+  RA/Game                    3.57       4.33         4.46
+  OPS                       0.763      0.699        0.715
+  wOBA                      0.327      0.301        0.308
+  ERA                        3.27       4.07         4.15
+  FIP                        3.45       3.70         4.01
+  WHIP                       1.17       1.27         1.31
+  K/9                        8.69       9.09         8.47
+  Pythag Win%               0.658      0.472        0.500
+  Park Factor                            100          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        NYY        TOR       Lg Avg
+  BP ERA                     3.41       3.86         4.07
+  BP FIP                     3.53       3.59         3.94
+  BP WHIP                    1.27       1.25             
+  BP K/9                     8.54       9.11             
+  BP Quality*                40.4       44.8         45.0
+  BP IP                     226.7      296.3             
+
+  Bullpen Edge: Even
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  NYY: RESTED (penalty +0.0)
+    All relievers available
+  TOR: TAXED (penalty +3.0)
+    TIRED:   Jeff Hoffman (2 of last 3 days)
+    TIRED:   Mason Fluharty (2 of last 3 days)
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  NYY (Away): Lineup not yet posted (using full-strength estimate)
+  TOR (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Rogers Centre
+  Temperature:       74°F
+  Wind:              9 mph (gusts 17 mph)
+  Precip Chance:     0%
+  Conditions:        Mild (74°F), crosswind (9 mph)
+  Weather Factor:    1.0028 (Temp: 1.0037 | Wind: 0.9991)
+  Impact:            Minimal weather impact
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    NYY 5.0  -  TOR 4.0
+  Simulated Avg:     NYY 5.0  -  TOR 4.0
+  Win Probability:   NYY 59.7%  -  TOR 40.3%
+  Fair Moneyline:    NYY -148  /  TOR +148
+  Avg Total Runs:    9.0
+  Over 8.0:        50.6%
+  Under 8.0:       39.1%
+  NYY -1.5:         43.7%
+  TOR +1.5:         56.3%
+  Pitcher Adj:       NYY 0.991  /  TOR 1.000
+  Bullpen Adj:       NYY 0.898  /  TOR 0.996
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       NYY 2.8  -  TOR 2.3
+  F5 Simulated Avg:  NYY 2.8  -  TOR 2.3
+  F5 Win Prob:       NYY 58.9%  -  TOR 41.1%  (Tie: 15.8%)
+  F5 Fair ML:        NYY -143  /  TOR +143
+  F5 Avg Total:      5.1
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  NYY ML                     -104       -148      +8.7%
+  TOR ML                     -112       +148     -12.5%
+  NYY -1.5                   +155       +129      +4.5%
+  TOR +1.5                   -188       -129      -9.0%
+  O 8.0                      -110        N/A      -1.8%
+  U 8.0                      -110        N/A     -13.3%
+
+  ================================================================
+  RESULT: PASS — No qualifying edge detected
+  ================================================================
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  Los Angeles Dodgers @ Chicago White Sox
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Roki Sasaki                  Home:    Anthony Kay
+  ERA:     4.32                         ERA:     4.4
+  WHIP:    1.38                         WHIP:    1.45
+  K/9:     7.68                         K/9:     6.75
+  BB/9:    4.76                         BB/9:    3.82
+  FIP:     5.16                         FIP:     4.99
+  IP:      58.0                         IP:      61.3
+  xERA:    5.66                         xERA:    N/A
+  xwOBA:   0.362                        xwOBA:   N/A
+
+  Pitcher Edge: Even
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        LAD        CWS       Lg Avg
+  Record                    44-25      36-31             
+  R/Game                     5.41       4.75         4.47
+  RA/Game                    3.33       4.60         4.46
+  OPS                       0.789      0.739        0.715
+  wOBA                      0.337      0.317        0.308
+  ERA                        3.28       4.28         4.15
+  FIP                        3.48       4.13         4.01
+  WHIP                       1.09       1.31         1.31
+  K/9                        9.13       8.19         8.47
+  Pythag Win%               0.708      0.515        0.500
+  Park Factor                            100          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        LAD        CWS       Lg Avg
+  BP ERA                     3.84       4.29         4.07
+  BP FIP                     3.34       4.28         3.94
+  BP WHIP                    1.21       1.34             
+  BP K/9                     9.93       8.34             
+  BP Quality*                46.2       49.0         45.0
+  BP IP                     215.7      300.0             
+
+  Bullpen Edge: Even
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  LAD: TAXED (penalty +6.0)
+    TIRED:   Will Klein (2 of last 3 days)
+    TIRED:   Tanner Scott (2 of last 3 days)
+    TIRED:   Alex Vesia (2 of last 3 days)
+    TIRED:   Jack Dreyer (2 of last 3 days)
+  CWS: TAXED (penalty +1.5)
+    TIRED:   Seranthony Domínguez (2 of last 3 days)
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  LAD (Away): Lineup not yet posted (using full-strength estimate)
+  CWS (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Guaranteed Rate Field
+  Temperature:       73°F
+  Wind:              8 mph (gusts 16 mph)
+  Precip Chance:     0%
+  Conditions:        Mild (73°F), wind in (8 mph)
+  Weather Factor:    0.9873 (Temp: 1.0018 | Wind: 0.9855)
+  Impact:            Minimal weather impact
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    LAD 5.9  -  CWS 5.5
+  Simulated Avg:     LAD 5.8  -  CWS 5.5
+  Win Probability:   LAD 52.5%  -  CWS 47.5%
+  Fair Moneyline:    LAD -111  /  CWS +111
+  Avg Total Runs:    11.4
+  Over 9.0:        62.0%
+  Under 9.0:       29.3%
+  LAD -1.5:         39.4%
+  CWS +1.5:         60.7%
+  Pitcher Adj:       LAD 1.235  /  CWS 1.146
+  Bullpen Adj:       LAD 1.027  /  CWS 1.089
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       LAD 3.4  -  CWS 3.2
+  F5 Simulated Avg:  LAD 3.4  -  CWS 3.2
+  F5 Win Prob:       LAD 52.1%  -  CWS 47.9%  (Tie: 13.2%)
+  F5 Fair ML:        LAD -109  /  CWS +109
+  F5 Avg Total:      6.6
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  LAD ML                     -152       -111      -7.8%
+  CWS ML                     +128       +111      +3.6%
+  LAD -1.5                   +106       +154      -9.2%
+  CWS +1.5                   -128       -154      +4.5%
+  O 9.0                      -110        N/A      +9.6%
+  U 9.0                      -110        N/A     -23.1%
+
+  ================================================================
+  QUALIFYING PLAYS: 1 (1 Full Game + 0 F5)
+  ================================================================
+  [STANDARD EDGE] Over 9.0 (Total) [-110]
+    Model: 62.0% | Market: 52.4% | Edge: 9.6%
+    Fair ML: -163 | Kelly: 5.02%
+    [Logged] Bet ID: MLB-00758
+
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  Philadelphia Phillies @ Milwaukee Brewers
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Andrew Painter               Home:    Jacob Misiorowski
+  ERA:     6.21                         ERA:     3.3
+  WHIP:    1.57                         WHIP:    1.08
+  K/9:     7.29                         K/9:     12.42
+  BB/9:    2.95                         BB/9:    3.6
+  FIP:     4.93                         FIP:     2.78
+  IP:      58.0                         IP:      78.0
+  xERA:    N/A                          xERA:    3.41
+  xwOBA:   N/A                          xwOBA:   0.288
+
+  Pitcher Edge: MIL (Jacob Misiorowski)
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        PHI        MIL       Lg Avg
+  Record                    37-31      41-25             
+  R/Game                     4.06       5.33         4.47
+  RA/Game                    4.26       3.77         4.46
+  OPS                       0.687      0.729        0.715
+  wOBA                      0.297      0.314        0.308
+  ERA                        4.01       3.47         4.15
+  FIP                        3.39       3.45         4.01
+  WHIP                       1.29       1.22         1.31
+  K/9                        9.51       9.73         8.47
+  Pythag Win%               0.477      0.653        0.500
+  Park Factor                             99          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        PHI        MIL       Lg Avg
+  BP ERA                     3.79       3.43         4.07
+  BP FIP                     3.13       3.48         3.94
+  BP WHIP                    1.29       1.28             
+  BP K/9                     9.92       9.19             
+  BP Quality*                42.6       40.2         45.0
+  BP IP                     235.0      267.3             
+
+  Bullpen Edge: Even
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  PHI: TAXED (penalty +3.0)
+    TIRED:   José Alvarado (2 of last 3 days)
+    TIRED:   Jhoan Duran (2 of last 3 days)
+  MIL: RESTED (penalty +0.0)
+    All relievers available
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  PHI (Away): Lineup not yet posted (using full-strength estimate)
+  MIL (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           American Family Field
+  Temperature:       75°F
+  Wind:              9 mph (gusts 17 mph)
+  Precip Chance:     0%
+  Conditions:        Mild (75°F), crosswind (9 mph)
+  Weather Factor:    0.9962 (Temp: 1.0044 | Wind: 0.9919)
+  Impact:            Minimal weather impact
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    PHI 3.2  -  MIL 6.2
+  Simulated Avg:     PHI 3.2  -  MIL 6.2
+  Win Probability:   PHI 23.0%  -  MIL 77.0%
+  Fair Moneyline:    PHI +334  /  MIL -334
+  Avg Total Runs:    9.4
+  Over 7.5:        64.5%
+  Under 7.5:       35.5%
+  PHI +1.5:         36.9%
+  MIL -1.5:         63.1%
+  Pitcher Adj:       PHI 1.311  /  MIL 0.754
+  Bullpen Adj:       PHI 0.947  /  MIL 0.893
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       PHI 1.7  -  MIL 3.9
+  F5 Simulated Avg:  PHI 1.7  -  MIL 3.9
+  F5 Win Prob:       PHI 19.7%  -  MIL 80.3%  (Tie: 12.2%)
+  F5 Fair ML:        PHI +408  /  MIL -408
+  F5 Avg Total:      5.5
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  PHI ML                     +205       +334      -9.8%
+  MIL ML                     -250       -334      +5.6%
+  PHI +1.5                   -111       +171     -15.7%
+  MIL -1.5                   -108       -171     +11.2%
+  O 7.5                      -110        N/A     +12.1%
+  U 7.5                      -110        N/A     -16.9%
+
+  ================================================================
+  RESULT: PASS — No qualifying edge detected
+  ================================================================
+
+  ────────────────────────────────────────────────────────────────
+  HIGHER MODEL CONFIDENCE (10%+ edge signals)
+  ────────────────────────────────────────────────────────────────
+  [HMC] Over 7.5 (Total (High Edge)) | ML: -110 | Edge: 12.1%
+    [Logged] Bet ID: MLB-00759
+  [HMC] Milwaukee Brewers -1.5 (Run Line (High Edge)) | ML: -108 | Edge: 11.2%
+    [Logged] Bet ID: MLB-00760
+
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  Houston Astros @ Kansas City Royals
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Tatsuya Imai                 Home:    Luinder Avila
+  ERA:     5.24                         ERA:     4.02
+  WHIP:    1.4                          WHIP:    1.6
+  K/9:     9.44                         K/9:     8.04
+  BB/9:    6.03                         BB/9:    5.46
+  FIP:     4.91                         FIP:     3.96
+  IP:      34.3                         IP:      31.3
+  xERA:    N/A                          xERA:    2.09
+  xwOBA:   N/A                          xwOBA:   0.226
+
+  Pitcher Edge: KC (Luinder Avila)
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        HOU         KC       Lg Avg
+  Record                    31-39      28-41             
+  R/Game                     4.50       3.90         4.47
+  RA/Game                    5.04       4.62         4.46
+  OPS                       0.725      0.691        0.715
+  wOBA                      0.310      0.299        0.308
+  ERA                        4.85       4.37         4.15
+  FIP                        4.67       4.32         4.01
+  WHIP                       1.44       1.38         1.31
+  K/9                        8.57       8.27         8.47
+  Pythag Win%               0.448      0.423        0.500
+  Park Factor                             99          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        HOU         KC       Lg Avg
+  BP ERA                     4.82       4.92         4.07
+  BP FIP                     4.75       4.79         3.94
+  BP WHIP                    1.42       1.55             
+  BP K/9                     8.63       8.68             
+  BP Quality*                52.1       61.0         45.0
+  BP IP                     274.3      232.3             
+
+  Bullpen Edge: HOU (lower quality score = better)
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  HOU: RESTED (penalty +0.0)
+    All relievers available
+  KC: TAXED (penalty +7.5)
+    TIRED:   Steven Cruz (2 of last 3 days)
+    TIRED:   Daniel Lynch IV (2 of last 3 days)
+    TIRED:   John Schreiber (2 of last 3 days)
+    TIRED:   Alex Lange (2 of last 3 days)
+    TIRED:   Beck Way (32 pitches yesterday)
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  HOU (Away): Lineup not yet posted (using full-strength estimate)
+  KC (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Kauffman Stadium
+  Temperature:       82°F
+  Wind:              7 mph (gusts 12 mph)
+  Precip Chance:     0%
+  Conditions:        Warm (82°F), light wind (7 mph)
+  Weather Factor:    0.9983 (Temp: 1.0153 | Wind: 0.9832)
+  Impact:            Minimal weather impact
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    HOU 4.5  -  KC 4.7
+  Simulated Avg:     HOU 4.5  -  KC 4.7
+  Win Probability:   HOU 47.9%  -  KC 52.1%
+  Fair Moneyline:    HOU +109  /  KC -109
+  Avg Total Runs:    9.2
+  Over 9.5:        42.6%
+  Under 9.5:       57.4%
+  HOU -1.5:         32.7%
+  KC +1.5:         67.3%
+  Pitcher Adj:       HOU 1.215  /  KC 0.800
+  Bullpen Adj:       HOU 1.158  /  KC 1.356
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       HOU 2.0  -  KC 2.6
+  F5 Simulated Avg:  HOU 2.0  -  KC 2.6
+  F5 Win Prob:       HOU 38.6%  -  KC 61.4%  (Tie: 17.1%)
+  F5 Fair ML:        HOU +159  /  KC -159
+  F5 Avg Total:      4.6
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  HOU ML                     -116       +109      -5.8%
+  KC ML                      -102       -109      +1.6%
+  HOU -1.5                   +138       +206      -9.4%
+  KC +1.5                    -166       -206      +4.9%
+  O 9.5                      -110        N/A      -9.8%
+  U 9.5                      -110        N/A      +5.0%
+
+  ================================================================
+  RESULT: PASS — No qualifying edge detected
+  ================================================================
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  St. Louis Cardinals @ Minnesota Twins
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Kyle Leahy                   Home:    Joe Ryan
+  ERA:     3.53                         ERA:     3.28
+  WHIP:    1.35                         WHIP:    1.02
+  K/9:     7.83                         K/9:     10.09
+  BB/9:    3.13                         BB/9:    1.99
+  FIP:     3.5                          FIP:     3.18
+  IP:      59.0                         IP:      76.3
+  xERA:    4.42                         xERA:    3.43
+  xwOBA:   0.325                        xwOBA:   0.289
+
+  Pitcher Edge: MIN (Joe Ryan)
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        STL        MIN       Lg Avg
+  Record                    37-29      31-39             
+  R/Game                     4.52       4.54         4.47
+  RA/Game                    4.35       5.13         4.46
+  OPS                       0.715      0.705        0.715
+  wOBA                      0.308      0.307        0.308
+  ERA                        4.02       4.78         4.15
+  FIP                        4.01       4.12         4.01
+  WHIP                       1.33       1.39         1.31
+  K/9                        7.76       8.26         8.47
+  Pythag Win%               0.517      0.445        0.500
+  Park Factor                            101          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        STL        MIN       Lg Avg
+  BP ERA                     4.00       5.07         4.07
+  BP FIP                     3.84       4.23         3.94
+  BP WHIP                    1.33       1.53             
+  BP K/9                     8.23       8.13             
+  BP Quality*                48.9       54.6         45.0
+  BP IP                     245.0      255.7             
+
+  Bullpen Edge: STL (lower quality score = better)
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  STL: TAXED (penalty +4.5)
+    TIRED:   Justin Bruihl (2 of last 3 days)
+    TIRED:   Matt Svanson (2 of last 3 days)
+    TIRED:   JoJo Romero (2 of last 3 days)
+  MIN: TAXED (penalty +3.0)
+    TIRED:   Taylor Rogers (2 of last 3 days)
+    TIRED:   Cody Laweryson (2 of last 3 days)
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  STL (Away): Lineup not yet posted (using full-strength estimate)
+  MIN (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Target Field
+  Temperature:       76°F
+  Wind:              9 mph (gusts 20 mph)
+  Precip Chance:     13%
+  Conditions:        Warm (76°F), wind in (9 mph)
+  Weather Factor:    0.9912 (Temp: 1.0066 | Wind: 0.9847)
+  Impact:            Minimal weather impact
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    STL 4.3  -  MIN 4.6
+  Simulated Avg:     STL 4.3  -  MIN 4.6
+  Win Probability:   STL 46.7%  -  MIN 53.3%
+  Fair Moneyline:    STL +114  /  MIN -114
+  Avg Total Runs:    8.9
+  Over 9.0:        39.3%
+  Under 9.0:       50.9%
+  STL +1.5:         63.2%
+  MIN -1.5:         36.8%
+  Pitcher Adj:       STL 0.923  /  MIN 0.793
+  Bullpen Adj:       STL 1.087  /  MIN 1.213
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       STL 2.0  -  MIN 2.4
+  F5 Simulated Avg:  STL 2.0  -  MIN 2.4
+  F5 Win Prob:       STL 42.7%  -  MIN 57.3%  (Tie: 17.7%)
+  F5 Fair ML:        STL +134  /  MIN -134
+  F5 Avg Total:      4.3
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  STL ML                     +116       +114      +0.4%
+  MIN ML                     -136       -114      -4.3%
+  STL +1.5                   -178       -172      -0.9%
+  MIN -1.5                   +146       +172      -3.8%
+  O 9.0                      -110        N/A     -13.1%
+  U 9.0                      -110        N/A      -1.4%
+
+  ================================================================
+  RESULT: PASS — No qualifying edge detected
+  ================================================================
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  Tampa Bay Rays @ Los Angeles Angels
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Shane McClanahan             Home:    Sam Aldegheri
+  ERA:     2.85                         ERA:     2.25
+  WHIP:    1.1                          WHIP:    1.33
+  K/9:     8.85                         K/9:     6.0
+  BB/9:    3.15                         BB/9:    3.75
+  FIP:     2.83                         FIP:     4.1
+  IP:      60.0                         IP:      12.0
+  xERA:    N/A                          xERA:    7.3
+  xwOBA:   N/A                          xwOBA:   0.402
+
+  Pitcher Edge: TB (Shane McClanahan)
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                         TB        LAA       Lg Avg
+  Record                    40-25      27-42             
+  R/Game                     4.57       4.46         4.47
+  RA/Game                    4.38       5.07         4.46
+  OPS                       0.722      0.701        0.715
+  wOBA                      0.312      0.304        0.308
+  ERA                        3.91       4.68         4.15
+  FIP                        4.10       4.23         4.01
+  WHIP                       1.22       1.44         1.31
+  K/9                        7.83       9.04         8.47
+  Pythag Win%               0.519      0.442        0.500
+  Park Factor                            101          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                         TB        LAA       Lg Avg
+  BP ERA                     4.63       4.84         4.07
+  BP FIP                     4.67       4.58         3.94
+  BP WHIP                    1.34       1.50             
+  BP K/9                     7.94       9.08             
+  BP Quality*                50.3       52.0         45.0
+  BP IP                     260.7      258.7             
+
+  Bullpen Edge: Even
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  TB: RESTED (penalty +0.0)
+    All relievers available
+  LAA: RESTED (penalty +0.0)
+    All relievers available
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  TB (Away): Lineup not yet posted (using full-strength estimate)
+  LAA (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Angel Stadium
+  Temperature:       77°F
+  Wind:              8 mph (gusts 9 mph)
+  Precip Chance:     0%
+  Conditions:        Warm (77°F), light wind (8 mph)
+  Weather Factor:    0.9882 (Temp: 1.0078 | Wind: 0.9805)
+  Impact:            Minimal weather impact
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    TB 4.5  -  LAA 3.9
+  Simulated Avg:     TB 4.5  -  LAA 3.9
+  Win Probability:   TB 55.4%  -  LAA 44.6%
+  Fair Moneyline:    TB -124  /  LAA +124
+  Avg Total Runs:    8.4
+  Over 9.0:        34.9%
+  Under 9.0:       55.2%
+  TB -1.5:         39.0%
+  LAA +1.5:         61.1%
+  Pitcher Adj:       TB 0.684  /  LAA 0.893
+  Bullpen Adj:       TB 1.118  /  LAA 1.156
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       TB 2.2  -  LAA 1.7
+  F5 Simulated Avg:  TB 2.2  -  LAA 1.7
+  F5 Win Prob:       TB 60.2%  -  LAA 39.8%  (Tie: 18.6%)
+  F5 Fair ML:        TB -152  /  LAA +152
+  F5 Avg Total:      4.0
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  TB ML                      -168       -124      -7.3%
+  LAA ML                     +142       +124      +3.3%
+  TB -1.5                    -104       +157     -12.0%
+  LAA +1.5                   -115       -157      +7.6%
+  O 9.0                      -110        N/A     -17.5%
+  U 9.0                      -110        N/A      +2.9%
+
+  ================================================================
+  QUALIFYING PLAYS: 1 (1 Full Game + 0 F5)
+  ================================================================
+  [STANDARD EDGE] Los Angeles Angels +1.5 (Run Line) [-115]
+    Model: 61.1% | Market: 53.5% | Edge: 7.6%
+    Fair ML: -157 | Kelly: 4.06%
+    [Logged] Bet ID: MLB-00761
+
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  Colorado Rockies @ Athletics
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    TBD                          Home:    Gage Jump
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        COL        ATH       Lg Avg
+  Record                    26-43      33-35             
+  R/Game                     4.30       4.38         4.47
+  RA/Game                    5.75       4.99         4.46
+  OPS                       0.715      0.735        0.715
+  wOBA                      0.310      0.315        0.308
+  ERA                        5.56       4.62         4.15
+  FIP                        4.61       4.52         4.01
+  WHIP                       1.51       1.42         1.31
+  K/9                        7.41       8.27         8.47
+  Pythag Win%               0.370      0.441        0.500
+  Park Factor                            103          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        COL        ATH       Lg Avg
+  BP ERA                     5.20       4.47         4.07
+  BP FIP                     4.16       3.71         3.94
+  BP WHIP                    1.46       1.37             
+  BP K/9                     8.35       8.91             
+  BP Quality*                55.2       47.0         45.0
+  BP IP                     308.3      267.7             
+
+  Bullpen Edge: ATH (lower quality score = better)
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  COL: TAXED (penalty +4.5)
+    TIRED:   Brennan Bernardino (2 of last 3 days)
+    TIRED:   Antonio Senzatela (2 of last 3 days)
+    TIRED:   Blas Castaño (46 pitches yesterday)
+  ATH: TAXED (penalty +1.5)
+    TIRED:   Elvis Alvarado (2 of last 3 days)
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  COL (Away): Lineup not yet posted (using full-strength estimate)
+  ATH (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Oakland Coliseum
+  Temperature:       60°F
+  Wind:              8 mph (gusts 12 mph)
+  Precip Chance:     0%
+  Conditions:        Mild (60°F), crosswind (8 mph)
+  Weather Factor:    0.9910 (Temp: 0.9861 | Wind: 1.0050)
+  Impact:            Minimal weather impact
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    COL 4.1  -  ATH 5.0
+  Simulated Avg:     COL 4.1  -  ATH 5.0
+  Win Probability:   COL 41.5%  -  ATH 58.5%
+  Fair Moneyline:    COL +141  /  ATH -141
+  Avg Total Runs:    9.1
+  Over 13.5:        14.0%
+  Under 13.5:       86.0%
+  COL +1.5:         57.8%
+  ATH -1.5:         42.2%
+  Pitcher Adj:       COL 1.000  /  ATH 0.904
+  Bullpen Adj:       COL 1.227  /  ATH 1.044
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       COL 2.2  -  ATH 2.5
+  F5 Simulated Avg:  COL 2.2  -  ATH 2.5
+  F5 Win Prob:       COL 44.5%  -  ATH 55.5%  (Tie: 16.9%)
+  F5 Fair ML:        COL +124  /  ATH -124
+  F5 Avg Total:      4.7
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  COL ML                     +168       +141      +4.2%
+  ATH ML                     -200       -141      -8.2%
+  COL +1.5                   -106       -137      +6.3%
+  ATH -1.5                   -113       +137     -10.8%
+  O 13.5                     -110        N/A     -38.4%
+  U 13.5                     -110        N/A     +33.6%
+
+  ================================================================
+  RESULT: PASS — No qualifying edge detected
+  ================================================================
+
+  ────────────────────────────────────────────────────────────────
+  HIGHER MODEL CONFIDENCE (10%+ edge signals)
+  ────────────────────────────────────────────────────────────────
+  [HMC] Under 13.5 (Total (High Edge)) | ML: -110 | Edge: 33.6%
+    [Logged] Bet ID: MLB-00762
+
+
+====================================================================
+  GEMINI 10K v2.2 — MLB ANALYSIS
+  Chicago Cubs @ San Francisco Giants
+  Regular Season | June 12, 2026
+====================================================================
+
+  STARTING PITCHERS
+  ----------------------------------------------------------------
+  Away:    Javier Assad                 Home:    Landen Roupp
+  ERA:     3.74                         ERA:     3.87
+  WHIP:    1.21                         WHIP:    1.41
+  K/9:     5.56                         K/9:     9.11
+  BB/9:    2.86                         BB/9:    3.83
+  FIP:     3.91                         FIP:     3.47
+  IP:      32.3                         IP:      69.7
+  xERA:    4.86                         xERA:    4.24
+  xwOBA:   0.339                        xwOBA:   0.319
+
+  Pitcher Edge: SF (Landen Roupp)
+
+  TEAM COMPARISON
+  ----------------------------------------------------------------
+  Stat                        CHC         SF       Lg Avg
+  Record                    35-34      28-41             
+  R/Game                     4.59       4.19         4.47
+  RA/Game                    4.54       4.93         4.46
+  OPS                       0.722      0.728        0.715
+  wOBA                      0.314      0.310        0.308
+  ERA                        4.31       4.55         4.15
+  FIP                        4.48       4.18         4.01
+  WHIP                       1.25       1.41         1.31
+  K/9                        8.13       8.00         8.47
+  Pythag Win%               0.506      0.426        0.500
+  Park Factor                             95          100
+
+  BULLPEN COMPARISON
+  ----------------------------------------------------------------
+  Stat                        CHC         SF       Lg Avg
+  BP ERA                     3.56       4.43         4.07
+  BP FIP                     4.26       4.33         3.94
+  BP WHIP                    1.26       1.48             
+  BP K/9                     7.99       7.59             
+  BP Quality*                48.7       49.6         45.0
+  BP IP                     258.0      239.7             
+
+  Bullpen Edge: Even
+  * Quality Score: 0-100 composite (lower = better). Weights: 40% FIP, 30% ERA, 20% WHIP, 10% K-BB
+
+  BULLPEN AVAILABILITY
+  ----------------------------------------------------------------
+  CHC: TAXED (penalty +4.5)
+    TIRED:   Ryan Rolison (2 of last 3 days)
+    TIRED:   Hoby Milner (2 of last 3 days)
+    TIRED:   Phil Maton (2 of last 3 days)
+  SF: RESTED (penalty +0.0)
+    All relievers available
+  * Penalty added to BP Quality Score (higher = worse pen today)
+
+  LINEUP STATUS
+  ----------------------------------------------------------------
+  CHC (Away): Lineup not yet posted (using full-strength estimate)
+  SF (Home): Lineup not yet posted (using full-strength estimate)
+
+  WEATHER CONDITIONS
+  ----------------------------------------------------------------
+  Stadium:           Oracle Park
+  Temperature:       58°F
+  Wind:              8 mph (gusts 20 mph)
+  Precip Chance:     1%
+  Conditions:        Cool (58°F), light wind (8 mph)
+  Weather Factor:    0.9647 (Temp: 0.9826 | Wind: 0.9818)
+  Impact:            Suppressed scoring (favors UNDER)
+
+  FULL GAME SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  Expected Score:    CHC 4.1  -  SF 4.1
+  Simulated Avg:     CHC 4.1  -  SF 4.1
+  Win Probability:   CHC 49.8%  -  SF 50.2%
+  Fair Moneyline:    CHC +101  /  SF -101
+  Avg Total Runs:    8.2
+  Over 8.5:        42.6%
+  Under 8.5:       57.4%
+  CHC -1.5:         33.3%
+  SF +1.5:         66.7%
+  Pitcher Adj:       CHC 1.012  /  SF 0.925
+  Bullpen Adj:       CHC 1.082  /  SF 1.102
+
+  FIRST 5 INNINGS SIMULATION (50,000 iterations)
+  ----------------------------------------------------------------
+  F5 Expected:       CHC 2.1  -  SF 2.2
+  F5 Simulated Avg:  CHC 2.1  -  SF 2.2
+  F5 Win Prob:       CHC 49.0%  -  SF 50.9%  (Tie: 17.9%)
+  F5 Fair ML:        CHC +104  /  SF -104
+  F5 Avg Total:      4.3
+
+  MARKET COMPARISON
+  ----------------------------------------------------------------
+                           Market      Model       Edge
+  CHC ML                     +100       +101      -0.2%
+  SF ML                      -118       -101      -4.0%
+  CHC -1.5                   +168       +200      -4.0%
+  SF +1.5                    -205       -200      -0.5%
+  O 8.5                      -110        N/A      -9.8%
+  U 8.5                      -110        N/A      +5.0%
+
+  ================================================================
+  RESULT: PASS — No qualifying edge detected
+  ================================================================
+
