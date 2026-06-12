@@ -5,6 +5,7 @@
       "date": "2026-06-12",
       "sport": "MLB",
       "game": "MIA @ PIT",
+      "time": "6:40 PM ET",
       "play": "PIT -1.5",
       "type": "Run Line",
       "edge": 8.3,
@@ -14,17 +15,8 @@
     {
       "date": "2026-06-12",
       "sport": "MLB",
-      "game": "TB @ LAA",
-      "play": "LAA +1.5",
-      "type": "Run Line",
-      "edge": 7.6,
-      "odds": -115,
-      "isLean": false
-    },
-    {
-      "date": "2026-06-12",
-      "sport": "MLB",
       "game": "DET @ CLE",
+      "time": "7:10 PM ET",
       "play": "Under 8.5",
       "type": "Total",
       "edge": 8.0,
@@ -35,10 +27,22 @@
       "date": "2026-06-12",
       "sport": "MLB",
       "game": "LAD @ CWS",
+      "time": "7:40 PM ET",
       "play": "Over 9.0",
       "type": "Total",
       "edge": 9.6,
       "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-12",
+      "sport": "MLB",
+      "game": "TB @ LAA",
+      "time": "9:38 PM ET",
+      "play": "LAA +1.5",
+      "type": "Run Line",
+      "edge": 7.6,
+      "odds": -115,
       "isLean": false
     }
   ],
