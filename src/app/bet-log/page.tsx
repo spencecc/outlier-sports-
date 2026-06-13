@@ -12,9 +12,21 @@ export const metadata: Metadata = {
 };
 
 export default async function BetLogPage() {
+  const dataDir = path.join(process.cwd(), "public", "data");
+
   const bets: Bet[] = JSON.parse(
-    await fs.readFile(path.join(process.cwd(), "public", "data", "bets.json"), "utf-8")
+    await fs.readFile(path.join(dataDir, "bets.json"), "utf-8")
   );
 
-  return <BetLogClient bets={bets} />;
+  // bets.json and stats.json are written together by export_web_data.py,
+  // so stats.lastUpdated is the authoritative "data last refreshed" stamp.
+  let lastUpdated: string | null = null;
+  try {
+    const stats = JSON.parse(
+      await fs.readFile(path.join(dataDir, "stats.json"), "utf-8")
+    );
+    lastUpdated = stats.lastUpdated ?? null;
+  } catch {}
+
+  return <BetLogClient bets={bets} lastUpdated={lastUpdated} />;
 }

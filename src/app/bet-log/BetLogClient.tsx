@@ -44,6 +44,25 @@ function fmtScore(away: number | null, home: number | null) {
   return `${away}-${home}`;
 }
 
+function fmtLastUpdated(iso: string): string {
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return "";
+  const date = d.toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "America/New_York",
+  });
+  const time = d.toLocaleTimeString("en-US", {
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+    timeZone: "America/New_York",
+    timeZoneName: "short",
+  });
+  return `${date} · ${time}`;
+}
+
 function resultLabel(r: string) {
   if (r === "win") return "W";
   if (r === "loss") return "L";
@@ -93,7 +112,13 @@ function downloadCsv(rows: Bet[]) {
   URL.revokeObjectURL(url);
 }
 
-export default function BetLogClient({ bets }: { bets: Bet[] }) {
+export default function BetLogClient({
+  bets,
+  lastUpdated,
+}: {
+  bets: Bet[];
+  lastUpdated: string | null;
+}) {
   const [sortKey, setSortKey] = useState<SortKey>("date");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
   const [sportFilter, setSportFilter] = useState("all");
@@ -152,6 +177,7 @@ export default function BetLogClient({ bets }: { bets: Bet[] }) {
   const pageRows = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   const sports = ["all", ...Array.from(new Set(bets.map((b) => b.sport)))];
+  const lastUpdatedLabel = lastUpdated ? fmtLastUpdated(lastUpdated) : "";
 
   function SortHeader({
     label,
@@ -289,6 +315,14 @@ export default function BetLogClient({ bets }: { bets: Bet[] }) {
 
       {/* ── Table ──────────────────────────────────────────────────────────── */}
       <div className="max-w-7xl mx-auto px-6 py-8">
+        {lastUpdatedLabel && (
+          <p
+            className="text-xs font-mono uppercase tracking-wider mb-4 text-right"
+            style={{ color: "var(--text-tertiary)" }}
+          >
+            Last updated: {lastUpdatedLabel}
+          </p>
+        )}
         <div className="overflow-x-auto">
           <table className="w-full text-xs font-mono tabular border-collapse">
             <thead>
