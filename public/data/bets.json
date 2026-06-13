@@ -16182,13 +16182,13 @@
     "odds": -110,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "win",
+    "payout": 0.91,
+    "scoreAway": 1,
+    "scoreHome": 3,
     "openLine": -110,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -110,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -16204,13 +16204,13 @@
     "odds": -215,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "win",
+    "payout": 0.47,
+    "scoreAway": 3,
+    "scoreHome": 1,
     "openLine": -215,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -215,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -16226,13 +16226,13 @@
     "odds": 104,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "win",
+    "payout": 1.04,
+    "scoreAway": 3,
+    "scoreHome": 1,
     "openLine": 104,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": 104,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -16253,8 +16253,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -148,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -148,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -16275,8 +16275,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": 140,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": 140,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -16297,8 +16297,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -132,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -132,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -16319,8 +16319,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": 144,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": 144,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -16341,8 +16341,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -110,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -110,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -16363,8 +16363,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -164,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -164,
+    "clv": 0.0,
     "notes": ""
   }
 ]
