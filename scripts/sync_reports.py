@@ -7,6 +7,7 @@ Schedule in Task Scheduler to run daily after the morning model run (e.g. 11:00 
 
 import os
 import re
+import sys
 import json
 import shutil
 import subprocess
@@ -85,15 +86,37 @@ def main() -> None:
 
     update_index(today, filename, dest)
 
-    subprocess.run(["git", "add", dest, INDEX_FILE], cwd=ROOT, check=True)
-    subprocess.run(
-        ["git", "commit", "-m", f"Add daily report: {today}"],
-        cwd=ROOT,
-        check=True,
-    )
-    subprocess.run(["git", "pull", "--no-rebase", "origin", "main"], cwd=ROOT, check=True)
-    subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
-    print(f"Pushed report for {today} - Vercel will redeploy.")
+    # Reliability rules (added 2026-06-13): timeout every git call, abort a failed
+    # merge instead of pushing a half-merged tree, and treat "nothing to commit" as a
+    # clean no-op rather than a crash.
+    def git(*args, allow_fail=False):
+        r = subprocess.run(["git", *args], cwd=ROOT,
+                           capture_output=True, text=True, timeout=120)
+        if r.returncode != 0 and not allow_fail:
+            raise RuntimeError(f"git {' '.join(args)} failed:\n{(r.stderr or r.stdout).strip()}")
+        return r
+
+    try:
+        git("add", dest, INDEX_FILE)
+        commit = git("commit", "-m", f"Add daily report: {today}", allow_fail=True)
+        if commit.returncode != 0:
+            if "nothing to commit" in commit.stdout + commit.stderr:
+                print(f"Report for {today} already committed — nothing to push.")
+                return
+            raise RuntimeError(f"git commit failed:\n{(commit.stderr or commit.stdout).strip()}")
+        pull = git("pull", "--no-rebase", "origin", "main", allow_fail=True)
+        if pull.returncode != 0:
+            git("merge", "--abort", allow_fail=True)
+            raise RuntimeError(f"git pull failed (merge aborted, repo left clean):\n"
+                               f"{(pull.stderr or pull.stdout).strip()}")
+        git("push", "origin", "main")
+        print(f"Pushed report for {today} - Vercel will redeploy.")
+    except subprocess.TimeoutExpired as e:
+        print(f"ERROR: git timed out after {e.timeout}s on: {e.cmd}", file=sys.stderr)
+        sys.exit(1)
+    except RuntimeError as e:
+        print(f"ERROR: {e}", file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":
