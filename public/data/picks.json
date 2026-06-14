@@ -1,46 +1,5 @@
 {
-  "date": "2026-06-13",
-  "picks": [
-    {
-      "date": "2026-06-13",
-      "sport": "MLB",
-      "game": "ATL @ NYM",
-      "play": "ATL +1.5",
-      "type": "Run Line",
-      "edge": 7.2,
-      "odds": -215,
-      "isLean": false
-    },
-    {
-      "date": "2026-06-13",
-      "sport": "MLB",
-      "game": "COL @ ATH",
-      "play": "COL +1.5",
-      "type": "Run Line",
-      "edge": 9.1,
-      "odds": -132,
-      "isLean": false
-    },
-    {
-      "date": "2026-06-13",
-      "sport": "MLB",
-      "game": "CHC @ SF",
-      "play": "SF +1.5",
-      "type": "Run Line",
-      "edge": 7.5,
-      "odds": -164,
-      "isLean": false
-    },
-    {
-      "date": "2026-06-13",
-      "sport": "MLB",
-      "game": "DET @ CLE",
-      "play": "Under 7.5",
-      "type": "Total",
-      "edge": 8.5,
-      "odds": -110,
-      "isLean": false
-    }
-  ],
-  "hasPicks": true
+  "date": "2026-06-14",
+  "picks": [],
+  "hasPicks": false
 }
