@@ -1,9 +1,27 @@
 [
   {
+    "date": "2026-06-13",
+    "displayDate": "June 13, 2026",
+    "title": "June 13 \u2014 5-4 Yesterday + 9 Plays Today",
+    "file": "2026-06-13.html"
+  },
+  {
     "date": "2026-06-12",
     "displayDate": "June 12, 2026",
     "title": "June 12 \u2014 9 Plays Tonight",
     "file": "2026-06-12.html"
+  },
+  {
+    "date": "2026-06-11",
+    "displayDate": "June 11, 2026",
+    "title": "June 11 \u2014 6 Plays Today, Early Slate",
+    "file": "2026-06-11.html"
+  },
+  {
+    "date": "2026-06-10",
+    "displayDate": "June 10, 2026",
+    "title": "June 10 \u2014 5-1 Yesterday + 4 Plays Today",
+    "file": "2026-06-10.html"
   },
   {
     "date": "2026-06-09",
