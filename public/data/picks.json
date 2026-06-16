@@ -1,5 +1,66 @@
 {
   "date": "2026-06-16",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-06-16",
+      "sport": "MLB",
+      "game": "TOR @ BOS",
+      "play": "BOS +1.5",
+      "type": "Run Line",
+      "edge": 7.2,
+      "odds": -178,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-16",
+      "sport": "MLB",
+      "game": "CWS @ NYY",
+      "play": "NYY -1.5",
+      "type": "Run Line",
+      "edge": 9.7,
+      "odds": 155,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-16",
+      "sport": "MLB",
+      "game": "CLE @ MIL",
+      "play": "MIL -1.5",
+      "type": "Run Line",
+      "edge": 8.3,
+      "odds": 146,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-16",
+      "sport": "MLB",
+      "game": "KC @ WSH",
+      "play": "Over 8.5",
+      "type": "Total",
+      "edge": 7.1,
+      "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-16",
+      "sport": "MLB",
+      "game": "CWS @ NYY",
+      "play": "Over 7.5",
+      "type": "Total",
+      "edge": 7.2,
+      "odds": -110,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-16",
+      "sport": "MLB",
+      "game": "PIT @ ATH",
+      "play": "Under 10.5",
+      "type": "Total",
+      "edge": 7.7,
+      "odds": -110,
+      "isLean": false
+    }
+  ],
+  "hasPicks": true
 }
