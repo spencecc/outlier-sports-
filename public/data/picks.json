@@ -1,16 +1,5 @@
 {
-  "date": "2026-06-15",
-  "picks": [
-    {
-      "date": "2026-06-15",
-      "sport": "MLB",
-      "game": "KC @ WSH",
-      "play": "WSH",
-      "type": "Moneyline",
-      "edge": 11.9,
-      "odds": -132,
-      "isLean": true
-    }
-  ],
-  "hasPicks": true
+  "date": "2026-06-16",
+  "picks": [],
+  "hasPicks": false
 }
