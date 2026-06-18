@@ -157,6 +157,22 @@ Run `export_web_data.py` for current stats.
 
 ## Recent Changes
 
+**June 18, 2026 — ACTIVE ISSUE: data frozen at June 16 (model pipeline, NOT the site)**
+- **Symptom:** /bet-log, /reports, and /edge-alerts all stopped updating. Two days (6/17, 6/18) with no new graded plays.
+- **Root cause is upstream on the VPS, not the website.** Three independent model-derived outputs all froze on the same date, **2026-06-16**:
+  - `bets.json` → last bet 6/16 | `reports.json` → last report 6/16 | `publish/edge_alerts_*` → last file 6/16 (`edge_alerts_latest.json` byte-identical to 6/16)
+- **Site scripts are healthy** — still committing hourly (`stats.json` regenerated 6/18 15:15Z). They keep re-publishing stale data because there's nothing new to pull.
+- **Key clue:** the 6/17 email sent fine and says *"the model ran the full slate this morning... nothing cleared the edge threshold."* But a normal PASS day (e.g. 6/15, 0 plays) STILL produces a report + edge_alerts — 6/17 produced none. So the pipeline broke at the report/log-writing stage between 6/16→6/17.
+- **Prime suspect: incomplete VPS migration.** `sync_reports.py` now points to `MODEL_OUTPUT = "/opt/mlb-model/output"` (Linux/VPS). CLAUDE.md flagged TWO paths needing migration — `MODEL_OUTPUT` (done) AND `WEB_DEST` in `export_web_data.py`. Likely `run_auto.py` / `run_edge_alerts.py` / `export_web_data.py` paths weren't all migrated consistently — model output is landing somewhere the sync/export scripts don't read, or the run dies at the write step.
+- **Can't fix from web/remote session:** `run_auto.py`, `run_edge_alerts.py`, `export_web_data.py` live on the VPS at `/opt/mlb-model/` — not in this repo, not reachable from an isolated clone.
+- **Fix checklist (do on the VPS):**
+  1. `ls -la /opt/mlb-model/output/` — present? `auto_detail_2026-06-17.txt`, `auto_detail_2026-06-18.txt`, `edge_alerts_2026-06-1{7,8}.json`
+     - MISSING → `run_auto.py` is crashing; check cron/systemd logs for the 6/17 & 6/18 morning runs.
+     - PRESENT → path mismatch; reconcile `export_web_data.py`/`sync_reports.py` read paths with where the model writes.
+  2. `stat` the VPS `clv_log.json` + check last entry date / confirm its post-migration location.
+  3. Grep `export_web_data.py` + `run_edge_alerts.py` for leftover `C:\Users\spenc\...` paths; point `WEB_DEST` + clv/model-output paths at the VPS locations.
+- **Follow-up (offered, not yet built):** add a staleness guard to `sync_reports.py` (currently silently no-ops on missing data, line 76-78) so a multi-day pipeline outage alerts instead of going unnoticed.
+
 **May 23, 2026**
 - **Edge Board launched** (`/edge-alerts`): 4-tab dashboard — Model Edges, Book Discrepancies, Line Movement, Archived Alerts. Reads `public/data/publish/edge_alerts_latest.json` from disk (force-dynamic server component + EdgeBoardClient.tsx).
 - **run_edge_alerts.py** written (model pipeline): generates real edge alerts from `clv_log.json` + `odds_snapshot_YYYY-MM-DD.json`. Runs after run_auto.py. Copies output to site repo and git pushes.
