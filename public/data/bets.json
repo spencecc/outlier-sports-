@@ -16850,5 +16850,27 @@
     "closeLine": -110,
     "clv": 0.0,
     "notes": ""
+  },
+  {
+    "id": "2026-06-18-001",
+    "internalId": "MLB-00808",
+    "date": "2026-06-18",
+    "sport": "MLB",
+    "game": "BAL @ SEA",
+    "play": "Over 7.5",
+    "type": "Total",
+    "tier": "High Conviction",
+    "edge": 44.6,
+    "odds": -110,
+    "units": 1.0,
+    "stake": 25,
+    "result": "pending",
+    "payout": null,
+    "scoreAway": null,
+    "scoreHome": null,
+    "openLine": -110,
+    "closeLine": null,
+    "clv": null,
+    "notes": ""
   }
 ]

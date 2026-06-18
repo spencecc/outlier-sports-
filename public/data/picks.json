@@ -1,5 +1,16 @@
 {
   "date": "2026-06-18",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-06-18",
+      "sport": "MLB",
+      "game": "BAL @ SEA",
+      "play": "Over 7.5",
+      "type": "Total",
+      "edge": 44.6,
+      "odds": -110,
+      "isLean": true
+    }
+  ],
+  "hasPicks": true
 }
