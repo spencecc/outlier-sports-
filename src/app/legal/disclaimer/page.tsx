@@ -20,7 +20,8 @@ export default function DisclaimerPage() {
             Copacetic Sports is an independent sports analytics and research
             service. Copacetic Sports is not affiliated with, endorsed by,
             sponsored by, or authorized by Major League Baseball, MLB Advanced
-            Media, the National Football League, the NCAA, the National Hockey
+            Media, the National Football League, the National Basketball Association, the
+            NCAA, the National Hockey
             League, any team, league, sportsbook, or gaming operator. Team,
             league, and sportsbook names are used only to identify games,
             markets, and publicly available betting lines.
@@ -93,6 +94,15 @@ export default function DisclaimerPage() {
               ncpgambling.org
             </a>
             .
+          </p>
+
+          <p>
+            Your use of Copacetic Sports is governed by the laws of the State of
+            Georgia, without regard to its conflict-of-law provisions. Any dispute
+            arising out of or relating to this site, its content, or any
+            subscription is to be brought and resolved exclusively in the state
+            or federal courts located in Georgia, and you consent to the personal
+            jurisdiction and venue of those courts.
           </p>
 
           <p
