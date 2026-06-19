@@ -11,7 +11,6 @@ const navLinks = [
   { href: "/methodology", label: "Methodology" },
   { href: "/about", label: "About" },
   { href: "/updates", label: "Updates" },
-  { href: "/past-emails", label: "Past Emails" },
   { href: "/reports", label: "Reports" },
   { href: "/support", label: "Support" },
 ];
