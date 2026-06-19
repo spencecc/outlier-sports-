@@ -17,10 +17,29 @@ export default function DisclaimerPage() {
           style={{ color: "var(--text-secondary)" }}
         >
           <p>
-            Copacetic Sports is an independent sports analytics publication
-            operated for entertainment and informational purposes only. Nothing
-            on this site constitutes financial advice, investment advice, or a
-            solicitation to place any wager.
+            Copacetic Sports is an independent sports analytics and research
+            service. Copacetic Sports is not affiliated with, endorsed by,
+            sponsored by, or authorized by Major League Baseball, MLB Advanced
+            Media, the National Football League, the NCAA, the National Hockey
+            League, any team, league, sportsbook, or gaming operator. Team,
+            league, and sportsbook names are used only to identify games,
+            markets, and publicly available betting lines.
+          </p>
+
+          <p>
+            Copacetic Sports does not sell a live score or data feed. We publish
+            proprietary analysis, projections, and commentary using publicly
+            available factual inputs. Nothing on this site is financial or
+            investment advice.
+          </p>
+
+          <p>
+            Information is provided for educational and entertainment purposes
+            only. Copacetic Sports does not accept wagers, place bets, or operate
+            as a sportsbook. No analysis, projection, or pick is guaranteed to be
+            accurate or profitable. Betting involves risk, including loss of
+            principal. Users are responsible for complying with all laws
+            applicable in their jurisdiction.
           </p>
 
           <p>
@@ -31,7 +50,7 @@ export default function DisclaimerPage() {
           </p>
 
           <p>
-            All picks, probabilities, and edge estimates published by Outlier
+            All picks, probabilities, and edge estimates published by Copacetic
             Sports reflect the output of a quantitative model and are provided
             for informational purposes. They are not guaranteed to be accurate
             or profitable. The model has limitations that no disclaimer can
@@ -39,7 +58,7 @@ export default function DisclaimerPage() {
           </p>
 
           <p>
-            You are solely responsible for your own betting decisions. Outlier
+            You are solely responsible for your own betting decisions. Copacetic
             Sports is not responsible for any financial losses incurred as a
             result of acting on information published on this site.
           </p>
@@ -80,7 +99,7 @@ export default function DisclaimerPage() {
             className="text-xs pt-4"
             style={{ color: "var(--text-tertiary)" }}
           >
-            Last updated: May 2026
+            Last updated: June 2026
           </p>
         </div>
       </div>

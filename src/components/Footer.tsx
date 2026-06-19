@@ -111,7 +111,9 @@ export default function Footer() {
           style={{ color: "var(--text-tertiary)" }}
         >
           Copacetic Sports is for entertainment and informational purposes only.
-          21+ where applicable. Bet responsibly.{" "}
+          21+ where applicable. Bet responsibly. Independent and not affiliated
+          with or endorsed by MLB, the NFL, NCAA, NHL, or any team, league, or
+          sportsbook.{" "}
           <Link
             href="/legal/disclaimer"
             className="underline underline-offset-2 transition-colors duration-150"
