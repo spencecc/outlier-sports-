@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-18T22:30:01.760379+00:00",
+  "as_of": "2026-06-19T00:30:01.255991+00:00",
   "date": "2026-06-18",
   "version": "edge-alerts-v1",
   "sports": [
@@ -7,7 +7,7 @@
   ],
   "summary": {
     "model_edges": 0,
-    "book_discrepancies": 14,
+    "book_discrepancies": 13,
     "line_movements": 0,
     "warnings": []
   },
@@ -15,53 +15,78 @@
   "book_discrepancies": [
     {
       "sport": "MLB",
-      "game_id": "mlb_2026-06-18_tor_bos_disc",
-      "game": "Toronto Blue Jays at Boston Red Sox",
+      "game_id": "mlb_2026-06-18_laa_ath_disc",
+      "game": "Los Angeles Angels at Athletics",
       "market": "moneyline",
       "outcomes": [
         {
-          "outcome": "Toronto Blue Jays",
+          "outcome": "Los Angeles Angels",
           "book": "MyBookie.ag",
-          "odds": "+140",
-          "decimal_odds": 2.4
+          "odds": "+157",
+          "decimal_odds": 2.57
         },
         {
-          "outcome": "Boston Red Sox",
-          "book": "FanDuel",
-          "odds": "+1500",
-          "decimal_odds": 16.0
+          "outcome": "Athletics",
+          "book": "BetOnline.ag",
+          "odds": "-161",
+          "decimal_odds": 1.6211
         }
       ],
-      "implied_probability_sum": 0.479167,
-      "arb_return": 0.520833,
-      "signal": "Arb",
+      "implied_probability_sum": 1.005963,
+      "arb_return": -0.005963,
+      "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
     },
     {
       "sport": "MLB",
-      "game_id": "mlb_2026-06-18_bal_sea_disc",
-      "game": "Baltimore Orioles at Seattle Mariners",
+      "game_id": "mlb_2026-06-18_nym_phi_disc",
+      "game": "New York Mets at Philadelphia Phillies",
       "market": "moneyline",
       "outcomes": [
         {
-          "outcome": "Baltimore Orioles",
-          "book": "BetRivers",
-          "odds": "+118",
-          "decimal_odds": 2.18
+          "outcome": "New York Mets",
+          "book": "DraftKings",
+          "odds": "+116",
+          "decimal_odds": 2.16
         },
         {
-          "outcome": "Seattle Mariners",
-          "book": "LowVig.ag",
-          "odds": "-120",
-          "decimal_odds": 1.8333
+          "outcome": "Philadelphia Phillies",
+          "book": "BetUS",
+          "odds": "-121",
+          "decimal_odds": 1.8264
         }
       ],
-      "implied_probability_sum": 1.00417,
-      "arb_return": -0.00417,
+      "implied_probability_sum": 1.010474,
+      "arb_return": -0.010474,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-18_cin_nyy_disc",
+      "game": "Cincinnati Reds at New York Yankees",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Cincinnati Reds",
+          "book": "LowVig.ag",
+          "odds": "+227",
+          "decimal_odds": 3.27
+        },
+        {
+          "outcome": "New York Yankees",
+          "book": "FanDuel",
+          "odds": "-240",
+          "decimal_odds": 1.4167
+        }
+      ],
+      "implied_probability_sum": 1.011693,
+      "arb_return": -0.011693,
+      "signal": "Near-Arb",
+      "model_alignment": "Not model-backed",
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
     },
     {
       "sport": "MLB",
@@ -72,8 +97,8 @@
         {
           "outcome": "Chicago White Sox",
           "book": "FanDuel",
-          "odds": "+194",
-          "decimal_odds": 2.94
+          "odds": "+198",
+          "decimal_odds": 2.98
         },
         {
           "outcome": "Detroit Tigers",
@@ -82,11 +107,11 @@
           "decimal_odds": 1.4762
         }
       ],
-      "implied_probability_sum": 1.017555,
-      "arb_return": -0.017555,
+      "implied_probability_sum": 1.01299,
+      "arb_return": -0.01299,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
     },
     {
       "sport": "MLB",
@@ -111,7 +136,7 @@
       "arb_return": -0.017679,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
     },
     {
       "sport": "MLB",
@@ -136,32 +161,57 @@
       "arb_return": -0.019187,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
     },
     {
       "sport": "MLB",
-      "game_id": "mlb_2026-06-18_laa_ath_disc",
-      "game": "Los Angeles Angels at Athletics",
+      "game_id": "mlb_2026-06-18_bos_sea_disc",
+      "game": "Boston Red Sox at Seattle Mariners",
       "market": "moneyline",
       "outcomes": [
         {
-          "outcome": "Los Angeles Angels",
+          "outcome": "Boston Red Sox",
           "book": "BetOnline.ag",
-          "odds": "+144",
-          "decimal_odds": 2.44
+          "odds": "+120",
+          "decimal_odds": 2.2
         },
         {
-          "outcome": "Athletics",
+          "outcome": "Seattle Mariners",
           "book": "FanDuel",
-          "odds": "-156",
-          "decimal_odds": 1.641
+          "odds": "-130",
+          "decimal_odds": 1.7692
         }
       ],
-      "implied_probability_sum": 1.019211,
-      "arb_return": -0.019211,
+      "implied_probability_sum": 1.019763,
+      "arb_return": -0.019763,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-18_cws_nyy_disc",
+      "game": "Chicago White Sox at New York Yankees",
+      "market": "moneyline",
+      "outcomes": [
+        {
+          "outcome": "Chicago White Sox",
+          "book": "MyBookie.ag",
+          "odds": "+147",
+          "decimal_odds": 2.47
+        },
+        {
+          "outcome": "New York Yankees",
+          "book": "BetOnline.ag",
+          "odds": "-160",
+          "decimal_odds": 1.625
+        }
+      ],
+      "implied_probability_sum": 1.020243,
+      "arb_return": -0.020243,
+      "signal": "Near-Arb",
+      "model_alignment": "Not model-backed",
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
     },
     {
       "sport": "MLB",
@@ -186,7 +236,7 @@
       "arb_return": -0.022689,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
     },
     {
       "sport": "MLB",
@@ -211,7 +261,7 @@
       "arb_return": -0.022689,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
     },
     {
       "sport": "MLB",
@@ -236,32 +286,7 @@
       "arb_return": -0.023127,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
-    },
-    {
-      "sport": "MLB",
-      "game_id": "mlb_2026-06-18_nym_phi_disc",
-      "game": "New York Mets at Philadelphia Phillies",
-      "market": "moneyline",
-      "outcomes": [
-        {
-          "outcome": "New York Mets",
-          "book": "FanDuel",
-          "odds": "+102",
-          "decimal_odds": 2.02
-        },
-        {
-          "outcome": "Philadelphia Phillies",
-          "book": "LowVig.ag",
-          "odds": "-112",
-          "decimal_odds": 1.8929
-        }
-      ],
-      "implied_probability_sum": 1.023351,
-      "arb_return": -0.023351,
-      "signal": "Near-Arb",
-      "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
     },
     {
       "sport": "MLB",
@@ -286,7 +311,7 @@
       "arb_return": -0.023933,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
     },
     {
       "sport": "MLB",
@@ -311,57 +336,7 @@
       "arb_return": -0.024537,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
-    },
-    {
-      "sport": "MLB",
-      "game_id": "mlb_2026-06-18_cws_nyy_disc",
-      "game": "Chicago White Sox at New York Yankees",
-      "market": "moneyline",
-      "outcomes": [
-        {
-          "outcome": "Chicago White Sox",
-          "book": "BetOnline.ag",
-          "odds": "+147",
-          "decimal_odds": 2.47
-        },
-        {
-          "outcome": "New York Yankees",
-          "book": "BetOnline.ag",
-          "odds": "-163",
-          "decimal_odds": 1.6135
-        }
-      ],
-      "implied_probability_sum": 1.02463,
-      "arb_return": -0.02463,
-      "signal": "Near-Arb",
-      "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
-    },
-    {
-      "sport": "MLB",
-      "game_id": "mlb_2026-06-18_bos_sea_disc",
-      "game": "Boston Red Sox at Seattle Mariners",
-      "market": "moneyline",
-      "outcomes": [
-        {
-          "outcome": "Boston Red Sox",
-          "book": "BetOnline.ag",
-          "odds": "+114",
-          "decimal_odds": 2.14
-        },
-        {
-          "outcome": "Seattle Mariners",
-          "book": "FanDuel",
-          "odds": "-126",
-          "decimal_odds": 1.7937
-        }
-      ],
-      "implied_probability_sum": 1.024812,
-      "arb_return": -0.024812,
-      "signal": "Near-Arb",
-      "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-18T22:30:01.760379+00:00"
+      "updated_at": "2026-06-19T00:30:01.255991+00:00"
     }
   ],
   "line_movements": []
