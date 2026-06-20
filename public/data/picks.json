@@ -1,5 +1,36 @@
 {
   "date": "2026-06-20",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-06-20",
+      "sport": "MLB",
+      "game": "CWS @ DET",
+      "play": "CWS +1.5",
+      "type": "Run Line",
+      "edge": 8.0,
+      "odds": -187,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-20",
+      "sport": "MLB",
+      "game": "SD @ TEX",
+      "play": "TEX -1.5",
+      "type": "Run Line",
+      "edge": 8.3,
+      "odds": 158,
+      "isLean": false
+    },
+    {
+      "date": "2026-06-20",
+      "sport": "MLB",
+      "game": "CIN @ NYY",
+      "play": "Under 9.5",
+      "type": "Total",
+      "edge": 8.1,
+      "odds": -110,
+      "isLean": false
+    }
+  ],
+  "hasPicks": true
 }
