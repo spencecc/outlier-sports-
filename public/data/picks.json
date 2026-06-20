@@ -1,26 +1,5 @@
 {
-  "date": "2026-06-19",
-  "picks": [
-    {
-      "date": "2026-06-19",
-      "sport": "MLB",
-      "game": "CWS @ DET",
-      "play": "Under 8.5",
-      "type": "Total",
-      "edge": 9.3,
-      "odds": -110,
-      "isLean": false
-    },
-    {
-      "date": "2026-06-19",
-      "sport": "MLB",
-      "game": "CIN @ NYY",
-      "play": "Under 9.5",
-      "type": "Total",
-      "edge": 8.1,
-      "odds": -110,
-      "isLean": false
-    }
-  ],
-  "hasPicks": true
+  "date": "2026-06-20",
+  "picks": [],
+  "hasPicks": false
 }
