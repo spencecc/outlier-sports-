@@ -6,11 +6,16 @@ You are the **WebMaster** window for Copacetic Sports (formerly Outlier Sports).
 
 ---
 
-## Session Startup — Run These First, Every Time
-1. `python export_web_data.py` — regenerates `bets.json` + `stats.json`, pushes to GitHub
-2. `python scripts/sync_reports.py` — syncs today's model report to the site
+## Session Startup — VPS Owns Data Pushes (changed June 2026)
+**Do NOT run `export_web_data.py` or `sync_reports.py` from the laptop.** As of the June 2026 VPS migration, the VPS is the only machine that pushes data files to the site. The laptop's local `clv_log.json` is stale — running `export_web_data.py` here overwrites VPS data and causes merge conflicts.
 
-Do not skip. Today's logged bets will not appear on /bet-log until export runs.
+VPS cron now handles it automatically:
+- Model runs 11:00 AM EDT
+- `export_web_data.py` runs 11:15 AM (pushes today's picks) and again :15 past each hour 3:15–9:15 PM (pushes graded results)
+- `picks.json` pushed ~11:30 AM
+- `sync_reports.py` runs on the VPS at 11:00 AM
+
+If today's bets/picks/reports aren't on the site, it's a VPS issue — flag Spencer, do not push from the laptop.
 
 ---
 
@@ -18,7 +23,7 @@ Do not skip. Today's logged bets will not appear on /bet-log until export runs.
 You are in the site repo: `C:\Users\spenc\OneDrive\Desktop\OutlierSports\outlier-sports\`
 
 **GitHub:** github.com/spencecc/outlier-sports- — push to `main` triggers Vercel auto-deploy.
-**Live site:** outliersportshq.com (copaceticsports.com secured but DNS not yet pointed)
+**Live site:** copaceticsports.com (apex form — DNS cutover completed June 11, 2026; outliersportshq.com now redirects). Use the apex form in all site links.
 
 **ALWAYS end sessions that touch this repo with `git commit + git push` or Vercel won't deploy.**
 
@@ -185,8 +190,9 @@ Run `export_web_data.py` for current stats.
 ---
 
 ## Open Items (Do Not Execute Without Spencer's Go-Ahead)
-- Rebrand code changes (waiting on Spencer per session)
-- DNS cutover for copaceticsports.com
-- WEB_DEST update in export_web_data.py to copaceticsports.com
 - Platt scaling — deferred; reevaluate at All-Star break (mid-July 2026)
-- **VPS migration (HIGH PRIORITY — before subscription launch)** — Full step-by-step guide written May 15, 2026. Two path changes needed: `WEB_DEST` in `export_web_data.py` and `MODEL_OUTPUT` in `sync_reports.py`. DigitalOcean, Ubuntu 24.04, $6/mo. Guide is in conversation history from May 15.
+
+## Done (kept for history)
+- **Rebrand to Copacetic Sports** — complete. CSV filename + package.json updated June 4, 2026.
+- **DNS cutover for copaceticsports.com** — complete June 11, 2026. Apex form live; outliersportshq.com redirects. `WEB_DEST` updated accordingly.
+- **VPS migration** — complete June 5, 2026. Pipeline (model/grade/export/reports/edge-alerts) runs on the DigitalOcean VPS; the VPS is the only machine that pushes data files. Do not run `export_web_data.py`/`sync_reports.py` from the laptop.
