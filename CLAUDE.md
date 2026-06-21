@@ -110,19 +110,25 @@ Always use abbreviations for `game` field — `"BOS @ ATL"` not `"Red Sox @ Brav
 
 ---
 
-## Automation Scripts (`outlier-sports/scripts/`)
+## Automation Scripts
 
-**sync_emails.py** — runs at 12:00 AM daily
+All scripts that push to the site repo use a self-healing `commit_and_push` helper as of 2026-06-21 (`pull --rebase` → `push`, retries with backoff on a rejected push) so concurrent cron jobs no longer leave a commit unpushed — the old "cannot lock ref" / stale-day failure. Writeup: `OutlierSports/DEPLOY_RACE_FIX_DRAFT.md`.
+
+**sync_emails.py** (`outlier-sports/scripts/`) — laptop, Windows Task Scheduler, 12:00 AM
 - Scans `daily_email/` for new HTML files, copies to `public/data/emails/`, updates `emails.json`, commits + pushes
+- Still runs **locally** (laptop must be on at midnight) — not yet migrated to the VPS
 
-**sync_reports.py** — runs at 11:00 AM daily
+**sync_reports.py** (`outlier-sports/scripts/`) — VPS cron, 11:50 AM ET
 - Copies today's `auto_detail_YYYY-MM-DD.txt` to `public/data/reports/`, updates `reports.json`, commits + pushes
+- Moved off the 11:45 slot on 2026-06-21 to stop colliding with `export_web_data.py` (also 11:45)
 
-**run_edge_alerts.py** — runs after run_auto.py (model pipeline, NOT in this repo)
-- Location: `C:\Users\spenc\OneDrive\Desktop\Python.Manus\gemini_mlb_v2.2\run_edge_alerts.py`
+**run_edge_alerts.py** — model repo (`/opt/mlb-model`), NOT in this repo — VPS cron, 1/3/5 PM + 6:30/8:30 PM ET
+- Local source: `C:\Users\spenc\OneDrive\Desktop\Python.Manus\gemini_mlb_v2.2\run_edge_alerts.py`
 - Reads `clv_log.json` + `odds_snapshot_YYYY-MM-DD.json`, generates `edge_alerts_YYYY-MM-DD.json` and `edge_alerts_latest.json`, copies both to `public/data/publish/`, git commits + pushes
-- Run manually: `python run_edge_alerts.py` or `python run_edge_alerts.py --date 2026-05-23`
+- Run manually: `python run_edge_alerts.py` or `python run_edge_alerts.py --date YYYY-MM-DD`
 - Single-book snapshot (FanDuel only) — book_discrepancies is always `[]` until multi-book feed added
+
+> **Reminder:** Do not run `export_web_data.py` / `sync_reports.py` from the laptop — the VPS owns all data pushes (see Session Startup above).
 
 ---
 
@@ -142,11 +148,11 @@ Always use abbreviations for `game` field — `"BOS @ ATL"` not `"Red Sox @ Brav
 
 ---
 
-## Current Model Performance (as of May 23, 2026)
-Overall: **311-261-11P (54.4%) | ROI: +2.4% | Units: +13.6u**
-Standard (7-10% edge): **116-92-5P (55.8%) | ROI: +4.0% | +8.38u**
-Higher Model Confidence (10%+, Apr 13+ only): **195-162-5P (54.6%) | ROI: +2.6% | +9.19u**
-Run `export_web_data.py` for current stats.
+## Current Model Performance (as of June 21, 2026)
+Lifetime: **407-349-16P (53.8%) | ROI: +1.5% | Units: +11.59u**
+Standard (7-10% edge): **152-131-5P (53.7%) | ROI: +0.1% | +0.34u**
+Higher Model Confidence (10%+, Apr 13+ only): **255-211-10P (54.7%) | ROI: +3.3% | +15.22u**
+Source: live `stats.json` (`curl -s https://copaceticsports.com/data/stats.json`). Do NOT run `export_web_data.py` from the laptop — VPS owns data pushes.
 
 ---
 
@@ -161,6 +167,11 @@ Run `export_web_data.py` for current stats.
 ---
 
 ## Recent Changes
+
+**June 21, 2026**
+- **Deploy-race fix shipped** to all three site-pushing scripts (`export_web_data.py`, `run_edge_alerts.py`, `sync_reports.py`). Each now uses a `commit_and_push` helper: after committing, it loops `pull --rebase` → `push` and retries with backoff on a rejected push, instead of leaving the commit unpushed when a concurrent cron job moves the ref. Fixes the recurring "cannot lock ref" / stale-day failure (root cause of 6/21 missing plays). Race-tested on the VPS — concurrent collision self-heals, both commits land.
+- **Cron staggered:** `sync_reports.py` moved from 11:45 → **11:50 AM** so it no longer fires in lockstep with `export_web_data.py` (still 11:45). Crontab updated on the VPS.
+- Writeup: `OutlierSports/DEPLOY_RACE_FIX_DRAFT.md` (status: DEPLOYED 2026-06-21).
 
 **May 23, 2026**
 - **Edge Board launched** (`/edge-alerts`): 4-tab dashboard — Model Edges, Book Discrepancies, Line Movement, Archived Alerts. Reads `public/data/publish/edge_alerts_latest.json` from disk (force-dynamic server component + EdgeBoardClient.tsx).
