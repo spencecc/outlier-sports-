@@ -9,6 +9,7 @@ import os
 import re
 import sys
 import json
+import time
 import shutil
 import subprocess
 from datetime import date, datetime
@@ -96,21 +97,44 @@ def main() -> None:
             raise RuntimeError(f"git {' '.join(args)} failed:\n{(r.stderr or r.stdout).strip()}")
         return r
 
-    try:
-        git("add", dest, INDEX_FILE)
-        commit = git("commit", "-m", f"Add daily report: {today}", allow_fail=True)
+    def commit_and_push(git, paths, message, *, max_attempts=5):
+        """Commit `paths` and push to origin/main, self-healing against concurrent
+        pushes from the other cron jobs that target this same repo (export / reports /
+        edge alerts). Returns True if a commit was pushed, False if there was nothing
+        to commit. Raises (loudly, for the caller to exit non-zero) on real failure.
+        """
+        git("add", *paths)
+        commit = git("commit", "-m", message, allow_fail=True)
         if commit.returncode != 0:
             if "nothing to commit" in commit.stdout + commit.stderr:
-                print(f"Report for {today} already committed — nothing to push.")
-                return
+                return False
             raise RuntimeError(f"git commit failed:\n{(commit.stderr or commit.stdout).strip()}")
-        pull = git("pull", "--no-rebase", "origin", "main", allow_fail=True)
-        if pull.returncode != 0:
-            git("merge", "--abort", allow_fail=True)
-            raise RuntimeError(f"git pull failed (merge aborted, repo left clean):\n"
-                               f"{(pull.stderr or pull.stdout).strip()}")
-        git("push", "origin", "main")
-        print(f"Pushed report for {today} - Vercel will redeploy.")
+
+        last_err = ""
+        for attempt in range(1, max_attempts + 1):
+            # Replay our commit on top of the latest remote. The cron jobs touch
+            # different files, so this is normally clean; on a real conflict, abort
+            # the rebase so the tree is left clean for the next run, and bail.
+            rebase = git("pull", "--rebase", "origin", "main", allow_fail=True)
+            if rebase.returncode != 0:
+                git("rebase", "--abort", allow_fail=True)
+                raise RuntimeError(
+                    "git pull --rebase failed (rebase aborted, repo left clean):\n"
+                    f"{(rebase.stderr or rebase.stdout).strip()}")
+            push = git("push", "origin", "main", allow_fail=True)
+            if push.returncode == 0:
+                return True
+            # Rejected because a concurrent push moved the ref
+            # ("cannot lock ref" / "fetch first" / "non-fast-forward").
+            # Back off and retry from the rebase.
+            last_err = (push.stderr or push.stdout).strip()
+            time.sleep(2 * attempt)
+        raise RuntimeError(f"git push failed after {max_attempts} attempts:\n{last_err}")
+
+    try:
+        pushed = commit_and_push(git, [dest, INDEX_FILE], f"Add daily report: {today}")
+        print(f"Pushed report for {today} - Vercel will redeploy." if pushed
+              else f"Report for {today} already committed — nothing to push.")
     except subprocess.TimeoutExpired as e:
         print(f"ERROR: git timed out after {e.timeout}s on: {e.cmd}", file=sys.stderr)
         sys.exit(1)
