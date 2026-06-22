@@ -4,17 +4,6 @@
     {
       "date": "2026-06-22",
       "sport": "MLB",
-      "game": "PHI @ WSH",
-      "play": "WSH +1.5",
-      "type": "Run Line",
-      "edge": 7.2,
-      "odds": -188,
-      "time": "6:45 PM ET",
-      "isLean": false
-    },
-    {
-      "date": "2026-06-22",
-      "sport": "MLB",
       "game": "TEX @ MIA",
       "play": "Under 8.5",
       "type": "Total",
