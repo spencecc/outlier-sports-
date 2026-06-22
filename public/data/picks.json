@@ -1,39 +1,5 @@
 {
-  "date": "2026-06-21",
-  "picks": [
-    {
-      "date": "2026-06-21",
-      "sport": "MLB",
-      "game": "SF @ MIA",
-      "play": "Under 8.5",
-      "type": "Total",
-      "edge": 9.3,
-      "odds": -110,
-      "time": "1:40 PM ET",
-      "isLean": false
-    },
-    {
-      "date": "2026-06-21",
-      "sport": "MLB",
-      "game": "SD @ TEX",
-      "play": "Under 8.0",
-      "type": "Total",
-      "edge": 7.9,
-      "odds": -110,
-      "time": "2:35 PM ET",
-      "isLean": false
-    },
-    {
-      "date": "2026-06-21",
-      "sport": "MLB",
-      "game": "PIT @ COL",
-      "play": "Over 11.5",
-      "type": "Total",
-      "edge": 8.7,
-      "odds": -110,
-      "time": "3:10 PM ET",
-      "isLean": false
-    }
-  ],
-  "hasPicks": true
+  "date": "2026-06-22",
+  "picks": [],
+  "hasPicks": false
 }
