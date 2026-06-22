@@ -17183,28 +17183,6 @@
   },
   {
     "id": "2026-06-22-002",
-    "internalId": "MLB-00830",
-    "date": "2026-06-22",
-    "sport": "MLB",
-    "game": "PHI @ WSH",
-    "play": "WSH +1.5",
-    "type": "Run Line",
-    "tier": "Standard Edge",
-    "edge": 7.2,
-    "odds": -188,
-    "units": 1.0,
-    "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
-    "openLine": -188,
-    "closeLine": null,
-    "clv": null,
-    "notes": ""
-  },
-  {
-    "id": "2026-06-22-003",
     "internalId": "MLB-00831",
     "date": "2026-06-22",
     "sport": "MLB",
@@ -17226,7 +17204,7 @@
     "notes": ""
   },
   {
-    "id": "2026-06-22-004",
+    "id": "2026-06-22-003",
     "internalId": "MLB-00832",
     "date": "2026-06-22",
     "sport": "MLB",
@@ -17248,7 +17226,7 @@
     "notes": ""
   },
   {
-    "id": "2026-06-22-005",
+    "id": "2026-06-22-004",
     "internalId": "MLB-00833",
     "date": "2026-06-22",
     "sport": "MLB",
@@ -17270,7 +17248,7 @@
     "notes": ""
   },
   {
-    "id": "2026-06-22-006",
+    "id": "2026-06-22-005",
     "internalId": "MLB-00834",
     "date": "2026-06-22",
     "sport": "MLB",
@@ -17287,6 +17265,28 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -136,
+    "closeLine": null,
+    "clv": null,
+    "notes": ""
+  },
+  {
+    "id": "2026-06-22-001-pending",
+    "internalId": "",
+    "date": "2026-06-22",
+    "sport": "MLB",
+    "game": "PHI @ WSH",
+    "play": "WSH +1.5",
+    "type": "Run Line",
+    "tier": "Standard Edge",
+    "edge": 7.2,
+    "odds": -188,
+    "units": 1.0,
+    "stake": 25,
+    "result": "pending",
+    "payout": null,
+    "scoreAway": null,
+    "scoreHome": null,
+    "openLine": -188,
     "closeLine": null,
     "clv": null,
     "notes": ""
