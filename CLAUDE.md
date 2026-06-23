@@ -43,7 +43,7 @@ All routes are complete and data-wired. Nothing is stubbed.
 |-------|-------|
 | `/` | Hero, stat strips, methodology teaser, latest reports, email signup |
 | `/track-record` | Period-filtered headline stats + Standard/Higher Model Confidence 4-box grids |
-| `/bet-log` | Sortable/filterable table, CSV export, CLV column |
+| `/bet-log` | Sortable/filterable table (Date/Sport/Game/Play/Edge/Odds/Result/Units), CSV export. NOTE: no on-page CLV column yet — deferred to end of CLV burn-in (see June 22 changes) |
 | `/methodology` | Brand voice copy — no internal thresholds exposed |
 | `/reports` | Today's auto_detail report inline + archive |
 | `/plays` | Today's picks from picks.json — reads from disk, force-dynamic |
@@ -103,6 +103,7 @@ Always use abbreviations for `game` field — `"BOS @ ATL"` not `"Red Sox @ Brav
 - SMC plays: `tier: "Standard Edge"` | HMC plays: `tier: "High Conviction"`
 - `higherModelConf` stats read from `clv_log.json` where `tier == "High Conviction"` AND `game_date >= 2026-04-13`
 - The April 13 cutoff excludes 73 pre-system HC entries (45.1% win rate, -12.6% ROI) — do NOT remove it
+- **CLV fields (added 2026-06-22):** `clv_percentage` (de-vigged decimal), `clv_status` (see June 22 changes), `placed_line`, `closing_line`, `closing_line_odds_away`/`_home`. Totals carry `closing_ml: null` by design — never reintroduce the `closing_ml = placed_ml` placeholder. Populated by `log_result.py` during grading; do not hand-edit.
 
 **lean_log.DNU.json / lean_counter.DNU.json** — Closed archives. Do not read from or write to these.
 
@@ -127,6 +128,12 @@ All scripts that push to the site repo use a self-healing `commit_and_push` help
 - Reads `clv_log.json` + `odds_snapshot_YYYY-MM-DD.json`, generates `edge_alerts_YYYY-MM-DD.json` and `edge_alerts_latest.json`, copies both to `public/data/publish/`, git commits + pushes
 - Run manually: `python run_edge_alerts.py` or `python run_edge_alerts.py --date YYYY-MM-DD`
 - Single-book snapshot (FanDuel only) — book_discrepancies is always `[]` until multi-book feed added
+
+**CLV scripts** — model repo (`/opt/mlb-model`), NOT in this repo. Local source: `C:\Users\spenc\OneDrive\Desktop\Python.Manus\gemini_mlb_v2.2\`. None of these push to the site repo (no deploy-race exposure) — they only read/write model output + logs.
+- `poll_clv.py` — VPS cron **6:55 PM + 9:30 PM ET**. Credit guard (free `/v4/sports` probe; abort <80) + closing odds capture into `odds_snapshot_*.json` `line_history`. ~6 credits/day.
+- `clv_phantom_check.py` — runs inside `run_auto.py` (Step 5) each morning; also standalone: `python3 clv_phantom_check.py --date YYYY-MM-DD`. Zero credits. Writes `output/phantom_flags.json`.
+- `clv_health.py` — burn-in monitor, read-only, zero credits: `ssh copacetic "cd /opt/mlb-model && python3 clv_health.py"`.
+- `clv_math.py` — shared math library (no I/O). `python clv_math.py --test`.
 
 > **Reminder:** Do not run `export_web_data.py` / `sync_reports.py` from the laptop — the VPS owns all data pushes (see Session Startup above).
 
@@ -168,6 +175,17 @@ Source: live `stats.json` (`curl -s https://copaceticsports.com/data/stats.json`
 
 ## Recent Changes
 
+**June 22, 2026**
+- **CLV pipeline shipped** (model repo `copacetic-mlb-model`, commits `6948405`→`01f238b`, VPS pulled). Phase 0 + phantom-edge guard, all in `gemini_mlb_v2.2`. Built carefully on top of the 6/21 fatigue rebuild (`2ac575e`) — the `_api_get` grading fix was preserved, not clobbered.
+  - `clv_math.py` — de-vig (linear) → fair-prob → CLV + phantom-edge scoring; single source of truth. Self-test: `python clv_math.py --test` (17 cases).
+  - `clv_phantom_check.py` — **phantom-edge guard**: flags plays where the MODEL sits ≥10% above the de-vigged market (model is the outlier — the 6/19 MIL +118 "13% edge" pattern, where every book had MIL a dog and the model didn't). Runs in `run_auto.py` Step 5 each morning, read-only + non-fatal, **zero credits** (rides the 11 AM opening snapshot). Writes `output/phantom_flags.json`. Complements run_auto's existing book-vs-field outlier guard — that one is book-vs-market, this is model-vs-market.
+  - `log_result.py` — killed the totals `closing_ml = placed_ml` placeholder; totals are honest `null` now. Added schema: `placed_line`, `closing_line`, `closing_line_odds_away`/`_home`, `clv_percentage` (de-vigged decimal), `clv_status`. De-vigged CLV in the dashboard. Migrates `clv_log` automatically as bets grade.
+  - `poll_clv.py` — spec credit guard (free `/v4/sports` probe = 0 cost; abort below 80 credits, exit 0, log to `/var/log/copacetic/clv_capture.log`) so capture never starves the 11 AM model run. Captures closing over/under prices into `line_history`.
+  - `clv_health.py` — read-only burn-in monitor (capture cadence, credit health, opening_proxy→closing upgrade, de-vigged CLV, phantom activity). Zero credits. Run: `ssh copacetic "cd /opt/mlb-model && python3 clv_health.py"`.
+- **`clv_status` values:** `closing` (real near-lock) · `opening_proxy` (interim) · `no_closing_odds_totals` · `total_line_moved` · `no_closing_data`.
+- **New VPS cron:** `poll_clv.py` at **6:55 PM + 9:30 PM ET** — ~6 credits/day on the 500/mo Odds API plan (day games land as honest `null`).
+- **`/bet-log` CLV column NOT surfaced yet** — deliberate ~2-week burn-in to accumulate real `closing` data first; flip the column on once `clv_health` shows the `closing` count climbing and de-vigged CLV looking sane. Totals CLV stays `null` until Phase 2 (historical alt-line backfill, deferred to fall). See [[project_clv_pipeline]].
+
 **June 21, 2026**
 - **Deploy-race fix shipped** to all three site-pushing scripts (`export_web_data.py`, `run_edge_alerts.py`, `sync_reports.py`). Each now uses a `commit_and_push` helper: after committing, it loops `pull --rebase` → `push` and retries with backoff on a rejected push, instead of leaving the commit unpushed when a concurrent cron job moves the ref. Fixes the recurring "cannot lock ref" / stale-day failure (root cause of 6/21 missing plays). Race-tested on the VPS — concurrent collision self-heals, both commits land.
 - **Cron staggered:** `sync_reports.py` moved from 11:45 → **11:50 AM** so it no longer fires in lockstep with `export_web_data.py` (still 11:45). Crontab updated on the VPS.
@@ -202,6 +220,8 @@ Source: live `stats.json` (`curl -s https://copaceticsports.com/data/stats.json`
 
 ## Open Items (Do Not Execute Without Spencer's Go-Ahead)
 - Platt scaling — deferred; reevaluate at All-Star break (mid-July 2026)
+- **Surface CLV column on `/bet-log`** — deferred to ~July 6, 2026 (end of the 2-week CLV burn-in started June 22). Edit `BetLogClient.tsx` (add column) + `export_web_data.py` (publish `clv_percentage`/`clv_status`). Only after `clv_health` shows real `closing` data accumulating; totals stay blank until Phase 2.
+- **CLV Phase 2 (fall):** historical Odds API backfill with `alternate_totals`/`alternate_spreads` for closing price at our exact line. Audit the historical-endpoint cost multiplier first.
 
 ## Done (kept for history)
 - **Rebrand to Copacetic Sports** — complete. CSV filename + package.json updated June 4, 2026.
