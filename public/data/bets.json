@@ -6375,8 +6375,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": -178,
-    "closeLine": 164,
-    "clv": -26.15,
+    "closeLine": -178,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6397,8 +6397,8 @@
     "scoreAway": 11,
     "scoreHome": 5,
     "openLine": 128,
-    "closeLine": 134,
-    "clv": -1.12,
+    "closeLine": 128,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6419,8 +6419,8 @@
     "scoreAway": 5,
     "scoreHome": 3,
     "openLine": -138,
-    "closeLine": -160,
-    "clv": 3.56,
+    "closeLine": -138,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6463,8 +6463,8 @@
     "scoreAway": 4,
     "scoreHome": 7,
     "openLine": -118,
-    "closeLine": -126,
-    "clv": 1.62,
+    "closeLine": -118,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -6485,8 +6485,8 @@
     "scoreAway": 4,
     "scoreHome": 7,
     "openLine": -192,
-    "closeLine": 168,
-    "clv": -28.44,
+    "closeLine": -192,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -17287,8 +17287,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -162,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -162,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -17309,8 +17309,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -115,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -115,
+    "clv": 0.0,
     "notes": ""
   },
   {
