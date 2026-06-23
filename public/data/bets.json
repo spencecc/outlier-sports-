@@ -1183,8 +1183,8 @@
     "scoreAway": 6,
     "scoreHome": 11,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1271,8 +1271,8 @@
     "scoreAway": 5,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1293,8 +1293,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1337,8 +1337,8 @@
     "scoreAway": 3,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1381,8 +1381,8 @@
     "scoreAway": 2,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1403,8 +1403,8 @@
     "scoreAway": 7,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1425,8 +1425,8 @@
     "scoreAway": 7,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1469,8 +1469,8 @@
     "scoreAway": 0,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1491,8 +1491,8 @@
     "scoreAway": 1,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1513,8 +1513,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1557,8 +1557,8 @@
     "scoreAway": 2,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1579,8 +1579,8 @@
     "scoreAway": 8,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1601,8 +1601,8 @@
     "scoreAway": 4,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1645,8 +1645,8 @@
     "scoreAway": 8,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1689,8 +1689,8 @@
     "scoreAway": 2,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1843,8 +1843,8 @@
     "scoreAway": 4,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1865,8 +1865,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1887,8 +1887,8 @@
     "scoreAway": 5,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -1953,8 +1953,8 @@
     "scoreAway": 6,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2019,8 +2019,8 @@
     "scoreAway": 14,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2063,8 +2063,8 @@
     "scoreAway": 3,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2085,8 +2085,8 @@
     "scoreAway": 6,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2129,8 +2129,8 @@
     "scoreAway": 3,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2217,8 +2217,8 @@
     "scoreAway": 9,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2239,8 +2239,8 @@
     "scoreAway": 7,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2283,8 +2283,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2327,8 +2327,8 @@
     "scoreAway": 4,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2349,8 +2349,8 @@
     "scoreAway": 2,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2393,8 +2393,8 @@
     "scoreAway": 1,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2437,8 +2437,8 @@
     "scoreAway": 7,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2459,8 +2459,8 @@
     "scoreAway": 8,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2525,8 +2525,8 @@
     "scoreAway": 0,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2569,8 +2569,8 @@
     "scoreAway": 3,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2591,8 +2591,8 @@
     "scoreAway": 0,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2635,8 +2635,8 @@
     "scoreAway": 6,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2657,8 +2657,8 @@
     "scoreAway": 7,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2701,8 +2701,8 @@
     "scoreAway": 6,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2723,8 +2723,8 @@
     "scoreAway": 1,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2767,8 +2767,8 @@
     "scoreAway": 2,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2789,8 +2789,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2833,8 +2833,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2855,8 +2855,8 @@
     "scoreAway": 6,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2899,8 +2899,8 @@
     "scoreAway": 4,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -2987,8 +2987,8 @@
     "scoreAway": 7,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3009,8 +3009,8 @@
     "scoreAway": 2,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3031,8 +3031,8 @@
     "scoreAway": 8,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3053,8 +3053,8 @@
     "scoreAway": 2,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3075,8 +3075,8 @@
     "scoreAway": 1,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3119,8 +3119,8 @@
     "scoreAway": 2,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3251,8 +3251,8 @@
     "scoreAway": 6,
     "scoreHome": 13,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3273,8 +3273,8 @@
     "scoreAway": 9,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3317,8 +3317,8 @@
     "scoreAway": 0,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3383,8 +3383,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3449,8 +3449,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3515,8 +3515,8 @@
     "scoreAway": 10,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3537,8 +3537,8 @@
     "scoreAway": 7,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3581,8 +3581,8 @@
     "scoreAway": 0,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3625,8 +3625,8 @@
     "scoreAway": 9,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3669,8 +3669,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3691,8 +3691,8 @@
     "scoreAway": 6,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3713,8 +3713,8 @@
     "scoreAway": 1,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -3867,8 +3867,8 @@
     "scoreAway": 0,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4021,8 +4021,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4065,8 +4065,8 @@
     "scoreAway": 0,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4087,8 +4087,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4131,8 +4131,8 @@
     "scoreAway": 0,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4153,8 +4153,8 @@
     "scoreAway": 3,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4197,8 +4197,8 @@
     "scoreAway": 11,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4263,8 +4263,8 @@
     "scoreAway": 3,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4285,8 +4285,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4307,8 +4307,8 @@
     "scoreAway": 1,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4351,8 +4351,8 @@
     "scoreAway": 6,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4373,8 +4373,8 @@
     "scoreAway": 2,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4395,8 +4395,8 @@
     "scoreAway": 3,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4505,8 +4505,8 @@
     "scoreAway": 3,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4549,8 +4549,8 @@
     "scoreAway": 6,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4571,8 +4571,8 @@
     "scoreAway": 2,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4659,8 +4659,8 @@
     "scoreAway": 8,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4681,8 +4681,8 @@
     "scoreAway": 11,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4725,8 +4725,8 @@
     "scoreAway": 3,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4769,8 +4769,8 @@
     "scoreAway": 9,
     "scoreHome": 10,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4835,8 +4835,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4857,8 +4857,8 @@
     "scoreAway": 2,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4901,8 +4901,8 @@
     "scoreAway": 3,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4923,8 +4923,8 @@
     "scoreAway": 2,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4967,8 +4967,8 @@
     "scoreAway": 8,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -4989,8 +4989,8 @@
     "scoreAway": 11,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5011,8 +5011,8 @@
     "scoreAway": 2,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5077,8 +5077,8 @@
     "scoreAway": 4,
     "scoreHome": 12,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5099,8 +5099,8 @@
     "scoreAway": 6,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5165,8 +5165,8 @@
     "scoreAway": 10,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5231,8 +5231,8 @@
     "scoreAway": 0,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5253,8 +5253,8 @@
     "scoreAway": 9,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5275,8 +5275,8 @@
     "scoreAway": 2,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5297,8 +5297,8 @@
     "scoreAway": 7,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5341,8 +5341,8 @@
     "scoreAway": 0,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5363,8 +5363,8 @@
     "scoreAway": 3,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5385,8 +5385,8 @@
     "scoreAway": 2,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5473,8 +5473,8 @@
     "scoreAway": 10,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5517,8 +5517,8 @@
     "scoreAway": 1,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5605,8 +5605,8 @@
     "scoreAway": 7,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5649,8 +5649,8 @@
     "scoreAway": 6,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5693,8 +5693,8 @@
     "scoreAway": 9,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5759,8 +5759,8 @@
     "scoreAway": 5,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5825,8 +5825,8 @@
     "scoreAway": 9,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5869,8 +5869,8 @@
     "scoreAway": 7,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -5891,8 +5891,8 @@
     "scoreAway": 3,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6155,8 +6155,8 @@
     "scoreAway": 3,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6177,8 +6177,8 @@
     "scoreAway": 6,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6199,8 +6199,8 @@
     "scoreAway": 9,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6221,8 +6221,8 @@
     "scoreAway": 9,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6243,8 +6243,8 @@
     "scoreAway": 7,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6287,8 +6287,8 @@
     "scoreAway": 1,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6331,8 +6331,8 @@
     "scoreAway": 5,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6353,8 +6353,8 @@
     "scoreAway": 5,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6375,8 +6375,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": -178,
-    "closeLine": -178,
-    "clv": 0.0,
+    "closeLine": 164,
+    "clv": -26.15,
     "notes": ""
   },
   {
@@ -6397,8 +6397,8 @@
     "scoreAway": 11,
     "scoreHome": 5,
     "openLine": 128,
-    "closeLine": 128,
-    "clv": 0.0,
+    "closeLine": 134,
+    "clv": -1.12,
     "notes": ""
   },
   {
@@ -6419,8 +6419,8 @@
     "scoreAway": 5,
     "scoreHome": 3,
     "openLine": -138,
-    "closeLine": -138,
-    "clv": 0.0,
+    "closeLine": -160,
+    "clv": 3.56,
     "notes": ""
   },
   {
@@ -6441,8 +6441,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6463,8 +6463,8 @@
     "scoreAway": 4,
     "scoreHome": 7,
     "openLine": -118,
-    "closeLine": -118,
-    "clv": 0.0,
+    "closeLine": -126,
+    "clv": 1.62,
     "notes": ""
   },
   {
@@ -6485,8 +6485,8 @@
     "scoreAway": 4,
     "scoreHome": 7,
     "openLine": -192,
-    "closeLine": -192,
-    "clv": 0.0,
+    "closeLine": 168,
+    "clv": -28.44,
     "notes": ""
   },
   {
@@ -6507,8 +6507,8 @@
     "scoreAway": 1,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6551,8 +6551,8 @@
     "scoreAway": 2,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6595,8 +6595,8 @@
     "scoreAway": 1,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6639,8 +6639,8 @@
     "scoreAway": 2,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6683,8 +6683,8 @@
     "scoreAway": 8,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6705,8 +6705,8 @@
     "scoreAway": 2,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6749,8 +6749,8 @@
     "scoreAway": 2,
     "scoreHome": 7,
     "openLine": -166,
-    "closeLine": -166,
-    "clv": 0.0,
+    "closeLine": -152,
+    "clv": -2.09,
     "notes": ""
   },
   {
@@ -6771,8 +6771,8 @@
     "scoreAway": 3,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6793,8 +6793,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": 118,
-    "closeLine": 115,
-    "clv": 0.64,
+    "closeLine": 148,
+    "clv": -5.55,
     "notes": ""
   },
   {
@@ -6815,8 +6815,8 @@
     "scoreAway": 8,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6837,8 +6837,8 @@
     "scoreAway": 2,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6881,8 +6881,8 @@
     "scoreAway": 3,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6903,8 +6903,8 @@
     "scoreAway": 3,
     "scoreHome": 8,
     "openLine": -118,
-    "closeLine": -125,
-    "clv": 1.43,
+    "closeLine": 630,
+    "clv": -40.43,
     "notes": ""
   },
   {
@@ -6925,8 +6925,8 @@
     "scoreAway": 7,
     "scoreHome": 11,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6969,8 +6969,8 @@
     "scoreAway": 0,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -6991,8 +6991,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": -148,
-    "closeLine": -148,
-    "clv": 0.0,
+    "closeLine": -128,
+    "clv": -3.54,
     "notes": ""
   },
   {
@@ -7013,8 +7013,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7035,8 +7035,8 @@
     "scoreAway": 9,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7079,8 +7079,8 @@
     "scoreAway": 12,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7123,8 +7123,8 @@
     "scoreAway": 6,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7145,8 +7145,8 @@
     "scoreAway": 8,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7167,8 +7167,8 @@
     "scoreAway": 4,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7255,8 +7255,8 @@
     "scoreAway": 4,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7277,8 +7277,8 @@
     "scoreAway": 4,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7299,8 +7299,8 @@
     "scoreAway": 6,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7343,8 +7343,8 @@
     "scoreAway": 3,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7431,8 +7431,8 @@
     "scoreAway": 4,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7475,8 +7475,8 @@
     "scoreAway": 6,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7519,8 +7519,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7563,8 +7563,8 @@
     "scoreAway": 0,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7585,8 +7585,8 @@
     "scoreAway": 7,
     "scoreHome": 1,
     "openLine": -172,
-    "closeLine": -172,
-    "clv": 0.0,
+    "closeLine": -164,
+    "clv": -1.11,
     "notes": ""
   },
   {
@@ -7607,8 +7607,8 @@
     "scoreAway": 2,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7629,8 +7629,8 @@
     "scoreAway": 0,
     "scoreHome": 8,
     "openLine": -146,
-    "closeLine": -146,
-    "clv": 0.0,
+    "closeLine": -164,
+    "clv": 2.77,
     "notes": ""
   },
   {
@@ -7651,8 +7651,8 @@
     "scoreAway": 0,
     "scoreHome": 7,
     "openLine": -146,
-    "closeLine": -146,
-    "clv": 0.0,
+    "closeLine": -196,
+    "clv": 6.87,
     "notes": ""
   },
   {
@@ -7673,8 +7673,8 @@
     "scoreAway": 2,
     "scoreHome": 5,
     "openLine": -124,
-    "closeLine": -124,
-    "clv": 0.0,
+    "closeLine": 122,
+    "clv": -10.31,
     "notes": ""
   },
   {
@@ -7695,8 +7695,8 @@
     "scoreAway": 2,
     "scoreHome": 5,
     "openLine": 168,
-    "closeLine": 168,
-    "clv": 0.0,
+    "closeLine": -140,
+    "clv": 21.02,
     "notes": ""
   },
   {
@@ -7717,8 +7717,8 @@
     "scoreAway": 2,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7739,8 +7739,8 @@
     "scoreAway": 0,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7761,8 +7761,8 @@
     "scoreAway": 13,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7805,8 +7805,8 @@
     "scoreAway": 1,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7827,8 +7827,8 @@
     "scoreAway": 1,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7849,8 +7849,8 @@
     "scoreAway": 5,
     "scoreHome": 4,
     "openLine": -104,
-    "closeLine": -104,
-    "clv": 0.0,
+    "closeLine": -350,
+    "clv": 26.8,
     "notes": ""
   },
   {
@@ -7871,8 +7871,8 @@
     "scoreAway": 5,
     "scoreHome": 4,
     "openLine": 152,
-    "closeLine": 152,
-    "clv": 0.0,
+    "closeLine": -144,
+    "clv": 19.33,
     "notes": ""
   },
   {
@@ -7893,8 +7893,8 @@
     "scoreAway": 5,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7915,8 +7915,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -7981,8 +7981,8 @@
     "scoreAway": 6,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8003,8 +8003,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8025,8 +8025,8 @@
     "scoreAway": 1,
     "scoreHome": 13,
     "openLine": 180,
-    "closeLine": 180,
-    "clv": 0.0,
+    "closeLine": -104,
+    "clv": 15.27,
     "notes": ""
   },
   {
@@ -8047,8 +8047,8 @@
     "scoreAway": 11,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8069,8 +8069,8 @@
     "scoreAway": 1,
     "scoreHome": 13,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8091,8 +8091,8 @@
     "scoreAway": 7,
     "scoreHome": 6,
     "openLine": 150,
-    "closeLine": 150,
-    "clv": 0.0,
+    "closeLine": 146,
+    "clv": 0.65,
     "notes": ""
   },
   {
@@ -8113,8 +8113,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8135,8 +8135,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": 140,
-    "closeLine": 140,
-    "clv": 0.0,
+    "closeLine": 134,
+    "clv": 1.07,
     "notes": ""
   },
   {
@@ -8157,8 +8157,8 @@
     "scoreAway": 6,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8179,8 +8179,8 @@
     "scoreAway": 6,
     "scoreHome": 5,
     "openLine": -170,
-    "closeLine": -170,
-    "clv": 0.0,
+    "closeLine": -194,
+    "clv": 3.02,
     "notes": ""
   },
   {
@@ -8201,8 +8201,8 @@
     "scoreAway": 4,
     "scoreHome": 3,
     "openLine": -154,
-    "closeLine": -154,
-    "clv": 0.0,
+    "closeLine": -164,
+    "clv": 1.49,
     "notes": ""
   },
   {
@@ -8223,8 +8223,8 @@
     "scoreAway": 1,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8245,8 +8245,8 @@
     "scoreAway": 4,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8267,8 +8267,8 @@
     "scoreAway": 3,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8311,8 +8311,8 @@
     "scoreAway": 0,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8333,8 +8333,8 @@
     "scoreAway": 7,
     "scoreHome": 17,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8355,8 +8355,8 @@
     "scoreAway": 4,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8399,8 +8399,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8597,8 +8597,8 @@
     "scoreAway": 1,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8685,8 +8685,8 @@
     "scoreAway": 7,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8729,8 +8729,8 @@
     "scoreAway": 1,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8751,8 +8751,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -142,
-    "closeLine": -140,
-    "clv": -0.34,
+    "closeLine": -152,
+    "clv": 1.64,
     "notes": ""
   },
   {
@@ -8773,8 +8773,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8795,8 +8795,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": -128,
-    "closeLine": -130,
-    "clv": 0.38,
+    "closeLine": -134,
+    "clv": 1.12,
     "notes": ""
   },
   {
@@ -8817,8 +8817,8 @@
     "scoreAway": 1,
     "scoreHome": 0,
     "openLine": -102,
-    "closeLine": -102,
-    "clv": 0.0,
+    "closeLine": -106,
+    "clv": 0.96,
     "notes": ""
   },
   {
@@ -8839,8 +8839,8 @@
     "scoreAway": 1,
     "scoreHome": 0,
     "openLine": -166,
-    "closeLine": -170,
-    "clv": 0.56,
+    "closeLine": -176,
+    "clv": 1.36,
     "notes": ""
   },
   {
@@ -8883,8 +8883,8 @@
     "scoreAway": 4,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -111,
-    "clv": 0.23,
+    "closeLine": -115,
+    "clv": 1.11,
     "notes": ""
   },
   {
@@ -8905,8 +8905,8 @@
     "scoreAway": 6,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8927,8 +8927,8 @@
     "scoreAway": 4,
     "scoreHome": 5,
     "openLine": 138,
-    "closeLine": 132,
-    "clv": 1.09,
+    "closeLine": 126,
+    "clv": 2.23,
     "notes": ""
   },
   {
@@ -8949,8 +8949,8 @@
     "scoreAway": 4,
     "scoreHome": 5,
     "openLine": -166,
-    "closeLine": -176,
-    "clv": 1.36,
+    "closeLine": -178,
+    "clv": 1.62,
     "notes": ""
   },
   {
@@ -8971,8 +8971,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -8993,8 +8993,8 @@
     "scoreAway": 6,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9015,8 +9015,8 @@
     "scoreAway": 4,
     "scoreHome": 7,
     "openLine": 164,
-    "closeLine": 164,
-    "clv": 0.0,
+    "closeLine": 114,
+    "clv": 8.85,
     "notes": ""
   },
   {
@@ -9037,8 +9037,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9059,8 +9059,8 @@
     "scoreAway": 3,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9081,8 +9081,8 @@
     "scoreAway": 0,
     "scoreHome": 9,
     "openLine": -182,
-    "closeLine": -182,
-    "clv": 0.0,
+    "closeLine": 106,
+    "clv": -16.0,
     "notes": ""
   },
   {
@@ -9103,8 +9103,8 @@
     "scoreAway": 3,
     "scoreHome": 2,
     "openLine": -182,
-    "closeLine": -182,
-    "clv": 0.0,
+    "closeLine": -188,
+    "clv": 0.74,
     "notes": ""
   },
   {
@@ -9125,8 +9125,8 @@
     "scoreAway": 10,
     "scoreHome": 5,
     "openLine": -184,
-    "closeLine": -184,
-    "clv": 0.0,
+    "closeLine": 146,
+    "clv": -24.14,
     "notes": ""
   },
   {
@@ -9147,8 +9147,8 @@
     "scoreAway": 11,
     "scoreHome": 3,
     "openLine": -156,
-    "closeLine": -156,
-    "clv": 0.0,
+    "closeLine": -137,
+    "clv": -3.13,
     "notes": ""
   },
   {
@@ -9169,8 +9169,8 @@
     "scoreAway": 4,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9191,8 +9191,8 @@
     "scoreAway": 3,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9213,8 +9213,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9235,8 +9235,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": -118,
-    "closeLine": -118,
-    "clv": 0.0,
+    "closeLine": -110,
+    "clv": -1.75,
     "notes": ""
   },
   {
@@ -9257,8 +9257,8 @@
     "scoreAway": 0,
     "scoreHome": 9,
     "openLine": 116,
-    "closeLine": 116,
-    "clv": 0.0,
+    "closeLine": -158,
+    "clv": 14.94,
     "notes": ""
   },
   {
@@ -9279,8 +9279,8 @@
     "scoreAway": 3,
     "scoreHome": 2,
     "openLine": 120,
-    "closeLine": 120,
-    "clv": 0.0,
+    "closeLine": 122,
+    "clv": -0.41,
     "notes": ""
   },
   {
@@ -9301,8 +9301,8 @@
     "scoreAway": 10,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9323,8 +9323,8 @@
     "scoreAway": 5,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9345,8 +9345,8 @@
     "scoreAway": 7,
     "scoreHome": 4,
     "openLine": 160,
-    "closeLine": 160,
-    "clv": 0.0,
+    "closeLine": -200,
+    "clv": 28.21,
     "notes": ""
   },
   {
@@ -9367,8 +9367,8 @@
     "scoreAway": 2,
     "scoreHome": 15,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9389,8 +9389,8 @@
     "scoreAway": 6,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9411,8 +9411,8 @@
     "scoreAway": 6,
     "scoreHome": 7,
     "openLine": 125,
-    "closeLine": 125,
-    "clv": 0.0,
+    "closeLine": 104,
+    "clv": 4.58,
     "notes": ""
   },
   {
@@ -9433,8 +9433,8 @@
     "scoreAway": 6,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9455,8 +9455,8 @@
     "scoreAway": 12,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9477,8 +9477,8 @@
     "scoreAway": 1,
     "scoreHome": 3,
     "openLine": 116,
-    "closeLine": 116,
-    "clv": 0.0,
+    "closeLine": 500,
+    "clv": -29.63,
     "notes": ""
   },
   {
@@ -9499,8 +9499,8 @@
     "scoreAway": 1,
     "scoreHome": 3,
     "openLine": -196,
-    "closeLine": -196,
-    "clv": 0.0,
+    "closeLine": -650,
+    "clv": 20.45,
     "notes": ""
   },
   {
@@ -9521,8 +9521,8 @@
     "scoreAway": 6,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9543,8 +9543,8 @@
     "scoreAway": 10,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9565,8 +9565,8 @@
     "scoreAway": 10,
     "scoreHome": 5,
     "openLine": -111,
-    "closeLine": -111,
-    "clv": 0.0,
+    "closeLine": -128,
+    "clv": 3.53,
     "notes": ""
   },
   {
@@ -9609,8 +9609,8 @@
     "scoreAway": 8,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9631,8 +9631,8 @@
     "scoreAway": 2,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9653,8 +9653,8 @@
     "scoreAway": 3,
     "scoreHome": 2,
     "openLine": -205,
-    "closeLine": -205,
-    "clv": 0.0,
+    "closeLine": -166,
+    "clv": -4.81,
     "notes": ""
   },
   {
@@ -9675,8 +9675,8 @@
     "scoreAway": 12,
     "scoreHome": 8,
     "openLine": -152,
-    "closeLine": -152,
-    "clv": 0.0,
+    "closeLine": -146,
+    "clv": -0.97,
     "notes": ""
   },
   {
@@ -9697,8 +9697,8 @@
     "scoreAway": 3,
     "scoreHome": 1,
     "openLine": -154,
-    "closeLine": -154,
-    "clv": 0.0,
+    "closeLine": -172,
+    "clv": 2.61,
     "notes": ""
   },
   {
@@ -9719,8 +9719,8 @@
     "scoreAway": 2,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9741,8 +9741,8 @@
     "scoreAway": 3,
     "scoreHome": 2,
     "openLine": 108,
-    "closeLine": 108,
-    "clv": 0.0,
+    "closeLine": 132,
+    "clv": -4.97,
     "notes": ""
   },
   {
@@ -9763,8 +9763,8 @@
     "scoreAway": 7,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9785,8 +9785,8 @@
     "scoreAway": 3,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9807,8 +9807,8 @@
     "scoreAway": 2,
     "scoreHome": 5,
     "openLine": -102,
-    "closeLine": -102,
-    "clv": 0.0,
+    "closeLine": -112,
+    "clv": 2.34,
     "notes": ""
   },
   {
@@ -9829,8 +9829,8 @@
     "scoreAway": 2,
     "scoreHome": 5,
     "openLine": -200,
-    "closeLine": 164,
-    "clv": -28.79,
+    "closeLine": 150,
+    "clv": -26.67,
     "notes": ""
   },
   {
@@ -9851,8 +9851,8 @@
     "scoreAway": 1,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9873,8 +9873,8 @@
     "scoreAway": 3,
     "scoreHome": 9,
     "openLine": -142,
-    "closeLine": -142,
-    "clv": 0.0,
+    "closeLine": 114,
+    "clv": -11.95,
     "notes": ""
   },
   {
@@ -9895,8 +9895,8 @@
     "scoreAway": 3,
     "scoreHome": 9,
     "openLine": 152,
-    "closeLine": 152,
-    "clv": 0.0,
+    "closeLine": 250,
+    "clv": -11.11,
     "notes": ""
   },
   {
@@ -9917,8 +9917,8 @@
     "scoreAway": 0,
     "scoreHome": 6,
     "openLine": 126,
-    "closeLine": 126,
-    "clv": 0.0,
+    "closeLine": -200,
+    "clv": 22.42,
     "notes": ""
   },
   {
@@ -9961,8 +9961,8 @@
     "scoreAway": 1,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -9983,8 +9983,8 @@
     "scoreAway": 1,
     "scoreHome": 5,
     "openLine": -176,
-    "closeLine": -176,
-    "clv": 0.0,
+    "closeLine": -172,
+    "clv": -0.53,
     "notes": ""
   },
   {
@@ -10005,8 +10005,8 @@
     "scoreAway": 1,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10027,8 +10027,8 @@
     "scoreAway": 3,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10049,8 +10049,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": -162,
-    "closeLine": -162,
-    "clv": 0.0,
+    "closeLine": -176,
+    "clv": 1.94,
     "notes": ""
   },
   {
@@ -10071,8 +10071,8 @@
     "scoreAway": 2,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10093,8 +10093,8 @@
     "scoreAway": 13,
     "scoreHome": 3,
     "openLine": -112,
-    "closeLine": -112,
-    "clv": 0.0,
+    "closeLine": -104,
+    "clv": -1.85,
     "notes": ""
   },
   {
@@ -10115,8 +10115,8 @@
     "scoreAway": 13,
     "scoreHome": 3,
     "openLine": 158,
-    "closeLine": 158,
-    "clv": 0.0,
+    "closeLine": 162,
+    "clv": -0.59,
     "notes": ""
   },
   {
@@ -10137,8 +10137,8 @@
     "scoreAway": 4,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10181,8 +10181,8 @@
     "scoreAway": 5,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10291,8 +10291,8 @@
     "scoreAway": 1,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10357,8 +10357,8 @@
     "scoreAway": 6,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10379,8 +10379,8 @@
     "scoreAway": 1,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10401,8 +10401,8 @@
     "scoreAway": 7,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10423,8 +10423,8 @@
     "scoreAway": 9,
     "scoreHome": 3,
     "openLine": 112,
-    "closeLine": 106,
-    "clv": 1.37,
+    "closeLine": -126,
+    "clv": 8.58,
     "notes": ""
   },
   {
@@ -10445,8 +10445,8 @@
     "scoreAway": 9,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10467,8 +10467,8 @@
     "scoreAway": 10,
     "scoreHome": 4,
     "openLine": -156,
-    "closeLine": -160,
-    "clv": 0.6,
+    "closeLine": -162,
+    "clv": 0.89,
     "notes": ""
   },
   {
@@ -10489,8 +10489,8 @@
     "scoreAway": 2,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10511,8 +10511,8 @@
     "scoreAway": 2,
     "scoreHome": 10,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10533,8 +10533,8 @@
     "scoreAway": 4,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10555,8 +10555,8 @@
     "scoreAway": 6,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10577,8 +10577,8 @@
     "scoreAway": 6,
     "scoreHome": 2,
     "openLine": -134,
-    "closeLine": -134,
-    "clv": 0.0,
+    "closeLine": 360,
+    "clv": -35.53,
     "notes": ""
   },
   {
@@ -10599,8 +10599,8 @@
     "scoreAway": 10,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10687,8 +10687,8 @@
     "scoreAway": 2,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10709,8 +10709,8 @@
     "scoreAway": 7,
     "scoreHome": 6,
     "openLine": 142,
-    "closeLine": 142,
-    "clv": 0.0,
+    "closeLine": 146,
+    "clv": -0.67,
     "notes": ""
   },
   {
@@ -10731,8 +10731,8 @@
     "scoreAway": 7,
     "scoreHome": 6,
     "openLine": -152,
-    "closeLine": -152,
-    "clv": 0.0,
+    "closeLine": -146,
+    "clv": -0.97,
     "notes": ""
   },
   {
@@ -10753,8 +10753,8 @@
     "scoreAway": 2,
     "scoreHome": 10,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10775,8 +10775,8 @@
     "scoreAway": 2,
     "scoreHome": 5,
     "openLine": 120,
-    "closeLine": 120,
-    "clv": 0.0,
+    "closeLine": 122,
+    "clv": -0.41,
     "notes": ""
   },
   {
@@ -10819,8 +10819,8 @@
     "scoreAway": 6,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": -115,
+    "clv": 1.11,
     "notes": ""
   },
   {
@@ -10841,8 +10841,8 @@
     "scoreAway": 0,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10863,8 +10863,8 @@
     "scoreAway": 0,
     "scoreHome": 7,
     "openLine": -105,
-    "closeLine": -105,
-    "clv": 0.0,
+    "closeLine": -118,
+    "clv": 2.91,
     "notes": ""
   },
   {
@@ -10885,8 +10885,8 @@
     "scoreAway": 8,
     "scoreHome": 7,
     "openLine": 134,
-    "closeLine": 134,
-    "clv": 0.0,
+    "closeLine": 136,
+    "clv": -0.36,
     "notes": ""
   },
   {
@@ -10907,8 +10907,8 @@
     "scoreAway": 8,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10929,8 +10929,8 @@
     "scoreAway": 8,
     "scoreHome": 7,
     "openLine": -146,
-    "closeLine": -146,
-    "clv": 0.0,
+    "closeLine": -160,
+    "clv": 2.19,
     "notes": ""
   },
   {
@@ -10951,8 +10951,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10973,8 +10973,8 @@
     "scoreAway": 1,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -10995,8 +10995,8 @@
     "scoreAway": 1,
     "scoreHome": 4,
     "openLine": 122,
-    "closeLine": 122,
-    "clv": 0.0,
+    "closeLine": -164,
+    "clv": 17.08,
     "notes": ""
   },
   {
@@ -11017,8 +11017,8 @@
     "scoreAway": 1,
     "scoreHome": 4,
     "openLine": -140,
-    "closeLine": -140,
-    "clv": 0.0,
+    "closeLine": 128,
+    "clv": -14.47,
     "notes": ""
   },
   {
@@ -11061,8 +11061,8 @@
     "scoreAway": 0,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": 126,
+    "clv": -8.13,
     "notes": ""
   },
   {
@@ -11083,8 +11083,8 @@
     "scoreAway": 2,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11105,8 +11105,8 @@
     "scoreAway": 1,
     "scoreHome": 15,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11149,8 +11149,8 @@
     "scoreAway": 1,
     "scoreHome": 15,
     "openLine": -152,
-    "closeLine": -162,
-    "clv": 1.51,
+    "closeLine": -160,
+    "clv": 1.22,
     "notes": ""
   },
   {
@@ -11171,8 +11171,8 @@
     "scoreAway": 4,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11193,8 +11193,8 @@
     "scoreAway": 3,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11215,8 +11215,8 @@
     "scoreAway": 2,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11237,8 +11237,8 @@
     "scoreAway": 2,
     "scoreHome": 0,
     "openLine": 132,
-    "closeLine": 126,
-    "clv": 1.14,
+    "closeLine": 122,
+    "clv": 1.94,
     "notes": ""
   },
   {
@@ -11259,8 +11259,8 @@
     "scoreAway": 2,
     "scoreHome": 5,
     "openLine": -174,
-    "closeLine": -174,
-    "clv": 0.0,
+    "closeLine": -178,
+    "clv": 0.53,
     "notes": ""
   },
   {
@@ -11281,8 +11281,8 @@
     "scoreAway": 2,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11303,8 +11303,8 @@
     "scoreAway": 2,
     "scoreHome": 5,
     "openLine": 116,
-    "closeLine": 116,
-    "clv": 0.0,
+    "closeLine": 115,
+    "clv": 0.22,
     "notes": ""
   },
   {
@@ -11347,8 +11347,8 @@
     "scoreAway": 11,
     "scoreHome": 9,
     "openLine": 150,
-    "closeLine": 150,
-    "clv": 0.0,
+    "closeLine": 152,
+    "clv": -0.32,
     "notes": ""
   },
   {
@@ -11413,8 +11413,8 @@
     "scoreAway": 3,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11457,8 +11457,8 @@
     "scoreAway": 9,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11479,8 +11479,8 @@
     "scoreAway": 2,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11501,8 +11501,8 @@
     "scoreAway": 6,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11567,8 +11567,8 @@
     "scoreAway": 3,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11589,8 +11589,8 @@
     "scoreAway": 2,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11633,8 +11633,8 @@
     "scoreAway": 3,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11655,8 +11655,8 @@
     "scoreAway": 6,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -11963,8 +11963,8 @@
     "scoreAway": 3,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12007,8 +12007,8 @@
     "scoreAway": 3,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12051,8 +12051,8 @@
     "scoreAway": 9,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12095,8 +12095,8 @@
     "scoreAway": 0,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12117,8 +12117,8 @@
     "scoreAway": 8,
     "scoreHome": 4,
     "openLine": 116,
-    "closeLine": 116,
-    "clv": 0.0,
+    "closeLine": 122,
+    "clv": -1.25,
     "notes": ""
   },
   {
@@ -12139,8 +12139,8 @@
     "scoreAway": 8,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12161,8 +12161,8 @@
     "scoreAway": 4,
     "scoreHome": 3,
     "openLine": 142,
-    "closeLine": 142,
-    "clv": 0.0,
+    "closeLine": 105,
+    "clv": 7.46,
     "notes": ""
   },
   {
@@ -12183,8 +12183,8 @@
     "scoreAway": 4,
     "scoreHome": 3,
     "openLine": -120,
-    "closeLine": -120,
-    "clv": 0.0,
+    "closeLine": -158,
+    "clv": 6.69,
     "notes": ""
   },
   {
@@ -12205,8 +12205,8 @@
     "scoreAway": 6,
     "scoreHome": 9,
     "openLine": -130,
-    "closeLine": -130,
-    "clv": 0.0,
+    "closeLine": -140,
+    "clv": 1.81,
     "notes": ""
   },
   {
@@ -12227,8 +12227,8 @@
     "scoreAway": 2,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12249,8 +12249,8 @@
     "scoreAway": 5,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12271,8 +12271,8 @@
     "scoreAway": 6,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12293,8 +12293,8 @@
     "scoreAway": 5,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12315,8 +12315,8 @@
     "scoreAway": 3,
     "scoreHome": 5,
     "openLine": -194,
-    "closeLine": -194,
-    "clv": 0.0,
+    "closeLine": -200,
+    "clv": 0.68,
     "notes": ""
   },
   {
@@ -12337,8 +12337,8 @@
     "scoreAway": 3,
     "scoreHome": 5,
     "openLine": -200,
-    "closeLine": -200,
-    "clv": 0.0,
+    "closeLine": -205,
+    "clv": 0.55,
     "notes": ""
   },
   {
@@ -12359,8 +12359,8 @@
     "scoreAway": 5,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12381,8 +12381,8 @@
     "scoreAway": 4,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12403,8 +12403,8 @@
     "scoreAway": 4,
     "scoreHome": 8,
     "openLine": -150,
-    "closeLine": -150,
-    "clv": 0.0,
+    "closeLine": -178,
+    "clv": 4.03,
     "notes": ""
   },
   {
@@ -12425,8 +12425,8 @@
     "scoreAway": 5,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12447,8 +12447,8 @@
     "scoreAway": 7,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12469,8 +12469,8 @@
     "scoreAway": 6,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12491,8 +12491,8 @@
     "scoreAway": 2,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12557,8 +12557,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12601,8 +12601,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12623,8 +12623,8 @@
     "scoreAway": 1,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12645,8 +12645,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12711,8 +12711,8 @@
     "scoreAway": 4,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12733,8 +12733,8 @@
     "scoreAway": 2,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12755,8 +12755,8 @@
     "scoreAway": 6,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12821,8 +12821,8 @@
     "scoreAway": 3,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12843,8 +12843,8 @@
     "scoreAway": 9,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12865,8 +12865,8 @@
     "scoreAway": 3,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12887,8 +12887,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12909,8 +12909,8 @@
     "scoreAway": 3,
     "scoreHome": 10,
     "openLine": 102,
-    "closeLine": 102,
-    "clv": 0.0,
+    "closeLine": -104,
+    "clv": 1.48,
     "notes": ""
   },
   {
@@ -12931,8 +12931,8 @@
     "scoreAway": 3,
     "scoreHome": 10,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12953,8 +12953,8 @@
     "scoreAway": 0,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12975,8 +12975,8 @@
     "scoreAway": 2,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -12997,8 +12997,8 @@
     "scoreAway": 11,
     "scoreHome": 3,
     "openLine": 106,
-    "closeLine": 106,
-    "clv": 0.0,
+    "closeLine": 150,
+    "clv": -8.54,
     "notes": ""
   },
   {
@@ -13019,8 +13019,8 @@
     "scoreAway": 11,
     "scoreHome": 3,
     "openLine": -162,
-    "closeLine": -162,
-    "clv": 0.0,
+    "closeLine": -114,
+    "clv": -8.56,
     "notes": ""
   },
   {
@@ -13063,8 +13063,8 @@
     "scoreAway": 0,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13085,8 +13085,8 @@
     "scoreAway": 0,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13107,8 +13107,8 @@
     "scoreAway": 8,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13129,8 +13129,8 @@
     "scoreAway": 2,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13151,8 +13151,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": -164,
-    "closeLine": -164,
-    "clv": 0.0,
+    "closeLine": 168,
+    "clv": -24.81,
     "notes": ""
   },
   {
@@ -13173,8 +13173,8 @@
     "scoreAway": 1,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13195,8 +13195,8 @@
     "scoreAway": 1,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13217,8 +13217,8 @@
     "scoreAway": 6,
     "scoreHome": 2,
     "openLine": -182,
-    "closeLine": -182,
-    "clv": 0.0,
+    "closeLine": 158,
+    "clv": -25.78,
     "notes": ""
   },
   {
@@ -13239,8 +13239,8 @@
     "scoreAway": 6,
     "scoreHome": 2,
     "openLine": 120,
-    "closeLine": 120,
-    "clv": 0.0,
+    "closeLine": -106,
+    "clv": 6.0,
     "notes": ""
   },
   {
@@ -13283,8 +13283,8 @@
     "scoreAway": 9,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13305,8 +13305,8 @@
     "scoreAway": 10,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13349,8 +13349,8 @@
     "scoreAway": 1,
     "scoreHome": 12,
     "openLine": -188,
-    "closeLine": -188,
-    "clv": 0.0,
+    "closeLine": -184,
+    "clv": -0.49,
     "notes": ""
   },
   {
@@ -13371,8 +13371,8 @@
     "scoreAway": 7,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13393,8 +13393,8 @@
     "scoreAway": 7,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13415,8 +13415,8 @@
     "scoreAway": 5,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13437,8 +13437,8 @@
     "scoreAway": 7,
     "scoreHome": 10,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13481,8 +13481,8 @@
     "scoreAway": 4,
     "scoreHome": 3,
     "openLine": -132,
-    "closeLine": -132,
-    "clv": 0.0,
+    "closeLine": -130,
+    "clv": -0.37,
     "notes": ""
   },
   {
@@ -13525,8 +13525,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": 160,
-    "closeLine": 160,
-    "clv": 0.0,
+    "closeLine": 154,
+    "clv": 0.91,
     "notes": ""
   },
   {
@@ -13547,8 +13547,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -137,
-    "closeLine": -137,
-    "clv": 0.0,
+    "closeLine": -134,
+    "clv": -0.54,
     "notes": ""
   },
   {
@@ -13569,8 +13569,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13591,8 +13591,8 @@
     "scoreAway": 10,
     "scoreHome": 4,
     "openLine": -192,
-    "closeLine": -192,
-    "clv": 0.0,
+    "closeLine": 130,
+    "clv": -22.28,
     "notes": ""
   },
   {
@@ -13613,8 +13613,8 @@
     "scoreAway": 2,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13635,8 +13635,8 @@
     "scoreAway": 2,
     "scoreHome": 15,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13657,8 +13657,8 @@
     "scoreAway": 7,
     "scoreHome": 0,
     "openLine": 105,
-    "closeLine": 105,
-    "clv": 0.0,
+    "closeLine": 104,
+    "clv": 0.24,
     "notes": ""
   },
   {
@@ -13701,8 +13701,8 @@
     "scoreAway": 4,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13723,8 +13723,8 @@
     "scoreAway": 2,
     "scoreHome": 6,
     "openLine": -162,
-    "closeLine": -162,
-    "clv": 0.0,
+    "closeLine": -166,
+    "clv": 0.57,
     "notes": ""
   },
   {
@@ -13745,8 +13745,8 @@
     "scoreAway": 2,
     "scoreHome": 6,
     "openLine": 128,
-    "closeLine": 128,
-    "clv": 0.0,
+    "closeLine": 136,
+    "clv": -1.49,
     "notes": ""
   },
   {
@@ -13767,8 +13767,8 @@
     "scoreAway": 2,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13789,8 +13789,8 @@
     "scoreAway": 7,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13811,8 +13811,8 @@
     "scoreAway": 5,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13855,8 +13855,8 @@
     "scoreAway": 8,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13877,8 +13877,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13921,8 +13921,8 @@
     "scoreAway": 7,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13943,8 +13943,8 @@
     "scoreAway": 6,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": -114,
+    "clv": 0.89,
     "notes": ""
   },
   {
@@ -13965,8 +13965,8 @@
     "scoreAway": 6,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -13987,8 +13987,8 @@
     "scoreAway": 2,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14009,8 +14009,8 @@
     "scoreAway": 2,
     "scoreHome": 4,
     "openLine": -194,
-    "closeLine": -194,
-    "clv": 0.0,
+    "closeLine": -200,
+    "clv": 0.68,
     "notes": ""
   },
   {
@@ -14031,8 +14031,8 @@
     "scoreAway": 1,
     "scoreHome": 7,
     "openLine": -172,
-    "closeLine": -172,
-    "clv": 0.0,
+    "closeLine": 164,
+    "clv": -25.36,
     "notes": ""
   },
   {
@@ -14053,8 +14053,8 @@
     "scoreAway": 1,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14075,8 +14075,8 @@
     "scoreAway": 4,
     "scoreHome": 9,
     "openLine": 110,
-    "closeLine": 110,
-    "clv": 0.0,
+    "closeLine": 114,
+    "clv": -0.89,
     "notes": ""
   },
   {
@@ -14097,8 +14097,8 @@
     "scoreAway": 4,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14119,8 +14119,8 @@
     "scoreAway": 4,
     "scoreHome": 9,
     "openLine": -164,
-    "closeLine": -164,
-    "clv": 0.0,
+    "closeLine": -150,
+    "clv": -2.12,
     "notes": ""
   },
   {
@@ -14141,8 +14141,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14163,8 +14163,8 @@
     "scoreAway": 9,
     "scoreHome": 10,
     "openLine": 152,
-    "closeLine": 152,
-    "clv": 0.0,
+    "closeLine": 140,
+    "clv": 1.98,
     "notes": ""
   },
   {
@@ -14185,8 +14185,8 @@
     "scoreAway": 9,
     "scoreHome": 10,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14207,8 +14207,8 @@
     "scoreAway": 2,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14229,8 +14229,8 @@
     "scoreAway": 5,
     "scoreHome": 2,
     "openLine": 126,
-    "closeLine": 126,
-    "clv": 0.0,
+    "closeLine": 134,
+    "clv": -1.51,
     "notes": ""
   },
   {
@@ -14251,8 +14251,8 @@
     "scoreAway": 5,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14273,8 +14273,8 @@
     "scoreAway": 3,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14295,8 +14295,8 @@
     "scoreAway": 2,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14339,8 +14339,8 @@
     "scoreAway": 3,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14427,8 +14427,8 @@
     "scoreAway": 4,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14449,8 +14449,8 @@
     "scoreAway": 1,
     "scoreHome": 10,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14493,8 +14493,8 @@
     "scoreAway": 2,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14515,8 +14515,8 @@
     "scoreAway": 1,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14537,8 +14537,8 @@
     "scoreAway": 7,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14559,8 +14559,8 @@
     "scoreAway": 7,
     "scoreHome": 3,
     "openLine": 146,
-    "closeLine": 146,
-    "clv": 0.0,
+    "closeLine": -182,
+    "clv": 23.89,
     "notes": ""
   },
   {
@@ -14581,8 +14581,8 @@
     "scoreAway": 9,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14603,8 +14603,8 @@
     "scoreAway": 2,
     "scoreHome": 16,
     "openLine": 146,
-    "closeLine": 146,
-    "clv": 0.0,
+    "closeLine": 126,
+    "clv": 3.6,
     "notes": ""
   },
   {
@@ -14625,8 +14625,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -205,
-    "closeLine": -205,
-    "clv": 0.0,
+    "closeLine": -176,
+    "clv": -3.44,
     "notes": ""
   },
   {
@@ -14647,8 +14647,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": 114,
-    "closeLine": 114,
-    "clv": 0.0,
+    "closeLine": 128,
+    "clv": -2.87,
     "notes": ""
   },
   {
@@ -14669,8 +14669,8 @@
     "scoreAway": 4,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14691,8 +14691,8 @@
     "scoreAway": 3,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14713,8 +14713,8 @@
     "scoreAway": 10,
     "scoreHome": 6,
     "openLine": -104,
-    "closeLine": -104,
-    "clv": 0.0,
+    "closeLine": -164,
+    "clv": 11.14,
     "notes": ""
   },
   {
@@ -14735,8 +14735,8 @@
     "scoreAway": 4,
     "scoreHome": 1,
     "openLine": -188,
-    "closeLine": -188,
-    "clv": 0.0,
+    "closeLine": -184,
+    "clv": -0.49,
     "notes": ""
   },
   {
@@ -14757,8 +14757,8 @@
     "scoreAway": 4,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14779,8 +14779,8 @@
     "scoreAway": 8,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14801,8 +14801,8 @@
     "scoreAway": 7,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14823,8 +14823,8 @@
     "scoreAway": 5,
     "scoreHome": 4,
     "openLine": -148,
-    "closeLine": -148,
-    "clv": 0.0,
+    "closeLine": -162,
+    "clv": 2.15,
     "notes": ""
   },
   {
@@ -14845,8 +14845,8 @@
     "scoreAway": 5,
     "scoreHome": 4,
     "openLine": 142,
-    "closeLine": 142,
-    "clv": 0.0,
+    "closeLine": 126,
+    "clv": 2.93,
     "notes": ""
   },
   {
@@ -14867,8 +14867,8 @@
     "scoreAway": 3,
     "scoreHome": 7,
     "openLine": 146,
-    "closeLine": 146,
-    "clv": 0.0,
+    "closeLine": 118,
+    "clv": 5.22,
     "notes": ""
   },
   {
@@ -14889,8 +14889,8 @@
     "scoreAway": 9,
     "scoreHome": 11,
     "openLine": -162,
-    "closeLine": -162,
-    "clv": 0.0,
+    "closeLine": -108,
+    "clv": -9.91,
     "notes": ""
   },
   {
@@ -14911,8 +14911,8 @@
     "scoreAway": 9,
     "scoreHome": 11,
     "openLine": 106,
-    "closeLine": 106,
-    "clv": 0.0,
+    "closeLine": 150,
+    "clv": -8.54,
     "notes": ""
   },
   {
@@ -14933,8 +14933,8 @@
     "scoreAway": 8,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14955,8 +14955,8 @@
     "scoreAway": 12,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -14977,8 +14977,8 @@
     "scoreAway": 8,
     "scoreHome": 6,
     "openLine": -102,
-    "closeLine": -118,
-    "clv": 3.63,
+    "closeLine": -102,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -14999,8 +14999,8 @@
     "scoreAway": 8,
     "scoreHome": 6,
     "openLine": -164,
-    "closeLine": -205,
-    "clv": 5.09,
+    "closeLine": -164,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -15021,8 +15021,8 @@
     "scoreAway": 5,
     "scoreHome": 1,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15263,8 +15263,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15373,8 +15373,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15395,8 +15395,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15417,8 +15417,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15483,8 +15483,8 @@
     "scoreAway": 4,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15615,8 +15615,8 @@
     "scoreAway": 5,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15703,8 +15703,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15725,8 +15725,8 @@
     "scoreAway": 3,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15747,8 +15747,8 @@
     "scoreAway": 3,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15791,8 +15791,8 @@
     "scoreAway": 7,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15813,8 +15813,8 @@
     "scoreAway": 9,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15835,8 +15835,8 @@
     "scoreAway": 6,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15857,8 +15857,8 @@
     "scoreAway": 4,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15879,8 +15879,8 @@
     "scoreAway": 0,
     "scoreHome": 11,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15901,8 +15901,8 @@
     "scoreAway": 0,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15923,8 +15923,8 @@
     "scoreAway": 4,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -15945,8 +15945,8 @@
     "scoreAway": 5,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16055,8 +16055,8 @@
     "scoreAway": 2,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16077,8 +16077,8 @@
     "scoreAway": 2,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16099,8 +16099,8 @@
     "scoreAway": 0,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16165,8 +16165,8 @@
     "scoreAway": 4,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16187,8 +16187,8 @@
     "scoreAway": 1,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16341,8 +16341,8 @@
     "scoreAway": 5,
     "scoreHome": 7,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16429,8 +16429,8 @@
     "scoreAway": 5,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16495,8 +16495,8 @@
     "scoreAway": 5,
     "scoreHome": 3,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16561,8 +16561,8 @@
     "scoreAway": 1,
     "scoreHome": 8,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16583,8 +16583,8 @@
     "scoreAway": 0,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16605,8 +16605,8 @@
     "scoreAway": 23,
     "scoreHome": 9,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16627,8 +16627,8 @@
     "scoreAway": 6,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16693,8 +16693,8 @@
     "scoreAway": 4,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16759,8 +16759,8 @@
     "scoreAway": 2,
     "scoreHome": 12,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16825,8 +16825,8 @@
     "scoreAway": 12,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16847,8 +16847,8 @@
     "scoreAway": 6,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16869,8 +16869,8 @@
     "scoreAway": 3,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16891,8 +16891,8 @@
     "scoreAway": 0,
     "scoreHome": 5,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16913,8 +16913,8 @@
     "scoreAway": 5,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16957,8 +16957,8 @@
     "scoreAway": 1,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -16979,8 +16979,8 @@
     "scoreAway": 10,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -17023,8 +17023,8 @@
     "scoreAway": 3,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -17067,8 +17067,8 @@
     "scoreAway": 7,
     "scoreHome": 0,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -17111,8 +17111,8 @@
     "scoreAway": 1,
     "scoreHome": 2,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -17133,8 +17133,8 @@
     "scoreAway": 3,
     "scoreHome": 4,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -17155,8 +17155,8 @@
     "scoreAway": 8,
     "scoreHome": 6,
     "openLine": -110,
-    "closeLine": -110,
-    "clv": 0.0,
+    "closeLine": null,
+    "clv": null,
     "notes": ""
   },
   {
@@ -17172,10 +17172,10 @@
     "odds": -110,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "win",
+    "payout": 0.91,
+    "scoreAway": 4,
+    "scoreHome": 3,
     "openLine": -110,
     "closeLine": null,
     "clv": null,
@@ -17194,10 +17194,10 @@
     "odds": -110,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "loss",
+    "payout": -1.0,
+    "scoreAway": 2,
+    "scoreHome": 1,
     "openLine": -110,
     "closeLine": null,
     "clv": null,
@@ -17216,10 +17216,10 @@
     "odds": -110,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "win",
+    "payout": 0.91,
+    "scoreAway": 5,
+    "scoreHome": 6,
     "openLine": -110,
     "closeLine": null,
     "clv": null,
@@ -17238,10 +17238,10 @@
     "odds": -110,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "win",
+    "payout": 0.91,
+    "scoreAway": 2,
+    "scoreHome": 3,
     "openLine": -110,
     "closeLine": null,
     "clv": null,
@@ -17260,13 +17260,13 @@
     "odds": -136,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "win",
+    "payout": 0.74,
+    "scoreAway": 2,
+    "scoreHome": 3,
     "openLine": -136,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -122,
+    "clv": -2.67,
     "notes": ""
   }
 ]
