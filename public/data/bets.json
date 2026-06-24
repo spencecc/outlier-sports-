@@ -17348,13 +17348,13 @@
     "odds": -171,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "win",
+    "payout": 0.58,
+    "scoreAway": 2,
+    "scoreHome": 4,
     "openLine": -171,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -171,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -17375,8 +17375,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -201,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -201,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -17419,8 +17419,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -144,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -144,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -17441,8 +17441,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": 106,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": 106,
+    "clv": 0.0,
     "notes": ""
   },
   {
@@ -17463,8 +17463,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -147,
-    "closeLine": null,
-    "clv": null,
+    "closeLine": -147,
+    "clv": 0.0,
     "notes": ""
   },
   {
