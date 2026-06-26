@@ -1,28 +1,5 @@
 {
-  "date": "2026-06-25",
-  "picks": [
-    {
-      "date": "2026-06-25",
-      "sport": "MLB",
-      "game": "HOU @ DET",
-      "play": "DET +1.5",
-      "type": "Run Line",
-      "edge": 8.2,
-      "odds": -189,
-      "time": "6:40 PM ET",
-      "isLean": false
-    },
-    {
-      "date": "2026-06-25",
-      "sport": "MLB",
-      "game": "PHI @ WSH",
-      "play": "WSH +1.5",
-      "type": "Run Line",
-      "edge": 7.1,
-      "odds": -115,
-      "time": "6:45 PM ET",
-      "isLean": false
-    }
-  ],
-  "hasPicks": true
+  "date": "2026-06-26",
+  "picks": [],
+  "hasPicks": false
 }
