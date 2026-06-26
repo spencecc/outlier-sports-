@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-25T22:30:01.693743+00:00",
+  "as_of": "2026-06-26T00:30:01.534162+00:00",
   "date": "2026-06-25",
   "version": "edge-alerts-v1",
   "sports": [
@@ -8,7 +8,7 @@
   "summary": {
     "model_edges": 4,
     "book_discrepancies": 9,
-    "line_movements": 0,
+    "line_movements": 15,
     "warnings": []
   },
   "model_edges": [
@@ -28,7 +28,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     },
     {
       "sport": "MLB",
@@ -46,7 +46,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     },
     {
       "sport": "MLB",
@@ -64,7 +64,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     },
     {
       "sport": "MLB",
@@ -82,7 +82,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     }
   ],
   "book_discrepancies": [
@@ -109,7 +109,7 @@
       "arb_return": -0.016858,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     },
     {
       "sport": "MLB",
@@ -134,7 +134,7 @@
       "arb_return": -0.017811,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     },
     {
       "sport": "MLB",
@@ -159,7 +159,7 @@
       "arb_return": -0.018352,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     },
     {
       "sport": "MLB",
@@ -184,7 +184,7 @@
       "arb_return": -0.019514,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     },
     {
       "sport": "MLB",
@@ -209,7 +209,7 @@
       "arb_return": -0.021322,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     },
     {
       "sport": "MLB",
@@ -234,7 +234,7 @@
       "arb_return": -0.021743,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     },
     {
       "sport": "MLB",
@@ -259,7 +259,7 @@
       "arb_return": -0.022034,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     },
     {
       "sport": "MLB",
@@ -284,7 +284,7 @@
       "arb_return": -0.02231,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     },
     {
       "sport": "MLB",
@@ -309,8 +309,234 @@
       "arb_return": -0.024125,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-25T22:30:01.693743+00:00"
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
     }
   ],
-  "line_movements": []
+  "line_movements": [
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_phi_wsh_lm",
+      "game": "Philadelphia Phillies at Washington Nationals",
+      "market": "moneyline",
+      "side": "Philadelphia Phillies",
+      "open_odds": "-174",
+      "current_odds": "-205",
+      "move": "-31",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_phi_wsh_lm",
+      "game": "Philadelphia Phillies at Washington Nationals",
+      "market": "moneyline",
+      "side": "Washington Nationals",
+      "open_odds": "+143",
+      "current_odds": "+158",
+      "move": "+15",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_tex_tor_lm",
+      "game": "Texas Rangers at Toronto Blue Jays",
+      "market": "moneyline",
+      "side": "Toronto Blue Jays",
+      "open_odds": "-156",
+      "current_odds": "-104",
+      "move": "+52",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_nyy_bos_lm",
+      "game": "New York Yankees at Boston Red Sox",
+      "market": "moneyline",
+      "side": "New York Yankees",
+      "open_odds": "-151",
+      "current_odds": "-110",
+      "move": "+41",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_nyy_bos_lm",
+      "game": "New York Yankees at Boston Red Sox",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "7.5",
+      "current_odds": "8.5",
+      "move": "+1.0",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Drift",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_hou_det_lm",
+      "game": "Houston Astros at Detroit Tigers",
+      "market": "moneyline",
+      "side": "Detroit Tigers",
+      "open_odds": "-114",
+      "current_odds": "-120",
+      "move": "-6",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_hou_det_lm",
+      "game": "Houston Astros at Detroit Tigers",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "9.0",
+      "current_odds": "8.5",
+      "move": "-0.5",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_tex_tor_lm",
+      "game": "Texas Rangers at Toronto Blue Jays",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "8.0",
+      "current_odds": "8.5",
+      "move": "+0.5",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_chc_nym_lm",
+      "game": "Chicago Cubs at New York Mets",
+      "market": "moneyline",
+      "side": "Chicago Cubs",
+      "open_odds": "-108",
+      "current_odds": "-110",
+      "move": "-2",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_chc_nym_lm",
+      "game": "Chicago Cubs at New York Mets",
+      "market": "moneyline",
+      "side": "New York Mets",
+      "open_odds": "-112",
+      "current_odds": "-106",
+      "move": "+6",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_ari_stl_lm",
+      "game": "Arizona Diamondbacks at St. Louis Cardinals",
+      "market": "moneyline",
+      "side": "Arizona Diamondbacks",
+      "open_odds": "+113",
+      "current_odds": "+112",
+      "move": "-1",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_ari_stl_lm",
+      "game": "Arizona Diamondbacks at St. Louis Cardinals",
+      "market": "moneyline",
+      "side": "St. Louis Cardinals",
+      "open_odds": "-136",
+      "current_odds": "-132",
+      "move": "+4",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_hou_det_lm",
+      "game": "Houston Astros at Detroit Tigers",
+      "market": "moneyline",
+      "side": "Houston Astros",
+      "open_odds": "-105",
+      "current_odds": "+102",
+      "move": "+207",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Price Flip",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_tex_tor_lm",
+      "game": "Texas Rangers at Toronto Blue Jays",
+      "market": "moneyline",
+      "side": "Texas Rangers",
+      "open_odds": "+129",
+      "current_odds": "-112",
+      "move": "-241",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Price Flip",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-25_nyy_bos_lm",
+      "game": "New York Yankees at Boston Red Sox",
+      "market": "moneyline",
+      "side": "Boston Red Sox",
+      "open_odds": "+125",
+      "current_odds": "-106",
+      "move": "-231",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Price Flip",
+      "updated_at": "2026-06-26T00:30:01.534162+00:00"
+    }
+  ]
 }
