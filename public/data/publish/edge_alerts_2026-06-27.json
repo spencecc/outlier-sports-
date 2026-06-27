@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-27T21:00:01.856843+00:00",
+  "as_of": "2026-06-27T22:30:01.261868+00:00",
   "date": "2026-06-27",
   "version": "edge-alerts-v1",
   "sports": [
@@ -28,7 +28,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -46,7 +46,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     }
   ],
   "book_discrepancies": [
@@ -73,7 +73,7 @@
       "arb_return": -0.006227,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -98,7 +98,7 @@
       "arb_return": -0.012315,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -123,7 +123,7 @@
       "arb_return": -0.01526,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -148,7 +148,7 @@
       "arb_return": -0.01642,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -173,7 +173,7 @@
       "arb_return": -0.016656,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -198,7 +198,7 @@
       "arb_return": -0.018519,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -223,7 +223,7 @@
       "arb_return": -0.020168,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -248,7 +248,7 @@
       "arb_return": -0.020672,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -273,7 +273,7 @@
       "arb_return": -0.02193,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -298,7 +298,7 @@
       "arb_return": -0.022233,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -323,7 +323,7 @@
       "arb_return": -0.022689,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -348,7 +348,7 @@
       "arb_return": -0.023351,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -373,7 +373,7 @@
       "arb_return": -0.024002,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -398,7 +398,7 @@
       "arb_return": -0.024181,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     },
     {
       "sport": "MLB",
@@ -423,7 +423,7 @@
       "arb_return": -0.024919,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-27T21:00:01.856843+00:00"
+      "updated_at": "2026-06-27T22:30:01.261868+00:00"
     }
   ],
   "line_movements": []
