@@ -1,17 +1,5 @@
 {
-  "date": "2026-06-26",
-  "picks": [
-    {
-      "date": "2026-06-26",
-      "sport": "MLB",
-      "game": "LAD @ SD",
-      "play": "Over 7.5",
-      "type": "Total",
-      "edge": 8.6,
-      "odds": -110,
-      "time": "9:45 PM ET",
-      "isLean": false
-    }
-  ],
-  "hasPicks": true
+  "date": "2026-06-27",
+  "picks": [],
+  "hasPicks": false
 }
