@@ -1,5 +1,17 @@
 {
   "date": "2026-06-27",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-06-27",
+      "sport": "MLB",
+      "game": "KC @ CWS",
+      "play": "Over 8.0",
+      "type": "Total",
+      "edge": 9.7,
+      "odds": -110,
+      "time": "4:10 PM ET",
+      "isLean": false
+    }
+  ],
+  "hasPicks": true
 }
