@@ -1,5 +1,50 @@
 {
   "date": "2026-06-28",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-06-28",
+      "sport": "MLB",
+      "game": "CIN @ PIT",
+      "play": "PIT -1.5",
+      "type": "Run Line",
+      "edge": 7.0,
+      "odds": 152,
+      "time": "1:35 PM ET",
+      "isLean": false
+    },
+    {
+      "date": "2026-06-28",
+      "sport": "MLB",
+      "game": "PHI @ NYM",
+      "play": "Under 8.5",
+      "type": "Total",
+      "edge": 8.3,
+      "odds": -110,
+      "time": "1:40 PM ET",
+      "isLean": false
+    },
+    {
+      "date": "2026-06-28",
+      "sport": "MLB",
+      "game": "KC @ CWS",
+      "play": "Over 8.5",
+      "type": "Total",
+      "edge": 8.6,
+      "odds": -110,
+      "time": "2:10 PM ET",
+      "isLean": false
+    },
+    {
+      "date": "2026-06-28",
+      "sport": "MLB",
+      "game": "CHC @ MIL",
+      "play": "Over 8.0",
+      "type": "Total",
+      "edge": 8.7,
+      "odds": -110,
+      "time": "2:10 PM ET",
+      "isLean": false
+    }
+  ],
+  "hasPicks": true
 }
