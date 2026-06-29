@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-28T22:30:01.260626+00:00",
+  "as_of": "2026-06-29T00:30:01.952756+00:00",
   "date": "2026-06-28",
   "version": "edge-alerts-v1",
   "sports": [
@@ -8,7 +8,7 @@
   "summary": {
     "model_edges": 6,
     "book_discrepancies": 15,
-    "line_movements": 0,
+    "line_movements": 5,
     "warnings": []
   },
   "model_edges": [
@@ -28,7 +28,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -46,7 +46,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -64,7 +64,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -82,7 +82,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -100,7 +100,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -118,7 +118,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     }
   ],
   "book_discrepancies": [
@@ -145,7 +145,7 @@
       "arb_return": -0.013722,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -170,7 +170,7 @@
       "arb_return": -0.019209,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -195,7 +195,7 @@
       "arb_return": -0.019211,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -220,7 +220,7 @@
       "arb_return": -0.019514,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -245,7 +245,7 @@
       "arb_return": -0.020216,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -270,7 +270,7 @@
       "arb_return": -0.020321,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -295,7 +295,7 @@
       "arb_return": -0.020321,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -320,7 +320,7 @@
       "arb_return": -0.020731,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -345,7 +345,7 @@
       "arb_return": -0.020913,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -370,7 +370,7 @@
       "arb_return": -0.022233,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -395,7 +395,7 @@
       "arb_return": -0.023721,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -420,7 +420,7 @@
       "arb_return": -0.023926,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -445,7 +445,7 @@
       "arb_return": -0.023933,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -470,7 +470,7 @@
       "arb_return": -0.024737,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     },
     {
       "sport": "MLB",
@@ -495,8 +495,84 @@
       "arb_return": -0.024919,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-06-28T22:30:01.260626+00:00"
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
     }
   ],
-  "line_movements": []
+  "line_movements": [
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-28_lad_sd_lm",
+      "game": "Los Angeles Dodgers at San Diego Padres",
+      "market": "moneyline",
+      "side": "Los Angeles Dodgers",
+      "open_odds": "-142",
+      "current_odds": "-10000",
+      "move": "-9858",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-28_lad_sd_lm",
+      "game": "Los Angeles Dodgers at San Diego Padres",
+      "market": "moneyline",
+      "side": "San Diego Padres",
+      "open_odds": "+118",
+      "current_odds": "+1700",
+      "move": "+1582",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-28_lad_sd_lm",
+      "game": "Los Angeles Dodgers at San Diego Padres",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "8.0",
+      "current_odds": "6.5",
+      "move": "-1.5",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-28_nyy_bos_lm",
+      "game": "New York Yankees at Boston Red Sox",
+      "market": "moneyline",
+      "side": "New York Yankees",
+      "open_odds": "-103",
+      "current_odds": "-104",
+      "move": "-1",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-06-28_nyy_bos_lm",
+      "game": "New York Yankees at Boston Red Sox",
+      "market": "moneyline",
+      "side": "Boston Red Sox",
+      "open_odds": "-117",
+      "current_odds": "-112",
+      "move": "+5",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-06-29T00:30:01.952756+00:00"
+    }
+  ]
 }
