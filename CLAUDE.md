@@ -148,6 +148,7 @@ All scripts that push to the site repo use a self-healing `commit_and_push` help
 ---
 
 ## HMC Plays — Logging Rules
+- **One play per game (June 30, 2026):** the model logs at most one play per game — the highest-Kelly survivor across all correlated same-game candidates (ML/RL/total, full-game/F5, standard/HMC). An HMC lean is logged only when it's that survivor. So a game with a stronger Standard play won't also carry its HMC lean.
 - HMC plays (10%+ edge) auto-log to clv_log.json with `tier: "High Conviction"` and proper `MLB-XXXXX` ID
 - `log_result.py grade` auto-grades them
 - HMC plays are email-only (not on /plays publicly) but appear in /bet-log once graded
@@ -174,6 +175,9 @@ Source: live `stats.json` (`curl -s https://copaceticsports.com/data/stats.json`
 ---
 
 ## Recent Changes
+
+**June 30, 2026**
+- **One logged play per game** (model repo `copacetic-mlb-model`, commit `1d4b215`, VPS pulled). The model was firing multiple correlated bets on one game (NYY ML + NYY −1.5, side + total, full-game + F5), inflating the card and concentrating variance. `mlb_analyzer.analyze_matchup_detailed` now collapses each game's candidates (`plays` + `f5_plays` + `all_leans`) to the **single highest-Kelly survivor** before logging/display — one play per game across `clv_log`, `/plays`, the report, and the email. Highest-Kelly (not highest-edge) so it doesn't systematically favor run lines; strictly one per game *including* totals; HMC lean kept when it's the survivor (carrot intact). Going-forward only — no retro-curation of already-logged stacked plays. Prints `[ONE-PER-GAME]` in the cron log on each drop. **Expect smaller cards** (6/29's 12, 6/30's 10 would've been ~6–7) — that's the rule working, not the model going cold. `export_web_data.py`'s per-team `/plays` dedup (line ~400) is now redundant with this upstream fix but harmless.
 
 **June 22, 2026**
 - **CLV pipeline shipped** (model repo `copacetic-mlb-model`, commits `6948405`→`01f238b`, VPS pulled). Phase 0 + phantom-edge guard, all in `gemini_mlb_v2.2`. Built carefully on top of the 6/21 fatigue rebuild (`2ac575e`) — the `_api_get` grading fix was preserved, not clobbered.
