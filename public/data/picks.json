@@ -1,5 +1,50 @@
 {
   "date": "2026-07-01",
-  "picks": [],
-  "hasPicks": false
+  "picks": [
+    {
+      "date": "2026-07-01",
+      "sport": "MLB",
+      "game": "WSH @ BOS",
+      "play": "WSH +1.5",
+      "type": "Run Line",
+      "edge": 7.1,
+      "odds": -163,
+      "time": "1:35 PM ET",
+      "isLean": false
+    },
+    {
+      "date": "2026-07-01",
+      "sport": "MLB",
+      "game": "DET @ NYY",
+      "play": "Under 9.5",
+      "type": "Total",
+      "edge": 8.1,
+      "odds": -110,
+      "time": "1:35 PM ET",
+      "isLean": false
+    },
+    {
+      "date": "2026-07-01",
+      "sport": "MLB",
+      "game": "NYM @ TOR",
+      "play": "Under 8.5",
+      "type": "Total",
+      "edge": 9.0,
+      "odds": -110,
+      "time": "3:07 PM ET",
+      "isLean": false
+    },
+    {
+      "date": "2026-07-01",
+      "sport": "MLB",
+      "game": "MIN @ HOU",
+      "play": "Over 8.5",
+      "type": "Total",
+      "edge": 8.3,
+      "odds": -110,
+      "time": "8:10 PM ET",
+      "isLean": false
+    }
+  ],
+  "hasPicks": true
 }
