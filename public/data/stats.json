@@ -1,132 +1,132 @@
 {
-  "lastUpdated": "2026-07-01T20:15:01Z",
+  "lastUpdated": "2026-07-01T21:15:01Z",
   "lifetime": {
-    "record": "439-373-17P",
-    "wins": 439,
-    "losses": 373,
+    "record": "441-374-17P",
+    "wins": 441,
+    "losses": 374,
     "pushes": 17,
     "winPct": 54.1,
     "roi": 2.0,
-    "units": 16.09,
+    "units": 16.61,
     "standard": {
-      "record": "169-142-6P",
-      "wins": 169,
+      "record": "171-142-6P",
+      "wins": 171,
       "losses": 142,
       "pushes": 6,
-      "winPct": 54.3,
-      "roi": 1.1,
-      "units": 3.43,
-      "bets": 317
+      "winPct": 54.6,
+      "roi": 1.6,
+      "units": 4.95,
+      "bets": 319
     },
     "higherModelConf": {
-      "record": "270-224-10P",
+      "record": "270-225-10P",
       "wins": 270,
-      "losses": 224,
+      "losses": 225,
       "pushes": 10,
-      "winPct": 54.7,
-      "roi": 3.4,
-      "units": 16.62,
-      "bets": 504
+      "winPct": 54.5,
+      "roi": 3.2,
+      "units": 15.62,
+      "bets": 505
     }
   },
   "season2026": {
-    "record": "439-373-17P",
-    "wins": 439,
-    "losses": 373,
+    "record": "441-374-17P",
+    "wins": 441,
+    "losses": 374,
     "pushes": 17,
     "winPct": 54.1,
     "roi": 2.0,
-    "units": 16.09,
+    "units": 16.61,
     "standard": {
-      "record": "169-142-6P",
-      "wins": 169,
+      "record": "171-142-6P",
+      "wins": 171,
       "losses": 142,
       "pushes": 6,
-      "winPct": 54.3,
-      "roi": 1.1,
-      "units": 3.43,
-      "bets": 317
+      "winPct": 54.6,
+      "roi": 1.6,
+      "units": 4.95,
+      "bets": 319
     },
     "higherModelConf": {
-      "record": "270-224-10P",
+      "record": "270-225-10P",
       "wins": 270,
-      "losses": 224,
+      "losses": 225,
       "pushes": 10,
-      "winPct": 54.7,
-      "roi": 3.4,
-      "units": 16.62,
-      "bets": 504
+      "winPct": 54.5,
+      "roi": 3.2,
+      "units": 15.62,
+      "bets": 505
     }
   },
   "last30Days": {
-    "record": "87-79-5P",
-    "wins": 87,
-    "losses": 79,
+    "record": "89-80-5P",
+    "wins": 89,
+    "losses": 80,
     "pushes": 5,
-    "winPct": 52.4,
-    "roi": 0.1,
-    "units": 0.14,
+    "winPct": 52.7,
+    "roi": 0.4,
+    "units": 0.66,
     "standard": {
-      "record": "40-36-1P",
-      "wins": 40,
+      "record": "42-36-1P",
+      "wins": 42,
       "losses": 36,
       "pushes": 1,
-      "winPct": 52.6,
-      "roi": -2.8,
-      "units": -2.15,
-      "bets": 77
+      "winPct": 53.8,
+      "roi": -0.8,
+      "units": -0.62,
+      "bets": 79
     },
     "higherModelConf": {
-      "record": "47-43-4P",
+      "record": "47-44-4P",
       "wins": 47,
-      "losses": 43,
+      "losses": 44,
       "pushes": 4,
-      "winPct": 52.2,
-      "roi": 2.5,
-      "units": 2.29,
-      "bets": 94
+      "winPct": 51.6,
+      "roi": 1.4,
+      "units": 1.29,
+      "bets": 95
     }
   },
   "last7Days": {
-    "record": "24-20-1P",
-    "wins": 24,
-    "losses": 20,
+    "record": "26-21-1P",
+    "wins": 26,
+    "losses": 21,
     "pushes": 1,
-    "winPct": 54.5,
-    "roi": 3.8,
-    "units": 1.69,
+    "winPct": 55.3,
+    "roi": 4.7,
+    "units": 2.21,
     "standard": {
-      "record": "12-9-1P",
-      "wins": 12,
+      "record": "14-9-1P",
+      "wins": 14,
       "losses": 9,
       "pushes": 1,
-      "winPct": 57.1,
-      "roi": 4.0,
-      "units": 0.84,
-      "bets": 22
+      "winPct": 60.9,
+      "roi": 10.3,
+      "units": 2.36,
+      "bets": 24
     },
     "higherModelConf": {
-      "record": "12-11",
+      "record": "12-12",
       "wins": 12,
-      "losses": 11,
+      "losses": 12,
       "pushes": 0,
-      "winPct": 52.2,
-      "roi": 3.7,
-      "units": 0.85,
-      "bets": 23
+      "winPct": 50.0,
+      "roi": -0.6,
+      "units": -0.15,
+      "bets": 24
     }
   },
   "byEdgeZone": [
     {
       "range": "7-10%",
-      "bets": 317,
-      "record": "169-142-6P",
-      "wins": 169,
+      "bets": 319,
+      "record": "171-142-6P",
+      "wins": 171,
       "losses": 142,
       "pushes": 6,
-      "winPct": 54.3,
-      "roi": 1.1,
-      "units": 3.43
+      "winPct": 54.6,
+      "roi": 1.6,
+      "units": 4.95
     },
     {
       "range": "10-15%",
@@ -143,38 +143,38 @@
   "bySport": [
     {
       "sport": "MLB",
-      "bets": 804,
-      "record": "427-360-17P",
-      "wins": 427,
-      "losses": 360,
+      "bets": 807,
+      "record": "429-361-17P",
+      "wins": 429,
+      "losses": 361,
       "pushes": 17,
       "winPct": 54.3,
-      "roi": 2.2,
-      "units": 17.64
+      "roi": 2.3,
+      "units": 18.17
     }
   ],
   "byPlayType": [
     {
       "type": "Totals",
-      "bets": 414,
-      "record": "218-179-17P",
-      "wins": 218,
-      "losses": 179,
+      "bets": 416,
+      "record": "219-180-17P",
+      "wins": 219,
+      "losses": 180,
       "pushes": 17,
       "winPct": 54.9,
       "roi": 4.8,
-      "units": 19.18
+      "units": 19.09
     },
     {
       "type": "Run Line",
-      "bets": 257,
-      "record": "139-118",
-      "wins": 139,
+      "bets": 258,
+      "record": "140-118",
+      "wins": 140,
       "losses": 118,
       "pushes": 0,
-      "winPct": 54.1,
-      "roi": -1.7,
-      "units": -4.36
+      "winPct": 54.3,
+      "roi": -1.5,
+      "units": -3.75
     },
     {
       "type": "Moneyline",
@@ -191,35 +191,35 @@
   "byTier": [
     {
       "tier": "High Confidence",
-      "bets": 576,
-      "record": "301-263-12P",
+      "bets": 577,
+      "record": "301-264-12P",
       "wins": 301,
-      "losses": 263,
+      "losses": 264,
       "pushes": 12,
-      "winPct": 53.4,
-      "roi": 1.3,
-      "units": 7.1
+      "winPct": 53.3,
+      "roi": 1.1,
+      "units": 6.1
     },
     {
       "tier": "Standard Edge",
-      "bets": 223,
-      "record": "126-92-5P",
-      "wins": 126,
+      "bets": 225,
+      "record": "128-92-5P",
+      "wins": 128,
       "losses": 92,
       "pushes": 5,
-      "winPct": 57.8,
-      "roi": 7.1,
-      "units": 15.55
+      "winPct": 58.2,
+      "roi": 7.8,
+      "units": 17.07
     }
   ],
   "higherModelConf": {
-    "record": "270-224-10P",
+    "record": "270-225-10P",
     "wins": 270,
-    "losses": 224,
+    "losses": 225,
     "pushes": 10,
-    "winPct": 54.7,
-    "roi": 3.4,
-    "units": 16.62,
-    "bets": 504
+    "winPct": 54.5,
+    "roi": 3.2,
+    "units": 15.62,
+    "bets": 505
   }
 }
