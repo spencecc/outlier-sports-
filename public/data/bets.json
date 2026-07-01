@@ -18404,10 +18404,10 @@
     "odds": -110,
     "units": 1.0,
     "stake": 25,
-    "result": "pending",
-    "payout": null,
-    "scoreAway": null,
-    "scoreHome": null,
+    "result": "loss",
+    "payout": -1.0,
+    "scoreAway": 3,
+    "scoreHome": 9,
     "openLine": -110,
     "closeLine": null,
     "clv": null,
@@ -18475,8 +18475,8 @@
     "scoreAway": null,
     "scoreHome": null,
     "openLine": -163,
-    "closeLine": -163,
-    "clv": 0.0,
+    "closeLine": -190,
+    "clv": 3.54,
     "notes": ""
   }
 ]
