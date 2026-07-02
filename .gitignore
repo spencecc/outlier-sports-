@@ -41,3 +41,12 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# daily emails (sent via Beehiiv, not archived on site)
+/daily_email/
+
+# Python artifacts
+scripts/__pycache__/
+
+# Package artifacts
+copacetic_edge_alerts_cc_package/
