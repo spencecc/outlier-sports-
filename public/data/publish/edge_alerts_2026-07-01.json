@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-01T22:30:01.296212+00:00",
+  "as_of": "2026-07-02T00:30:01.465571+00:00",
   "date": "2026-07-01",
   "version": "edge-alerts-v1",
   "sports": [
@@ -8,7 +8,7 @@
   "summary": {
     "model_edges": 7,
     "book_discrepancies": 14,
-    "line_movements": 0,
+    "line_movements": 17,
     "warnings": []
   },
   "model_edges": [
@@ -28,7 +28,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -46,7 +46,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -64,7 +64,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -82,7 +82,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -100,7 +100,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -118,7 +118,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -136,7 +136,7 @@
       "tier": "A",
       "signal": "Copacetic Edge",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     }
   ],
   "book_discrepancies": [
@@ -163,7 +163,7 @@
       "arb_return": -0.011158,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -188,7 +188,7 @@
       "arb_return": -0.012628,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -213,7 +213,7 @@
       "arb_return": -0.014666,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -238,7 +238,7 @@
       "arb_return": -0.017806,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -263,7 +263,7 @@
       "arb_return": -0.019841,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -288,7 +288,7 @@
       "arb_return": -0.021848,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -313,7 +313,7 @@
       "arb_return": -0.022233,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -338,7 +338,7 @@
       "arb_return": -0.023304,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -363,7 +363,7 @@
       "arb_return": -0.023511,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -388,7 +388,7 @@
       "arb_return": -0.023548,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -413,7 +413,7 @@
       "arb_return": -0.023579,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -438,7 +438,7 @@
       "arb_return": -0.023862,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -463,7 +463,7 @@
       "arb_return": -0.024488,
       "signal": "Near-Arb",
       "model_alignment": "Model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     },
     {
       "sport": "MLB",
@@ -488,8 +488,264 @@
       "arb_return": -0.024702,
       "signal": "Near-Arb",
       "model_alignment": "Not model-backed",
-      "updated_at": "2026-07-01T22:30:01.296212+00:00"
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
     }
   ],
-  "line_movements": []
+  "line_movements": [
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_cin_mil_lm",
+      "game": "Cincinnati Reds at Milwaukee Brewers",
+      "market": "moneyline",
+      "side": "Milwaukee Brewers",
+      "open_odds": "-163",
+      "current_odds": "-190",
+      "move": "-27",
+      "direction": "Toward model",
+      "model_fair_line": "-264",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_pit_phi_lm",
+      "game": "Pittsburgh Pirates at Philadelphia Phillies",
+      "market": "moneyline",
+      "side": "Philadelphia Phillies",
+      "open_odds": "-144",
+      "current_odds": "-126",
+      "move": "+18",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_pit_phi_lm",
+      "game": "Pittsburgh Pirates at Philadelphia Phillies",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "8.0",
+      "current_odds": "9.5",
+      "move": "+1.5",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_stl_atl_lm",
+      "game": "St. Louis Cardinals at Atlanta Braves",
+      "market": "moneyline",
+      "side": "Atlanta Braves",
+      "open_odds": "-137",
+      "current_odds": "-112",
+      "move": "+25",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_cin_mil_lm",
+      "game": "Cincinnati Reds at Milwaukee Brewers",
+      "market": "moneyline",
+      "side": "Cincinnati Reds",
+      "open_odds": "+135",
+      "current_odds": "+160",
+      "move": "+25",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_cin_mil_lm",
+      "game": "Cincinnati Reds at Milwaukee Brewers",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "9.0",
+      "current_odds": "7.0",
+      "move": "-2.0",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_mia_col_lm",
+      "game": "Miami Marlins at Colorado Rockies",
+      "market": "moneyline",
+      "side": "Miami Marlins",
+      "open_odds": "-167",
+      "current_odds": "-126",
+      "move": "+41",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_mia_col_lm",
+      "game": "Miami Marlins at Colorado Rockies",
+      "market": "moneyline",
+      "side": "Colorado Rockies",
+      "open_odds": "+138",
+      "current_odds": "+108",
+      "move": "-30",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Steam",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_pit_phi_lm",
+      "game": "Pittsburgh Pirates at Philadelphia Phillies",
+      "market": "moneyline",
+      "side": "Pittsburgh Pirates",
+      "open_odds": "+119",
+      "current_odds": "+108",
+      "move": "-11",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Drift",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_tb_kc_lm",
+      "game": "Tampa Bay Rays at Kansas City Royals",
+      "market": "moneyline",
+      "side": "Tampa Bay Rays",
+      "open_odds": "-136",
+      "current_odds": "-146",
+      "move": "-10",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Drift",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_tb_kc_lm",
+      "game": "Tampa Bay Rays at Kansas City Royals",
+      "market": "moneyline",
+      "side": "Kansas City Royals",
+      "open_odds": "+113",
+      "current_odds": "+124",
+      "move": "+11",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Drift",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_min_hou_lm",
+      "game": "Minnesota Twins at Houston Astros",
+      "market": "moneyline",
+      "side": "Minnesota Twins",
+      "open_odds": "+113",
+      "current_odds": "+122",
+      "move": "+9",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Drift",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_min_hou_lm",
+      "game": "Minnesota Twins at Houston Astros",
+      "market": "moneyline",
+      "side": "Houston Astros",
+      "open_odds": "-136",
+      "current_odds": "-144",
+      "move": "-8",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Drift",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_mia_col_lm",
+      "game": "Miami Marlins at Colorado Rockies",
+      "market": "total",
+      "side": "Total Line",
+      "open_odds": "11.0",
+      "current_odds": "12.0",
+      "move": "+1.0",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Drift",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_sf_ari_lm",
+      "game": "San Francisco Giants at Arizona Diamondbacks",
+      "market": "moneyline",
+      "side": "San Francisco Giants",
+      "open_odds": "+109",
+      "current_odds": "+110",
+      "move": "+1",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_sf_ari_lm",
+      "game": "San Francisco Giants at Arizona Diamondbacks",
+      "market": "moneyline",
+      "side": "Arizona Diamondbacks",
+      "open_odds": "-131",
+      "current_odds": "-130",
+      "move": "+1",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Watch",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    },
+    {
+      "sport": "MLB",
+      "game_id": "mlb_2026-07-01_stl_atl_lm",
+      "game": "St. Louis Cardinals at Atlanta Braves",
+      "market": "moneyline",
+      "side": "St. Louis Cardinals",
+      "open_odds": "+114",
+      "current_odds": "-104",
+      "move": "-218",
+      "direction": "Neutral",
+      "model_fair_line": "N/A",
+      "signal": "Market Movement",
+      "alert": "Price Flip",
+      "updated_at": "2026-07-02T00:30:01.465571+00:00"
+    }
+  ]
 }
